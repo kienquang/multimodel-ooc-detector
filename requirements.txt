@@ -1,0 +1,9 @@
+openai>=1.40.0
+instructor>=1.5.0
+pydantic>=2.8.0
+python-dotenv>=1.0.1
+newspaper3k>=0.2.8
+serpapi>=0.1.5
+langgraph>=0.2.0
+pillow>=10.0.0
+tqdm>=4.66.0
