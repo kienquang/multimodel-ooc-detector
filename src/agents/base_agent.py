@@ -1,6 +1,5 @@
-from openai import OpenAI
-from src.config import Config
+from src.llm_provider import llm_provider
 
 class BaseAgent:
     def __init__(self):
-        self.client = OpenAI(api_key=Config.GROQ_API_KEY, base_url=Config.BASE_URL)
+        self.llm = llm_provider

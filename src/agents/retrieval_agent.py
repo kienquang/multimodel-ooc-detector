@@ -1,36 +1,28 @@
 from src.agents.base_agent import BaseAgent
 from src.schemas import SVOList
 from typing import Dict, List, Tuple
-from src.config import Config
 
 class RetrievalAgent(BaseAgent):
     """EGMMG-style: Normalize-First + triplet matching"""
 
     def _normalize_entity(self, entity: str) -> str:
-        """Canonical normalization (Trump == Tổng thống Mỹ)"""
-        resp = self.client.chat.completions.create(
-            model=Config.MODEL_NAME,
-            messages=[{
-                "role": "user",
-                "content": (
-                    "Normalize to canonical English name only. "
-                    "Examples: 'Tổng thống Mỹ'→'Donald Trump', 'Washington'→'Washington DC'.\n"
-                    f"Entity: {entity}\nReturn ONLY the name."
-                )
-            }],
-            temperature=0.0,
-            max_tokens=30
-        )
-        return resp.choices[0].message.content.strip()
+        messages = [{
+            "role": "user",
+            "content": (
+                "Normalize to canonical English name only. "
+                "Examples: 'Tổng thống Mỹ'→'Donald Trump', 'Washington'→'Washington DC'.\n"
+                f"Entity: {entity}\nReturn ONLY the name."
+            )
+        }]
+        resp = self.llm.chat_completion(messages)          # ← DÙNG ADAPTER
+        # Groq trả về OpenAI object, vLLM trả text
+        if hasattr(resp, "choices"):
+            return resp.choices[0].message.content.strip()
+        return str(resp).strip()
 
     def _normalize_svo(self, svo: SVOList) -> List[Tuple[str, str, str]]:
-        """Normalize-First: chuẩn hóa từng triplet riêng lẻ"""
         return [
-            (
-                self._normalize_entity(t.subject),
-                t.relation,
-                self._normalize_entity(t.object)
-            )
+            (self._normalize_entity(t.subject), t.relation, self._normalize_entity(t.object))
             for t in svo.triplets
         ]
 
@@ -48,5 +40,4 @@ class RetrievalAgent(BaseAgent):
                 inconsistencies.append(
                     f"CONFLICT: {sub} {rel} → Claim:'{claim_dict[key]}' vs Evidence:'{obj}'"
                 )
-
         return {"flagged_inconsistencies": inconsistencies}

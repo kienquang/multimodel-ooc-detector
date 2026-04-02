@@ -1,37 +1,58 @@
-from openai import OpenAI
-from src.config import Config
-from PIL import Image
 import base64
 import requests
+from io import BytesIO
+from openai import OpenAI
+from src.config import Config
 
 client = OpenAI(api_key=Config.GROQ_API_KEY, base_url=Config.BASE_URL)
 
-def encode_image(image_path_or_url: str):
-    if image_path_or_url.startswith(("http://", "https://")):
-        # Nếu là link mạng: Tải ảnh trực tiếp vào RAM
-        response = requests.get(image_path_or_url)
-        response.raise_for_status() # Báo lỗi nếu link hỏng/bị chặn
-        return base64.b64encode(response.content).decode('utf-8')
-    else:
-        # Nếu là file cục bộ: Mở từ ổ cứng
-        with open(image_path_or_url, "rb") as f:
-            return base64.b64encode(f.read()).decode('utf-8')
+def encode_image(image_path_or_bytes: str | bytes) -> str:
+    """Chuyển thành base64"""
+    if isinstance(image_path_or_bytes, bytes):
+        return base64.b64encode(image_path_or_bytes).decode()
+    with open(image_path_or_bytes, "rb") as f:
+        return base64.b64encode(f.read()).decode()
 
 def get_image_description(image_url_or_path: str) -> str:
+    """TRIỆT ĐỂ FIX 302: Luôn download ảnh → gửi base64"""
+    print("📸 [Vision] Downloading & encoding image as base64...")
+
     if image_url_or_path.startswith(("http://", "https://")):
-        content = [{"type": "image_url", "image_url": {"url": image_url_or_path}}]
+        # Download với follow redirect (max 10 lần)
+        try:
+            response = requests.get(
+                image_url_or_path,
+                allow_redirects=True,
+                timeout=15,
+                headers={"User-Agent": "Mozilla/5.0"}   # tránh anti-hotlink
+            )
+            response.raise_for_status()
+            image_bytes = response.content
+        except Exception as e:
+            print(f"⚠️  Download failed: {e}. Fallback to original URL.")
+            # Fallback (ít xảy ra)
+            image_bytes = None
     else:
-        base64_img = encode_image(image_url_or_path)
+        # Local file
+        image_bytes = None
+
+    # Chuẩn bị content cho Groq
+    if image_bytes:
+        base64_img = encode_image(image_bytes)
         content = [{"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_img}"}}]
-    
+    else:
+        # Fallback (nếu download thất bại)
+        content = [{"type": "image_url", "image_url": {"url": image_url_or_path}}]
+
     resp = client.chat.completions.create(
         model=Config.MODEL_NAME,
-        messages=[{"role": "user", "content": [
-            {"type": "text", "text": "Describe ONLY factual visual details: people, clothing, weather, location, objects, text. No speculation."},
-            *content
-        ]}],
+        messages=[{
+            "role": "user",
+            "content": [
+                {"type": "text", "text": "Describe ONLY factual visual details: people, clothing, weather, location, objects, text. No speculation."},
+                *content
+            ]
+        }],
         temperature=0.0
     )
     return resp.choices[0].message.content
-    # print("⚠️ Bỏ qua bước nhìn ảnh (Do lỗi API Groq). Dùng mô tả mặc định.")
-    # return "A photo showing Donald Trump giving a speech. He is wearing a dark suit and red tie. The background looks like the Oval Office, not an outdoor rally."
