@@ -1,4 +1,4 @@
-from serpapi.google_search import GoogleSearch
+from serpapi import GoogleSearch
 import newspaper
 from typing import List, Dict
 from src.config import Config
