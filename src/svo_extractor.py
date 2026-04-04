@@ -1,29 +1,18 @@
-
 import instructor
-from openai import OpenAI
 from src.config import Config
+from src.llm_provider import llm_provider   # ← DÙNG ADAPTER CHUNG
 from src.schemas import SVOList
 
-instructor_client = instructor.from_openai(OpenAI(api_key=Config.GROQ_API_KEY, base_url=Config.BASE_URL))
-
-
-RELATIONS = [
-    "PERFORMS",       # Địa điểm (VD: Trump -> located_in -> White House)
-    "LOCATED_IN",      # Thời gian (VD: Speech -> happened_on -> 2025)
-    "OCCURRED_ON",  # Tham gia sự kiện
-    "TARGETS",          # Trang phục (Cực kỳ quan trọng để check ảnh)
-    "HAS_STATE",     # Hành động đang làm
-    "SAME_AS"   # Tổ chức/Sự việc liên quan
-]
 def extract_svo(text: str, source: str = "caption") -> SVOList:
     print(f"📊 [SVO] Extracting from {source}...")
-    system = f"""You are a strict knowledge-graph extractor (EGMMG style).
+    system = f"""You are a strict knowledge-graph extractor.
 Extract ONLY real triplets that exist in the text.
-Use exactly these relations: {RELATIONS}.
+Use exactly these relations: PERFORMS, LOCATED_IN, OCCURRED_ON, TARGETS, HAS_STATE, SAME_AS.
 Never hallucinate."""
-    return instructor_client.chat.completions.create(
-        model=Config.MODEL_NAME,
-        response_model=SVOList,
-        messages=[{"role": "system", "content": system}, {"role": "user", "content": text}],
-        temperature=Config.TEMPERATURE,
-    )
+
+    messages = [
+        {"role": "system", "content": system},
+        {"role": "user", "content": text}
+    ]
+
+    return llm_provider.chat_completion(messages, response_model=SVOList)
