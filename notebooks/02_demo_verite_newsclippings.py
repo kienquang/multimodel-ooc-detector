@@ -60,10 +60,10 @@ for s in samples:
 # Bảng kết quả đẹp
 df = pd.DataFrame(results)
 print("\n" + "="*80)
-print("📊 KẾT QUẢ DEMO 5 SAMPLE VERITE + NEWSCLIPPINGS")
+print(" KẾT QUẢ DEMO 5 SAMPLE VERITE + NEWSCLIPPINGS")
 print("="*80)
 print(df.to_string(index=False))
 
 # Lưu bảng ra Excel (tùy chọn)
 df.to_excel("demo_results.xlsx", index=False)
-print("\n💾 Đã lưu kết quả vào demo_results.xlsx")
+print("\n Đã lưu kết quả vào demo_results.xlsx")

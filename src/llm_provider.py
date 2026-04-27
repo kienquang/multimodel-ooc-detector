@@ -67,6 +67,7 @@ class LLMProvider:
             model=self._model,
             tokenizer=self._tokenizer,
             max_new_tokens=1024,
+            return_full_text=False,
             temperature=Config.TEMPERATURE,
             do_sample=False,
             pad_token_id=self._tokenizer.eos_token_id

@@ -107,7 +107,8 @@ Reason step-by-step:
 3. Is the overall contradiction strong enough to conclude Fake_OOC?
 
 Then return ONLY a JSON object (no markdown, no extra text):
-{{"verdict": "Real" or "Fake_OOC", "explanation": "...", "confidence": 0.0-1.0}}"""
+{{"verdict": "Real" or "Fake_OOC", "explanation": "...", "confidence": 0.0-1.0}}
+Ignore introductory phrasing in the caption such as 'Photograph shows', 'A video shows', or 'Image depicts'. Focus EXCLUSIVELY on the actual event, people, and context being described."""
 
         messages = [
             {"role": "system", "content": system_prompt},

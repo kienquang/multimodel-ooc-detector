@@ -204,27 +204,49 @@ class VERITELoader:
         return str(sample.get("label", "unknown"))
 
     def get_evidence(self, sample: dict) -> tuple[list, list]:
-        """
-        Evidence = crawl snopes_url (trang fact-check Snopes).
-
-        Snopes giải thích:
-          - Ảnh thực sự mô tả gì
-          - Bối cảnh thực sự (thời gian, địa điểm, sự kiện)
-          - Tại sao caption sai (với OOC/miscaptioned)
-
-        Đây là evidence tốt nhất cho OOC detection — tốt hơn cả bài báo gốc
-        vì Snopes đã phân tích và giải thích mâu thuẫn rõ ràng.
-        """
         evidence = []
+        
+        # 1. TRÍCH XUẤT img_id (Ví dụ: 'images/true_0.jpg' -> 'true_0')
+        img_path_raw = str(sample.get("image_path", ""))
+        img_id = Path(img_path_raw).stem 
+        
+        # 2. ĐƯỜNG DẪN TẬP DỮ LIỆU "VÀNG RÒNG" TRÊN KAGGLE
+        phase1_dir = Path("/kaggle/input/datasets/kein744/vision-crawl/.crawl_cache/vision")
+        json_path = phase1_dir / f"{img_id}.json"
 
-        snopes_url = str(sample.get("snopes_url", "") or "").strip()
-        if snopes_url.startswith("http"):
-            item = _crawl_url(snopes_url, "Snopes fact-check", cache_dir=self._cache)
-            if item:
-                item["clip_score"] = 1.0
-                evidence.append(item)
+        # 3. ĐỌC VÀ TRÍCH XUẤT NỘI DUNG TỪ JSON
+        if json_path.exists():
+            try:
+                with open(json_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                
+                # Lấy mảng bằng chứng thu được từ Google Vision Web Detection
+                articles = data.get("evidence", [])
+                for art in articles:
+                    # Ưu tiên lấy 'text', nếu rỗng thì lấy 'description' làm bối cảnh
+                    content = art.get("text", "").strip() or art.get("description", "").strip()
+                    
+                    if len(content) > 50:
+                        evidence.append({
+                            "url": art.get("url", "Vision Pipeline"),
+                            "title": art.get("title", "Evidence Context"),
+                            "text": content[:2000], # Giới hạn để không làm tràn ngữ cảnh LLM
+                            "clip_score": 1.0
+                        })
+            except Exception as e:
+                print(f"⚠️ Lỗi đọc file {img_id}.json: {e}")
+                
+        # 4. FALLBACK: CÀO SNOPES NẾU PHASE 1 KHÔNG CÓ DỮ LIỆU
+        if not evidence:
+            snopes_url = str(sample.get("snopes_url", "") or "").strip()
+            if snopes_url.startswith("http"):
+                # Gọi hàm cào dự phòng nếu mẫu này nằm trong 39% bị sót
+                item = _crawl_url(snopes_url, "Snopes fact-check", cache_dir=self._cache)
+                if item:
+                    item["clip_score"] = 1.0
+                    evidence.append(item)
 
-        # Visual entities từ caption
+        # 5. TRÍCH XUẤT THỰC THỂ TỪ CAPTION (Giữ nguyên cho Node Retrieval)
         visual_entities = _extract_entities(self.get_caption(sample))
 
         return evidence, visual_entities

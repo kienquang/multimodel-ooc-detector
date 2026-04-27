@@ -115,40 +115,52 @@ class RetrievalAgent(BaseAgent):
         evidence_triplets: List[Tuple[str, str, str]],
     ) -> List[str]:
         """
-        So sánh triplets theo key = (Subject, Relation).
-        Nếu cùng key mà Object khác → mâu thuẫn.
-
-        Cũng phát hiện:
-        - Entity trong claim nhưng không xuất hiện trong evidence (thiếu xác nhận)
+        Sử dụng LLM để Semantic Matching (So khớp ngữ nghĩa) thay vì Exact Match cứng nhắc.
         """
-        conflicts = []
+        if not claim_triplets:
+            return []
+        
+        if not evidence_triplets:
+            return ["[UNVERIFIED] No evidence triplets available to verify the claim."]
 
-        # Build lookup: (subject, relation) → object từ evidence
-        evidence_dict: Dict[Tuple[str, str], str] = {}
-        for sub, rel, obj in evidence_triplets:
-            key = (sub.lower(), rel)
-            evidence_dict[key] = obj
+        # Format lại triplet để đưa vào prompt cho dễ đọc
+        claim_text = "\n".join([f"- {s} ({r}) {o}" for s, r, o in claim_triplets])
+        evidence_text = "\n".join([f"- {s} ({r}) {o}" for s, r, o in evidence_triplets])
 
-        # So sánh từng triplet của claim với evidence
-        for sub, rel, obj in claim_triplets:
-            key = (sub.lower(), rel)
-
-            if key in evidence_dict:
-                ev_obj = evidence_dict[key]
-                if ev_obj.lower() != obj.lower():
-                    conflicts.append(
-                        f"[CONFLICT] {sub} {rel}: "
-                        f"Claim='{obj}' | Evidence='{ev_obj}'"
-                    )
-                # else: consistent → không report
-            else:
-                # Relation tồn tại trong claim nhưng không có trong evidence
-                # Đây là "unverified" — ghi nhận nhẹ hơn CONFLICT
-                conflicts.append(
-                    f"[UNVERIFIED] {sub} {rel} '{obj}' — not found in evidence"
+        messages = [
+            {
+                "role": "system",
+                "content": (
+                    "You are a strict semantic fact-checker. Compare Claim Triplets against Evidence Triplets.\n"
+                    "Rules for evaluation:\n"
+                    "1. Focus on core meaning, ignore minor wording differences (e.g., 'homes' and 'facilities' are the same).\n"
+                    "2. If the evidence states 'Unknown', 'unspecified', or simply lacks information about a claim triplet, DO NOT flag it as a conflict. It is just missing context.\n"
+                    "3. ONLY output [CONFLICT] if the evidence EXPLICITLY CONTRADICTS the claim (e.g., Claim says '2020' but Evidence EXPLICITLY says '2022', or Claim says 'protesters' but Evidence says 'actors').\n"
+                    "4. Return ONLY a valid JSON list of strings detailing the issues. If no explicit conflicts exist, return [].\n"
                 )
+            },
+            {
+                "role": "user",
+                "content": f"Claim Triplets:\n{claim_text}\n\nEvidence Triplets:\n{evidence_text}"
+            }
+        ]
 
-        return conflicts
+        # Gọi LLM đánh giá
+        resp = self.llm.chat_completion(messages)
+        raw = resp.choices[0].message.content.strip()
+
+        # Parse kết quả trả về thành mảng List[str]
+        try:
+            match = re.search(r'\[.*\]', raw, re.DOTALL)
+            if match:
+                conflicts = json.loads(match.group(0))
+                if isinstance(conflicts, list):
+                    return conflicts
+        except Exception as e:
+            print(f"⚠️ [Conflict Detection] LLM JSON parse failed: {e}")
+            print(f"Raw output: {raw}")
+
+        return ["[UNVERIFIED] Failed to semantically compare S-V-O triplets."]
 
     # ──────────────────────────────────────────
     # MAIN

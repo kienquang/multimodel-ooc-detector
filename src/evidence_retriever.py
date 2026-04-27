@@ -156,25 +156,40 @@ def _extract_image_captions(article: newspaper.Article) -> list[str]:
 
 def _fetch_article(url: str, title: str) -> dict | None:
     """
+    Crawl article content from a URL.
+
+    Reduce min_length to 100 chars to handle short-but-valid news pages.
     Crawl article. min_length reduced to 100 chars to handle
     short-but-valid news pages (original 300 was too strict).
     """
     try:
+        # Download article content
         article = newspaper.Article(url, language="en")
         article.download()
+
+        # Parse article content
         article.parse()
+
+        # Extract text content
         text = article.text.strip()
         if len(text) < 100:
             print(f"[Evidence] Too short ({len(text)} chars), skipping: {url}")
             return None
+
+        # Extract image captions
+        image_captions = _extract_image_captions(article)
+
+        # Return article content
         return {
             "url":            url,
             "title":          title,
             "text":           text[:2500],
+            "image_captions": image_captions,
             "image_captions": _extract_image_captions(article),
             "clip_score":     0.0,
         }
     except Exception as e:
+        # Print error message if fetch fails
         print(f"[Evidence] Fetch failed [{type(e).__name__}]: {url} — {e}")
         return None
 
