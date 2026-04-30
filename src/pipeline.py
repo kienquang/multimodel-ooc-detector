@@ -1,10 +1,9 @@
 """
-pipeline.py — LangGraph Multi-Agent Pipeline
+pipeline.py — LangGraph Multi-Agent Pipeline (V2: Straight Through)
 
 Thay đổi hiện tại:
-  - CHỈ LOẠI BỎ S-V-O.
-  - PipelineState sử dụng `claim_context` và `evidence_context` (Dạng Dictionary 6 keys).
-  - Giữ nguyên toàn bộ logic cào web và Reranking cũ của Stage 1a.
+  - Loại bỏ hoàn toàn vòng lặp Self-Refine (do đã dùng Strict Binary Verdict).
+  - Pipeline chạy thẳng một đường: Retrieval -> Detective -> Analyst -> END.
 """
 
 import json
@@ -21,7 +20,7 @@ from src.agents.analyst_agent   import AnalystAgent
 
 
 # ──────────────────────────────────────────────────────────────
-# STATE (Đã dọn sạch S-V-O)
+# STATE 
 # ──────────────────────────────────────────────────────────────
 
 class PipelineState(TypedDict):
@@ -30,12 +29,11 @@ class PipelineState(TypedDict):
     image_bytes:            Optional[bytes]
     visual_entities:        list[str]
     evidence_list:          list
-    claim_context:          dict  # Thay cho claim_svo
-    evidence_context:       dict  # Thay cho evidence_svo
+    claim_context:          dict
+    evidence_context:       dict
     inconsistencies:        list[str]
     deep_analysis:          str
     final_result:           dict
-    refine_count:           int
 
 
 # ──────────────────────────────────────────────────────────────
@@ -48,7 +46,6 @@ def retrieval_node(state: PipelineState) -> dict:
     evidence_list   = state.get("evidence_list", [])
     visual_entities = state.get("visual_entities", [])
 
-    # Giữ nguyên logic cào web cũ, không đụng chạm đến Reranking
     if not evidence_list:
         from src.evidence_retriever import retrieve_evidence
         evidence_list, visual_entities = retrieve_evidence(
@@ -57,10 +54,8 @@ def retrieval_node(state: PipelineState) -> dict:
             top_k=Config.MAX_EVIDENCE,
         )
 
-    # 1. Trích xuất 6 Khía cạnh từ Caption (Giờ trả về Dictionary)
     claim_ctx = extract_caption_svo(state["caption"])
 
-    # 2. Trích xuất 6 Khía cạnh từ Evidence (Giờ trả về Dictionary)
     if evidence_list or visual_entities:
         evidence_ctx = extract_contextual_svo(
             evidence_list=evidence_list,
@@ -68,11 +63,9 @@ def retrieval_node(state: PipelineState) -> dict:
             source_label="evidence",
         )
     else:
-        # Fallback nếu không có bằng chứng
         evidence_ctx = {k: "Unknown" for k in ["people", "location", "date", "event", "object", "motivation"]}
         print("[Retrieval] No evidence available.")
 
-    # 3. So sánh 1-1 để tìm mâu thuẫn (Gửi thẳng 2 dict vào RetrievalAgent mới)
     inconsistencies = RetrievalAgent().run(claim_ctx, evidence_ctx)["flagged_inconsistencies"]
 
     return {
@@ -81,15 +74,14 @@ def retrieval_node(state: PipelineState) -> dict:
         "claim_context":          claim_ctx,
         "evidence_context":       evidence_ctx,
         "inconsistencies":        inconsistencies,
-        "refine_count":           state.get("refine_count", 0),
     }
 
 
 def detective_node(state: PipelineState) -> dict:
     print("\n─── [Node: Detective] ───────────────────────────")
     result = DetectiveAgent().run(
-        conflicts=state.get("inconsistencies", []), # Đổi thành conflicts
-        image_url=state["image_url"],               # Đổi thành image_url
+        conflicts=state.get("inconsistencies", []), 
+        image_url=state["image_url"],               
         caption=state["caption"]
     )
     return {"deep_analysis": result.get("deep_analysis")}
@@ -100,21 +92,11 @@ def analyst_node(state: PipelineState) -> dict:
     result = AnalystAgent().run(state["deep_analysis"])
     return {
         "final_result": result,
-        "refine_count": state.get("refine_count", 0) + 1,
     }
 
 
-def should_refine(state: PipelineState) -> str:
-    confidence   = state["final_result"].get("confidence", 0.5)
-    refine_count = state.get("refine_count", 0)
-    if confidence < Config.REFINE_THRESHOLD and refine_count < Config.MAX_REFINE:
-        print(f"[Self-Refine] confidence={confidence:.2f}, loop={refine_count}/{Config.MAX_REFINE}")
-        return "detective"
-    return END
-
-
 # ──────────────────────────────────────────────────────────────
-# GRAPH
+# GRAPH (No more Conditional Edges)
 # ──────────────────────────────────────────────────────────────
 
 def _build_graph() -> Any:
@@ -126,7 +108,7 @@ def _build_graph() -> Any:
     graph.set_entry_point("retrieval")
     graph.add_edge("retrieval", "detective")
     graph.add_edge("detective", "analyst")
-    graph.add_conditional_edges("analyst", should_refine, {"detective": "detective", END: END})
+    graph.add_edge("analyst", END) # Chạy thẳng ra END
     
     return graph.compile()
 
@@ -187,12 +169,11 @@ def run_pipeline(
         "image_bytes":            image_bytes,
         "evidence_list":          preloaded_evidence or [],
         "visual_entities":        preloaded_entities or [],
-        "claim_context":          {}, # Đã đổi tên
-        "evidence_context":       {}, # Đã đổi tên
+        "claim_context":          {}, 
+        "evidence_context":       {}, 
         "inconsistencies":        [],
         "deep_analysis":          "",
         "final_result":           {},
-        "refine_count":           0,
     }
 
     final_state = _app.invoke(initial_state)
@@ -201,5 +182,5 @@ def run_pipeline(
         _save_checkpoint(sample_id, final_state, checkpoint_dir)
 
     result = final_state["final_result"]
-    print(f"\n[Pipeline] DONE: {result.get('verdict')} | confidence={result.get('confidence', 0):.2f}")
+    print(f"\n[Pipeline] DONE: {result.get('verdict')}")
     return result

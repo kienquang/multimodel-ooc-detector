@@ -1,21 +1,19 @@
-# detective_agent.py — prompt tối ưu cho Gemma 4 instruction-tuned
+# detective_agent.py — prompt V10: Smart Protocol (Mutually Exclusive)
 
 from typing import Dict, List
 from src.agents.base_agent import BaseAgent
 from src.llm_provider import llm_provider
 
-
 class DetectiveAgent(BaseAgent):
 
     def run(
         self,
-        conflicts:   List[str],   # hard conflicts từ RetrievalAgent
+        conflicts:   List[str],
         image_url:   str,
         caption:     str,
     ) -> Dict:
         print("[Detective] Gemma 4 E4B visual investigation...")
 
-        # Không có conflict → không cần visual check
         if not conflicts:
             return {
                 "deep_analysis": (
@@ -24,14 +22,11 @@ class DetectiveAgent(BaseAgent):
                 )
             }
 
-        conflict_text = "\n".join(f"- {c}" for c in conflicts)
-
-        # Gemma 4 instruction-tuned: prompt ngắn gọn, rõ ràng
-        # Không cần few-shot — E4B đủ mạnh để hiểu task
-        prompt = f"""You are a strict Visual Forensics Investigator. Your job is to find HARD EVIDENCE in the image, not guess what might be happening.
+        # Prompt V10: Phân biệt "Tương thích" và "Xung khắc tuyệt đối"
+        prompt = f"""You are an elite Visual Fact-Checking Detective. Your job is to verify if the Full Caption is telling the truth about the image, using both your eyes and the External Evidence.
 
 ═══════════════════════════════════════════
-FULL CAPTION (the claim under investigation):
+FULL CAPTION (The claim to verify):
 "{caption}"
 ═══════════════════════════════════════════
 
@@ -39,42 +34,43 @@ EXTERNAL CONFLICTS TO CROSS-CHECK:
 {chr(10).join(f"  [{i+1}] {c}" for i, c in enumerate(conflicts)) if conflicts else "  None. Verify caption against image only."}
 
 ═══════════════════════════════════════════
-STRICT INVESTIGATION RULES:
-- You must READ THE FULL CAPTION as a whole sentence, not as isolated keywords.
-- You must ONLY report what is DIRECTLY VISIBLE. Never use words like "possibly", "probably", "plausible", "could be", "may be", or "appears to".
-- If something is NOT visible in the image, state "NOT VISIBLE — cannot confirm."
-- Do NOT fill gaps with assumptions. If the caption says "delivering food" — you must see food. If you see no food, that is a contradiction.
-- Do NOT let the conflicts mislead you. Check each conflict against the FULL CAPTION, not against isolated words.
+THE 3 RULES OF FACT-CHECKING (SMART PROTOCOL):
+
+1. VISUAL CONTRADICTION: If the physical action in the image blatantly contradicts the caption, rate as [FAKE].
+2. MUTUALLY EXCLUSIVE CONTEXT (CRITICAL): You must ONLY rate as [FAKE] if the Evidence proves a MUTUALLY EXCLUSIVE fact about the Date, Location, or Event.
+   - Mutually Exclusive (FAKE): Caption says "2022", Evidence says "2020". Caption says "Protest", Evidence says "Quarantine".
+   - Compatible (TRUE): Caption says "Self-quarantine", Evidence says "Police enforcing quarantine". (These describe the same event from different angles. Do NOT punish the caption for vocabulary differences).
+3. IGNORE META-COMMENTARY & MISSING INFO: 
+   - If the evidence says "Unknown", ignore it (Rate [TRUE]).
+   - Ignore meta-journalism phrases in the evidence like "A misleading TikTok post claimed..." or "Fact-checkers found...". Focus ONLY on the physical facts of the event.
 
 ═══════════════════════════════════════════
-STEP 1 — SCENE INVENTORY (what is DIRECTLY VISIBLE):
-  • Persons: how many, clothing, roles/uniforms if identifiable
-  • Actions: what are they physically doing RIGHT NOW in the image
-  • Objects: list every visible object relevant to the caption
-  • Setting: indoor/outdoor, location cues, time-of-day cues
-  • Text in image: any visible signs, labels, banners
+STEP 1 — SCENE INVENTORY:
+  • Core Action: What is physically happening?
+  • Setting/People:
 
-STEP 2 — CAPTION vs. IMAGE (verify each key claim):
-  For every concrete claim in the Full Caption, state:
-  ✅ CONFIRMED — [what you see that proves it]
-  ❌ CONTRADICTED — [what you see that disproves it]
-  ⚠️ NOT VISIBLE — [cannot confirm either way]
+STEP 2 — CAPTION vs. IMAGE (Visual Check):
+  ✅ CONFIRMED — [Action matches]
+  ❌ CONTRADICTED — [Action does not match]
 
-STEP 3 — CONFLICT CROSS-CHECK:
-  For each numbered conflict above:
-  → Re-read the FULL CAPTION in context.
-  → State whether the conflict is a REAL contradiction with the caption, or a FALSE ALARM (the caption already accounts for it).
-  → Cite the specific visual detail that resolves it. No assumptions.
+STEP 3 — CONTEXT CROSS-CHECK (Evidence Check):
+  For each numbered conflict:
+  → Is it MUTUALLY EXCLUSIVE (triggers Rule 2 = FAKE)? 
+  → Or is it COMPATIBLE / META-COMMENTARY / UNKNOWN (triggers Rule 2/3 = TRUE)?
 
 STEP 4 — FINAL VERDICT:
-  Choose ONE and justify with ONLY visible evidence:
-  [TRUE]          — Image directly confirms the Full Caption
-  [FAKE]          — Image directly contradicts the Full Caption
-  [OUT-OF-CONTEXT] — Image is real but caption misrepresents the situation
-
-Be a detective, not a defense attorney. Do not look for reasons to acquit — look for evidence.
+  Choose ONE:
+  [TRUE] — Visuals match AND no facts are explicitly mutually exclusive.
+  [FAKE] — Visuals contradict OR the Evidence proves a mutually exclusive Event/Date/Location.
 """
+        
         report = llm_provider.vision_completion(image_url, prompt)
         print("[Detective] Visual report complete.")
+
+        print("\n" + "═"*70)
+        print("🕵️ BÁO CÁO ĐIỀU TRA TỪ DETECTIVE (GEMMA 4 - V10)")
+        print("═"*70)
+        print(report)
+        print("═"*70 + "\n")
 
         return {"deep_analysis": report}

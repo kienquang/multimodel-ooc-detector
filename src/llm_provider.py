@@ -269,7 +269,7 @@ class LLMProvider:
         with torch.inference_mode():
             output_ids = self._vision_model.generate(
                 **inputs,
-                max_new_tokens=512,
+                max_new_tokens=2048,
                 do_sample=False, 
             )
 
