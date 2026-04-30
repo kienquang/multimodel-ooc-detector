@@ -1,111 +1,80 @@
-"""
-detective_agent.py — EXCLAIM-style Cross-Modal Visual Investigation
-
-Role in the pipeline:
-  Receives the inconsistency report from RetrievalAgent (S-V-O conflicts),
-  then cross-verifies each conflict against visual evidence from the image.
-
-EXCLAIM technique applied:
-  - Structured cross-modal prompt: explicitly maps text inconsistencies
-    against each granularity level of the visual description
-  - Chain-of-Thought reasoning: the agent is asked to reason step-by-step
-    before concluding, which feeds richer context to AnalystAgent
-
-EGMMG technique applied:
-  - The visual description already contains ENTITY CROSS-CHECK output
-    (from utils.py CLIP analysis) — entity-level verification is passed
-    directly into this agent's reasoning context
-"""
+# detective_agent.py — prompt tối ưu cho Gemma 4 instruction-tuned
 
 from typing import Dict, List
-
 from src.agents.base_agent import BaseAgent
-from src.utils import get_image_description
+from src.llm_provider import llm_provider
 
 
 class DetectiveAgent(BaseAgent):
-    """
-    Cross-modal visual investigation agent.
-
-    Input:
-      - inconsistencies: list of [CONFLICT] / [UNVERIFIED] strings from RetrievalAgent
-      - image_url_or_path: image source for visual analysis
-      - caption: the claim being investigated
-
-    Output:
-      - deep_analysis: detailed English investigation report
-    """
 
     def run(
         self,
-        inconsistencies: List[str],
-        image_url_or_path: str,
-        caption: str,
+        conflicts:   List[str],   # hard conflicts từ RetrievalAgent
+        image_url:   str,
+        caption:     str,
     ) -> Dict:
-        print("[Detective] Cross-modal visual investigation (EXCLAIM)...")
+        print("[Detective] Gemma 4 E4B visual investigation...")
 
-        # Get multi-granularity visual description
-        # Pass caption -> EGMMG entity probes are derived from it in utils.py
-        visual_description = get_image_description(
-            image_source=image_url_or_path,
-            caption=caption,            # required for EGMMG entity-level probes
-        )
+        # Không có conflict → không cần visual check
+        if not conflicts:
+            return {
+                "deep_analysis": (
+                    "No conflicts flagged by retrieval. "
+                    "Image-caption appears consistent without further visual investigation."
+                )
+            }
 
-        # Format inconsistencies for the prompt
-        if inconsistencies:
-            inconsistency_text = "\n".join(f"  {i+1}. {item}" for i, item in enumerate(inconsistencies))
-        else:
-            inconsistency_text = "  No explicit conflicts detected at S-V-O level."
+        conflict_text = "\n".join(f"- {c}" for c in conflicts)
 
-        # EXCLAIM-style cross-modal prompt
-        # Explicitly asks the agent to match each inconsistency against each
-        # granularity level of the visual description
-        prompt = f"""You are a forensic investigator specializing in out-of-context (OOC) misinformation.
+        # Gemma 4 instruction-tuned: prompt ngắn gọn, rõ ràng
+        # Không cần few-shot — E4B đủ mạnh để hiểu task
+        prompt = f"""You are a strict Visual Forensics Investigator. Your job is to find HARD EVIDENCE in the image, not guess what might be happening.
 
-Your task is to cross-examine text-level inconsistencies against visual evidence.
+═══════════════════════════════════════════
+FULL CAPTION (the claim under investigation):
+"{caption}"
+═══════════════════════════════════════════
 
----
-## CAPTION UNDER INVESTIGATION
-{caption}
+EXTERNAL CONFLICTS TO CROSS-CHECK:
+{chr(10).join(f"  [{i+1}] {c}" for i, c in enumerate(conflicts)) if conflicts else "  None. Verify caption against image only."}
 
----
-## S-V-O INCONSISTENCIES (from RetrievalAgent)
-{inconsistency_text}
+═══════════════════════════════════════════
+STRICT INVESTIGATION RULES:
+- You must READ THE FULL CAPTION as a whole sentence, not as isolated keywords.
+- You must ONLY report what is DIRECTLY VISIBLE. Never use words like "possibly", "probably", "plausible", "could be", "may be", or "appears to".
+- If something is NOT visible in the image, state "NOT VISIBLE — cannot confirm."
+- Do NOT fill gaps with assumptions. If the caption says "delivering food" — you must see food. If you see no food, that is a contradiction.
+- Do NOT let the conflicts mislead you. Check each conflict against the FULL CAPTION, not against isolated words.
 
----
-## VISUAL EVIDENCE (multi-granularity analysis)
-{visual_description}
+═══════════════════════════════════════════
+STEP 1 — SCENE INVENTORY (what is DIRECTLY VISIBLE):
+  • Persons: how many, clothing, roles/uniforms if identifiable
+  • Actions: what are they physically doing RIGHT NOW in the image
+  • Objects: list every visible object relevant to the caption
+  • Setting: indoor/outdoor, location cues, time-of-day cues
+  • Text in image: any visible signs, labels, banners
 
----
-## INVESTIGATION INSTRUCTIONS
+STEP 2 — CAPTION vs. IMAGE (verify each key claim):
+  For every concrete claim in the Full Caption, state:
+  ✅ CONFIRMED — [what you see that proves it]
+  ❌ CONTRADICTED — [what you see that disproves it]
+  ⚠️ NOT VISIBLE — [cannot confirm either way]
 
-Reason step-by-step through THREE levels of cross-modal verification:
+STEP 3 — CONFLICT CROSS-CHECK:
+  For each numbered conflict above:
+  → Re-read the FULL CAPTION in context.
+  → State whether the conflict is a REAL contradiction with the caption, or a FALSE ALARM (the caption already accounts for it).
+  → Cite the specific visual detail that resolves it. No assumptions.
 
-**STEP 1 — Entity Verification**
-For each entity mentioned in the caption and flagged in inconsistencies:
-Does the visual evidence confirm or contradict their presence?
-Reference the ENTITY-LEVEL and ENTITY CROSS-CHECK sections above.
+STEP 4 — FINAL VERDICT:
+  Choose ONE and justify with ONLY visible evidence:
+  [TRUE]          — Image directly confirms the Full Caption
+  [FAKE]          — Image directly contradicts the Full Caption
+  [OUT-OF-CONTEXT] — Image is real but caption misrepresents the situation
 
-**STEP 2 — Event Verification**
-Does the event type visible in the image match what the caption claims is happening?
-Reference the EVENT-LEVEL section above.
+Be a detective, not a defense attorney. Do not look for reasons to acquit — look for evidence.
+"""
+        report = llm_provider.vision_completion(image_url, prompt)
+        print("[Detective] Visual report complete.")
 
-**STEP 3 — Scene/Context Verification**
-Do the scene details (location, time, atmosphere) align with the caption's claims?
-Reference the SCENE-LEVEL section above.
-
-**STEP 4 — Synthesis**
-Based on the three steps above, which pieces of evidence support the caption?
-Which contradict it? Is the discrepancy sufficient to indicate out-of-context misuse?
-
-Write a detailed investigation report. Be specific. Cite which visual detail
-contradicts which text claim. This report will be the sole input to the final verdict."""
-
-        messages = [
-            {"role": "user", "content": prompt}
-        ]
-
-        resp = self.llm.chat_completion(messages)
-        content = resp.choices[0].message.content
-
-        return {"deep_analysis": content}
+        return {"deep_analysis": report}

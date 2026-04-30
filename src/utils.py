@@ -116,7 +116,7 @@ def _extract_caption_entities(caption: str) -> list[str]:
             raise ImportError("en_core_web_sm not found")
 
         doc = nlp(caption)
-        priority_types = {"PERSON", "GPE", "LOC", "ORG", "EVENT", "DATE", "FAC", "NORP"}
+        priority_types = {"PERSON", "FAC", "ORG", "PRODUCT", "LOC"}
         entities = [
             ent.text.strip()
             for ent in doc.ents
@@ -136,7 +136,10 @@ def _extract_caption_entities(caption: str) -> list[str]:
         pass
 
     # Fallback: regex for capitalized proper nouns + OOC-relevant event keywords
-    proper_nouns = re.findall(r'\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*\b', caption)
+    proper_nouns = [
+        word for word in re.findall(r'\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*\b', caption)
+        if not any(char.isdigit() for char in word)
+    ]
     event_keywords = [
         kw for kw in [
             "protest", "election", "military", "police", "flood", "fire",

@@ -206,47 +206,54 @@ class VERITELoader:
     def get_evidence(self, sample: dict) -> tuple[list, list]:
         evidence = []
         
-        # 1. TRÍCH XUẤT img_id (Ví dụ: 'images/true_0.jpg' -> 'true_0')
         img_path_raw = str(sample.get("image_path", ""))
         img_id = Path(img_path_raw).stem 
         
-        # 2. ĐƯỜNG DẪN TẬP DỮ LIỆU "VÀNG RÒNG" TRÊN KAGGLE
         phase1_dir = Path("/kaggle/input/datasets/kein744/vision-crawl/.crawl_cache/vision")
         json_path = phase1_dir / f"{img_id}.json"
 
-        # 3. ĐỌC VÀ TRÍCH XUẤT NỘI DUNG TỪ JSON
         if json_path.exists():
             try:
                 with open(json_path, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                 
-                # Lấy mảng bằng chứng thu được từ Google Vision Web Detection
+                # --- CHỈ LẤY TOÀN BỘ NỘI DUNG BÀI BÁO (Evidence) ---
                 articles = data.get("evidence", [])
                 for art in articles:
-                    # Ưu tiên lấy 'text', nếu rỗng thì lấy 'description' làm bối cảnh
-                    content = art.get("text", "").strip() or art.get("description", "").strip()
+                    ev_texts = []
                     
-                    if len(content) > 50:
+                    if art.get("page_title"): ev_texts.append(f"Page Title: {art['page_title']}")
+                    if art.get("title"): ev_texts.append(f"Title: {art['title']}")
+                    if art.get("description"): ev_texts.append(f"Description: {art['description']}")
+                    if art.get("text"): ev_texts.append(f"Text: {art['text']}")
+                    if art.get("image_captions"): 
+                        captions = " | ".join(art["image_captions"])
+                        ev_texts.append(f"Image Captions: {captions}")
+                        
+                    content = "\n".join(ev_texts).strip()
+                    
+                    # Chỉ lấy các nguồn có nội dung thực tế (độ dài > 20 ký tự)
+                    if len(content) > 20: 
                         evidence.append({
-                            "url": art.get("url", "Vision Pipeline"),
-                            "title": art.get("title", "Evidence Context"),
-                            "text": content[:2000], # Giới hạn để không làm tràn ngữ cảnh LLM
-                            "clip_score": 1.0
+                            "url": art.get("url", "Unknown URL"),
+                            "title": art.get("page_title") or art.get("title", "Evidence Context"),
+                            "text": content[:3000],  # Giữ lại 3000 ký tự đầu tiên
+                            "source_type": "web_article"
                         })
             except Exception as e:
                 print(f"⚠️ Lỗi đọc file {img_id}.json: {e}")
                 
-        # 4. FALLBACK: CÀO SNOPES NẾU PHASE 1 KHÔNG CÓ DỮ LIỆU
+        # --- FALLBACK: CÀO SNOPES NẾU PHASE 1 KHÔNG CÓ ---
         if not evidence:
             snopes_url = str(sample.get("snopes_url", "") or "").strip()
             if snopes_url.startswith("http"):
-                # Gọi hàm cào dự phòng nếu mẫu này nằm trong 39% bị sót
                 item = _crawl_url(snopes_url, "Snopes fact-check", cache_dir=self._cache)
                 if item:
-                    item["clip_score"] = 1.0
+                    item["source_type"] = "fact_check_db"
+                    item.pop("clip_score", None) # Đảm bảo luồng Rerank không bị dính điểm rác
                     evidence.append(item)
 
-        # 5. TRÍCH XUẤT THỰC THỂ TỪ CAPTION (Giữ nguyên cho Node Retrieval)
+        # --- TRÍCH XUẤT THỰC THỂ TỪ CAPTION ---
         visual_entities = _extract_entities(self.get_caption(sample))
 
         return evidence, visual_entities

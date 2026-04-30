@@ -1,28 +1,10 @@
 """
 pipeline.py — LangGraph Multi-Agent Pipeline
 
-Stage 1 (Paper + EGMMG hybrid):
-  1a. retrieve_evidence()         → ranked evidence + visual entities (CLIP image re-ranking)
-  1b. extract_caption_svo()       → claim graph S-V-O (from caption, 6-QA format)
-  1b. extract_contextual_svo()    → evidence graph S-V-O (from web evidence, 6-QA format)
-
-Stage 2 (EXCLAIM Multi-Agent):
-  retrieval_node → detective_node → analyst_node → [self-refine loop] → END
-"""
-"""
-pipeline.py — LangGraph Multi-Agent Pipeline
-
-Hai chế độ hoạt động:
-
-  [DEMO / test nhỏ]
-    run_pipeline(image_url, caption)
-    → Tự gọi retrieve_evidence() → Google Lens → SerpAPI
-
-  [BATCH / dataset lớn]
-    run_pipeline(image_url, caption,
-                 preloaded_evidence=..., preloaded_entities=...)
-    → Dùng evidence từ dataset metadata → KHÔNG gọi SerpAPI
-    → Dùng cho NewsCLIPpings và VERITE ở Kaggle
+Thay đổi hiện tại:
+  - CHỈ LOẠI BỎ S-V-O.
+  - PipelineState sử dụng `claim_context` và `evidence_context` (Dạng Dictionary 6 keys).
+  - Giữ nguyên toàn bộ logic cào web và Reranking cũ của Stage 1a.
 """
 
 import json
@@ -39,7 +21,7 @@ from src.agents.analyst_agent   import AnalystAgent
 
 
 # ──────────────────────────────────────────────────────────────
-# STATE
+# STATE (Đã dọn sạch S-V-O)
 # ──────────────────────────────────────────────────────────────
 
 class PipelineState(TypedDict):
@@ -48,10 +30,8 @@ class PipelineState(TypedDict):
     image_bytes:            Optional[bytes]
     visual_entities:        list[str]
     evidence_list:          list
-    claim_svo:              Any
-    evidence_svo:           Any
-    claim_context_items:    Any
-    evidence_context_items: Any
+    claim_context:          dict  # Thay cho claim_svo
+    evidence_context:       dict  # Thay cho evidence_svo
     inconsistencies:        list[str]
     deep_analysis:          str
     final_result:           dict
@@ -68,7 +48,7 @@ def retrieval_node(state: PipelineState) -> dict:
     evidence_list   = state.get("evidence_list", [])
     visual_entities = state.get("visual_entities", [])
 
-    # Chỉ gọi SerpAPI nếu KHÔNG có preloaded evidence
+    # Giữ nguyên logic cào web cũ, không đụng chạm đến Reranking
     if not evidence_list:
         from src.evidence_retriever import retrieve_evidence
         evidence_list, visual_entities = retrieve_evidence(
@@ -77,36 +57,29 @@ def retrieval_node(state: PipelineState) -> dict:
             top_k=Config.MAX_EVIDENCE,
         )
 
-    # Extract claim graph từ caption (6-QA format)
-    claim_svo, claim_ctx = extract_caption_svo(state["caption"])
+    # 1. Trích xuất 6 Khía cạnh từ Caption (Giờ trả về Dictionary)
+    claim_ctx = extract_caption_svo(state["caption"])
 
-    # Extract evidence graph từ web evidence
+    # 2. Trích xuất 6 Khía cạnh từ Evidence (Giờ trả về Dictionary)
     if evidence_list or visual_entities:
-        evidence_svo, evidence_ctx = extract_contextual_svo(
+        evidence_ctx = extract_contextual_svo(
             evidence_list=evidence_list,
             visual_entities=visual_entities,
             source_label="evidence",
         )
     else:
-        from src.schemas import SVOList
-        from src.contextual_items_extractor import ContextualItems
-        evidence_svo = SVOList(triplets=[])
-        evidence_ctx = ContextualItems()
+        # Fallback nếu không có bằng chứng
+        evidence_ctx = {k: "Unknown" for k in ["people", "location", "date", "event", "object", "motivation"]}
         print("[Retrieval] No evidence available.")
 
-    # S-V-O conflict detection
-    if evidence_svo.triplets:
-        inconsistencies = RetrievalAgent().run(claim_svo, evidence_svo)["flagged_inconsistencies"]
-    else:
-        inconsistencies = ["No web evidence available for S-V-O comparison."]
+    # 3. So sánh 1-1 để tìm mâu thuẫn (Gửi thẳng 2 dict vào RetrievalAgent mới)
+    inconsistencies = RetrievalAgent().run(claim_ctx, evidence_ctx)["flagged_inconsistencies"]
 
     return {
         "evidence_list":          evidence_list,
         "visual_entities":        visual_entities,
-        "claim_svo":              claim_svo,
-        "evidence_svo":           evidence_svo,
-        "claim_context_items":    claim_ctx,
-        "evidence_context_items": evidence_ctx,
+        "claim_context":          claim_ctx,
+        "evidence_context":       evidence_ctx,
         "inconsistencies":        inconsistencies,
         "refine_count":           state.get("refine_count", 0),
     }
@@ -115,11 +88,11 @@ def retrieval_node(state: PipelineState) -> dict:
 def detective_node(state: PipelineState) -> dict:
     print("\n─── [Node: Detective] ───────────────────────────")
     result = DetectiveAgent().run(
-        inconsistencies=state["inconsistencies"],
-        image_url_or_path=state["image_url"],
-        caption=state["caption"],
+        conflicts=state.get("inconsistencies", []), # Đổi thành conflicts
+        image_url=state["image_url"],               # Đổi thành image_url
+        caption=state["caption"]
     )
-    return {"deep_analysis": result["deep_analysis"]}
+    return {"deep_analysis": result.get("deep_analysis")}
 
 
 def analyst_node(state: PipelineState) -> dict:
@@ -149,18 +122,19 @@ def _build_graph() -> Any:
     graph.add_node("retrieval", retrieval_node)
     graph.add_node("detective", detective_node)
     graph.add_node("analyst",   analyst_node)
+    
     graph.set_entry_point("retrieval")
     graph.add_edge("retrieval", "detective")
     graph.add_edge("detective", "analyst")
     graph.add_conditional_edges("analyst", should_refine, {"detective": "detective", END: END})
+    
     return graph.compile()
-
 
 _app = _build_graph()
 
 
 # ──────────────────────────────────────────────────────────────
-# CHECKPOINT
+# CHECKPOINT & ENTRY POINT
 # ──────────────────────────────────────────────────────────────
 
 def _save_checkpoint(sample_id: str, state: dict, out_dir: str) -> None:
@@ -183,10 +157,6 @@ def _load_checkpoint(sample_id: str, out_dir: str) -> Optional[dict]:
     return None
 
 
-# ──────────────────────────────────────────────────────────────
-# ENTRY POINT
-# ──────────────────────────────────────────────────────────────
-
 def run_pipeline(
     image_url:           str,
     caption:             str,
@@ -194,22 +164,10 @@ def run_pipeline(
     sample_id:           str  = "sample",
     use_checkpoint:      bool = True,
     checkpoint_dir:      str  = "/kaggle/working/checkpoints",
-    # Batch mode: pass pre-loaded evidence to skip SerpAPI
     preloaded_evidence:  list | None = None,
     preloaded_entities:  list | None = None,
 ) -> dict:
-    """
-    Run detection pipeline for one image-caption pair.
-
-    Demo mode  (preloaded_evidence=None):
-        → retrieve_evidence() is called → uses SerpAPI
-        → suitable for testing 1-10 samples
-
-    Batch mode (preloaded_evidence=[...]):
-        → SerpAPI is skipped entirely
-        → suitable for NewsCLIPpings (71k) and VERITE (1k)
-        → call via dataset_evidence_loader.run_batch_evaluation()
-    """
+    
     Config.log_env()
     Config.validate()
 
@@ -227,13 +185,10 @@ def run_pipeline(
         "image_url":              image_url,
         "caption":                caption,
         "image_bytes":            image_bytes,
-        # Pre-populate if provided → retrieval_node skips SerpAPI
         "evidence_list":          preloaded_evidence or [],
         "visual_entities":        preloaded_entities or [],
-        "claim_svo":              None,
-        "evidence_svo":           None,
-        "claim_context_items":    None,
-        "evidence_context_items": None,
+        "claim_context":          {}, # Đã đổi tên
+        "evidence_context":       {}, # Đã đổi tên
         "inconsistencies":        [],
         "deep_analysis":          "",
         "final_result":           {},
