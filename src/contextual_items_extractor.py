@@ -1,41 +1,33 @@
 """
-contextual_items_extractor.py — Stage 1b: 6-Dimension Contextual Extraction
+contextual_items_extractor.py — Stage 1b: 2-Dimension Contextual Extraction (Date & Location)
 
-Thay vì cố gắng ép dữ liệu vào khung S-V-O lỏng lẻo dễ đứt gãy, 
-bản này giữ nguyên dữ liệu ở dạng Key-Value (6 câu hỏi định hướng của bài báo).
-Điều này giúp LLM ở Node Retrieval sau này đối chiếu 1-1 dễ dàng và chính xác hơn.
+Thay vì cố gắng trích xuất 6 thuộc tính dễ gây nén mất mát dữ liệu (Lossy Compression), 
+bản này chỉ trích xuất 2 thuộc tính minh bạch nhất: Date và Location để làm Gợi ý (Hints).
+Toàn bộ phần đánh giá mâu thuẫn phức tạp sẽ nhường lại cho LLM xử lý dựa trên Raw Text.
 """
 
 from pydantic import BaseModel, Field
 from src.llm_provider import llm_provider
 
 # ──────────────────────────────────────────────────────────────
-# INTERMEDIATE: 6 Contextual Items
+# INTERMEDIATE: 2 Contextual Items (Hints)
 # ──────────────────────────────────────────────────────────────
 
 class ContextualItems(BaseModel):
     """
-    The 6 context attributes defined in the paper.
+    The 2 core context attributes used as hints.
     Each field is a string answer or "Unknown" if evidence is insufficient.
     """
-    people:     str = Field(default="Unknown", description="Who is shown in the image?")
     location:   str = Field(default="Unknown", description="Where was the event taken?")
     date:       str = Field(default="Unknown", description="When was the event taken?")
-    event:      str = Field(default="Unknown", description="Which event is depicted?")
-    object:     str = Field(default="Unknown", description="Which objects/places are shown?")
-    motivation: str = Field(default="Unknown", description="Why was the image taken?")
 
 # ──────────────────────────────────────────────────────────────
-# PAPER'S 6 QUESTIONS
+# CORE QUESTIONS
 # ──────────────────────────────────────────────────────────────
 
 _CONTEXT_QUESTIONS: dict[str, str] = {
-    "people":     "Who is shown in the image? (Notable individuals, groups, authorities)",
     "location":   "Where was the event in this image taken? (City, Country, Specific place)",
     "date":       "When was the event in this image taken? (Year, Month, Time context)",
-    "event":      "Which event is depicted in the image? (The incident or occasion)",
-    "object":     "Which significant animals, plants, buildings, or objects are shown?",
-    "motivation": "Why was the image taken? (Purpose/Motivation)",
 }
 
 # ──────────────────────────────────────────────────────────────
@@ -73,14 +65,14 @@ def _build_evidence_context(
 
 
 # ──────────────────────────────────────────────────────────────
-# STEP 1: QA for 6 context items
+# STEP 1: QA for 2 context items
 # ──────────────────────────────────────────────────────────────
 
 def _extract_contextual_items(
     evidence_context: str,
     source_label: str = "evidence",
 ) -> ContextualItems:
-    print(f"[Contextual] Extracting 6 context items from {source_label}...")
+    print(f"[Contextual] Extracting 2 context items (Date/Location) from {source_label}...")
 
     questions_block = "\n".join(
         f"  {i+1}. {key.upper()}: {q}"
@@ -89,7 +81,7 @@ def _extract_contextual_items(
 
     system_prompt = (
         "You are an expert Context Extraction AI. Your task is to extract information "
-        "from the provided text based on 6 specific dimensions.\n"
+        "from the provided text based on 2 specific dimensions.\n"
         "Rules:\n"
         "- Keep the extracted answers concise but highly informative.\n"
         "- If the text DOES NOT explicitly state the answer, you MUST output 'Unknown'.\n"
@@ -97,7 +89,7 @@ def _extract_contextual_items(
         "Respond ONLY with a JSON object."
     )
 
-    user_prompt = f"""Using the evidence below, answer these 6 questions:
+    user_prompt = f"""Using the evidence below, answer these 2 questions:
 
 {questions_block}
 
@@ -108,12 +100,8 @@ TEXT:
 
 Return ONLY a JSON object with these exact keys:
 {{
-  "people": "...",
   "location": "...",
-  "date": "...",
-  "event": "...",
-  "object": "...",
-  "motivation": "..."
+  "date": "..."
 }}"""
 
     messages = [
@@ -149,23 +137,8 @@ def extract_contextual_svo(
     source_label: str = "evidence",
 ) -> dict:
     """
-    (LƯU Ý: Tên hàm giữ nguyên để file workflow cũ không lỗi, nhưng trả về Dict)
+    Bỏ qua hoàn toàn bước gọi LLM trích xuất Hint.
+    Trả về dictionary rỗng để Qwen tự đọc Raw Text.
     """
-    if not evidence_list and not visual_entities:
-        print(f"[Contextual] No evidence available for {source_label}.")
-        return ContextualItems().model_dump()
-
-    evidence_context = _build_evidence_context(evidence_list, visual_entities)
-    items = _extract_contextual_items(evidence_context, source_label)
-
-    # Chuyển thẳng Model sang dạng Dictionary dễ đọc
-    return items.model_dump()
-
-
-def extract_caption_svo(caption: str) -> dict:
-    """
-    (LƯU Ý: Tên hàm giữ nguyên để file workflow cũ không lỗi, nhưng trả về Dict)
-    """
-    print("[Contextual] Extracting 6 items from caption...")
-    caption_as_evidence = [{"title": "Caption", "text": caption}]
-    return extract_contextual_svo(caption_as_evidence, [], source_label="caption")
+    print(f"[Contextual] Bỏ qua trích xuất Hints (Disabled to prevent Anchor Bias).")
+    return {}

@@ -1,18 +1,13 @@
 """
 dataset_evidence_loader.py — VERITE Dataset Loader
 
-VERITE_articles.csv structure (thực tế):
-  id          → ID của cặp ảnh gốc
-  true_url    → URL trực tiếp đến FILE ẢNH gốc (không phải bài báo)
-  false_url   → URL trực tiếp đến FILE ẢNH sai ngữ cảnh
-  snopes_url  → URL trang fact-check Snopes ← EVIDENCE chính
-  query       → Từ khóa tìm kiếm
-  true_caption / false_caption → Các caption đi kèm
-
-Evidence strategy:
-  1. Crawl snopes_url → Snopes giải thích ảnh thực sự mô tả gì,
-     chụp khi nào/ở đâu, tại sao caption sai → perfect evidence
-  2. true_url → dùng làm image source thay thế nếu local file không tồn tại
+VERITE_articles.csv structure:
+  id          -> ID của cặp ảnh gốc
+  true_url    -> URL trực tiếp đến FILE ẢNH gốc
+  false_url   -> URL trực tiếp đến FILE ẢNH sai ngữ cảnh
+  snopes_url  -> URL trang fact-check Snopes <- EVIDENCE chính
+  query       -> Từ khóa tìm kiếm
+  true_caption / false_caption -> Các caption đi kèm
 """
 
 import json
@@ -37,7 +32,7 @@ _USER_AGENTS = [
 ]
 
 
-def _crawl_url(url: str, title: str = "", cache_dir: str = ".crawl_cache") -> dict | None:
+def _crawl_url(url: str, title: str = "", cache_dir: str = "/kaggle/working/.crawl_cache") -> dict | None:
     """
     Crawl 1 URL với cache. Trả về None nếu thất bại.
     Cache lưu vào {cache_dir}/{md5(url)}.json
@@ -121,28 +116,16 @@ def _crawl_url(url: str, title: str = "", cache_dir: str = ".crawl_cache") -> di
 # ──────────────────────────────────────────────────────────────
 
 class VERITELoader:
-    """
-    Load VERITE dataset.
-
-    Nhận vào:
-      verite_csv:   VERITE.csv    — caption, image_path, label (1000 rows)
-      articles_csv: VERITE_articles.csv — id, true_url, false_url, snopes_url, ...
-
-    Join theo id được extract từ image_path:
-      "images/true_239.jpg" → id = 239
-    """
-
     def __init__(
         self,
         verite_csv:    str,
         articles_csv:  str,
         image_dir:     str,
-        cache_dir:     str = ".crawl_cache/verite",
+        cache_dir:     str = "/kaggle/working/.crawl_cache/verite", # FIXED: Ép ra Kaggle Working
     ):
         df_main     = pd.read_csv(verite_csv)
         df_articles = pd.read_csv(articles_csv)
 
-        # Extract id từ image_path nếu chưa có cột id
         if "id" not in df_main.columns:
             import re
             def _extract_id(path: str) -> int | None:
@@ -150,16 +133,17 @@ class VERITELoader:
                 return int(m.group(1)) if m else None
             df_main["id"] = df_main["image_path"].apply(_extract_id)
 
-        # Join 2 files theo id
         self._df      = df_main.merge(df_articles, on="id", how="left")
         self._img_dir = Path(image_dir)
-        self._cache   = cache_dir
+        
+        # Đảm bảo cache dir tồn tại và ghi được
+        self._cache = Path(cache_dir)
+        self._cache.mkdir(parents=True, exist_ok=True)
 
         print(f"[VERITE] {len(self._df)} samples loaded.")
         print(f"[VERITE] Columns: {list(self._df.columns)}")
         print(f"[VERITE] Label distribution:\n{self._df['label'].value_counts().to_string()}")
 
-        # Coverage check
         snopes_ok = self._df["snopes_url"].notna().sum()
         print(f"[VERITE] snopes_url coverage: {snopes_ok}/{len(self._df)} samples")
 
@@ -171,12 +155,8 @@ class VERITELoader:
             yield row.to_dict()
 
     def get_image_path(self, sample: dict) -> str:
-        """
-        Trả về local path nếu tồn tại, fallback sang true_url (URL ảnh trực tiếp).
-        """
         img_path = str(sample.get("image_path", ""))
 
-        # Thử local path
         for candidate in [
             self._img_dir / img_path,
             self._img_dir / Path(img_path).name,
@@ -184,7 +164,6 @@ class VERITELoader:
             if candidate.exists():
                 return str(candidate)
 
-        # Fallback: true_url là URL ảnh trực tiếp
         true_url = str(sample.get("true_url", "")).strip()
         if true_url.startswith("http"):
             return true_url
@@ -193,14 +172,11 @@ class VERITELoader:
         return ""
 
     def get_caption(self, sample: dict) -> str:
-        """Caption trong VERITE.csv (đây là caption đang được kiểm tra)."""
         return str(sample.get("caption", ""))
 
-    # Alias
     get_claim_caption = get_caption
 
     def get_label(self, sample: dict) -> str:
-        """Returns: 'true', 'out_of_context', hoặc 'miscaptioned'"""
         return str(sample.get("label", "unknown"))
 
     def get_evidence(self, sample: dict) -> tuple[list, list]:
@@ -209,6 +185,7 @@ class VERITELoader:
         img_path_raw = str(sample.get("image_path", ""))
         img_id = Path(img_path_raw).stem 
         
+        # Đọc dữ liệu đã cào sẵn từ Dataset (Read Only) - Việc này hoàn toàn hợp lệ
         phase1_dir = Path("/kaggle/input/datasets/kein744/vision-crawl/.crawl_cache/vision")
         json_path = phase1_dir / f"{img_id}.json"
 
@@ -217,7 +194,6 @@ class VERITELoader:
                 with open(json_path, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                 
-                # --- CHỈ LẤY TOÀN BỘ NỘI DUNG BÀI BÁO (Evidence) ---
                 articles = data.get("evidence", [])
                 for art in articles:
                     ev_texts = []
@@ -232,12 +208,11 @@ class VERITELoader:
                         
                     content = "\n".join(ev_texts).strip()
                     
-                    # Chỉ lấy các nguồn có nội dung thực tế (độ dài > 20 ký tự)
                     if len(content) > 20: 
                         evidence.append({
                             "url": art.get("url", "Unknown URL"),
                             "title": art.get("page_title") or art.get("title", "Evidence Context"),
-                            "text": content[:3000],  # Giữ lại 3000 ký tự đầu tiên
+                            "text": content[:3000], 
                             "source_type": "web_article"
                         })
             except Exception as e:
@@ -247,13 +222,15 @@ class VERITELoader:
         if not evidence:
             snopes_url = str(sample.get("snopes_url", "") or "").strip()
             if snopes_url.startswith("http"):
-                item = _crawl_url(snopes_url, "Snopes fact-check", cache_dir=self._cache)
+                # ÉP CỨNG ĐƯỜNG DẪN NÀY RA KAGGLE WORKING ĐỂ NÉ LỖI READ-ONLY TỪ NOTEBOOK TRUYỀN VÀO
+                safe_cache_dir = "/kaggle/working/.crawl_cache/snopes"
+                
+                item = _crawl_url(snopes_url, "Snopes fact-check", cache_dir=safe_cache_dir)
                 if item:
                     item["source_type"] = "fact_check_db"
-                    item.pop("clip_score", None) # Đảm bảo luồng Rerank không bị dính điểm rác
+                    item.pop("clip_score", None) 
                     evidence.append(item)
 
-        # --- TRÍCH XUẤT THỰC THỂ TỪ CAPTION ---
         visual_entities = _extract_entities(self.get_caption(sample))
 
         return evidence, visual_entities
@@ -264,7 +241,6 @@ class VERITELoader:
 # ──────────────────────────────────────────────────────────────
 
 def _extract_entities(text: str) -> list[str]:
-    """Lightweight NER — không cần spaCy."""
     import re
     if not text:
         return []
@@ -278,24 +254,17 @@ def _extract_entities(text: str) -> list[str]:
 
 
 # ──────────────────────────────────────────────────────────────
-# PRE-CRAWL (chạy local trước để cache)
+# PRE-CRAWL & BATCH RUNNER
 # ──────────────────────────────────────────────────────────────
 
 def pre_crawl_dataset(loader: VERITELoader, max_samples: int = 1000, delay: float = 1.5) -> dict:
-    """
-    Pre-crawl snopes_url cho toàn bộ dataset trước khi chạy pipeline.
-    Chạy local (CPU, không cần GPU) để tiết kiệm thời gian Kaggle session.
-    """
     stats = {"total": 0, "success": 0, "failed": 0}
-
     for i, sample in enumerate(list(loader)[:max_samples]):
         stats["total"] += 1
         try:
             evidence, _ = loader.get_evidence(sample)
-            if evidence:
-                stats["success"] += 1
-            else:
-                stats["failed"] += 1
+            if evidence: stats["success"] += 1
+            else: stats["failed"] += 1
         except Exception as e:
             print(f"[PreCrawl] Error on sample {i}: {e}")
             stats["failed"] += 1
@@ -309,19 +278,12 @@ def pre_crawl_dataset(loader: VERITELoader, max_samples: int = 1000, delay: floa
     return stats
 
 
-# ──────────────────────────────────────────────────────────────
-# BATCH RUNNER
-# ──────────────────────────────────────────────────────────────
-
 def run_batch_evaluation(
     loader,
     pipeline_fn,
     max_samples:   int = 1000,
-    results_path:  str = "verite_results.csv",
+    results_path:  str = "/kaggle/working/verite_results.csv", # FIXED: Ép ra Kaggle Working
 ) -> pd.DataFrame:
-    """
-    Chạy pipeline trên toàn bộ dataset với progressive save + resume.
-    """
     results:  list[dict] = []
     done_ids: set[str]   = set()
 
@@ -365,7 +327,11 @@ def run_batch_evaluation(
 
             pred  = result.get("verdict", "Unknown")
             conf  = result.get("confidence", 0.0)
-            match = "✅" if (label == "out_of_context") == (pred == "Fake_OOC") else "❌"
+            
+            # FIXED: Cập nhật nhãn đánh giá tương thích với Analyst V7 (True / Fake)
+            expected_pred = "Fake" if label in ["out_of_context", "miscaptioned"] else "True"
+            match = "✅" if pred == expected_pred else "❌"
+            
             print(f"  {match} pred={pred} ({conf:.2f})")
 
             results.append({

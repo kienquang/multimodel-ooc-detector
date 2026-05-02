@@ -22,7 +22,8 @@ class Config:
     if USE_VLLM:
         # Local GPU (Kaggle T4/P100): Tải trực tiếp bản 8B từ Hugging Face
         # Không dùng đường dẫn "/kaggle/input/..." cứng nhắc nữa
-        MODEL_NAME: str = os.getenv("MODEL_NAME", "meta-llama/Meta-Llama-3.1-8B-Instruct")
+        # MODEL_NAME: str = os.getenv("MODEL_NAME", "meta-llama/Meta-Llama-3.1-8B-Instruct")
+        MODEL_NAME: str = os.getenv("MODEL_NAME", "Qwen/Qwen2.5-7B-Instruct")
         MODEL_PATH: str = MODEL_NAME # Cho vLLM tự động tải weights từ internet về
         BASE_URL: None = None
         # Tensor parallel: T4 x2 → size=2, P100 x1 → size=1

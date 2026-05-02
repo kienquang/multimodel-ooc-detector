@@ -7,6 +7,7 @@ Nguyên tắc thiết kế:
       + GPU 0: LLaMA 3.1 8B (Xử lý Text, Trích xuất JSON, Suy luận)
       + GPU 1: Gemma 4 E4B (Thám tử thị giác)
   - Hoạt động ẩn danh dưới 2 interface: chat_completion() và vision_completion()
+  - CHUẨN NGHIÊN CỨU: Khóa chặt mọi yếu tố ngẫu nhiên (do_sample=False, seed=42)
 """
 
 import os
@@ -31,6 +32,11 @@ from src.config import Config
 
 class LLMProvider:
     def __init__(self):
+        # KHÓA HẠT GIỐNG NGẪU NHIÊN TOÀN CỤC CHO PYTORCH (Chuẩn Khoa học)
+        torch.manual_seed(42)
+        if torch.cuda.is_available():
+            torch.cuda.manual_seed_all(42)
+
         self._mode             = None
         self._text_tokenizer   = None
         self._text_pipe        = None
@@ -125,6 +131,7 @@ class LLMProvider:
         self._vision_model.eval()
         print("✅ [GPU 1] Gemma 4 E4B (4-bit) ready")
         self._mode = "kaggle_dual_core"
+
     def _dequantize_vision_tower(self):
         """Thay Linear4bit → Linear float16 trong vision tower sau khi load."""
         import bitsandbytes as bnb
@@ -169,6 +176,7 @@ class LLMProvider:
             replaced += 1
 
         print(f"✅ Vision tower: dequantized {replaced} layers → float16")
+
     # ──────────────────────────────────────────
     # TEXT COMPLETION (LLaMA 3.1 / GROQ)
     # ──────────────────────────────────────────
@@ -189,13 +197,17 @@ class LLMProvider:
                 model=Config.MODEL_NAME,
                 response_model=response_model,
                 messages=messages,
-                temperature=Config.TEMPERATURE,
+                temperature=0.0,  # Ép tham số chuẩn nghiên cứu
+                top_p=1.0,
+                seed=42,
                 max_retries=2,
             )
         return self._client.chat.completions.create(
             model=Config.MODEL_NAME,
             messages=messages,
-            temperature=Config.TEMPERATURE,
+            temperature=0.0,      # Ép tham số chuẩn nghiên cứu
+            top_p=1.0,
+            seed=42,
         )
 
     def _hf_completion(self, messages: list[dict], response_model):
@@ -209,7 +221,8 @@ class LLMProvider:
         outputs = self._text_pipe(
             prompt,
             max_new_tokens=1024,
-            max_length=None  # Xóa sổ cảnh báo "Both max_new_tokens and max_length"
+            max_length=None, 
+            do_sample=False,  # Quan trọng: Tắt ngẫu nhiên, mô hình luôn chọn token xác suất cao nhất (Tương đương temperature=0)
         )
         
         generated_text = outputs[0]["generated_text"]
@@ -270,7 +283,7 @@ class LLMProvider:
             output_ids = self._vision_model.generate(
                 **inputs,
                 max_new_tokens=2048,
-                do_sample=False, 
+                do_sample=False,  # Quan trọng: Tham số này đã có sẵn ở đây, đảm bảo Gemma không bị ảo giác!
             )
 
         # 3. Cắt bỏ phần prompt, chỉ lấy câu trả lời
@@ -304,6 +317,9 @@ class LLMProvider:
                 ]
             }],
             max_tokens=512,
+            temperature=0.0,  # Ép tham số chuẩn nghiên cứu
+            top_p=1.0,
+            seed=42,
         )
         return resp.choices[0].message.content
 
