@@ -1,96 +1,20 @@
-{
-  "sample_id": "false_7",
-  "image_url": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/close-up-of-the-surface-of-the-moon-stockbyte.jpg",
-  "visual_entities": [
-    {
-      "description": "Earth",
-      "score": 0.8577
-    },
-    {
-      "description": "Moon",
-      "score": 0.7515
-    },
-    {
-      "description": "Supermoon",
-      "score": 0.7176
-    },
-    {
-      "description": "Far side of the Moon",
-      "score": 0.7153
-    },
-    {
-      "description": "Chang'e 5",
-      "score": 0.60330003
-    },
-    {
-      "description": "Full moon",
-      "score": 0.5628
-    },
-    {
-      "description": "Planet",
-      "score": 0.5601
-    },
-    {
-      "description": "Image",
-      "score": 0.5337
-    },
-    {
-      "description": "Lunar orbit",
-      "score": 0.4739
-    },
-    {
-      "description": "Moonlight",
-      "score": 0.4588
-    },
-    {
-      "description": "Photography",
-      "score": 0.4581
-    },
-    {
-      "description": "Moon rock",
-      "score": 0.4252
-    },
-    {
-      "description": "Photograph",
-      "score": 0.4228
-    },
-    {
-      "description": "Eclipse",
-      "score": 0.3822
-    },
-    {
-      "description": "Sample-return mission",
-      "score": 0.3788
-    }
-  ],
-  "best_guess_labels": [
-    "moon picture up close"
-  ],
-  "similar_image_urls": [
-    "https://ddnews.gov.in/wp-content/uploads/2024/06/GettyImages-57340463.jpg",
-    "https://images.imagerenderer.com/images/artworkimages/mediumlarge/2/close-up-of-the-surface-of-the-moon-stockbyte.jpg",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=571179339241726",
-    "https://www.sciencing.com/sciencing/first-man-moon-8444613/dee7b26dff2a480c81cd92c5d049b3e2.jpg",
-    "https://asianews.up.seesaa.net/image/PicsArt_04-17-04.22.39-thumbnail2.jpg",
-    "https://asianews.up.seesaa.net/image/PicsArt_04-17-04.22.39.jpg",
-    "https://forumstatic.oneplusmobile.com/opforum-gl/upload/image/app/thread/20260401/0288735206332619561/2093858745309200384/2093858745309200384.jpg",
-    "https://s.hdnux.com/photos/01/40/01/17/25170917/3/rawImage.jpg",
-    "https://revistaamazonia.com.br/wp-content/uploads/2024/07/Captura-de-tela-2024-07-18-122055.jpg",
-    "https://images.imagerenderer.com/images/artworkimages/small/2/close-up-of-the-surface-of-the-moon-stockbyte.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.today.com/video/see-pics-of-dark-side-of-moon-captured-by-artemis-ii-astronauts-260815429541",
-      "page_title": "See Artemis II Crew's Stunning Images of Far Side of the Moon",
-      "title": "See Artemis II Crew's Stunning Images of Far Side of the Moon",
-      "description": "The Artemis II crew is homeward bound after capturing never-before-seen views of the far side of the moon during their historic flyby. During the unprecedented voyage, the astronauts shared an emotional moment when they proposed naming a newly identified crater after Commander Reid Wiseman’s late wife who died of cancer in 2020. NBC’s Tom Costello reports for TODAY.",
-      "text": "The Artemis II crew is homeward bound after capturing never-before-seen views of the far side of the moon during their historic flyby. During the unprecedented voyage, the astronauts shared an emotional moment when they proposed naming a newly identified crater after Commander Reid Wiseman’s late wife who died of cancer in 2020. NBC’s Tom Costello reports for TODAY.April 7, 2026\nUP NEXT\nCraig Melvin's Son Joins TODAY on Take Your Kids to Work Day\n04:08\nTicketmaster Cancels Illegally Obtained Harry Styles Tickets\n00:38\nVideo Shows Heart-Stopping Moment a Bear Charges at a Hiker\n00:51\nFernando Mendoza Won’t Be at the 2026 NFL Draft: Here’s Why\n03:36\nSpirit Airlines Nears Bankruptcy Bailout From Trump Administration\n02:52\nHikers Rescued From Cliffside in Australia After ‘Close Call’\n00:38\nRFK Jr. Grilled on Measles Cases, End of Flu Vaccines for Troops\n02:18\nNavy Secretary John Phelan Fired Amid Critical Time in Iran War\n01:47\nWildfires Burn Across Georgia and Florida, Destroying Homes\n03:52\nCelebrate Earth Day With These Simple Ways to Protect the Planet\n04:36\nNew Baby Elephant Linh Mai Makes Debut at The National Zoo\n04:21\nAmazon Launches GLP-1 Program: Does It Save You Money?\n01:43\nUK Bill to Prohibit Anyone Born After 2008 From Buying Tobacco\n00:29\nHow This Recycling Facility is Giving New Life to Old Tech\n04:24\nPatriots Coach on 'Difficult Conversations' He's Had About Scandal\n02:18\nNew Air Traffic Control System Changes in the Works Using AI\n02:18\nRFK Jr. Defends Vaccine Policies, Handling of Measles Outbreak\n02:15\nTrump's Pick for Fed Chair Faces Tense Grilling: See Key Moments\n01:49\nVoters in Virginia Approve Democrat-Backed Redistricting Plan\n02:13\nIran Attacks Ships in Strait of Hormuz, Straining Fragile Ceasefire",
-      "image_captions": [
-        "TODAY with Jenna & Sheinelle",
-        "Sunday TODAY with Willie Geist"
-      ]
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T18:29:38.060680+00:00"
-}
+[
+  {
+    "source": "www.psc.edu",
+    "url": "https://www.psc.edu/lunar-water/",
+    "clip_score": 0.307,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Bridges-2 Simulations Show Impact of Rocket Exhaust Water on Moon’s Ice Reservoirs | PSC\n[METADATA/INTRO]: Previous Missions Did Not Add Significant Amounts, But Future Landers May Contaminate Lunar Water Though the Moon is mostly dry as a desert, a 2009 NASA probe confirmed that there is water frozen in permanently shadowed craters. Which begs some...\n[BEST EVIDENCE CHUNK]: In the 1950s and ’60s, astronomers realized that the Moon had craters with permanent shadows, particularly near its poles. And that led to a crazy thought: Could this super dry satellite actually have water in its shaded places? \n Water on the sunlit surface of the Moon would become gaseous very quickly, and then be ripped apart by ultraviolet light. But water in those permanent shadows? It could still be there, frozen in place for billions of years. \n In 2009, NASA’s Lunar Crater Observation and Sensing Satellite (LCROSS) probe intentionally crashed into a shaded lunar crater. This impact kicked up debris that an accompanying orbiter was able to confirm, for the first time, contained water. But this led to another question. NASA had sent six manned missions to the Moon, and there have been a number of other, robotic landers. All of them landed — and the Apollo missions had taken off again — using rocket fuel that, when burned, produces water."
+  },
+  {
+    "source": "stockcake.com",
+    "url": "https://stockcake.com/i/lunar-crater-detail_1091206_1102212",
+    "clip_score": 0.2868,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Free Lunar Crater Detail Image - Moon, Crater, Lunar | Download at StockCake\n[METADATA/INTRO]: This dramatic black and white photograph showcases the intricate details and rugged terrain of a lunar crater. The image highlights the crater's central peak, surrounded by a complex network of smaller craters and debris, illustrating the moon's violent geological past....\n[BEST EVIDENCE CHUNK]: This dramatic black and white photograph showcases the intricate details and rugged terrain of a lunar crater. The image highlights the crater's central peak, surrounded by a complex network of smaller craters and debris, illustrating the moon's violent geological past. The shadows and light play across the crater's surface, emphasizing its depth and the various textures that can be found on the moon's surface. This image serves as a stark reminder of the moon’s enigmatic beauty and the mysteries it still holds."
+  },
+  {
+    "source": "www.solarsystemheritage.com",
+    "url": "https://www.solarsystemheritage.com/haunted-worlds.html",
+    "clip_score": 0.2814,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Haunted Worlds - Fictional auras of places on Earth, the Moon and Mars\n[METADATA/INTRO]: Note from Zendexor: This page, begun 19th November 2023, was conceived in the hope that it might encourage readers to appreciate the double story/fact dimension of our Earth-Moon system, replete as it is with names that are mentioned both fictionally...\n[BEST EVIDENCE CHUNK]: In Hugh Walters' Operation Columbus (1960) Chris Godfrey is about to become the first astronaut to land on the Moon, the chosen site being - \n Plato! Moving slowly, the great circular feature now came on the screen. He knew that this famous crater, eighty miles in diameter and with rocky walls four thousand feet high, was thought to be the flattest part of the Moon's surface. Yet even this was not sure, for often observers had seen mysterious changes on its floor. It was generally agreed that Plato was one of those places on our satellite where a strange mist could sometimes be seen creeping across the ground. Sometimes small marks could be seen within its walls. At others, those same marks were invisible. It looked darker than the rest of the Moon as it seemed to settle fairly in the centre of the screen..."
+  }
+]

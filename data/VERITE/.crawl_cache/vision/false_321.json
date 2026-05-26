@@ -1,97 +1,20 @@
-{
-  "sample_id": "false_321",
-  "image_url": "https://images05.military.com/sites/default/files/styles/full/public/2019-05/mightwarnotlove1800.jpg",
-  "visual_entities": [
-    {
-      "description": "Larry Wayne Chaffin",
-      "score": 5.7345
-    },
-    {
-      "description": "Vietnam",
-      "score": 1.08105
-    },
-    {
-      "description": "Motorcycle Helmet",
-      "score": 0.81705004
-    },
-    {
-      "description": "Helmet",
-      "score": 0.7211
-    },
-    {
-      "description": "",
-      "score": 0.7207
-    },
-    {
-      "description": "Helmet cover",
-      "score": 0.4683
-    },
-    {
-      "description": "",
-      "score": 0.4128
-    },
-    {
-      "description": "Photograph",
-      "score": 0.3837
-    },
-    {
-      "description": "Image",
-      "score": 0.3805
-    },
-    {
-      "description": "Hat",
-      "score": 0.3719
-    },
-    {
-      "description": "Flight helmet",
-      "score": 0.3634
-    },
-    {
-      "description": "Stock photography",
-      "score": 0.3474
-    }
-  ],
-  "best_guess_labels": [
-    "vietnam helmets"
-  ],
-  "similar_image_urls": [
-    "https://images05.military.com/sites/default/files/2019-05/mightwarnotlove1800.jpg",
-    "https://i.imgur.com/KqKWedA.png",
-    "https://external-preview.redd.it/cpl-michael-wynn-vietnam-1967-1800-1200-v0-PbA8ElEJHYAlUqs8Qp9DaimCWHYkhrh0fuSn9LOH-zk.png?auto=webp&s=7165a2d915e9eb283df950c521515c4f4e03d8ab",
-    "https://upload.forumfree.net/i/ff8875483/3_1.jpg",
-    "https://external-preview.redd.it/cpl-michael-wynn-vietnam-1967-1800-1200-v0-PbA8ElEJHYAlUqs8Qp9DaimCWHYkhrh0fuSn9LOH-zk.png?width=1080&crop=smart&auto=webp&s=9099e289a82355e463842d298f7c38c5854635b7",
-    "https://geex.x-kom.pl/wp-content/uploads/2021/06/czas-apoklipsy.jpg",
-    "https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2019%2F08%2Fsupreme-fall-winter-2019-emile-de-antonio-inspiration-1.jpg?w=960&cbr=1&q=90&fit=max",
-    "https://suburbano.net/wp-content/uploads/2021/06/Vietnam.jpg",
-    "https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2019%2F08%2Fsupreme-fall-winter-2019-emile-de-antonio-inspiration-1-1.jpg?q=75&w=800&cbr=1&fit=max",
-    "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F08%2Fsupreme-fall-winter-2019-emile-de-antonio-inspiration-0.jpg?fit=max&cbr=1&q=90&w=750&h=500"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.gettyimages.com/photos/vietnam-war-helmet",
-      "page_title": "856 Vietnam War Helmet Images and Stock Photos",
-      "title": "Getty Images",
-      "description": "Getty Images. Find high resolution royalty-free images, editorial stock photos, vector art, video footage clips and stock music licensing at the richest image search photo library online.",
-      "text": "Yaroslav Kushta\n873850194\nUser validation",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.walmart.com/c/kp/vietnam-helmet",
-      "page_title": "Vietnam Helmet - Walmart",
-      "title": "Robot or human?",
-      "description": "",
-      "text": "Robot or human?\nActivate and hold the button to confirm that you’re human. Thank You!",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.gettyimages.com/photos/vietnam-helmet",
-      "page_title": "2088 Vietnam Helmet Stock Photos, High-Res Pictures, and Images",
-      "title": "Getty Images",
-      "description": "Getty Images. Find high resolution royalty-free images, editorial stock photos, vector art, video footage clips and stock music licensing at the richest image search photo library online.",
-      "text": "Yaroslav Kushta\n873850194\nUser validation",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 3,
-  "crawled_at": "2026-04-23T19:02:00.148259+00:00"
-}
+[
+  {
+    "source": "fineartamerica.com",
+    "url": "https://fineartamerica.com/featured/soldier-rests-bettmann.html",
+    "clip_score": 0.3264,
+    "optimized_evidence": "[PUBLISHED DATE]: May 13th, 2020\n[TITLE]: Soldier Rests Photograph by Bettmann - Fine Art America\n[METADATA/INTRO]: Soldier Rests is a photograph by Bettmann which was uploaded on May 13th, 2020. Soldier Rests...\n[BEST EVIDENCE CHUNK]: Soldier Rests is a photograph by Bettmann which was uploaded on May 13th, 2020. \n (Original Caption) Da Nang, South Vietnam: Marine Cpl. Michael Wynn, 20, of Columbus, Ohio, seems to be trying to get a message across with a takeoff of the hippie slogan \"make war not love\" written on his helmet here. Wynn is taking a breather during Operation Ballistic Charge. 9/21/67 \n Image provided by Getty Images. \n More from This Artist \n There are no comments for Soldier Rests. Click here to post the first comment."
+  },
+  {
+    "source": "belfastchildis.com",
+    "url": "https://belfastchildis.com/2016/10/23/war-is-hell-iconic-pictures-story-behind-them/",
+    "clip_score": 0.3102,
+    "optimized_evidence": "[PUBLISHED DATE]: 2016-10-22\n[TITLE]: War is Hell &#8211; Iconic Pictures &amp; Story behind them |\n[METADATA/INTRO]: War Is Hell An American soldier wears a hand lettered “War Is Hell” slogan on his helmet, Vietnam, 1965...\n[BEST EVIDENCE CHUNK]: An American soldier wears a hand lettered “War Is Hell” slogan on his helmet, Vietnam, 1965 \n AP photojournalist Horst Faas took this iconic photo on June 18, 1965, during the Vietnam War with the 173rd Airborne Brigade Battalion on defense duty at Phouc Vinh airstrip in South Vietnam. The headband message “War is Hell” typified an acerbic attitude of many young American soldiers who were likely drafted and sent to the remote southeastern Asia jungles to engage in deadly and terrifying combat. \n A lot of the soldiers wrote graffiti on their helmets with inscriptions of their attitudes about where they were and why they were there."
+  },
+  {
+    "source": "usastruck.com",
+    "url": "https://usastruck.com/tag/zippo/",
+    "clip_score": 0.2998,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: zippo | My Vietnam Experience\n[METADATA/INTRO]: Troops in Vietnam found a way to express themselves When I arrived in Vietnam in March of 1970, one of the first things ‘Uncle Sam’ issued to me was a steel pot; the military called it the M-1 helmet. It...\n[BEST EVIDENCE CHUNK]: Troops in Vietnam found a way to express themselves \n When I arrived in Vietnam in March of 1970, one of the first things ‘Uncle Sam’ issued to me was a steel pot; the military called it the M-1 helmet. It felt like it weighed half a ton when you first put it on your newly shaved (basic training) head. A short time later, I traded it for a much lighter and more fashionable boonie hat. \n Prior to the Vietnam War, what was most commonly seen on helmets were rank insignia and unit designations. \n In this June 18, 1965 file photo, an unidentified U.S. Army soldier wears a hand lettered “War Is Hell” slogan on his helmet, in Vietnam. “Larry Wayne Chaffin, is the American soldier of the 173rd Airborne Brigade in the Iconic Vietnam War photo taken on June 18, 1965, by the late Pulitzer Prize Winning Photographer Horst Faas. The war ended on April 30, 1975, with the fall of Saigon, now known as Ho Chi Minh City, to communist troops from the north. (AP Photo/Horst Faas)"
+  }
+]

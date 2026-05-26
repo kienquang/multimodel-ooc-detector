@@ -1,60 +1,20 @@
-{
-  "sample_id": "false_162",
-  "image_url": "https://i2-prod.chroniclelive.co.uk/incoming/article13503939.ece/ALTERNATES/s1200b/The-Plastic-Whale-Tour-of-the-UK.jpg",
-  "visual_entities": [
-    {
-      "description": "James Cracknell",
-      "score": 3.2459998
-    },
-    {
-      "description": "Statue",
-      "score": 0.5249474
-    },
-    {
-      "description": "future",
-      "score": 0.5104
-    },
-    {
-      "description": "Sculpture",
-      "score": 0.4352
-    },
-    {
-      "description": "National Mall",
-      "score": 0.41355002
-    },
-    {
-      "description": "Art",
-      "score": 0.3888
-    },
-    {
-      "description": "create",
-      "score": 0.3484
-    }
-  ],
-  "best_guess_labels": [
-    "statue"
-  ],
-  "similar_image_urls": [
-    "https://i2-prod.chroniclelive.co.uk/incoming/article13503939.ece/ALTERNATES/s1200b/The-Plastic-Whale-Tour-of-the-UK.jpg",
-    "https://i2-prod.chroniclelive.co.uk/article13503939.ece/ALTERNATES/s1200b/The-Plastic-Whale-Tour-of-the-UK.jpg",
-    "https://i2-prod.chroniclelive.co.uk/article13503939.ece/ALTERNATES/s1200f/The-Plastic-Whale-Tour-of-the-UK.jpg",
-    "https://i2-prod.chroniclelive.co.uk/article13503939.ece/ALTERNATES/s1200/The-Plastic-Whale-Tour-of-the-UK.jpg",
-    "https://i2-prod.chroniclelive.co.uk/article13503939.ece/ALTERNATES/s1200d/The-Plastic-Whale-Tour-of-the-UK.jpg",
-    "https://i2-prod.chroniclelive.co.uk/article13503939.ece/ALTERNATES/s1200c/The-Plastic-Whale-Tour-of-the-UK.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.chroniclelive.co.uk/news/north-east-news/giant-whale-made-plastic-bags-13503773",
-      "page_title": "Why is a giant whale made from plastic bags and bottles coming to ...",
-      "title": "Why is a whale made from plastic bags and bottles coming to Newcastle?",
-      "description": "The 32ft plastic model will be on display at intu Metrocentre on Sunday August 27",
-      "text": "Why is a giant whale made from plastic bags and bottles coming to Newcastle?\nThe 32ft plastic model will be on display at intu Metrocentre on Sunday August 27\nA giant whale made from the amount of plastic thrown into the sea every second is to visit the North East this weekend.\nThe 10-metre creation, constructed from plastic bags, bottles and straws, is currently on a tour of England, Wales and Scotland.\nAnd shoppers in the North East will be able to see the amazing structure when it visits Intu Metrocentre on Sunday, August 27.\nAs part of the Sky Ocean Rescue campaign, the model was unveiled in Cardiff Bay on Sunday by Olympic rower James Cracknell in a bid to raise awareness of the issue of ocean health.\nIt is made out of plastic recovered from oceans, beaches and recycling plants.\nThe campaign hopes to encourage people to change the way they consume single-use plastics and is being supported by the Marine Conservation Society.\nDuring the tour the whale will visit other cities and coastal spots including Blackpool Promenade, Ipswich and Edinburgh’s Ocean Terminal.\nThe campaign’s website says, “More than 8 million tonnes of plastic pollute the world’s oceans every year.\n“If nothing changes, by 2050 the plastic in the sea could weigh more than all the fish.\n“The plastic whale is made from the same amount of plastic that ends up in the ocean every second, and is travelling across the UK to bring this huge problem to life and inspire people to take action.",
-      "image_captions": [
-        "Double Olympic gold medalist rower James Cracknell joins Sky Ocean Rescue to unveil a 10-metre long whale(Image: PA)",
-        "Double Olympic gold medalist rower James Cracknell joins Sky Ocean Rescue to unveil a 10-metre long whale"
-      ]
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T17:38:16.361076+00:00"
-}
+[
+  {
+    "source": "www.chroniclelive.co.uk",
+    "url": "https://www.chroniclelive.co.uk/news/north-east-news/giant-whale-made-plastic-bags-13503773",
+    "clip_score": 0.3358,
+    "optimized_evidence": "[PUBLISHED DATE]: 2017-08-20\n[TITLE]: Why is a giant whale made from plastic bags and bottles coming to Newcastle? | Chronicle Live\n[METADATA/INTRO]: Why is a giant whale made from plastic bags and bottles coming to Newcastle? The 32ft plastic model will be on display at intu Metrocentre on Sunday August 27...\n[BEST EVIDENCE CHUNK]: It is made out of plastic recovered from oceans, beaches and recycling plants. \n The campaign hopes to encourage people to change the way they consume single-use plastics and is being supported by the Marine Conservation Society. \n During the tour the whale will visit other cities and coastal spots including Blackpool Promenade, Ipswich and Edinburgh’s Ocean Terminal. \n The campaign’s website says, “More than 8 million tonnes of plastic pollute the world’s oceans every year. \n “If nothing changes, by 2050 the plastic in the sea could weigh more than all the fish. \n “The plastic whale is made from the same amount of plastic that ends up in the ocean every second, and is travelling across the UK to bring this huge problem to life and inspire people to take action."
+  },
+  {
+    "source": "www.bywaters.co.uk",
+    "url": "https://www.bywaters.co.uk/sustainability/csr/ocean-plastics/plasticus-the-plastic-whale-returns-to-bywaters",
+    "clip_score": 0.3161,
+    "optimized_evidence": "[PUBLISHED DATE]: 2017-11-20\n[TITLE]: Plasticus the Plastic Whale Returns to Bywaters | Bywaters\n[METADATA/INTRO]: Contact us today for your Free Quote Back in August, we unveiled Plasticus, a 10 metre whale made of plastic that had been collected by Bywaters staff and clients in beach cleans or processed at our facility in Bow....\n[BEST EVIDENCE CHUNK]: Fighting single-use plastic waste and ocean plastic pollution is something Bywaters has long been committed to, and touring Plasticus around the UK has been a fantastic way to bring the issue to national attention. \n The Urgency of the Ocean Plastic Crisis \n The whale was created to emphasise the severity of plastic pollutants in the ocean – with its 250kg weight representing the amount of plastic we release into our oceans every second. \n This equates to a 8 million tonnes per year and means that unless we change our ways, plastic with outweigh fish in the sea by 2050. \n To raise awareness of this problem, Plasticus has journeyed around Britain with Sky Ocean Rescue, stopping off over 12 locations to greet members of the public, who in return they were offered the opportunity to name the sculpture."
+  },
+  {
+    "source": "www.roadsideamerica.com",
+    "url": "https://www.roadsideamerica.com/story/71939",
+    "clip_score": 0.3152,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Ethyl the Plastic Whale, Santa Fe, New Mexico\n[METADATA/INTRO]: Ethyl the Plastic Whale Santa Fe, New Mexico...\n[BEST EVIDENCE CHUNK]: Ethyl the Plastic Whale \n Santa Fe, New Mexico \n Linda Cassel remembers the day that someone pulled her aside and said, \"I heard that there's a whale. Out in California. And they're looking for a home for it.\" \n The whale, named Ethyl, was made of 5,000 pounds of melted polyethylene plastic. \n Ethyl was built in the summer of 2018 by artists Joel Dean Stockdill and Yustina Salnikova. Working for California's Monterey Bay Aquarium, Joel and Yustina sorted thousands of locally discarded detergent bottles by color; washed them in the bottle's leftover soap; shredded them in a woodchipper; melted them on cookie sheets in a second-hand oven; and then pressed them, hot and gooey, into 750 diamond-shaped panels. Once cooled, each panel resembled a splatter-art canvas of Jackson Pollock. Assembled onto a metal framework, they made a life-size Blue Whale, 82 feet long, the \"world's largest recycled plastic sculpture\" according to Ethyl's accompanying sign."
+  }
+]

@@ -1,85 +1,20 @@
-{
-  "sample_id": "false_12",
-  "image_url": "https://i.ytimg.com/vi/3q8n1dzBU0M/maxresdefault.jpg",
-  "visual_entities": [
-    {
-      "description": "Jet aircraft",
-      "score": 1.07055
-    },
-    {
-      "description": "McDonnell Douglas F-15 Eagle",
-      "score": 1.03965
-    },
-    {
-      "description": "Aircraft",
-      "score": 0.71385
-    },
-    {
-      "description": "Truck",
-      "score": 0.7007
-    },
-    {
-      "description": "Shockwave",
-      "score": 0.6119
-    },
-    {
-      "description": "Airplane",
-      "score": 0.60389996
-    },
-    {
-      "description": "Semi-trailer truck",
-      "score": 0.5948
-    },
-    {
-      "description": "HAL Tejas",
-      "score": 0.5166
-    },
-    {
-      "description": "Trailer",
-      "score": 0.3749
-    },
-    {
-      "description": "Towing",
-      "score": 0.3513
-    },
-    {
-      "description": "Air force",
-      "score": 0.3405147
-    },
-    {
-      "description": "Semi-trailer",
-      "score": 0.3403
-    },
-    {
-      "description": "Military aircraft",
-      "score": 0.3163
-    }
-  ],
-  "best_guess_labels": [
-    "truck carrying jet"
-  ],
-  "similar_image_urls": [
-    "https://i.ytimg.com/vi/sqAD412r8do/maxresdefault.jpg",
-    "https://i.ytimg.com/vi/3q8n1dzBU0M/maxresdefault.jpg",
-    "https://media.licdn.com/dms/image/v2/D4E22AQFI2B5uyh3oTA/feedshare-shrink_800/B4EZmIA.ngIUAg-/0/1758923582625?e=2147483647&v=beta&t=vXWYxaOKEXj0rsqs2mnMJnnatWFYazTMS05QIh_juBU",
-    "https://i.ytimg.com/vi/3q8n1dzBU0M/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA6L0le_nUM-CpppWk5s1t4YmkMWA"
-  ],
-  "evidence": [
-    {
-      "url": "https://defence.pk/threads/tejas-story-of-a-pie-in-the-sky.414403/page-5",
-      "page_title": "Tejas : Story of a pie in the sky. | Page 5 - Pakistan Defence",
-      "title": "Tejas : Story of a pie in the sky.",
-      "description": "This is a report by Comptroller and Auditor General (CAG) of India,an independent,constitutional body. Too much for you to comprehend ? Dont BS, we know India loves to make things up and use those institution name as cover up. Those instituition can claim how independent they are. End of the...",
-      "text": "Well sir,the fact is that CAG never says that Tejas is only 35% indigenous,in fact in they give the indigenous content as 61% in the annexure of the same report.Its a claim taken out of the context.\nCAG says if the use of imported components in the Indian developed & manufactured LRUs is considered,the indigenous content would come as 35%.Fair enough,our industrial infrastructure is not as advanced as developed as some of the developing countries. WE can't expect Team LCA to set up a semiconductor fab facility,can we ?\nNo one would say Gripen is anyless Swedish,because it uses Motorola & TI processors in its FCS system.",
-      "image_captions": [
-        "The+PAF%25E2%2580%2599s+IL-78MKPs+were+spotted+at+Chengdu+three+days+ago+for+loading+the+CAC-built+JF-17s+in+semi-knocked-down+condition+and+ferry-flying+them+to+PAC+Kamra+%25281%2529.jpg",
-        "Super Commando Dhruva",
-        "779f112b130b1379555ebb1746f3c40c.jpg",
-        "ffc1e280-fbd2-4908-a587-f0928e636bea.jpg",
-        "467332766-combat-drone-burraq-is-displayed-during-the-gettyimages.jpg"
-      ]
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T16:48:11.495875+00:00"
-}
+[
+  {
+    "source": "sirviper.com",
+    "url": "https://sirviper.com/index.php?page=fighters/f-15/index",
+    "clip_score": 0.2111,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Military Aviation\n[METADATA/INTRO]: The McDonnell-Douglas F-15 Eagle was designed to be the primary air-superiority fighter for the USAF. It is the first US operational aircraft whose engine thrust exceeds the weight of the aircraft. This, combined with a low wing loading, makes the...\n[BEST EVIDENCE CHUNK]: 365 to USAF59 to USAF \n - 19 F-15A to Israel \n - 10 YF-15A's produced \n - 2 F-15B to Israel \n - 2 YF-15B's produced \n - 1 YF-15B became YF-15E \n - 18 F-15C to Israel \n - 55 F-15C to Saudi Arabia \n - 13 F-15D to Israel \n - 19 F-15D to Saudi Arabia \n - 20 F-15DJ built in Japan \n - 25 F-15I (F-15E) to Israel \n - 2 F-15J to Japan \n - 72 F-15S to Saudi Arabia \n Wing: span 42 ft 9.75 in (13.05 m); aspect ratio 3.01; area \n 608.00 sq ft (56.48 m�) \n Fuselage and tail: length 63 ft 9 in (19.43 m); height 18 ft"
+  },
+  {
+    "source": "www.flickr.com",
+    "url": "https://www.flickr.com/photos/31469080@N07/50048967803",
+    "clip_score": 0.2076,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: McDonnell Douglas F-15C Eagle | Not long after the F-4C Phan… | Flickr\n[METADATA/INTRO]: McDonnell Douglas F-15C Eagle Not long after the F-4C Phantom II entered USAF service in the early 1960s, the service issued a requirement for a heavy, all-missile equipped interceptor with variable-sweep wings and a top speed of nearly Mach 3....\n[BEST EVIDENCE CHUNK]: Pueblo Weisbrod has really come on strong with its restorations, and 79-0022 shows their work. It is camouflaged in \"Mod Eagle\"--slightly darker than the earlier Compass Ghost scheme--and configured with four AIM-9L Sidewinders, four AIM-7M Sparrows, and three external tanks (this would have been the same configuration Watrous was flying with in 1991). With intake covers and remove before flight tags on the missiles, 79-0022 looks the same as it would've on alert at Bitburg during the 1980s. \n McDonnell Douglas F-15C Eagle \n Not long after the F-4C Phantom II entered USAF service in the early 1960s, the service issued a requirement for a heavy, all-missile equipped interceptor with variable-sweep wings and a top speed of nearly Mach 3. This requirement was soon cancelled, however, due to two events: the Vietnam War and the flight of the Soviet MiG-25 Foxbat. Over North Vietnam, the heavy, all-missile F-4 had found itself at a disadvantage against smaller, lighter, gun-equipped MiG-17s, while the new Foxbat was erroneously thought to be a generation ahead of anything then in American service, both agile and capable of Mach 3 performance."
+  },
+  {
+    "source": "www.flugzeuginfo.net",
+    "url": "http://www.flugzeuginfo.net/acdata_php/acdata_f15_en.php",
+    "clip_score": 0.1969,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: McDonnell Douglas / Boeing F-15 Eagle - Specifications - Technical Data / Description\n[METADATA/INTRO]: McDonnell Douglas / Boeing F-15 Eagle Fighter / Multi-Role Combat Aircraft...\n[BEST EVIDENCE CHUNK]: | [Photo-ID: 11409] © Karsten Palt 2015-06-01 | | \n | McDonnell Douglas / Boeing F-15A Eagle United States Air Force (USAF) Reg.: 77-0070 c/n: 344/A282 retired 2009, Celebrity Row | | \n | AMARG - Boneyard [Tucson, AZ] | \n | [Photo-ID: 852] © Karsten Palt 2008-06-20 | | \n | McDonnell Douglas F-15C Eagle United States Air Force (USAF) Reg.: 86-0147 c/n: 993 / C375 | | \n | Open Dagen Koninklijke Luchtmacht 2008 [Leeuwarden (EHLW / LHW)] | \n | [Photo-ID: 5634] © Karsten Palt 2011-09-16 | | \n | McDonnell Douglas / Boeing F-15C Eagle United States Air Force (USAF) Reg.: 86-0175 c/n: 1025/C403 | |"
+  }
+]

@@ -1,65 +1,20 @@
-{
-  "sample_id": "false_82",
-  "image_url": "https://img.mensxp.com/media/content/2017/May/guy-photoshops-himself-sleeping-next-to-celebrities-652x400-8-1495682830.jpg",
-  "visual_entities": [
-    {
-      "description": "Fan",
-      "score": 0.7385
-    },
-    {
-      "description": "",
-      "score": 0.717
-    },
-    {
-      "description": "Vornado",
-      "score": 0.717
-    },
-    {
-      "description": "Ceiling Fan",
-      "score": 0.7103
-    },
-    {
-      "description": "Lasko",
-      "score": 0.51
-    },
-    {
-      "description": "Vornado 630 Mid-Size Whole Room Air Circulator Fan",
-      "score": 0.5075
-    },
-    {
-      "description": "Pelonis",
-      "score": 0.4985
-    },
-    {
-      "description": "Misting Fan",
-      "score": 0.4575
-    },
-    {
-      "description": "Appliance",
-      "score": 0.4406
-    },
-    {
-      "description": "Hunter 52\" Adirondack Ceiling Fan with LED Light Kit and Pull Chain 59580",
-      "score": 0.373
-    }
-  ],
-  "best_guess_labels": [
-    "fan"
-  ],
-  "similar_image_urls": [
-    "https://www.laguiadelvaron.com/wp-content/uploads/2017/05/vd9.jpg",
-    "https://www.dhnet.be/resizer/v2/4ZVZI6O2TJDFTDQZKUXLKBYVFA.jpg?auth=7b0bd11bbad345775ea2049813ae9acca6aaefaf83fe2033e0e06efe848216a4&width=1280&height=640&quality=85&focal=470%2C235"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.walmart.com/browse/home-improvement/metal-fans/fan/1072864_133032_1231458_1230511_2716471/YnJhbmQ6RmFu",
-      "page_title": "Fan Metal Fans in Fans - Walmart.com",
-      "title": "Robot or human?",
-      "description": "",
-      "text": "Robot or human?\nActivate and hold the button to confirm that you’re human. Thank You!",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T17:13:19.081073+00:00"
-}
+[
+  {
+    "source": "www.theplayerstribune.com",
+    "url": "https://www.theplayerstribune.com/posts/bruno-fernandes-premier-league-manchester-united-soccer-football-fa-cup",
+    "clip_score": 0.2118,
+    "optimized_evidence": "[PUBLISHED DATE]: 2024-05-24\n[TITLE]: Dear United by Bruno Fernandes | The Playersâ Tribune\n[METADATA/INTRO]: Dear United To our fans all over the world,Â...\n[BEST EVIDENCE CHUNK]: There will always be those who donât like your football, but 99% of you have only shown me love. To this day, whenever I see someone on the other side of the world wearing my shirt, it gives me such a special feeling. People send me photos from Hong Kong, or from Nigeria, wearing my number 8 shirt, and every single time, it makes me feel so surprised and humble. \n Last summer, when I was made captain, I remember coming home to Ana, and I said, âSomething happened todayâ¦ I canât even explain.â \n I said, âSomething that I never even dreamed about is coming true.âÂ"
+  },
+  {
+    "source": "www.thesun.co.uk",
+    "url": "https://www.thesun.co.uk/sport/28137188/man-utd-fa-cup-win-dressing-room-celebrations-champagne/",
+    "clip_score": 0.2103,
+    "optimized_evidence": "[PUBLISHED DATE]: 2024-05-25\n[TITLE]: Inside Man Utd's dressing room celebrations as Ten Hag drenched in champagne and star downs Carling after FA Cup final\n[METADATA/INTRO]: ERIK TEN HAG was drenched in champagne while stars sank cans of Carling after Manchester United’s FA Cup triumph. The Red Devils beat Man City 2-1 in Saturday’s clash, sealing a second trophy in as many years while avenging last...\n[BEST EVIDENCE CHUNK]: But he was all smiles when he returned to his players in the dressing room for jubilant celebrations. \n Lisandro Martinez, who also played under Ten Hag at Ajax, soaked the gaffer in champagne after uncorking a bottle. \n READ MORE MAN UTD NEWS \n United’s players cheered as Ten Hag made his way across the room, with the FA Cup trophy taking centre stage on the floor. \n The champagne continued to flow as United posed for group pictures together. \n And players then toasted their success individually, with Victor Lindelof cracking open a Carling while wearing his winners’ medal. \n Mason Mount bit down on his to make sure it wasn’t made of chocolate."
+  },
+  {
+    "source": "www.the-sun.com",
+    "url": "https://www.the-sun.com/sport/11461154/man-utd-fa-cup-win-dressing-room-celebrations-champagne/",
+    "clip_score": 0.2061,
+    "optimized_evidence": "[PUBLISHED DATE]: 2024-05-25\n[TITLE]: Inside Man Utd's dressing room celebrations as Ten Hag drenched in champagne and star downs Carling after FA Cup final\n[METADATA/INTRO]: ERIK TEN HAG was drenched in champagne while stars sank cans of Carling after Manchester United’s FA Cup triumph. The Red Devils beat Man City 2-1 in Saturday’s clash, sealing a second trophy in as many years while avenging last...\n[BEST EVIDENCE CHUNK]: But he was all smiles when he returned to his players in the dressing room for jubilant celebrations. \n Lisandro Martinez, who also played under Ten Hag at Ajax, soaked the gaffer in champagne after uncorking a bottle. \n United’s players cheered as Ten Hag made his way across the room, with the FA Cup trophy taking centre stage on the floor. \n The champagne continued to flow as United posed for group pictures together. \n And players then toasted their success individually, with Victor Lindelof cracking open a Carling while wearing his winners’ medal. \n Mason Mount bit down on his to make sure it wasn’t made of chocolate."
+  }
+]

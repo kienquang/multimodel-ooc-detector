@@ -18,34 +18,50 @@ class RetrievalAgent(BaseAgent):
         raw_text = evidence_context.get("raw_text", "No raw text available.")
 
         messages = [
-            {
-                "role": "system",
-                "content": (
-                    "You are an expert Fact-Checking Analyst. "
-                    "Compare the 'RAW CAPTION' against the 'FULL RAW ARTICLES'.\n\n"
-                    "CRITICAL RULES - AVOID HALLUCINATIONS & NITPICKING:\n"
-                    "1. THE ARTICLES ARE THE IMAGE's GROUND TRUTH (OUT-OF-CONTEXT RULE): The provided articles explain what the image ACTUALLY shows. If the RAW CAPTION claims the image is about Event A (e.g., quarantine enforcement), but the articles prove the image is actually about Event B (e.g., nationwide protests), this is a massive MUTUALLY EXCLUSIVE contradiction. Flag it immediately!\n"
-                    "2. BEWARE OF QUOTED FAKE NEWS: Extract ONLY the TRUE FACTS from the article to compare with the RAW CAPTION. Ignore viral fake claims mentioned in the article.\n"
-                    "3. FLAG FUNDAMENTAL CONTRADICTIONS ONLY: Flag ONLY if the core narrative, date, or exact event location CANNOT BOTH BE TRUE.\n"
-                    "4. DO NOT NITPICK SEMANTICS: 'Taken away' and 'forcibly dragged' are COMPATIBLE. Do not flag differences that are merely variations in vocabulary or phrasing.\n"
-                    "5. CONTEXTUALIZE PREPOSITIONS: Distinguish between origins/destinations ('from/to') and the actual physical location ('in').\n"
-                    "6. IGNORE MISSING INFO: Lack of explicit proof in one source is not a contradiction. If a detail is simply unmentioned, do not flag it.\n\n"
-                    "OUTPUT FORMAT:\n"
-                    "You MUST use Chain-of-Thought reasoning by returning a JSON object with EXACTLY these keys:\n"
-                    "{\n"
-                    "  \"step1_caption_claim\": \"Summarize the holistic, main point of the RAW CAPTION.\",\n"
-                    "  \"step2_article_truth\": \"Summarize the TRUE FACTS from the articles.\",\n"
-                    "  \"step3_compatibility_analysis\": \"Are they describing the same core event? If the caption describes an entirely different event from what the articles say the image shows, flag it as a contradiction. Otherwise, check for genuine conflicts vs semantics.\",\n"
-                    "  \"differences\": [\"[MUTUALLY EXCLUSIVE] The caption claims X, but the true fact is strictly Y.\"]\n"
-                    "}\n\n"
-                    "If Step 3 concludes they are compatible, the 'differences' array MUST be exactly []."
-                )
-            },
-            {
-                "role": "user",
-                "content": f"--- RAW CAPTION ---\n{raw_caption}\n\n--- FULL RAW ARTICLES ---\n{raw_text}"
-            }
-        ]
+        {
+            "role": "system",
+            "content": (
+            "You are a fact-verification inference engine. "
+            "Perform a rigorous entailment and contradiction analysis "
+            "between a target [CLAIM] and retrieved [EVIDENCE].\n\n"
+        
+            "AXIOMS:\n"
+            "1. REFERENCE BASELINE: The [EVIDENCE] represents the best available "
+            "factual account of the depicted event. Treat it as the primary "
+            "reference baseline, while acknowledging it may be incomplete.\n"
+            "2. MISINFORMATION ISOLATION: Fact-checking articles may quote false "
+            "rumors before debunking them. Extract only the author's verified "
+            "conclusions as factual baseline; discard quoted rumors.\n"
+            "3. MUTUALLY EXCLUSIVE CONTRADICTION: Flag a contradiction only if "
+            "the core narrative, temporal data, spatial data, or primary entities "
+            "in the [CLAIM] and [EVIDENCE] are logically irreconcilable.\n"
+            "4. TEMPORAL DIMENSION ISOLATION: Distinguish between event_date "
+            "(when the event occurred) and publication_date or share_date "
+            "(when content was published or redistributed). A mismatch across "
+            "different temporal sub-dimensions is NOT a contradiction.\n"
+            "5. SEMANTIC EQUIVALENCE: Do not flag lexical variation. "
+            "Phrases describing the same action or entity are equivalent.\n"
+            "6. INFORMATION ASYMMETRY: Details present in the [CLAIM] but absent "
+            "from the [EVIDENCE] constitute unverified information, not contradiction.\n\n"
+        
+            "OUTPUT: Return one strictly valid JSON object, no text outside it:\n"
+            "{\n"
+            "  \"claim_core_extraction\": \"\",\n"
+            "  \"evidence_factual_baseline\": \"\",\n"
+            "  \"logical_alignment_analysis\": \"\",\n"
+            "  \"identified_exclusions\": [\n"
+            "    {\"dimension\": \"CORE_EVENT|EVENT_DATE|EVENT_LOCATION|KEY_ACTOR\",\n"
+            "     \"claim_value\": \"\", \"evidence_value\": \"\"}\n"
+            "  ],\n"
+            "  \"verdict\": \"CONTRADICTION|NO_CONTRADICTION\"\n"
+            "}"
+        )
+        },
+    {
+        "role": "user",
+        "content": f"[CLAIM]:\n{caption}\n\n[EVIDENCE]:\n{evidence_text}"
+    }
+]
 
         resp = self.llm.chat_completion(messages)
         raw = resp.choices[0].message.content.strip()

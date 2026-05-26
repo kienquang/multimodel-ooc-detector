@@ -1,103 +1,20 @@
-{
-  "sample_id": "false_61",
-  "image_url": "https://krcrtv.com/resources/media/c2ee3f9d-a666-40c5-9377-f5c81c13898b-large16x9_aa.PNG?1597198213640",
-  "visual_entities": [
-    {
-      "description": "PSY",
-      "score": 7.5959997
-    },
-    {
-      "description": "KRCR-TV",
-      "score": 0.5637
-    },
-    {
-      "description": "GENTLEMAN",
-      "score": 0.50314003
-    },
-    {
-      "description": "Gentleman",
-      "score": 0.4517
-    },
-    {
-      "description": "Music video",
-      "score": 0.4356
-    },
-    {
-      "description": "Gentleman",
-      "score": 0.3954156
-    },
-    {
-      "description": "KCVU - Fox 20",
-      "score": 0.3064
-    }
-  ],
-  "best_guess_labels": [
-    "gentleman"
-  ],
-  "similar_image_urls": [
-    "https://krcrtv.com/resources/media/c2ee3f9d-a666-40c5-9377-f5c81c13898b-jumbo16x9_aa.PNG?1597198201148",
-    "https://krcrtv.com/resources/media/c2ee3f9d-a666-40c5-9377-f5c81c13898b-aa.PNG",
-    "https://krcrtv.com/resources/media/c2ee3f9d-a666-40c5-9377-f5c81c13898b-full16x9_aa.PNG?1597198200915",
-    "https://krcrtv.com/resources/media/c2ee3f9d-a666-40c5-9377-f5c81c13898b-large16x9_aa.PNG?1597198200875",
-    "https://krcrtv.com/resources/media/c2ee3f9d-a666-40c5-9377-f5c81c13898b-jumbo1x1_aa.PNG?1597198209823",
-    "https://i.ytimg.com/vi/4KH1cVvE5Us/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBWElgXU_LJTU060gQ5lnCSQCkkkQ",
-    "https://i.ytimg.com/vi/4KH1cVvE5Us/mqdefault.jpg",
-    "https://i.ytimg.com/vi/4KH1cVvE5Us/hqdefault.jpg",
-    "https://i.ytimg.com/vi/4KH1cVvE5Us/sddefault.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://krcrtv.com/news/local/chico-superdelegate-responds-to-kamala-harris-vp-announcement",
-      "page_title": "Chico superdelegate responds to Kamala Harris VP announcement",
-      "title": "Chico superdelegate responds to Kamala Harris VP announcement",
-      "description": "As the country reacts to presidential hopeful Joe Biden's pick for a running mate, a Chico democratic superdelegate is making his voice heard. KRCR caught up with campaign strategist Bob Mulholland outside his Chico home, on Tuesday, where he says Kamala Harris is the right choice for Biden. He believes she will help democrats win Pennsylvania, Wisconsin, and Michigan, all states the democrats frequently won until the 2016 election.",
-      "text": "Chico superdelegate responds to Kamala Harris VP announcement\nCHICO, Calif. — As the country reacts to presidential hopeful Joe Biden's pick for a running mate, a Chico democratic superdelegate is making his voice heard.\nKRCR caught up with campaign strategist Bob Mulholland outside his Chico home, on Tuesday, where he says Kamala Harris is the right choice for Biden.\nHe believes she will help democrats win Pennsylvania, Wisconsin, and Michigan, all states the democrats frequently won until the 2016 election.\nHe adds that her status as a woman, child of immigrants, and longstanding political career will help Biden in the path to the presidency.\n\"She is a former attorney general of California, former prosecutor, and a U.S. senator,” says Mulholland. “In the era of social media, you got to have someone who looks good on television and is articulate and intelligent, and that fits Kamala Harris.\"\nMulholland said democrats picked up seven congressional seats in 2018 and that Tuesday's announcement could help them keep those seats moving forward.\nHe predicts that if Biden wins the presidency this November, another woman would replace her as California senator.\nBiden’s campaign announced his decision to pick Harris as his running mate earlier Tuesday.",
-      "image_captions": [
-        "weather conditions are Clear for Now",
-        "weather conditions are Partly Cloudy for Fri",
-        "weather conditions are Partly Cloudy for Sat",
-        "box outline with play symbol in the center",
-        "UserWay icon for accessibility widget"
-      ]
-    },
-    {
-      "url": "https://krcrtv.com/news/local/gallery/bob-mulholland-longtime-democratic-strategist-and-vietnam-veteran-dies-at-78?photo=1",
-      "page_title": "Redding Chico Eureka - KRCR",
-      "title": "Bob Mulholland, longtime Democratic strategist and Vietnam veteran, dies at 78",
-      "description": "KRCR News Channel 7 and KCVU Fox 20 offers local and national news, sports, and weather forecasts to viewers in the Northstate including Redding, Shasta Lake, Shingletown, Anderson, Red Bluff, Corning, Chico, and Oroville. Coverage is also provided on the North Coast through KBVU Fox 28 and KAEF ABC 23.",
-      "text": "Bob Mulholland, longtime Democratic strategist and Vietnam veteran, dies at 78\nFILE PHOTO — Bob Mulholland outside his Chico home on Tuesday, talking about his reaction to Kamala Harris announced as Joe Biden's running mate in the 2020 presidential election. (KRCR)",
-      "image_captions": [
-        "FILE PHOTO — Bob Mulholland outside his Chico home on Tuesday, talking about his reaction to Kamala Harris announced as Joe Biden's running mate in the 2020 presidential election. (KRCR)",
-        "FILE PHOTO — Bob Mulholland, a prominent Democratic Party strategist, Vietnam War veteran and super-delegate from California. (KRCR)",
-        "FILE PHOTO — A photo of Bob Mulholland, a Chico veteran, giving a victim impact statement in Butte Superior Court. (KRCR)"
-      ]
-    },
-    {
-      "url": "https://krcrtv.com/news/local/gallery/late-vietnam-veteran-political-strategist-bob-mulholland-honored-in-chico-escort-ceremony",
-      "page_title": "Redding Chico Eureka - KRCR",
-      "title": "Late Vietnam veteran, political strategist Bob Mulholland honored in Chico escort ceremony",
-      "description": "KRCR News Channel 7 and KCVU Fox 20 offers local and national news, sports, and weather forecasts to viewers in the Northstate including Redding, Shasta Lake, Shingletown, Anderson, Red Bluff, Corning, Chico, and Oroville. Coverage is also provided on the North Coast through KBVU Fox 28 and KAEF ABC 23.",
-      "text": "Skip to main content\nMobile Menu Icon\nThumbnails\nView Thumbnails\nMore Galleries\nMore Galleries\n1/3\nClose\nClose\nLate Vietnam veteran, political strategist Bob Mulholland honored in Chico escort ceremony\nPhoto of the escort ceremony for late-democratic strategist and Vietnam Veteran Bob Mulholland on January 19, 2026. (Courtesy of: Warren Roll)\nRead article\nRead The Article\nSHARE\nFacebook Share Icon\nX Share Icon\nSend via Email Share Icon",
-      "image_captions": [
-        "Photo of the escort ceremony for late-democratic strategist and Vietnam Veteran Bob Mulholland on January 19, 2026. (Courtesy of: Warren Roll)",
-        "FILE PHOTO — Bob Mulholland outside his Chico home on Tuesday, talking about his reaction to Kamala Harris announced as Joe Biden's running mate in the 2020 presidential election. (KRCR)"
-      ]
-    },
-    {
-      "url": "https://krcrtv.com/news/local/late-vietnam-veteran-political-strategist-bob-mulholland-honored-in-chico-escort-ceremony",
-      "page_title": "Late Vietnam veteran, political strategist Bob Mulholland honored in ...",
-      "title": "Late Vietnam veteran, political strategist Bob Mulholland honored in Chico escort ceremony",
-      "description": "The Patriot Guard Riders and Veterans Honor Guard escorted late-Chico Democratic Party Strategist and Vietnam Veteran Bob Mulholland from Chico to Sacramento on",
-      "text": "Late Vietnam veteran, political strategist Bob Mulholland honored in Chico escort ceremony\nCHICO, Calif. — The Patriot Guard Riders and Veterans Honor Guard escorted late-Chico Democratic Party Strategist and Vietnam Veteran Bob Mulholland from Chico to Sacramento on Monday morning ahead of his funeral at the Arlington National Cemetery in Virginia on Friday, January 23.\nVietnam Vets of America, Chapter 582 President Warren Roll told KRCR that there was a brief moment of remembrance before Mulholland was loaded onto a hearse, with escort assistance from Chico Police, Glenn County and others.\nMulholland passed in October of 2025 and is remembered for his veteran advocacy work in the Northstate and beyond. Roll says Mulholland was an excellent representative of the Democratic Party and had connections with prominent party members.\n\"He was a very good politician, and he'd go for us to the [Democratic] National Convention back east. He advocated for the veterans and just for how we could help them, which is what our chapter does. We do things for the common good. Any way he could help out, he would help,\" Roll said.\nThere are upcoming events to remember Mulholland's life and legacy, including a gathering at the Silver Dollar Speedway's Harvest Hall in Chico on February 21 at 1 p.m.\nAdditionally, Roll said there are two other events scheduled in Sacramento and Los Angeles later this year.\nMulholland was 78 years old and is survived by his wife, Jane Dolan.\n--",
-      "image_captions": [
-        "weather conditions are Sunny for Now",
-        "weather conditions are Partly Cloudy for Fri",
-        "weather conditions are Partly Cloudy for Sat",
-        "box outline with play symbol in the center",
-        "UserWay icon for accessibility widget"
-      ]
-    }
-  ],
-  "evidence_count": 4,
-  "crawled_at": "2026-04-23T17:06:22.589445+00:00"
-}
+[
+  {
+    "source": "www.sctimes.com",
+    "url": "https://www.sctimes.com/story/news/local/2018/10/08/make-america-great-again-donald-trump-st-cloud-great-again-john-palmer-maga-hats/1534024002/",
+    "clip_score": 0.195,
+    "optimized_evidence": "[PUBLISHED DATE]: 2018\n[TITLE]: 'Make St. Cloud Great Again' hat creator running for city council\n[METADATA/INTRO]: What's up with the 'Make St. Cloud Great Again' hats? ST. CLOUD —President Donald Trump often dons (no pun intended) a bright red hat emblazoned with his \"Make America Great Again\" slogan....\n[BEST EVIDENCE CHUNK]: What's up with the 'Make St. Cloud Great Again' hats? \n ST. CLOUD —President Donald Trump often dons (no pun intended) a bright red hat emblazoned with his \"Make America Great Again\" slogan. \n This election season, similar red hats have been popping up in St. Cloud. \n The \"Make St. Cloud Great Again\" hats were made by Liz Baklaich, who is running for St. Cloud City Council in Ward 2. Among those also seen wearing the red hats is John Palmer, who is running for city council in Ward 1. \n Both are part of C-Cubed, a group that formed last fall in response to the council defeating a resolution to pause refugee resettlement in the city."
+  },
+  {
+    "source": "www.iaprisonind.com",
+    "url": "https://www.iaprisonind.com/IPI-Blog/Meet-the-Team",
+    "clip_score": 0.1668,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Meet the Team!\n[METADATA/INTRO]: MEET THE TEAM! Iowa Prison Industries is the work arm of the Iowa Department of Corrections, providing incarcerated individuals with the opportunity for Building Brighter Futures, through our work training programs. Learn a little more about our employees and the...\n[BEST EVIDENCE CHUNK]: Meet Albert Carr! He is originally from Cedar Rapids, Iowa, and graduated from the University of Northern Iowa. He has worked at IPI for 2 years as a K-12 Sales Representative. He helps school districts maximize their space in a way that is conducive to student and staff learning situations. Before working at IPI, Albert worked at Goldman Sachs as an analyst and at Hibu, a digital marketing company. “A typical day for me is meeting with district staff about upcoming furniture projects. Also connecting with different individuals inside and outside of the prison. I usually spend time connecting with our plant managers on various tasks and projects.” His favorite project so far has been the new Oakhill Elementary School building in Tiffin, Iowa. “I loved working on new buildings there are a lot of challenges when a new building opens, but I love challenges!” Albert is 1 of 10 Siblings. He is recently married, and he and his wife love volunteering with Junior Achievement. He’s always rooting for the University of Northern Iowa even though his wife graduated from the two state schools. “My favorite thing about IPI is that we are truly making a difference in people’s lives. Not just the individuals that we train within our program, but every student and staff that we can please and meet their needs, makes me happy!”"
+  },
+  {
+    "source": "www.vox.com",
+    "url": "https://www.vox.com/recode/2021/1/13/22228203/doug-leone-donald-trump-sequoia-capital-capitol-riot",
+    "clip_score": 0.1658,
+    "optimized_evidence": "[PUBLISHED DATE]: 2021-01-13\n[TITLE]: Doug Leone of Sequoia Capital renounces his support for Donald Trump after the Capitol riot | Vox\n[METADATA/INTRO]: One of Donald Trump’s biggest backers in Silicon Valley is renouncing his support for the president in the wake of last week’s riot at the Capitol, Recode has learned. One of Donald Trump’s biggest Silicon Valley backers is renouncing his...\n[BEST EVIDENCE CHUNK]: One of the prominent voices in Silicon Valley encouraging a reconsideration in the business community is actually Leone’s close colleague, Michael Moritz, who donated millions to back Democrats this cycle. Moritz and Leone served as the two co-leaders of Sequoia for years, likely making for some spirited conversations between the two of them about politics during the Trump years. \n “Almost five years ago, I tried, in vain, to highlight for the business community Mr. Trump’s past as a conman, bully, racist, failed entrepreneur and authoritarian,” Moritz wrote in a column published in the Financial Times on Monday, not mentioning Leone or any specific business leader by name. “Many business people scoffed at this portrait of Mr. Trump — preferring to support him because they liked many of his policies. Their arguments always reminded me of the Prussian military leaders and German business magnates who thought they could control the dark tendencies of an army corporal turned political strongman in the 1920s.”"
+  }
+]

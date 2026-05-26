@@ -1,80 +1,20 @@
-{
-  "sample_id": "true_272",
-  "image_url": "https://i0.wp.com/kamenjar.com/wp-content/uploads/2016/09/cve%C4%87e.jpg?w=750&ssl=1",
-  "visual_entities": [
-    {
-      "description": "Belgrade",
-      "score": 1.7636356
-    },
-    {
-      "description": "1991",
-      "score": 0.7028
-    },
-    {
-      "description": "1991 protests in Belgrade",
-      "score": 0.6894
-    },
-    {
-      "description": "Croatian War of Independence",
-      "score": 0.5358
-    },
-    {
-      "description": "Croatia",
-      "score": 0.51600003
-    },
-    {
-      "description": "1991–1992 anti-war protests in Belgrade",
-      "score": 0.41115
-    },
-    {
-      "description": "Train",
-      "score": 0.3744
-    },
-    {
-      "description": "",
-      "score": 0.344
-    },
-    {
-      "description": "",
-      "score": 0.3182
-    },
-    {
-      "description": "September",
-      "score": 0.3101
-    },
-    {
-      "description": "Tank",
-      "score": 0.3087
-    }
-  ],
-  "best_guess_labels": [
-    "beograd 1991"
-  ],
-  "similar_image_urls": [
-    "https://static.slobodnadalmacija.hr/images/slike/2025/09/19/o_30212421_1280.jpg",
-    "https://static.slobodnadalmacija.hr/images/slike/2025/09/19/h_30212421_1280.jpg",
-    "https://static.slobodnadalmacija.hr/images/slike/2025/09/19/o_30212421_1024.jpg",
-    "https://direktno.hr/upload/publish/380172/jna_68cd096fe1711.jpg",
-    "https://ogulin.eu/wp-content/uploads/2025/08/Pprtal-tenkovi-iz-bg-ka-vu.jpg",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122229874604160196",
-    "https://prch.me/wp-content/uploads/2019/08/thumbnail_cvec%CC%81e.jpg",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10236107655527587",
-    "https://i.redd.it/do-you-think-serbia-and-croatia-will-ever-reach-a-final-v0-a9mb9fkbvvfb1.jpg?width=750&format=pjpg&auto=webp&s=24c4c54e056ccfb25b5b1d6df1824e9ac890a26c",
-    "https://kamenjar.com/wp-content/uploads/2016/09/cve%C4%87e.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://crodex.net/na-danasnji-danpoznato-bacanje-cveca-pred-tenkove-u/",
-      "page_title": "Na današnji dan:Poznato „bacanje cveća pred tenkove“ u Beogradu.",
-      "title": "Na današnji dan:Poznato „bacanje cveća pred tenkove“ u Beogradu. | CRODEX.NET",
-      "description": "Na današnji dan 19. rujna 1991. dogodilo se poznato „bacanje cveća pred tenkove“ u Beogradu. Bilo je to prilikom kretanja Prve gardijske oklopne divizije JNA (poznatije kao elitna Titova divizija) prema hrvatskom gradu heroju Vukovaru. Hrvatski branitelji Vukovara herojskom obranom su uspjeli razbiti jednu od najelitnijih oklopnih postrojbi Europe u to vrijeme. Bio je to …",
-      "text": "Na današnji dan 19. rujna 1991. dogodilo se poznato „bacanje cveća pred tenkove“ u Beogradu. Bilo je to prilikom kretanja Prve gardijske oklopne divizije JNA (poznatije kao elitna Titova divizija) prema hrvatskom gradu heroju Vukovaru.\nHrvatski branitelji Vukovara herojskom obranom su uspjeli razbiti jednu od najelitnijih oklopnih postrojbi Europe u to vrijeme.\nBio je to samo još jedno od niza „događanja naroda“ u glavnom gradu Srbije Beogradu čiji su građani masovno i učestalo sudjelovali na huškačkim ratnim mitinzima od 1987. nadalje. Tako se stvarala ratna atmosfera i podloga za agresiju na Hrvatsku i druge u cilju ostvarenja opće prihvaćene ideje Velike Srbije.\nOvaj događaj jasno pokazuje da se iz glavnog grada Srbije Beograda kretala ne samo upravljačka i huškačka agresija na Hrvatsku, već da su u toj agresiji sudjelovali i Beograđani i drugi građani susjedne Srbije. To znači da je na djelu bila agresija Srbije na Hrvatsku, a ne građanski rat kao što su hrvatski političari s ljevice, (kvazi)povjesničari, pojedini novinari i velik dio nevladinih udruga godinama pokušavali sugerirati.",
-      "image_captions": [
-        "MEĐUGORJE: STIGLA IZNENAĐUJUĆE PORUKA GOSPE ČOVJEČANSTVU. POVEZUJE SE S PAPOM crodex.net",
-        "Zamislite da se susretnu Maja Sever i taj femicid, ne znam kome bi trebalo pomagati. Borbenoj Maji svakako ne bi, jer ona je k’o i Jurasica, emancipirana, i muško, i žensko, i ovo, i ono, i gore, i dolje. crodex.net"
-      ]
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T18:10:48.459300+00:00"
-}
+[
+  {
+    "source": "pasttense.co.uk",
+    "url": "https://pasttense.co.uk/2020/07/13/today-in-london-festive-history-1996-reclaim-the-streets-re-wild-the-m41-motorway-shepherds-bush/",
+    "clip_score": 0.2475,
+    "optimized_evidence": "[PUBLISHED DATE]: 2020-07-13\n[TITLE]: Today in London festive history, 1996: Reclaim the Streets Re-Wild the M41 motorway, Shepherds Bush &#8211; LONDON RADICAL HISTORIES\n[METADATA/INTRO]: 1996 was proclaimed (by the car industry) “Year of the Car”. Reclaim The Streets turned that into ‘the Year We Squatted a Motorway’....\n[BEST EVIDENCE CHUNK]: After some debate he came up with the conclusion that he didn’t mind if he was held up because of traffic, but being held up by *people* was an absolute outrage! \n The crowds continued to build to a soundtrack of drums and car horns (not all sympathetic) until we embarked on what could only be described as a military-esque pincer movement. \n The mass split into two, one heading directly to the roundabout, the other slipping round the backstreets to meet up at the opposite entrance to the roundabout behind the police blockade.” \n At the opposite end of the motorway the blockade crew, aware that people had arrived, went for it; outmanoeuvring police spotters, they ran onto the road, crashed two cars to block the road, and quickly threw up three tripods across the southbound carriageway. At the foot of the convoy two sound system vehicles drove on, chased by dozens of cops on foot, who managed to surround the vehicles on the empty motorway."
+  },
+  {
+    "source": "metrography.org",
+    "url": "https://metrography.org/the-fall-of-the-berlin-wall-by-david-hornback/",
+    "clip_score": 0.2109,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: The Fall of the Berlin Wall BY David Hornback &#8211; Metrography\n[METADATA/INTRO]: As the 20th century approached its conclusion, an event of extraordinary historical importance unfolded against the backdrop of Berlin, a city divided for decades. On November 9, 1989, a mere five days after a massive assembly of half a million...\n[BEST EVIDENCE CHUNK]: “The news became bigger and bigger and soon thousands of East Germans were crowding at the crossing points to West Berlin and slowly crossing over. The news became international and major broadcast stations began to show the crossings. The soldiers, who previously had had orders to shoot anyone attempting to cross, put their guns down. People began climbing onto the walls and no one did anything to them,” describes Hornback when reflecting on that historic day. Photos: David Hornback."
+  },
+  {
+    "source": "moneyweek.com",
+    "url": "https://moneyweek.com/412986/9-november-1989-the-fall-of-the-berlin-wall",
+    "clip_score": 0.2038,
+    "optimized_evidence": "[PUBLISHED DATE]: 2015-11-09\n[TITLE]: 9 November 1989: the fall of the Berlin Wall | MoneyWeek\n[METADATA/INTRO]: When the world split into East and West after the Second World War, Berlin became an anomaly. Split into four sectors, it was run jointly by the USSR and the Western powers. Crossing between the various zones was easy, and,...\n[BEST EVIDENCE CHUNK]: Don't miss the latest investment and personal finances news, market analysis, plus money-saving tips with our free twice-daily newsletter \n It became a potent symbol of the Cold War; a backdrop for spy thrillers and presidential grandstanding. Many people thought it would become a permanent feature. \n But towards the end of the 1980s, cracks began to appear in the Communist bloc. Political change was under way in Poland. And in Hungary, the Pan European Picnic saw thousands cross the border into Austria. \n Emboldened by these events, East Germans began protesting. And on this day in 1989, the East German government announced it was to allow its citizens to cross the border. Thousands of them streamed over on foot and in their Trabants. West Germans flocked to the wall to greet them, and began to rip sections down."
+  }
+]

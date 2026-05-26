@@ -1,72 +1,20 @@
-{
-  "sample_id": "false_25",
-  "image_url": "https://media.istockphoto.com/id/639010606/photo/fishing-boat-frozen-in-at-iqaluit-frobisher-bay-nunavut-canada.jpg?s=612x612&w=0&k=20&c=xP7AJ-OH7n23OcXjheJkPzL2jEK6xgK1HU-zpMGQtwU=",
-  "visual_entities": [
-    {
-      "description": "Snow",
-      "score": 0.76419497
-    },
-    {
-      "description": "Ship",
-      "score": 0.70905
-    },
-    {
-      "description": "Iqaluit",
-      "score": 0.68079007
-    },
-    {
-      "description": "Ferry",
-      "score": 0.38159257
-    },
-    {
-      "description": "hot",
-      "score": 0.3524
-    },
-    {
-      "description": "Boat",
-      "score": 0.3037
-    }
-  ],
-  "best_guess_labels": [
-    "snow"
-  ],
-  "similar_image_urls": [
-    "https://media.istockphoto.com/id/639010606/es/foto/barco-de-pesca-congelado-en-iqaluit-frobisher-bay-nunavut-canad%C3%A1.jpg?s=612x612&w=0&k=20&c=nUTYbFiTEUBoXungiMyD-SkFopfeLEur0i-JKcgbTBQ="
-  ],
-  "evidence": [
-    {
-      "url": "https://www.istockphoto.com/photos/nunavut-canada-arctic-fishing",
-      "page_title": "22 Nunavut Canada Arctic Fishing Images and Stock Photos - iStock",
-      "title": "iStock",
-      "description": "iStock. Khám phá trang web chính thức của iStock để có hàng triệu tệp tin sẵn có độc quyền, trả phí bản quyền một lần. Tìm kho ảnh hoàn hảo cho dự án của bạn một cách nhanh chóng. Tìm kiếm ngay bây giờ.",
-      "text": "474493044, egal",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.istockphoto.com/photo/fishing-boat-frozen-in-at-iqaluit-frobisher-bay-nunavut-canada-gm639010606-114929761",
-      "page_title": "Fishing boat frozen in at Iqaluit, Frobisher Bay, Nunavut, Canada....",
-      "title": "iStock",
-      "description": "iStock. Khám phá trang web chính thức của iStock để có hàng triệu tệp tin sẵn có độc quyền, trả phí bản quyền một lần. Tìm kho ảnh hoàn hảo cho dự án của bạn một cách nhanh chóng. Tìm kiếm ngay bây giờ.",
-      "text": "474493044, egal",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.istockphoto.com/es/fotos/baffin-bay",
-      "page_title": "46 imágenes y fotos de stock de Baffin Bay - iStock",
-      "title": "iStock",
-      "description": "iStock. Explora millones de fotos, imágenes, vectores y vídeos libres de derechos a unos precios irresistibles.",
-      "text": "815056538, valentinrussanov",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.istockphoto.com/fr/photo/bateau-de-p%C3%AAche-gel%C3%A9-%C3%A0-iqaluit-baie-frobisher-nunavut-canada-gm639010606-114929761",
-      "page_title": "Bateau de pêche gelé à Iqaluit, Baie Frobisher, Nunavut, Canada",
-      "title": "iStock",
-      "description": "iStock. Visitez le site officiel iStock et découvrez des millions de fichiers exclusifs et libres de droits. Trouvez rapidement le fichier parfait pour votre projet.",
-      "text": "607754736, stock_colors",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 4,
-  "crawled_at": "2026-04-23T16:52:20.588565+00:00"
-}
+[
+  {
+    "source": "www.cryopolitics.com",
+    "url": "https://www.cryopolitics.com/2015/10/14/a-new-class-of-polar-explorers-arises-as-arctic-cruise-industry-expands/",
+    "clip_score": 0.2245,
+    "optimized_evidence": "[PUBLISHED DATE]: 2015-10-14\n[TITLE]: New class of polar explorers arises as Arctic cruise industry expands - CRYOPOLITICS\n[METADATA/INTRO]: In August, just as the short polar cruising season was winding down to a close, I sat down in a canteen at Moscow State University with Tatiana Posepelova, a business student and lover of extreme travel. She had just returned...\n[BEST EVIDENCE CHUNK]: The icebreaker set out from the port city of Murmansk, built during the Soviet era. The city lies on the edge of northwest Russia on the Barents Sea just under 69°N. Around 75°N to 77°N, the ice started appearing. Tatiana remembered that the sound of an icebreaker resembled the constant chugging of a train. As they traveled north, they saw a polar bear, face violently bloody from the carcass of a bird. Whale spouts sprayed up out of the water. A single sublime mountain emerged almost cartoonishly from water and ice. Walruses huddled together on ice floes while seagulls took shelters in the nooks and crannies of mossy cliffs. Here in living color – red, blue, white, black – was the Arctic wilderness of glossy cruise catalogs."
+  },
+  {
+    "source": "www.westarctica.wiki",
+    "url": "https://www.westarctica.wiki/index.php?title=USS_Glacier&mobileaction=toggle_view_desktop",
+    "clip_score": 0.2205,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: USS Glacier - Encyclopedia Westarctica\n[METADATA/INTRO]: USS Glacier The USS Glacier (AGB-4) was a U.S. Navy, then U.S. Coast Guard icebreaker which served in the first through fifteenth Operation Deep Freeze expeditions. Glacier was first icebreaker to make her way through the frozen Bellingshausen Sea, and...\n[BEST EVIDENCE CHUNK]: Coast Guard operations, 1966–1987 \n Prior to her transfer to the U.S. Coast Guard, Glacier had her smaller armament removed. In 1968, the 5-inch guns were also removed. Only M2 Browning machine guns, M60 machine guns and small arms were retained for law enforcement purposes. During 1973, she and her helicopters were painted red for improved Arctic visibility. \n In 1975, the Glacier was trapped in ice in Antarctica for six days, finally breaking free and escaping into the waters of Antarctic Sound on 10 March 1975, the Coast Guard in Long Beach, California, reported, the vessel's homeport. \"She backed and rammed her way to the open sea with the use of only one of her two propellers,\" said the Coast Guard. Two of the three blades on her other screw were sheared off by \"steel hard ice\" on Wednesday 5 March, while en route to assist an Argentine icebreaker, the Gen. San Martin, which had engine trouble while on a supply mission to a south polar scientific base. The Argentine ship made its way to freedom on its own."
+  },
+  {
+    "source": "www.linkedin.com",
+    "url": "https://www.linkedin.com/pulse/rendezvous-middle-nowhere-british-antarctic-survey-jztme",
+    "clip_score": 0.2188,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: A rendezvous in the middle of nowhere\n[METADATA/INTRO]: A rendezvous in the middle of nowhere Antarctica, January 2025. Three expert teams are making their way across the stark frozen landscape, by sea, land and air - and they are planning to meet. Jamie Oliver shares an eye-witness account...\n[BEST EVIDENCE CHUNK]: Several hours of crunching cleared the creek of sea ice, allowing us access to the cliff. The crew used the ship’s crane innovatively as a sort of ‘cheese wire’ to clean off the overhanging snow cornice, and on 2 January the ship inched into position. The ice cliff was 15m high, level with Deck 6 (the ship’s helideck) and at the limit for crane operations. The field guides were deployed to assess the top of the ice shelf. \n As the first of the ship’s company to set foot on the shelf, their job was to check for crevasses – hidden cracks in the ice – via hand-held probes and a ground-penetrating radar attached to a snowmobile. As the hours passed the safe zone gradually expanded, becoming a flagged area 120m long and 100m wide."
+  }
+]

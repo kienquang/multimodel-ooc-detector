@@ -1,88 +1,20 @@
-{
-  "sample_id": "true_75",
-  "image_url": "https://mediaproxy.snopes.com/width/1200/https://media.snopes.com/2019/12/GettyImages-1157405926.jpg",
-  "visual_entities": [
-    {
-      "description": "Toronto Raptors",
-      "score": 1.49955
-    },
-    {
-      "description": "Toronto",
-      "score": 0.99105
-    },
-    {
-      "description": "NBA",
-      "score": 0.81810004
-    },
-    {
-      "description": "The NBA Finals",
-      "score": 0.5052
-    },
-    {
-      "description": "Larry O'Brien Championship Trophy",
-      "score": 0.4825
-    },
-    {
-      "description": "Toronto FC",
-      "score": 0.47175002
-    },
-    {
-      "description": "Victory parade",
-      "score": 0.4009
-    },
-    {
-      "description": "Championship",
-      "score": 0.3164
-    }
-  ],
-  "best_guess_labels": [
-    "soccer-specific stadium"
-  ],
-  "similar_image_urls": [
-    "https://media.gettyimages.com/id/1157405926/photo/toronto-on-an-aerial-photo-of-fans-as-they-gather-at-nathan-phillips-square-for-the-toronto.jpg?s=612x612&w=gi&k=20&c=-26DHc4RpE6AvPbK0BZJXbtKSBvSo78BFnuJRCbtAQ8="
-  ],
-  "evidence": [
-    {
-      "url": "https://www.gettyimages.com/photos/toronto-championship-parade",
-      "page_title": "700 Toronto Championship Parade Images and Stock Photos",
-      "title": "Getty Images",
-      "description": "Getty Images. Find high resolution royalty-free images, editorial stock photos, vector art, video footage clips and stock music licensing at the richest image search photo library online.",
-      "text": "d3sign\n818362142\nUser validation",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.gettyimages.in/detail/news-photo/toronto-raptors-mascot-and-toronto-mayor-john-tory-reveal-news-photo/1150406570",
-      "page_title": "Toronto Raptors Victory Parade & Rally - Getty Images",
-      "title": "Getty Images",
-      "description": "Getty Images India. Find high resolution royalty-free images, editorial stock photos, vector art, video footage clips and stock music licensing at the richest image search photo library online.",
-      "text": "ViewStock\n886771796\nUser validation",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.gettyimages.com/detail/news-photo/the-private-plane-belonging-to-drake-with-the-ovo-insignia-news-photo/1156810367",
-      "page_title": "Toronto Raptors Victory Parade & Rally - Getty Images",
-      "title": "Getty Images",
-      "description": "Getty Images. Find high resolution royalty-free images, editorial stock photos, vector art, video footage clips and stock music licensing at the richest image search photo library online.",
-      "text": "d3sign\n818362142\nUser validation",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.gettyimages.com/detail/news-photo/rapper-drake-greets-prime-minister-of-canada-justin-trudeau-news-photo/1150406423",
-      "page_title": "Toronto Raptors Victory Parade & Rally - Getty Images",
-      "title": "Getty Images",
-      "description": "Getty Images. Find high resolution royalty-free images, editorial stock photos, vector art, video footage clips and stock music licensing at the richest image search photo library online.",
-      "text": "d3sign\n818362142\nUser validation",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.gettyimages.in/photos/aerials-of-toronto",
-      "page_title": "709 Aerials Of Toronto Stock Photos, High-Res Pictures, and Images",
-      "title": "Getty Images",
-      "description": "Getty Images India. Find high resolution royalty-free images, editorial stock photos, vector art, video footage clips and stock music licensing at the richest image search photo library online.",
-      "text": "ViewStock\n886771796\nUser validation",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 5,
-  "crawled_at": "2026-04-23T17:11:02.035762+00:00"
-}
+[
+  {
+    "source": "www.theglobeandmail.com",
+    "url": "https://www.theglobeandmail.com/canada/toronto/article-toronto-raptors-celebration-parade-marred-by-violence-transit/",
+    "clip_score": 0.2061,
+    "optimized_evidence": "[PUBLISHED DATE]: 2019-06-17\n[TITLE]: Toronto Raptors celebration parade marred by violence, transit shutdowns - The Globe and Mail\n[METADATA/INTRO]: Enormous crowds filled downtown Toronto on Monday to cheer on their team as the city celebrated its first NBA Championship, and first major championship in more than 20 years – but the festivities were marred by several isolated incidents. Hundreds...\n[BEST EVIDENCE CHUNK]: Enormous crowds of Raptors fans packed a route through Toronto’s downtown to see the NBA champions first-hand. Hours later than scheduled, the team arrived at Nathan Phillips Square where they thanked fans for the outpouring of support. \n But authorities had estimated Sunday that close to two million people would show up to watch the parade. \n Stephen Doig, a professor at Arizona State University and an expert on crowd-size estimation, looked at aerial photos of the crowds and estimated the number was likely 600,000 at the most. \n “You are safe to say ‘hundreds of thousands’ came out to see the parade. That’s a fabulous crowd, and a great credit to the Raptors and their fans. But saying 'two million’ is, frankly, ridiculous,\" he said."
+  },
+  {
+    "source": "www.theglobeandmail.com",
+    "url": "https://www.theglobeandmail.com/canada/gallery-in-photos-nba-champion-toronto-raptors-celebrate-historic-win-with/",
+    "clip_score": 0.1961,
+    "optimized_evidence": "[PUBLISHED DATE]: 2019-06-17\n[TITLE]: In Photos: NBA Champion Toronto Raptors celebrate historic win with downtown parade - The Globe and Mail\n[METADATA/INTRO]: Raptors guard Kyle Lowry holds the Larry O'Brien Championship Trophy up for the fans.Frank Gunn/The Canadian Press Fans fill Nathan Phillips Square and surrounding streets to celebrate the Raptors championship.Fred Lum...\n[BEST EVIDENCE CHUNK]: A fan dressed as a dinosaur walks through the crowd during the Toronto Raptors NBA Championship celebration parade.HYUNGWON KANG/Reuters \n Fans look for a higher vantage point to see above the crowd of people during the Toronto Raptors NBA Championship Parade in Toronto on Monday, June 17, 2019. THE CANADIAN PRESS/Tijana MartinTijana Martin/The Canadian Press \n Toronto fans climb a truck in front of the city hall during the Toronto Raptors celebration parade.HYUNGWON KANG/Reuters \n Raptors centre Marc Gasol calls out to the crowd.Nick Turchiaro/USA TODAY Sports via Reuters \n Raptors Pascal Siakam sprays the crowd from the bus.Nick Turchiaro/USA TODAY Sports via Reuters"
+  },
+  {
+    "source": "ftw.usatoday.com",
+    "url": "https://ftw.usatoday.com/story/sports/nba/2019/06/17/raptors-parade-drake-kawhi-photos/81617441007/",
+    "clip_score": 0.1932,
+    "optimized_evidence": "[PUBLISHED DATE]: 2019\n[TITLE]: The 13 best photos of the Raptors championship parade\n[METADATA/INTRO]: The 13 best photos of the Raptors championship parade Charles Curtis...\n[BEST EVIDENCE CHUNK]: The 13 best photos of the Raptors championship parade \n June 17, 2019, 2:40 p.m. ET \n The overhead shots from news helicopters of the Toronto Raptors parade were stunning, showing what looked like the entire city coming out to pay tribute to the 2018-19 NBA champions who took down the Golden State Warriors in six games. \n Up close, there was so much to take in. There was Fake Kawhi Leonard, and the real one's \"Board man gets paid\" shirt. There were fantastic signs and Drake, along with Drake's custom 767 \"Air Drake\" plane flying over. And of course there was Kyle Lowry trying to get Leonard to re-sign with the franchise by getting fans in on the act."
+  }
+]

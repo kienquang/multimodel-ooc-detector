@@ -1,127 +1,20 @@
-{
-  "sample_id": "true_288",
-  "image_url": "https://cdn.kqed.org/wp-content/uploads/sites/43/2020/03/GettyImages-1213582749-1-1920x1040.jpg",
-  "visual_entities": [
-    {
-      "description": "Corridor",
-      "score": 0.7348089
-    },
-    {
-      "description": "United States",
-      "score": 0.6936
-    },
-    {
-      "description": "Pronunciation",
-      "score": 0.6088
-    },
-    {
-      "description": "",
-      "score": 0.4624
-    },
-    {
-      "description": "Language",
-      "score": 0.4499
-    },
-    {
-      "description": "Cambridge Dictionary",
-      "score": 0.4039
-    },
-    {
-      "description": "English (United States)",
-      "score": 0.382
-    },
-    {
-      "description": "expected",
-      "score": 0.3624
-    },
-    {
-      "description": "finished",
-      "score": 0.3459
-    },
-    {
-      "description": "Phonetics",
-      "score": 0.3405
-    },
-    {
-      "description": "",
-      "score": 0.3377
-    },
-    {
-      "description": "Cambridge English",
-      "score": 0.3377
-    },
-    {
-      "description": "Supermarket",
-      "score": 0.3328
-    },
-    {
-      "description": "2130",
-      "score": 0.3132
-    }
-  ],
-  "best_guess_labels": [
-    "aisle"
-  ],
-  "similar_image_urls": [
-    "https://ww2.kqed.org/app/uploads/sites/43/2020/03/GettyImages-1213582749-1-1920x1040.jpg",
-    "https://ww2.kqed.org/app/uploads/sites/43/2020/03/GettyImages-1213582749-1.jpg",
-    "https://ww2.kqed.org/app/uploads/sites/43/2020/03/GettyImages-1213582749-1-1038x576.jpg",
-    "https://cdn.hk01.com/di/media/images/dw/20250430/994287851816357888160894.jpeg/W4OIelYtTYUCzEm_hXYHLAwi8ovkrhkTbbmPX225j18",
-    "https://ww2.kqed.org/app/uploads/sites/43/2020/03/GettyImages-1213582749-1-1020x553.jpg",
-    "https://ww2.kqed.org/app/uploads/sites/43/2020/03/GettyImages-1213582749-1-800x433.jpg",
-    "https://www.univision.com/api/image/x/us/local/dallas-kuvn/algunos-supermercados-del-norte-de-texas-parecen-vacios-ante-la-llegada-de-la-tormenta-invernal-video",
-    "https://ww2.kqed.org/app/uploads/sites/43/2020/03/GettyImages-1213582749-1-768x416.jpg",
-    "https://ww2.kqed.org/app/uploads/sites/43/2020/03/GettyImages-1213582749-1-672x372.jpg",
-    "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA213dMV.img?w=768&h=498&m=4&q=70"
-  ],
-  "evidence": [
-    {
-      "url": "https://dictionary.cambridge.org/us/pronunciation/english/aisle",
-      "page_title": "How to pronounce AISLE in English - Cambridge Dictionary",
-      "title": "How to pronounce AISLE in English",
-      "description": "How to pronounce AISLE. How to say AISLE. Listen to the audio pronunciation in the Cambridge English Dictionary. Learn more.",
-      "text": "English pronunciation of aisle\naisle\nHow to pronounce aisle\nUK/aɪl/\nUS/aɪl/\nUK/aɪl/ aisle\n- /aɪ/ as in eye\n- /l/ as in look\nUS/aɪl/ aisle\n- /aɪ/ as in eye\n- /l/ as in look\n(English pronunciations of aisle from the Cambridge Advanced Learner's Dictionary & Thesaurus and from the Cambridge Academic Content Dictionary, both sources © Cambridge University Press)",
-      "image_captions": [
-        "Cambridge Dictionary Online",
-        "{{randomImageQuizHook.quizId}}",
-        "Wild horses and gift horses (Idioms with the word ‘horse’)"
-      ]
-    },
-    {
-      "url": "https://www.signingsavvy.com/sign/AISLE/7326/1",
-      "page_title": "Sign for AISLE - Signing Savvy",
-      "title": "Sign for AISLE",
-      "description": "Sign language video of the sign AISLE",
-      "text": "AISLE\nWhat is being signed (English Meaning)\nAISLE\nSign Type\nSign Description\nAvailable to full members. Login or sign up now!\nMemory Aid\nAvailable to full members. Login or sign up now!\nThis Sign is Used to Say (Sign Synonyms)\nExample Sentence\nAvailable to full members. Login or sign up now!\nSign Variations for this Word\nAdd to Word List\nThe ability to create word lists is available full members. Login or sign up now! to use this feature.\nADVERTISEMENTS\nADVERTISEMENTS",
-      "image_captions": []
-    },
-    {
-      "url": "https://youglish.com/pronounce/aisle/english/us",
-      "page_title": "5310 pronunciations of Aisle in American English - Youglish",
-      "title": "Bot detection!",
-      "description": "",
-      "text": "Toggle navigation\nLogin\nSign up\nDaily Lessons\nSubmit\nGet your widget\nDonate!\nSubmit",
-      "image_captions": [
-        "Largest English pronunciation resource on the web. How to pronounce any word in English. YouGlish"
-      ]
-    },
-    {
-      "url": "https://music.apple.com/us/artist/aisle/1437273124",
-      "page_title": "Aisle - Apple Music",
-      "title": "Aisle on Apple Music",
-      "description": "Listen to music by Aisle on AppleÂ Music.",
-      "text": "Search\nHome\nNew\nRadio\nSearch\nOpen in Music\nAisle\nSelect a country or region\nAfrica, Middle East, and India\nSee All\nAlgeria\nAngola\nArmenia\nAzerbaijan\nBahrain\nBenin\nBotswana\nCameroun\nCape Verde\nChad\nCÃ´te dâIvoire\nCongo, The Democratic Republic Of The\nEgypt\nEswatini\nGabon\nGambia\nGhana\nGuinea-Bissau\nIndia\nIraq\nIsrael\nJordan\nKenya\nKuwait\nLebanon\nLiberia\nLibya\nMadagascar\nMalawi\nMali\nMauritania\nMauritius\nMorocco\nMozambique\nNamibia\nNiger (English)\nNigeria\nOman\nQatar\nCongo, Republic of\nRwanda\nSaudi Arabia\nSenegal\nSeychelles\nSierra Leone\nSouth Africa\nSri Lanka\nTajikistan\nTanzania, United Republic Of\nTunisia\nTurkmenistan\nUnited Arab Emirates\nUganda\nYemen\nZambia\nZimbabwe\nAsia Pacific\nSee All\nAustralia\nBhutan\nCambodia\nä¸å½å¤§é\nFiji\né¦æ¸¯\nIndonesia (English)\næ¥æ¬\nKazakhstan\nëíë¯¼êµ\nKyrgyzstan\nLao People's Democratic Republic\næ¾³é\nMalaysia (English)\nMaldives\nMicronesia, Federated States of\nMongolia\nMyanmar\nNepal\nNew Zealand\nPapua New Guinea\nPhilippines\nSingapore\nSolomon Islands\nå°ç£\nThailand\nTonga\nTurkmenistan\nUzbekistan\nVanuatu\nVietnam\nEurope\nSee All\nArmenia\nÃsterreich\nBelarus\nBelgium\nBosnia and Herzegovina\nBulgaria\nCroatia\nCyprus\nCzechia\nDenmark\nEstonia\nFinland\nFrance (FranÃ§ais)\nGeorgia\nDeutschland\nGreece\nHungary\nIceland\nIreland\nItalia\nKosovo\nLatvia\nLithuania\nLuxembourg (English)\nMalta\nMoldova, Republic Of\nMontenegro\nNederland\nNorthÂ Macedonia\nNorway\nPoland\nPortugal (PortuguÃªs)\nRomania\nÐ Ð¾ÑÑÐ¸Ñ\nSerbia\nSlovakia\nSlovenia\nEspaÃ±a\nSverige\nSchweiz\nTÃ¼rkiye (English)\nUkraine\nUnited Kingdom\nLatin America and the Caribbean\nSee All\nAnguilla\nAntigua and Barbuda\nArgentina (EspaÃ±ol)\nBahamas\nBarbados\nBelize\nBermuda\nBolivia (EspaÃ±ol)\nBrasil\nVirgin Islands, British\nCayman Islands\nChile (EspaÃ±ol)\nColombia (EspaÃ±ol)\nCosta Rica (EspaÃ±ol)\nDominica\nRepÃºblica Dominicana\nEcuador (EspaÃ±ol)\nEl Salvador (EspaÃ±ol)\nGrenada\nGuatemala (EspaÃ±ol)\nGuyana\nHonduras (EspaÃ±ol)\nJamaica\nMÃ©xico\nMontserrat\nNicaragua (EspaÃ±ol)\nPanamÃ¡\nParaguay (EspaÃ±ol)\nPerÃº\nSt. Kitts and Nevis\nSaint Lucia\nSt. Vincent and The Grenadines\nSuriname\nTrinidad and Tobago\nTurks and Caicos\nUruguay (English)\nVenezuela (EspaÃ±ol)\nThe United States and Canada\nSee All\nCanada (English)\nCanada (FranÃ§ais)\nUnited States\nEstados Unidos (EspaÃ±ol MÃ©xico)\nØ§ÙÙÙØ§ÙØ§Øª Ø§ÙÙ ØªØØ¯Ø©\nÐ¡Ð¨Ð\nç¾å½ (ç®ä½ä¸æ)\nÃtats-Unis (FranÃ§ais France)\në¯¸êµ\nEstados Unidos (PortuguÃªs Brasil)\nHoa Ká»³\nç¾å (ç¹é«ä¸æå°ç£)",
-      "image_captions": []
-    },
-    {
-      "url": "https://aisle.chat/sign_up/new-aisle/",
-      "page_title": "Drop a link to any post, video, article, or site... - Aisle",
-      "title": "Drop a link to any post, video, article, or site...",
-      "description": "",
-      "text": "✅ Link received—Click \"Try Aisle\" to continue!\n📱 Create Aisles in one tap!\nAdd Aisle to home screen & share directly from any app",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 5,
-  "crawled_at": "2026-04-23T18:52:07.798548+00:00"
-}
+[
+  {
+    "source": "www.komu.com",
+    "url": "https://www.komu.com/news/nationworld/heres-why-grocery-stores-are-struggling-to-stock-their-empty-shelves/article_3acf448e-4c43-5f20-b4c8-24a05ffd7f3a.html",
+    "clip_score": 0.2443,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Here's why grocery stores are struggling to stock their empty shelves | Nation &amp; World News | komu.com\n[METADATA/INTRO]: Grocery store shelves across America are wiped clean, and they're staying empty as stores struggle to quickly restock everyday necessities such as milk, bread, meat, canned soups and cleaning products. Disgruntled shoppers have unleashed their frustration on social media over...\n[BEST EVIDENCE CHUNK]: Grocery store shelves across America are wiped clean, and they're staying empty as stores struggle to quickly restock everyday necessities such as milk, bread, meat, canned soups and cleaning products. \n Disgruntled shoppers have unleashed their frustration on social media over the last several days, posting photos on Twitter of bare shelves at Trader Joe's locations, Giant Foods and Publix stores, among many others. \n After contending with two years of a pandemic and supply chain-related problems, grocery stores still aren't getting the break they had hoped for. Rather, they are now confronting a host of other setbacks. \n As the highly contagious variant of the Covid-19 virus continues to sicken workers, it's creating staffing shortages for critical functions like transportation and logistics, which in turn are affecting delivery of products and restocking of store shelves across the country."
+  },
+  {
+    "source": "www.ipsos.com",
+    "url": "https://www.ipsos.com/en-us/social-media-supermarket-bars-coronavirus",
+    "clip_score": 0.2249,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: How News About Coronavirus Disruptions Is Spreading on Social Media | Ipsos\n[METADATA/INTRO]: How News About Coronavirus Disruptions Is Spreading on Social Media First it was schools, museums, and office buildings. Now entire cities and states in the United States are going into lockdown mode to contain the spread of the coronavirus....\n[BEST EVIDENCE CHUNK]: Talk of empty shelves began earlier in the week, from March 7-14, but was more muted and primarily localized in urban areas. \n By comparison, conversations about bar and restaurant closures are more widespread, animating social media networks in both rural and urban counties. Most activity took place in the same cities talking about empty supermarkets, like New York, Seattle, Los Angeles and Las Vegas. Similarly, these are areas with a higher population density and more restaurants and bars. \n According to Ipsos Biosurveillance Atlas analysis, the emotions most frequently expressed on Twitter and Facebook about supermarket shelves being empty and bar and restaurant closures are fear and distrust of the government. Bar and restaurant closures are generating more sadness and anger than fear. Empty shelves in grocery stores and supermarkets are generating a greater sense of alarm than sadness or anger."
+  },
+  {
+    "source": "www.kqed.org",
+    "url": "https://www.kqed.org/forum/2010101876564/how-growers-and-grocers-are-keeping-people-fed-during-a-pandemic-2",
+    "clip_score": 0.2234,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: How Growers and Grocers Are Keeping People Fed During a Pandemic | KQED\n[METADATA/INTRO]: Empty shelves at grocery stores are fueling anxiety about food scarcity as people shelter in place to avoid spreading or contracting coronavirus. Despite this rising concern, growers and grocers are assuring citizens not to panic — America won’t run out...\n[BEST EVIDENCE CHUNK]: A section of empty shelves at Northgate Gonzalez Market, a Hispanic specialty supermarket, on March 19, 2020 in Los Angeles, California. (Mario Tama/Getty Images) \n Ronald Fong, president and CEO, California Grocers Association \n Geoffrey Mohan, reporter, Los Angeles Times \n Armando Elenes, secretary and treasurer, United Farm Workers"
+  }
+]

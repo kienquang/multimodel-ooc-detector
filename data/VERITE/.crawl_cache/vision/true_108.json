@@ -1,66 +1,20 @@
-{
-  "sample_id": "true_108",
-  "image_url": "https://pbs.twimg.com/media/D29uQTaX4AA2qnk?format=jpg&name=small",
-  "visual_entities": [
-    {
-      "description": "Barbie",
-      "score": 1.1907461
-    },
-    {
-      "description": "Mattel",
-      "score": 0.7219
-    },
-    {
-      "description": "",
-      "score": 0.7219
-    },
-    {
-      "description": "Mattel",
-      "score": 0.6166
-    },
-    {
-      "description": "Party",
-      "score": 0.5968
-    },
-    {
-      "description": "Doll",
-      "score": 0.5362
-    },
-    {
-      "description": "Ken",
-      "score": 0.5118
-    },
-    {
-      "description": "Mug",
-      "score": 0.496
-    },
-    {
-      "description": "Original",
-      "score": 0.3897
-    }
-  ],
-  "best_guess_labels": [
-    "barbie"
-  ],
-  "similar_image_urls": [
-    "https://www.geekmi.news/__export/1689794532469/sites/debate/img/2023/07/19/disexo_sin_txtulo_x9x.jpg_1758632412.jpg",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=287606170446206",
-    "https://img.elo7.com.br/product/360x360/4AB9D13/painel-sublimado-redondo-tema-barbie-1-50x1-50-aniversario.jpg",
-    "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3149358546257223531",
-    "https://i.ebayimg.com/images/g/CJYAAeSwk69pgF1U/s-l300.jpg",
-    "https://http2.mlstatic.com/D_Q_NP_2X_799638-MLM82054983425_012025-P.webp",
-    "https://i.ytimg.com/vi/XQtELP4BDWE/maxresdefault.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.mercadolibre.com.mx/taza-grande-para-cafe-ceramica-barbie-65-anos-mattel-500ml-color-rosa/p/MLM42090059",
-      "page_title": "Taza Grande Para Café Cerámica Barbie 65 Años Mattel 500ml ...",
-      "title": "Mercado Libre",
-      "description": "",
-      "text": "¡Hola! Para continuar, ingresa a\ntu cuenta\ntrace-id: 661189ec-990b-44a4-ae52-351e6f19cea0\n¡Hola! Para continuar, ingresa a\ntu cuenta\ntrace-id: 661189ec-990b-44a4-ae52-351e6f19cea0\nUsamos cookies para mejorar tu experiencia en Mercado Libre. Consultar más en nuestro Centro de Privacidad.",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T17:20:19.596263+00:00"
-}
+[
+  {
+    "source": "www.pinterest.com",
+    "url": "https://www.pinterest.com/wflocallyai/barbie-girl/",
+    "clip_score": 0.3025,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: 370 Barbie girl ideas | barbie girl, barbie, barbie dolls\n[METADATA/INTRO]: Barbie is a fashion doll and fictional character (Barbara Millicent Roberts) manufactured by American toy company Mattel, Inc. and launched on March 9, 1959. American businesswoman Ruth Handler is credited with the creation of the doll using a German doll...\n[BEST EVIDENCE CHUNK]: Barbie is a fashion doll and fictional character (Barbara Millicent Roberts) manufactured by American toy company Mattel, Inc. and launched on March 9, 1959. American businesswoman Ruth Handler is credited with the creation of the doll using a German doll called Bild Lilli as her inspiration"
+  },
+  {
+    "source": "www.refinery29.com",
+    "url": "https://www.refinery29.com/en-us/2016/03/105339/barbie-history-weird",
+    "clip_score": 0.2861,
+    "optimized_evidence": "[PUBLISHED DATE]: 2016\n[TITLE]: Barbie History, Weirdest Dolls\n[METADATA/INTRO]: ADVERTISEMENT This story was originally published on March 9, 2016....\n[BEST EVIDENCE CHUNK]: This story was originally published on March 9, 2016. \n March 9 is National Barbie Day. I assume we’re all wearing our best waist cinchers and sky-high heels while aspiring to unrealistic body standards in observance of the occasion. Barbie Millicent Roberts, who hails from the fictional town of Willows, WI, first hit the scene in 1959. According to this vintage commercial, you could buy the first Barbie doll for just $3. Her outfits and accessories ranged in price from $1 to $5. \n Barbie has had many identities and gone through a lot of changes since then. She’s also assumed the guise of many celebrities — some of them quite surprising. Even though Barbie has been everything from an astronaut to a computer engineer (what a kerfuffle that turned out to be), it wasn’t until 2004 that she got a belly button. And it wasn’t until 2016 that Mattel announced it’s introducing three new body types to its Fashionistas range of dolls. The new Barbies come in curvy, tall, and petite body types, and they're also available in seven skin tones, 22 eye colors, and 24 hairstyles."
+  },
+  {
+    "source": "maldita.es",
+    "url": "https://maldita.es/malditobulo/20200929/muneca-barbie-aborto/",
+    "clip_score": 0.286,
+    "optimized_evidence": "[PUBLISHED DATE]: 2020-09-29\n[TITLE]: No, esta &quot;Barbie de aborto&quot; no es real: se hizo durante una campaña electoral en EE.UU. para señalar a una candidata demócrata · Maldita.es\n[METADATA/INTRO]: Nos estáis volviendo a preguntar por la imagen de una Barbie creada supuestamente para que los niños \"jueguen con el aborto\". Sin embargo, no es una Barbie real, sino que fue creada por un artista para señalar a la candidata...\n[BEST EVIDENCE CHUNK]: Nos estáis volviendo a preguntar por la imagen de una Barbie creada supuestamente para que los niños \"jueguen con el aborto\". Sin embargo, no es una Barbie real, sino que fue creada por un artista para señalar a la candidata demócrata en Texas Wendy Davis, quien se había mostrado a favor del aborto. Mattel, la empresa que fabrica las Barbie, ha negado en varias ocasiones que hayan producido o apoyado la creación de la \"Barbie de aborto\". \n La imagen viral es una versión recortada de otra en la que se ve que en la caja del juguete pone \"Wendy Davis for Texas State Governor\". Davis fue una senadora estatal de Texas que se presentó a gobernadora por el Partido Demócrata en 2014 y a la que algunos detractores apodaron como \"Abortion Barbie\" por mostrarse a favor del aborto."
+  }
+]

@@ -1,93 +1,20 @@
-{
-  "sample_id": "true_3",
-  "image_url": "https://mediaproxy.snopes.com/width/1200/https://media.snopes.com/2022/11/3d-rendering-andre-the-giant.png",
-  "visual_entities": [
-    {
-      "description": "Jheri Redding",
-      "score": 10.6605
-    },
-    {
-      "description": "Jheri curl",
-      "score": 1.1853178
-    },
-    {
-      "description": "Hairstyle",
-      "score": 0.7043
-    },
-    {
-      "description": "Perm",
-      "score": 0.6918
-    },
-    {
-      "description": "Hair",
-      "score": 0.5493
-    },
-    {
-      "description": "curly hair",
-      "score": 0.4021
-    },
-    {
-      "description": "Hairdresser",
-      "score": 0.3997
-    }
-  ],
-  "best_guess_labels": [
-    "jheri curl"
-  ],
-  "similar_image_urls": [
-    "https://mediaproxy.snopes.com/width/1200/height/675/https://media.snopes.com/2022/11/3d-rendering-andre-the-giant.png",
-    "https://mediaproxy.snopes.com/width/1200/height/900/https://media.snopes.com/2022/11/3d-rendering-andre-the-giant.png",
-    "https://lookaside.fbsbx.com/lookaside/crawler/threads/DTeJ1I-Dtpr/2/image.jpg",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=492757379565789",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=666881735072645",
-    "https://mediaproxy.snopes.com/width/600/https://media.snopes.com/2022/11/3d-joseph-rendering-hoax.png"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.threads.com/@everythangculture/post/DFqB5kVOZ6U",
-      "page_title": "The Jheri curl (often spelled Jerry curl or Jeri Curl) is a permanent ...",
-      "title": "Everythang Culture Podcast (@everythangculture) on Threads",
-      "description": "The Jheri curl (often spelled Jerry curl or Jeri Curl) is a permanent wave hairstyle that was popular among Black Americans during the 1980s and early 1990s. Invented by the hairdresser Jheri Redding, the Jheri curl gives the wearer a glossy, loosely curled look. #Hair #everythangculture #jhericurl",
-      "text": "",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.threads.com/@ahbeeolah/post/DTd8stCDRDD/im-fairly-sure-the-mansa-musa-kanye-photo-is-a-random-rendering-someone-marked",
-      "page_title": "I'm fairly sure the Mansa Musa Kanye photo is a random rendering ...",
-      "title": "Abiola Agoro (@ahbeeolah) on Threads",
-      "description": "I’m fairly sure the Mansa Musa Kanye photo is a random rendering someone marked as news and has continually been reported as real by numerous organizations… including most recently Essence. I can’t find any original sources on it plus actual historical paintings show Mansa Musa’s chin was more pronounced. This is why sources matter.",
-      "text": "",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.snopes.com/fact-check/3d-model-joseph-husband-mary/",
-      "page_title": "No, This Is Not a 3D Recreation of Joseph, Husband of Mary - Snopes",
-      "title": "No, This Is Not a 3D Recreation of Joseph, Husband of Mary",
-      "description": "A giant piece of fake news.",
-      "text": "Some claims are so obviously fake, they are slapped with a content warning by social media platforms. On Oct. 26, 2022, a Twitter user claimed that scientists at Stanford University had created a 3D model of what Joseph, the husband of Mary, who was the mother of Jesus Christ, would have looked like.\nThere is no project at Stanford University that came up with this result. Other Twitter users quickly pointed out that \"This is a @sketchfab 3D rendering of the actor Andre the Giant.\" The rendering, which was published 3 years ago can be found here.\nAndré René Roussimoff, who was known by his professional wrestling name André the Giant, also appeared as an actor in classic films lsuch as \"The Princess Bride.\" He was born with acromegaly, which is an excessive secretion of growth hormones, which results in enlargement of the head, hands, feet, and chest. He died in 1993 from an apparent heart attack.\nOn Oct. 27, 2022, independent theater Alamo Drafthouse in New York made a joke tweet claiming that scientists at Princeton University had reconstructed a 3D model of Adam, the first human created by God. And the model looked like …Vin Diesel.\nOf course, the theater pointed out right after, \"we're a movie theater, not an academic journal.\"",
-      "image_captions": [
-        "Is this a real 3D rendering of Joseph, the husband of Mary, the mother of Jesus?",
-        "From Twitter: Scientists at Stanford University have reconstructed this 3D model of how Joseph, the husband of Mary the Mother of Jesus Christ might have looked.",
-        "3D rendering of Adam or Vin Diesel?"
-      ]
-    },
-    {
-      "url": "https://www.threads.com/@ahbeeolah/post/DTd8stCDRDD/im-fairly-sure-the-mansa-musa-kanye-photo-is-a-random-rendering-someone-marked?hl=es",
-      "page_title": "Estoy bastante seguro de que la foto de Mansa Musa Kanye es una ...",
-      "title": "Abiola Agoro (@ahbeeolah) en Threads",
-      "description": "I’m fairly sure the Mansa Musa Kanye photo is a random rendering someone marked as news and has continually been reported as real by numerous organizations… including most recently Essence. I can’t find any original sources on it plus actual historical paintings show Mansa Musa’s chin was more pronounced. This is why sources matter.",
-      "text": "",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.threads.com/@ahbeeolah/post/DTd8stCDRDD/im-fairly-sure-the-mansa-musa-kanye-photo-is-a-random-rendering-someone-marked?hl=ar",
-      "page_title": "أنا متأكد إلى حد ما من أن صورة مانسا موسى كاني هي صورة عشوائية لشخص ما ...",
-      "title": "Abiola Agoro (@ahbeeolah) موجود على Threads",
-      "description": "I’m fairly sure the Mansa Musa Kanye photo is a random rendering someone marked as news and has continually been reported as real by numerous organizations… including most recently Essence. I can’t find any original sources on it plus actual historical paintings show Mansa Musa’s chin was more pronounced. This is why sources matter.",
-      "text": "",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 5,
-  "crawled_at": "2026-04-23T16:12:22.554094+00:00"
-}
+[
+  {
+    "source": "www.renderhub.com",
+    "url": "https://www.renderhub.com/printedreality/jimi-hendrix-bust-3d-printing-ready-stl-obj-formats",
+    "clip_score": 0.2672,
+    "optimized_evidence": "[PUBLISHED DATE]: May 01, 2020\n[TITLE]: Jimi Hendrix Bust - 3D Model by PrintedReality\n[METADATA/INTRO]: Jimi Hendrix Bust 3D Model Not Rated Yet...\n[BEST EVIDENCE CHUNK]: | Download Size: | 49.8 MB | \n | Game Ready: | – | \n | Polygons: | 950,268 | \n | Vertices: | 475,136 | \n | Print Ready: | Yes | \n | 3D Scan: | – | \n | Textures: | – | \n | Materials: | – | \n | UV Mapped: | – | \n | PBR: | – | \n | Rigged: | – | \n | Animated: | – | \n | Favorites: | 1 | \n | Likes: | 1 | \n | Views: | 370 | \n Jimi Hendrix Bust 3D Model \n Here is Jimi Hendrix bust 3D model ready for 3D printing. The model current size is 5 cm height, but you are free to scale it. Zip file contains obj and stl. The model was created in ZBrush."
+  },
+  {
+    "source": "www.zbrushcentral.com",
+    "url": "https://www.zbrushcentral.com/t/wip-andre-the-giant/334236",
+    "clip_score": 0.2591,
+    "optimized_evidence": "[PUBLISHED DATE]: 2016-02-04\n[TITLE]: WIP &quot;Andre The Giant&quot; - ZBrushCentral\n[METADATA/INTRO]: my first sculpt of an 80’s iconic wrestler. any comments to push it further or how to get the darn hair to c4d vray greatly appreciated. steve y...\n[BEST EVIDENCE CHUNK]: my first sculpt of an 80’s iconic wrestler. any comments to push it further or how to get the darn hair to c4d vray greatly appreciated."
+  },
+  {
+    "source": "www.tomspinadesigns.com",
+    "url": "https://www.tomspinadesigns.com/custom-sculpture/bronze-bust-gifts/lionel-richie-hello-sculpture-bust/",
+    "clip_score": 0.247,
+    "optimized_evidence": "[PUBLISHED DATE]: 2015-01-25\n[TITLE]: Lionel Richie Hello Sculpture - a life sized bust - Tom Spina Designs\n[METADATA/INTRO]: Lionel Richie Hello Sculpture – a life sized bust Our tribute to the iconic Lionel Richie Hello sculpture....\n[BEST EVIDENCE CHUNK]: Lionel Richie Hello Sculpture – a life sized bust \n Our tribute to the iconic Lionel Richie Hello sculpture. \n UPDATE – We were thrilled to provide one of our Lionel busts to American Idol. In a recent promotional video for the show, Lionel Richie himself was seen “sculpting” our “Hello” bust to promote the show! \n The classic Lionel Richie Hello sculpture – a bust based on the classic music video where a blind art student presents the artist with his own head in clay. This is a somewhat intentionally goofy likeness as the 80’s music video prop was certainly not a highly realistic sculpture. But it sure is fun! We’ve actually sculpted this iconic Lionel Richie head twice! The first version was created for a fine artist who wanted a life-sized candle of the blind-student-sculpted bust. We created the custom sculpture and molds for them (and you may notice that one image shows a copy of the sculpt with a candle’s wick on top!)."
+  }
+]

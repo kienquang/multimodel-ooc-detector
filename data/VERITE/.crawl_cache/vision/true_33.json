@@ -1,70 +1,20 @@
-{
-  "sample_id": "true_33",
-  "image_url": "https://mediaproxy.snopes.com/width/1200/https://media.snopes.com/2020/12/triceratops-dino.jpg",
-  "visual_entities": [
-    {
-      "description": "Triceratops",
-      "score": 1.4718
-    },
-    {
-      "description": "Dinosaur",
-      "score": 1.0605
-    },
-    {
-      "description": "Torosaurus",
-      "score": 0.7422
-    },
-    {
-      "description": "Lane",
-      "score": 0.511
-    },
-    {
-      "description": "Neck frill",
-      "score": 0.4867
-    },
-    {
-      "description": "Prime Collectable Figure/ Jurassic Park",
-      "score": 0.3131
-    },
-    {
-      "description": "succeeding",
-      "score": 0.3095
-    }
-  ],
-  "best_guess_labels": [
-    "real triceratops found"
-  ],
-  "similar_image_urls": [
-    "https://mediaproxy.snopes.com/width/1200/height/675/https://media.snopes.com/2020/12/triceratops-dino.jpg",
-    "https://mediaproxy.snopes.com/width/1200/https://media.snopes.com/2020/12/triceratops-dino.jpg",
-    "https://mediaproxy.snopes.com/width/600/https://media.snopes.com/2020/12/triceratops-dino.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.snopes.com/fact-check/living-triceratops-indonesia/",
-      "page_title": "Was a Living Triceratops Found in Indonesia? | Snopes.com",
-      "title": "Was a Living Triceratops Found in Indonesia?",
-      "description": "Welcome to Mojosemi Forest Park.",
-      "text": "In December 2020, a video supposedly showing a living triceratops in Indonesia being taken down from a truck a bed was widely circulated online:\nThis video, which has racked up hundreds of thousands of views, garnered a mixture of comments. Some joked about this being a real video of a living triceratops, some pondered if it was possible, while others simply wondered what the heck was going on.\nFor starters, this is not a living and breathing triceratops. The rhinoceros-looking dinosaur lived during the Cretaceous period — about 68 million years ago — but went extinct along with all other non-avian dinosaurs during the Cretaceous–Paleogene (K–Pg) extinction event about 66 million years ago. In other words, it would be unusual to see a living, breathing triceratops in the wild today.\nThis video actually features a triceratops puppet at a dinosaur theme park in Indonesia called Mojosemi Forest Park. While we're not exactly certain how this puppet was created, a longer video from this dino-themed amusement park appears to show that this triceratops is operated possibly by two people inside of an elaborate costume:\nhttps://fb.watch/2oxNZxaLhE/\nWhile some may have taken pause when they first saw the triceratops video, other videos from Mojosemi Forest Park clearly show that dinosaurs have not actually been brought back from extinction.\nhttps://fb.watch/2oyqfR9Klr/\nSurprisingly, this is not the most unbelievable dinosaur topic that we've covered at Snopes.com. A viral photograph of director Steven Spielberg with one of the animatronic triceratops used in the movie \"Jurassic Park\" is often circulated on social media along with the claim that it shows a big game hunter with his trophy at the end of an exotic safari.",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.historynewsnetwork.org/article/triceratops-secret-location-found-in-south-dakota-",
-      "page_title": "Triceratops 'Secret Location' Found in South Dakota Badlands",
-      "title": "Triceratops 'Secret Location' Found in South Dakota Badlands",
-      "description": "Internationally-renowned dinosaur hunter Phil Manning, from the University of Manchester, and his team are hoping to bag a Triceratops skeleton from a 'secret location' they've found in the South Dakota Badlands, according to Manning. He and his colleagues believe at least three skeletons of this iconic dinosaur are gently weathering in 65-million-year-old rocks at the undisclosed site. At present, Manning and his colleagues are trying to figure out how they can excava",
-      "text": "Triceratops 'Secret Location' Found in South Dakota Badlands\nInternationally-renowned dinosaur hunter Phil Manning, from the University of Manchester, and his team are hoping to bag a Triceratops skeleton from a 'secret location' they've found in the South Dakota Badlands, according to Manning.\nHe and his colleagues believe at least three skeletons of this iconic dinosaur are gently weathering in 65-million-year-old rocks at the undisclosed site.\nAt present, Manning and his colleagues are trying to figure out how they can excavate one of the Triceratops skeletons from its rocky Hell Creek Formation tomb.\nPreviously, the pioneering palaeontologist and his team were known for their research work on the hadrosaur Dinomummy, helping dinosaurs ‘virtually’ walk, zapping Archaeopteryx with particle accelerators and tracking the enigmatic T. rex in the Badlands of Montana....\nRead entire article at Discovery News\nHe and his colleagues believe at least three skeletons of this iconic dinosaur are gently weathering in 65-million-year-old rocks at the undisclosed site.\nAt present, Manning and his colleagues are trying to figure out how they can excavate one of the Triceratops skeletons from its rocky Hell Creek Formation tomb.\nPreviously, the pioneering palaeontologist and his team were known for their research work on the hadrosaur Dinomummy, helping dinosaurs ‘virtually’ walk, zapping Archaeopteryx with particle accelerators and tracking the enigmatic T. rex in the Badlands of Montana....",
-      "image_captions": []
-    },
-    {
-      "url": "https://artdaily.com/news/98543/US-construction-crew-finds-66-million-year-old-triceratops-skeleton-in-Colorado",
-      "page_title": "US construction crew finds 66-million-year-old triceratops skeleton ...",
-      "title": "US construction crew finds 66-million-year-old triceratops skeleton in Colorado",
-      "description": "Construction crews breaking ground on a new fire and police station north of Denver, Colorado have unearthed a 66-million-year-old triceratops skeleto",
-      "text": "The OnlineCasinosSpelen editors have years of experience with everything related to online gambling providers and reliable online casinos Nederland. If you have any questions about casino bonuses and, please contact the team directly.",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 3,
-  "crawled_at": "2026-04-23T16:54:43.459878+00:00"
-}
+[
+  {
+    "source": "www.snopes.com",
+    "url": "https://www.snopes.com/fact-check/living-triceratops-indonesia/",
+    "clip_score": 0.2732,
+    "optimized_evidence": "[PUBLISHED DATE]: 2020-12-15\n[TITLE]: Was a Living Triceratops Found in Indonesia? | Snopes.com\n[METADATA/INTRO]: In December 2020, a video supposedly showing a living triceratops in Indonesia being taken down from a truck a bed was widely circulated online: This video, which has racked up hundreds of thousands of views, garnered a mixture of comments....\n[BEST EVIDENCE CHUNK]: This video actually features a triceratops puppet at a dinosaur theme park in Indonesia called Mojosemi Forest Park. While we're not exactly certain how this puppet was created, a longer video from this dino-themed amusement park appears to show that this triceratops is operated possibly by two people inside of an elaborate costume: \n While some may have taken pause when they first saw the triceratops video, other videos from Mojosemi Forest Park clearly show that dinosaurs have not actually been brought back from extinction. \n Surprisingly, this is not the most unbelievable dinosaur topic that we've covered at Snopes.com. A viral photograph of director Steven Spielberg with one of the animatronic triceratops used in the movie \"Jurassic Park\" is often circulated on social media along with the claim that it shows a big game hunter with his trophy at the end of an exotic safari."
+  },
+  {
+    "source": "coconuts.co",
+    "url": "https://coconuts.co/jakarta/news/indonesians-are-loving-and-somehow-believing-that-a-triceratops-has-arrived-at-a-recreational-park-in-east-java/",
+    "clip_score": 0.2628,
+    "optimized_evidence": "[PUBLISHED DATE]: December 14, 2020\n[TITLE]: Indonesians are loving (and somehow believing) that a ‘triceratops’ has arrived at a recreational park in East Java | Coconuts\n[METADATA/INTRO]: A video showing a triceratops (yes, the dinosaur) being unloaded from a truck has become a source of amusement and wonder for Indonesians on social media lately, prompting netizens to question if 2020 can get any weirder. Alhamdulillah piaraan baru...\n[BEST EVIDENCE CHUNK]: A video showing a triceratops (yes, the dinosaur) being unloaded from a truck has become a source of amusement and wonder for Indonesians on social media lately, prompting netizens to question if 2020 can get any weirder. \n Alhamdulillah piaraan baru udah nyampe 🙏 pic.twitter.com/W4ZYOYRAHa \n — Achmad Zamzami (@PengendaliiApi) December 14, 2020 \n “Alhamdulillah (praise God) the new pet has arrived,” the tweet above reads. \n To be clear, it’s an elaborate costume of the herbivorous dinosaur, which is famous for its three horns. The video shows the dinosaur resisting while being pulled with ropes by a number of military officers and animal handlers. The 30-second clip has been viewed nearly 880,000 times on Twitter at the time of publication."
+  },
+  {
+    "source": "sea.mashable.com",
+    "url": "https://sea.mashable.com/science/13714/video-of-a-triceratops-found-in-indonesia-is-actually-part-of-a-cool-dino-exhibit",
+    "clip_score": 0.2542,
+    "optimized_evidence": "[PUBLISHED DATE]: 2020-12-21\n[TITLE]: Video of a Triceratops found in Indonesia is actually part of a cool dino exhibit - Science\n[METADATA/INTRO]: Phew, 2020, you're something else. A recent video that purportedly shows Indonesian park workers unloading a 'real-life' triceratops from a truck just goes to show that 2020 isn't done with its shit yet....\n[BEST EVIDENCE CHUNK]: Phew, 2020, you're something else. \n A recent video that purportedly shows Indonesian park workers unloading a 'real-life' triceratops from a truck just goes to show that 2020 isn't done with its shit yet. \n Since the video surfaced on December 14, 2020, it has garnered over 1.1 million views on Twitter. \n Alhamdulillah piaraan baru udah nyampe 🙏 pic.twitter.com/W4ZYOYRAHa — Achmad Zamzami (@PengendaliiApi) December 14, 2020 \n The caption, which reads \"Praise God, the new pet has arrived\" makes the whole thing even more bizarre. \n In the video, the triceratops can be seen struggling to free itself from its restraints. Tossing and turning, in a desperate bid to escape."
+  }
+]

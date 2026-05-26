@@ -1,58 +1,20 @@
-{
-  "sample_id": "false_245",
-  "image_url": "https://i.dawn.com/primary/2020/01/5e11e3e9dd587.jpg",
-  "visual_entities": [
-    {
-      "description": "Karachi",
-      "score": 1.29591
-    },
-    {
-      "description": "Beenish Javed",
-      "score": 0.9837
-    },
-    {
-      "description": "",
-      "score": 0.517
-    },
-    {
-      "description": "Islamabad",
-      "score": 0.4742595
-    },
-    {
-      "description": "12 May Karachi riots",
-      "score": 0.35985
-    },
-    {
-      "description": "Iran",
-      "score": 0.3243
-    },
-    {
-      "description": "People",
-      "score": 0.3021
-    }
-  ],
-  "best_guess_labels": [
-    "people protest in karachi"
-  ],
-  "similar_image_urls": [
-    "https://i.dawn.com/primary/2020/01/5e11e3e9dd587.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.cnn.com/2026/03/01/world/video/pro-iranian-protesters-killed-karachi-pakistan-storming-us-consulate-sophia-saifi-digvid",
-      "page_title": "Pro-Iranian protesters killed in Karachi after storming US consulate",
-      "title": "Pro-Iranian protesters killed in Karachi after storming US consulate | CNN",
-      "description": "Several people have died and dozens injured following protests at the heavily fortified US consulate compound in Karachi, according to Pakistan’s emergency services. CNN’s Sophia Saifi reports.",
-      "text": "Video Ad Feedback\nPro-Iranian protesters killed in Karachi after storming US consulate\nSeveral people have died and dozens injured following protests at the heavily fortified US consulate compound in Karachi, according to Pakistan’s emergency services. CNN's Sophia Saifi reports.\n1:30\n• Source:\nCNN\nThis just in...\n16 videos\nVideo Ad Feedback\nPro-Iranian protesters killed in Karachi after storming US consulate\nVideo Ad Feedback\nRep. Panetta on reports of Pentagon tensions: \"It's a Game of Thrones type of atmosphere\"\nVideo Ad Feedback\nOil spills from the Iran war are visible from space\nVideo Ad Feedback\nSurvivor of Hong Kong fire returns to charred home\nVideo Ad Feedback\nEl Salvador tries hundreds of alleged gang members\nVideo Ad Feedback\nBill Weir reports from the Arctic Ocean as sea ice drops to an alarming new low\nRepublican congressman draws connection between Iran war and Venezuelan oil\nVideo Ad Feedback\nChinese social media mocks Trump, touts China’s rise\nVideo Ad Feedback\nTrump says he will extend ceasefire with Iran until negotiations conclude\nVideo Ad Feedback\nAre the Americans detained in Iran part of the negotiations with Tehran?\nVideo Ad Feedback\nPresident Trump says it's 'highly unlikely' he would extend ceasefire with no deal\nVideo Ad Feedback\nNight footage shows US Marines boarding Iranian-flagged vessel\nVideo Ad Feedback\nChina's army trains with robot dogs and attack drones",
-      "image_captions": [
-        "117537_Pak Iran Protests digvid 1.jpg",
-        "CLEAN_RadfordHormuzConvert_digvid.00_02_11_05.Still002.jpg",
-        "DHa7s20260421_5335.MP4.19_44_12_11.Still001.jpg",
-        "still_22563405_12873.300000000001_still.jpg",
-        "bill weir arctic sea ice 042226.jpg"
-      ]
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T18:01:50.584092+00:00"
-}
+[
+  {
+    "source": "iranpress.com",
+    "url": "https://iranpress.com/content/306671/people-pakistan-rally-express-solidarity-with-iran",
+    "clip_score": 0.2854,
+    "optimized_evidence": "[PUBLISHED DATE]: June 13, 2025\n[TITLE]: People of Pakistan Rally to Express Solidarity With Iran\n[METADATA/INTRO]: Why it matters: The rally underscores the growing sentiment of solidarity among Islamic nations, particularly in the face of perceived external threats from the U.S. and Israel....\n[BEST EVIDENCE CHUNK]: The rally underscores the growing sentiment of solidarity among Islamic nations, particularly in the face of perceived external threats from the U.S. and Israel. \n It highlights the importance of unity for the stability of the Islamic world. The event in Lahore serves as a reminder of the regional dynamics at play and the potential for collective action. \n As a result of the armed attacks by the Israeli regime in Tehran and several cities across the country since the early hours of Friday, June 13, 2025, several military commanders, scientists, and civilians have been martyred. \n Following the continuation of these attacks, the people of Pakistan held demonstrations to condemn the Israeli regime's aggression and expressed their support for Iran's defense against these attacks."
+  },
+  {
+    "source": "www.islamweb.net",
+    "url": "https://www.islamweb.net/en/article/116272/tens-of-thousands-protest-bush-india-visit",
+    "clip_score": 0.2736,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Tens of Thousands Protest Bush India Visit\n[METADATA/INTRO]: Tens of thousands of Indians waving black and white flags and chanting \"Death to Bush!\" rallied Wednesday in New Delhi to protest a visit by President Bush. Surindra Singh Yadav, a senior police officer in charge of crowd control, said...\n[BEST EVIDENCE CHUNK]: \"Up to 50,000 people will take part in the march, and we have the police permission to express our feelings,\" said Pushpender Grewal, secretary of the Communist Party of India. \n \"We will protest against the U.S. policies, especially the inhuman atrocities in Afghanistan and Iraq, a likely invasion of Iran and its continuing support to Israel's illegal occupation of Palestine.\" \n Communists and Muslim groups have criticized New Delhi for backing a U.S. move to report longtime ally Iran to the International Atomic Energy Agency over allegations Tehran is developing nuclear weapons. Iran says its nuclear program is for peaceful purposes."
+  },
+  {
+    "source": "www.aljazeera.com",
+    "url": "https://www.aljazeera.com/gallery/2023/10/29/people-march-in-support-for-gaza-as-death-toll-surpasses-8000",
+    "clip_score": 0.2631,
+    "optimized_evidence": "[PUBLISHED DATE]: 2023\n[TITLE]: Thousands continue to march in support of Gaza in multiple cities worldwide | Israel-Palestine conflict News | Al Jazeera\n[METADATA/INTRO]: In Pictures Thousands continue to march in support of Gaza in multiple cities worldwide...\n[BEST EVIDENCE CHUNK]: Thousands continue to march in support of Gaza in multiple cities worldwide \n Demonstrators express anger at the international community for perceived inaction in stopping Israel’s bombardment. \n Thousands of people including women and children gathered on Sunday in Islamabad for the largest pro-Palestine rally in Pakistan since Israel’s war on Gaza began this October. \n Protests also happened in other cities across the world on Sunday as attendees expressed considerable anger at the perceived inaction of the international community in stopping Israel’s bombardments. \n Thousands of keffiyeh-clad demonstrators also turned up in Martyrs’ Square in central Beirut, Lebanon, showing solidarity with the Palestinians – especially those trapped in Gaza amid increasing tension on the Lebanon-Israel border, with Hezbollah fighters and the Israeli military exchanging fire."
+  }
+]

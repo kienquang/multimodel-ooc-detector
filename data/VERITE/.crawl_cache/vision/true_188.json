@@ -1,93 +1,20 @@
-{
-  "sample_id": "true_188",
-  "image_url": "https://mediaproxy.snopes.com/width/1200/https://media.snopes.com/2016/01/plane.jpg",
-  "visual_entities": [
-    {
-      "description": "Airplane",
-      "score": 1.1076
-    },
-    {
-      "description": "Flight",
-      "score": 1.05975
-    },
-    {
-      "description": "Aircraft",
-      "score": 0.96465003
-    },
-    {
-      "description": "737-900",
-      "score": 0.89414996
-    },
-    {
-      "description": "Minneapolis-Saint Paul International Airport",
-      "score": 0.8865
-    },
-    {
-      "description": "Snow",
-      "score": 0.721
-    },
-    {
-      "description": "Airport",
-      "score": 0.6679
-    },
-    {
-      "description": "Chicago O'Hare International Airport",
-      "score": 0.6579
-    },
-    {
-      "description": "Landing",
-      "score": 0.5995
-    },
-    {
-      "description": "Aviation",
-      "score": 0.5224
-    },
-    {
-      "description": "Winter",
-      "score": 0.4905
-    },
-    {
-      "description": "Aircraft spotting",
-      "score": 0.461
-    },
-    {
-      "description": "Runway",
-      "score": 0.4448
-    },
-    {
-      "description": "Delta Air Lines",
-      "score": 0.4337
-    },
-    {
-      "description": "",
-      "score": 0.4337
-    }
-  ],
-  "best_guess_labels": [
-    "plane under snow"
-  ],
-  "similar_image_urls": [
-    "https://mediaproxy.snopes.com/width/1200/https://media.snopes.com/2016/01/plane.jpg",
-    "https://mediaproxy.snopes.com/width/1200/height/900/https://media.snopes.com/2016/01/plane.jpg",
-    "https://app.aws.org/mwf/attachments//52/272452/PlanesatJFKduringtheblizzard.jpg",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1028822893827963",
-    "https://mediaproxy.snopes.com/width/400/https://media.snopes.com/2016/01/12494869_1028822893827963_2160752866913399302_n.jpg",
-    "https://www.tunoticiapr.com/noticias/263550255/tm2/1810284784.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.snopes.com/fact-check/jetblue-snow-blizzard-photo/",
-      "page_title": "MISCAPTIONED: JetBlue Plane Buried by Snow | Snopes.com",
-      "title": "MISCAPTIONED: JetBlue Plane Buried by Snow",
-      "description": "A photograph that purportedly shows a JetBlue airliner buried in snow is actually the product of a tricky camera angle.",
-      "text": "As Winter Storm Jonas bore down on the northeast in January 2016, a photograph purportedly showing a JetBlue airliner buried in snow went viral on social media. This image was viewed by thousands of social media users after it was posted to the Facebook page of Tri-State Weather on 23 January 2016, and tweet from ESPN reporter Darren Rovell featuring the image was also widely shared:\nRovell's tweet, as well as several other subsequent messages, pointed to Dan Linden, global head of social media for ABC News, and Don Uselmann, general manager of airport operations of John F. Kennedy International Airport, as the source of the photograph. The original message, however, has been deleted:\nWhile this photograph is \"real\" in the sense that it did not undergo significant digitial editing, it does not show a JetBlue airliner covered in a massive snow drift — instead, it uses forced perspective in order to make it seem as if the plane were covered in snow. The photographer likely took the picture from behind a small pile of snow that hid the body of the plane, as shown in an illustration by\nCTV News Toronto's aviation photographer Tom Podolec:\nJetBlue has not commented on this viral image, but they did share another photograph of one of their planes on the runway:\nAlthough we prefer to keep our planes in the air, Jonas is being pretty stubborn about keeping us on the ground. #Blizzard2016\nJohn F. Kennedy International Airport did record its snowiest single day total during the Winter Storm Jonas, and JetBlue did cancel several flights due to the wintry conditions, but the photograph showing a JetBlue airliner buried in snow is the result of photographic legerdemain and not a massive snowdrift.",
-      "image_captions": [
-        "Screenshot 2016-01-24 at 5.45.16 PM",
-        "Screenshot 2016-01-24 at 5.50.45 PM",
-        "12510473_10153514152546843_7737985114042653204_n"
-      ]
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T17:45:44.036860+00:00"
-}
+[
+  {
+    "source": "www.snopes.com",
+    "url": "https://www.snopes.com/fact-check/jetblue-snow-blizzard-photo/",
+    "clip_score": 0.3025,
+    "optimized_evidence": "[PUBLISHED DATE]: 2016-01-24\n[TITLE]: MISCAPTIONED: JetBlue Plane Buried by Snow | Snopes.com\n[METADATA/INTRO]: As Winter Storm Jonas bore down on the northeast in January 2016, a photograph purportedly showing a JetBlue airliner buried in snow went viral on social media. This image was viewed by thousands of social media users after it was...\n[BEST EVIDENCE CHUNK]: As Winter Storm Jonas bore down on the northeast in January 2016, a photograph purportedly showing a JetBlue airliner buried in snow went viral on social media. This image was viewed by thousands of social media users after it was posted to the Facebook page of Tri-State Weather on 23 January 2016, and tweet from ESPN reporter Darren Rovell featuring the image was also widely shared: \n Rovell's tweet, as well as several other subsequent messages, pointed to Dan Linden, global head of social media for ABC News, and Don Uselmann, general manager of airport operations of John F. Kennedy International Airport, as the source of the photograph. The original message, however, has been deleted:"
+  },
+  {
+    "source": "weather.com",
+    "url": "https://weather.com/news/weather/video/lake-enhanced-snow-causes-havoc-in-western-new-york",
+    "clip_score": 0.2974,
+    "optimized_evidence": "[PUBLISHED DATE]: February 20, 2026\n[TITLE]: Heavy Snow Blankets Western New York Airport | Weather.com\n[METADATA/INTRO]: Heavy Snow Blankets Western New York Airport Heavy Snow Blankets Western New York AirportFebruary 20, 2026...\n[BEST EVIDENCE CHUNK]: Heavy Snow Blankets Western New York Airport \n Heavy Snow Blankets Western New York AirportFebruary 20, 2026 \n Updated: February 20, 2026, 12:00 pm ESTPublished: February 20, 2026, 12:00 pm ESTWhiteout conditions caused all sorts of havoc for travelers in western New York. A winter storm brought lake-enhanced snow to the region on Thursday morning, dumping as much as ten inches of snow in the region. And it’s not over yet, with the region expected to get up to a foot of snow by Friday afternoon."
+  },
+  {
+    "source": "www.wired.com",
+    "url": "https://www.wired.com/story/jfk-bomb-cyclone-mess/",
+    "clip_score": 0.2969,
+    "optimized_evidence": "[PUBLISHED DATE]: 2018-01-10\n[TITLE]: How the Bomb Cyclone Nearly Broke JFK Airport | WIRED\n[METADATA/INTRO]: Even before a water main broke and flooded much of Terminal 4 at New York’s John F. Kennedy International Airport early Sunday afternoon, the travel hub resembled a warzone, populated by blank-eyed employees and civilians, none of them quite sure...\n[BEST EVIDENCE CHUNK]: And this nasty New York weekend, an Arctic blast sent the game of pick-up sticks flying. \n For one thing, the snow was just part of the problem—and continued to be after it was plowed off runways and taxiways, since the resulting piles took up precious space for all the planes on the ground. And while the blizzard did depart, the low temperatures remained, freezing equipment and limiting the time workers could spend outside. Operations like moving baggage and fueling planes slowed down, and the snow stacks stayed put. \n Then, just after midnight on Saturday, the wing of a plane being towed across the tarmac clipped the tail of a parked jet full of passengers. (Nobody was hurt.) There’s no word yet on how that happened or if it was weather-related, but it exacerbated a rough situation. The crash demanded the immediate attention of already harried airport officials and workers, who had to evacuate the full plane and move both aircraft—and ended up with two aircraft that couldn’t fly, hogging more space."
+  }
+]

@@ -1,82 +1,20 @@
-{
-  "sample_id": "false_287",
-  "image_url": "https://assets3.cbsnewsstatic.com/hub/i/r/2020/11/27/e2659f50-f2ca-47f6-a4fd-0d028cc57bb1/thumbnail/1200x630/8165829fee440abf5d5f183365951865/1606437501277.png",
-  "visual_entities": [
-    {
-      "description": "Daniel P. Driscoll",
-      "score": 8.9895
-    },
-    {
-      "description": "United States Army",
-      "score": 0.974
-    },
-    {
-      "description": "Best Warrior",
-      "score": 0.80340004
-    },
-    {
-      "description": "",
-      "score": 0.701
-    },
-    {
-      "description": "Army National Guard",
-      "score": 0.701
-    },
-    {
-      "description": "Soldier",
-      "score": 0.6715027
-    },
-    {
-      "description": "Army officer",
-      "score": 0.6514462
-    },
-    {
-      "description": "United States Secretary of the Army",
-      "score": 0.6269
-    },
-    {
-      "description": "Sergeant Major of the Army",
-      "score": 0.5871
-    },
-    {
-      "description": "United States Armed Forces",
-      "score": 0.5865
-    },
-    {
-      "description": "First lieutenant",
-      "score": 0.5453
-    },
-    {
-      "description": "",
-      "score": 0.5176
-    },
-    {
-      "description": "United States Army Reserve",
-      "score": 0.5176
-    }
-  ],
-  "best_guess_labels": [
-    "army"
-  ],
-  "similar_image_urls": [
-    "https://assets3.cbsnewsstatic.com/hub/i/r/2020/11/27/e2659f50-f2ca-47f6-a4fd-0d028cc57bb1/thumbnail/1200x630/8165829fee440abf5d5f183365951865/1606437501277.png"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.cbsnews.com/news/u-s-troops-in-syria-mark-thanksgiving-with-kebabs-and-soccer/",
-      "page_title": "U.S. troops in Syria mark Thanksgiving with kebabs and soccer",
-      "title": "U.S. troops in Syria mark Thanksgiving with kebabs and soccer",
-      "description": "While this Thanksgiving celebration was very different from past ones at home, U.S. service members say there's still plenty to feel grateful for.",
-      "text": "U.S. troops in Syria mark Thanksgiving with kebabs and soccer\nSyria — U.S. troops faced off against Syrians on Thursday morning in a friendly Thanksgiving soccer match. These Syrians are American allies – fighters who battled against ISIS extremists. With the same grit, they won Thursday's game 2-1.\n\"More or less it's just enjoying the game than competing,\" said Corporal Jose Lazo, a paratrooper from Arlington, Virginia.\nLazo is spending Thanksgiving away from his family for the first time. Back home, he played for the U.S. Army soccer team.\n\"It's a language of its own,\" he said. \"You don't really necessarily have to speak the same language, but football speaks for itself.\"\nThe American mission at the desert camp is to help bring security and stability to this corner of war-torn Syria. It's an effort, in part, to win hearts and minds as CBS News saw Wednesday on patrol with a platoon from the 82nd Airborne Division. U.S. troops showed children the convoy and handed out candy.\nBack on base, a flock of resident turkeys has given the place a flavor of Thanksgiving, but they're not for eating. Instead, they keep the spiders there under control.\nThanksgiving lunch was Syrian style, including kebabs and rice cooked by local chefs. It's very different from home, but for Specialist Tashara Williams, from Brunswick, Georgia, there's still plenty to feel grateful for.\n\"I would like to be home of course, but … circumstances, I have to be here so, I mean, it's not that bad,\" she said. \"Just gotta roll with the punches.\"",
-      "image_captions": [
-        "U.S. service members take part in a Thanksgiving celebration in Syria on November 26, 2020.",
-        "How U.S. troops are spending Thanksgiving in Syria01:54",
-        "U.S. troops in Syria eat Thanksgiving meal",
-        "screen-shot-2021-01-01-at-11-52-04-am.png",
-        "axelrod-618294-640x360.jpg"
-      ]
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T18:51:59.373103+00:00"
-}
+[
+  {
+    "source": "www.wwnytv.com",
+    "url": "https://www.wwnytv.com/2023/11/21/fort-drum-soldiers-treated-early-thanksgiving-feasts/",
+    "clip_score": 0.3106,
+    "optimized_evidence": "[PUBLISHED DATE]: 2023-11-21\n[TITLE]: Fort Drum soldiers treated to early Thanksgiving feasts\n[METADATA/INTRO]: Fort Drum soldiers treated to early Thanksgiving feasts FORT DRUM, New York (WWNY) - Members of the 10th Mountain Division celebrated an early Thanksgiving with a series of feasts across Fort Drum on Tuesday....\n[BEST EVIDENCE CHUNK]: “Things like the cornucopia, the displays, the unit cohesion. Things of that nature. It’s a very competitive environment to see and observe,” said Mills. \n “I think we have the chance, the opportunity to win so I’m very much excited about that,” said Donegan. \n The 1st Brigade’s ace in the whole was an entire roasted pig, a culinary experience unique to its dining facility. \n “We try to make this our signature because a lot of other dining facilities don’t do it. We try to make this our own because we do it the best,” said Mills. \n Above all else the meal is the military’s way of giving an authentic Thanksgiving experience to soldiers who are a long way from home, like Specialist David House from California."
+  },
+  {
+    "source": "www.wltx.com",
+    "url": "https://www.wltx.com/article/news/local/street-squad/thanksgiving-meal-warms-the-hearts-of-soldiers-at-fort-jackson/101-ec416ff7-dcef-45a4-bdb9-1aae77348c21",
+    "clip_score": 0.308,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Thanksgiving meal warms the hearts of soldiers at Fort Jackson | wltx.com\n[METADATA/INTRO]: Thanksgiving arrived early at Fort Jackson. Nearly 1,200 soldiers at Fort Jackson descended upon a dining facility on the base for a pre-Thanksgiving meal on Wednesday....\n[BEST EVIDENCE CHUNK]: Thanksgiving arrived early at Fort Jackson. \n Nearly 1,200 soldiers at Fort Jackson descended upon a dining facility on the base for a pre-Thanksgiving meal on Wednesday. \n Following tradition, the meal is served by commanders, their staff and senior non-commissioned officers of each company as their soldiers pass through the line. \n \"Serving us was a bit of a shock,\" says Savionne Baylock, soldier trainee. \"But it’s nice to see that they’re taking initiative and feeding us on this Thanksgiving. Today is just one of those days you can dig in and fill your belly up and not have to worry about it.\""
+  },
+  {
+    "source": "www.wltx.com",
+    "url": "https://www.wltx.com/article/news/local/fort-jackson-soldiers-in-training-served-early-thanksgiving-meal/101-616697229",
+    "clip_score": 0.3049,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Fort Jackson soldiers-in-training served early Thanksgiving Meal | wltx.com\n[METADATA/INTRO]: Columbia, SC (WLTX) -- Thanksgiving came a little early for soldiers-in-training at Fort Jackson. For many, it's their first holiday away from home. Every year, Army commanders at Fort Jackson serve a Thanksgiving meal to trainees....\n[BEST EVIDENCE CHUNK]: Columbia, SC (WLTX) -- Thanksgiving came a little early for soldiers-in-training at Fort Jackson. For many, it's their first holiday away from home. \n Every year, Army commanders at Fort Jackson serve a Thanksgiving meal to trainees. \n \"This is what we call the Super Bowl,\" said Kenneth Harrison, General Manager of Building 11500 at Fort Jackson. \"It's just something with a 'Wow'! A 'wow' factor, in other words. [Soldiers] see something different. They see people out of their uniform, they see people looking like civilians.\" \n \"They get served by their leaders, by their drill sergeants,\" said Brigadier General Milford Beagle, Jr. \"They get to see all of us in here catering to them. That is what servant leadership is all about.\""
+  }
+]

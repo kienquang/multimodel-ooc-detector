@@ -1,75 +1,20 @@
-{
-  "sample_id": "false_18",
-  "image_url": "https://www.sanders.senate.gov/wp-content/uploads/Sanders-COVID-19-vacine--768x1046.jpg",
-  "visual_entities": [
-    {
-      "description": "Robert F. Kennedy Jr.",
-      "score": 1.0803
-    },
-    {
-      "description": "COVID-19",
-      "score": 0.717
-    },
-    {
-      "description": "COVID-19 vaccine",
-      "score": 0.7066
-    },
-    {
-      "description": "2019–20 coronavirus pandemic",
-      "score": 0.67515004
-    },
-    {
-      "description": "United States",
-      "score": 0.64035
-    },
-    {
-      "description": "United States Secretary of Health and Human Services",
-      "score": 0.4383
-    },
-    {
-      "description": "",
-      "score": 0.4269
-    },
-    {
-      "description": "Coronavirus",
-      "score": 0.4174
-    },
-    {
-      "description": "Vaccination",
-      "score": 0.3492
-    }
-  ],
-  "best_guess_labels": [
-    "bernie sanders covid"
-  ],
-  "similar_image_urls": [
-    "https://www.sanders.senate.gov/wp-content/uploads/Sanders-COVID-19-vacine--768x1046.jpg",
-    "https://www.burlingtonfreepress.com/gcdn/presto/2020/12/19/PBUR/00fada3c-bb5f-4508-86dd-af2f6fad36c8-2020_1219_Sanderrs_Vaccine_1.jpg",
-    "https://pbs.twimg.com/media/EpoeG4BW4AIG1vv.jpg",
-    "https://www.burlingtonfreepress.com/gcdn/presto/2020/12/19/PBUR/00fada3c-bb5f-4508-86dd-af2f6fad36c8-2020_1219_Sanderrs_Vaccine_1.jpg?width=1200&disable=upscale&format=pjpg&auto=webp",
-    "https://www.burlingtonfreepress.com/gcdn/presto/2020/12/19/PBUR/00fada3c-bb5f-4508-86dd-af2f6fad36c8-2020_1219_Sanderrs_Vaccine_1.jpg?crop=479,639,x0,y6",
-    "https://vermontbiz.com/sites/default/files/resize/bernie_sanders_vaccine_dec_19_2020-400x545.jpg",
-    "https://pbs.twimg.com/media/Ep3STsoXIAEuMEQ.jpg",
-    "https://pbs.twimg.com/media/Ep44jAXUcAAJkGt.jpg?format=jpg&name=thumb"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.cbsnews.com/video/watch-sanders-and-rfk-jr-get-into-testy-exchange-over-covid-vaccine-cdc-directors-firing/",
-      "page_title": "Sanders, RFK Jr. get into testy exchange over COVID vaccine, CDC ...",
-      "title": "Watch: Sanders, RFK Jr. get into testy exchange over COVID vaccine, CDC director's firing",
-      "description": "Sen. Bernie Sanders questioned HHS Secretary Robert F. Kennedy Jr. about his views on the COVID-19 vaccine, which President Trump has touted as one of the greatest inventions in medicine. Sanders also suggested he will call fired CDC Director Susan Monarez to testify before Congress.",
-      "text": "Watch: Sanders, RFK Jr. get into testy exchange over COVID vaccine, CDC director's firing\nSen. Bernie Sanders questioned HHS Secretary Robert F. Kennedy Jr. about his views on the COVID-19 vaccine, which President Trump has touted as one of the greatest inventions in medicine. Sanders also suggested he will call fired CDC Director Susan Monarez to testify before Congress.",
-      "image_captions": []
-    },
-    {
-      "url": "https://vermontbiz.com/news/2020/december/20/bernie-sanders-gets-covid-19-vaccine",
-      "page_title": "Bernie Sanders gets COVID-19 vaccine | Vermont Business Magazine",
-      "title": "Bernie Sanders gets COVID-19 vaccine",
-      "description": "",
-      "text": "Submitted by tim\non\nVermont Business Magazine US Senator Bernie Sanders received the COVID-19 vaccine from U.S. Capitol physician, Dr Brian P Monahan on Saturday.\nSanders said, “Following the advice of the Office of the Attending Physician, today I received the safe and effective COVID-19 vaccine. As the vaccine is being distributed, we must all continue wearing masks and engage in social distancing. That is how we will beat this virus and end this terrible pandemic.”\nSource: WASHINGTON – December 19, 2020 – US Senator Bernie Sanders",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 2,
-  "crawled_at": "2026-04-23T16:49:59.579985+00:00"
-}
+[
+  {
+    "source": "www.theguardian.com",
+    "url": "https://www.theguardian.com/us-news/2021/sep/27/joe-biden-receives-covid-booster-vaccines",
+    "clip_score": 0.2273,
+    "optimized_evidence": "[PUBLISHED DATE]: 2021-09-27\n[TITLE]: Biden receives vaccine ‘booster’ as confusion continues over third dose | Joe Biden | The Guardian\n[METADATA/INTRO]: At the White House on Monday, Joe Biden donned a black surgical mask, rolled his shirt sleeve to his shoulder and received a third dose of the Pfizer Covid-19 vaccine as a “booster” shot. The president received the public jab...\n[BEST EVIDENCE CHUNK]: At the White House on Monday, Joe Biden donned a black surgical mask, rolled his shirt sleeve to his shoulder and received a third dose of the Pfizer Covid-19 vaccine as a “booster” shot. \n The president received the public jab as confusion about who is eligible for such shots – and when – continued. The administration had hoped recommending and implementing booster shots would be a simple matter. \n “Let me be clear, boosters are important,” Biden told reporters. “The most important thing we need to do is get more people vaccinated.” \n “… We need to get folks vaccinated. Please, please do the right thing. Please get the shot. It can save your life and the lives of those around you.”"
+  },
+  {
+    "source": "abc7chicago.com",
+    "url": "https://abc7chicago.com/post/biden-speech-today-live-press-conference-booster-shot-gets-vaccine/11052489/",
+    "clip_score": 0.2248,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Biden speech today live: President receives COVID-19 booster shot Monday afternoon - ABC7 Chicago\n[METADATA/INTRO]: WASHINGTON -- President Joe Biden received his COVID-19 vaccine booster shot on Monday afternoon at the White House just days after booster doses were approved by federal health officials. The president received his first two doses of the COVID-19 vaccine...\n[BEST EVIDENCE CHUNK]: WASHINGTON -- President Joe Biden received his COVID-19 vaccine booster shot on Monday afternoon at the White House just days after booster doses were approved by federal health officials. \n The president received his first two doses of the COVID-19 vaccine ahead of his inauguration in January. The 78-year-old president qualified for a booster dose since he received his second Pfizer/BioNTech COVID-19 vaccine more than six months ago and is in an eligible age group. \n Early Friday morning, US Centers for Disease Control and Prevention Director Dr. Rochelle Walensky diverged from the agency's independent vaccine advisers to recommend boosters for a broader group of people -- those ages 18 to 64 who are at increased risk of COVID-19 because of their workplaces or institutional settings -- in addition to older adults, long-term care facility residents and some people with underlying health conditions."
+  },
+  {
+    "source": "www.cnbc.com",
+    "url": "https://www.cnbc.com/2021/12/20/trump-says-he-got-covid-booster-shot-tells-fans-not-to-boo-him.html",
+    "clip_score": 0.2114,
+    "optimized_evidence": "[PUBLISHED DATE]: 2021-12-20\n[TITLE]: Trump says he got Covid booster shot, tells fans not to boo him\n[METADATA/INTRO]: Former President Donald Trump says he received a booster vaccine shot for Covid-19 — but he doesn't want to hear any criticism about it. \"Oh, don't, don't, don't!\" said Trump, waving his hand dismissively, as some people in an audience...\n[BEST EVIDENCE CHUNK]: Trump previously has said he was vaccinated before leaving the White House in January. \n But he was not photographed when he purportedly got the shot, unlike President Joe Biden, who has been photographed while getting both the vaccine initially in December 2020, and a booster in September. \n Trump was hospitalized with Covid for several days in early October 2020, shortly after his first debate with the then-Democratic presidential nominee Biden. \n Trump's White House chief of staff Mark Meadows in a new book wrote that Trump tested positive for the coronavirus three days before the Biden debate. Sources have confirmed that to NBC News, but said Trump tested negative after his initial positive test before the debate."
+  }
+]

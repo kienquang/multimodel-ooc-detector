@@ -1,87 +1,20 @@
-{
-  "sample_id": "false_323",
-  "image_url": "https://pbs.twimg.com/media/C2o-QW8XUAAV194.jpg:large",
-  "visual_entities": [
-    {
-      "description": "Flag of the United States",
-      "score": 1.241541
-    },
-    {
-      "description": "United States",
-      "score": 1.0695
-    },
-    {
-      "description": "Mexico",
-      "score": 0.74205005
-    },
-    {
-      "description": "Flag",
-      "score": 0.7315
-    },
-    {
-      "description": "",
-      "score": 0.713
-    },
-    {
-      "description": "Thomas Jefferson",
-      "score": 0.6894
-    },
-    {
-      "description": "American Revolution",
-      "score": 0.58695
-    },
-    {
-      "description": "Thirteen Colonies",
-      "score": 0.56445
-    },
-    {
-      "description": "Flag Day",
-      "score": 0.56067145
-    },
-    {
-      "description": "Flag of Texas",
-      "score": 0.5483
-    },
-    {
-      "description": "",
-      "score": 0.4947
-    },
-    {
-      "description": "Flag of Mexico",
-      "score": 0.4685
-    },
-    {
-      "description": "United States Flag Code",
-      "score": 0.468
-    },
-    {
-      "description": "Flag Day",
-      "score": 0.4304
-    },
-    {
-      "description": "won",
-      "score": 0.3882
-    }
-  ],
-  "best_guess_labels": [
-    "flag of the united states"
-  ],
-  "similar_image_urls": [
-    "https://pbs.twimg.com/media/C2o-QW8XUAAV194.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.dvidshub.net/video/941301/american-flag",
-      "page_title": "Video - American Flag - DVIDS",
-      "title": "American Flag",
-      "description": "Full screen animated waving flag of the United States of America (USA).",
-      "text": "Full screen animated waving flag of the United States of America (USA).\nVideo Analytics\nPUBLIC DOMAIN\nThis work, American Flag, by Rodney Turner, identified by DVIDS, must comply with the restrictions shown on https://www.dvidshub.net/about/copyright.\nMORE LIKE THIS\nCONTROLLED VOCABULARY KEYWORDS\nTAGS",
-      "image_captions": [
-        "Defense Visual Information Distribution Service Logo",
-        "US Deptartment of Defense Logo"
-      ]
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T19:02:29.286508+00:00"
-}
+[
+  {
+    "source": "www.thefiscaltimes.com",
+    "url": "https://www.thefiscaltimes.com/2016/11/29/Assessing-Trump-s-Puzzling-Flag-Burning-Tweet",
+    "clip_score": 0.2129,
+    "optimized_evidence": "[PUBLISHED DATE]: 2016\n[TITLE]: Here's the Funny Thing About Trump’s Flag-Burning Tweet | The Fiscal Times\n[METADATA/INTRO]: On Twitter Tuesday morning, President-elect Donald Trump took a break from abusing CNN and citing right-wing website assertions of voter fraud in an election that he actually won to take a strong policy position on an issue that, well, nobody...\n[BEST EVIDENCE CHUNK]: In 2005, then-Senator Clinton introduced the Flag Protection Act, which prohibited the destruction or damaging of the flag “with the primary purpose and intent to incite or produce imminent violence or a breach of the peace, and under circumstances in which the person knows that it is reasonably likely to produce imminent violence or a breach of the peace.” Violators could face up to $100,000 in fines and up to a year in prison, but the proposal never became law. \n Related: Why Trump Should Welcome an Election Recount \n While jailing political protestors is something most Americans associate with despots and dictators, laws against flag desecration, including some that carry prison sentences, are surprisingly common even in advanced democracies, including close U.S. allies. In Europe, flag desecration laws exist in Austria, Finland, France, Germany, Italy, and Portugal. In more totalitarian states, like China, and those ruled by a monarchy, like Saudi Arabia, the penalties for flag desecration can be extremely harsh."
+  },
+  {
+    "source": "www.cbc.ca",
+    "url": "https://www.cbc.ca/news/world/trump-ban-flag-burning-1.7617620",
+    "clip_score": 0.1998,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Trump signs order banning flag-burning — a right protected by the U.S. Constitution | CBC News\n[METADATA/INTRO]: Trump signs order banning flag-burning — a right protected by the U.S. Constitution U.S. Supreme Court has ruled 1st Amendment protects flag-burning as legitimate political expression...\n[BEST EVIDENCE CHUNK]: G.S. Hans, a law professor at Cornell University who focuses on the First Amendment, said the country has not suffered from an epidemic of flag-burning. \n \"I don't think this is something that has been a big problem,\" Hans said in an interview. \"It's a solution in search of a problem.\" \n 'Uniquely offensive and provocative' \n The executive order states that desecrating the American flag is \"uniquely offensive and provocative. It is a statement of contempt, hostility, and violence against our Nation — the clearest possible expression of opposition to the political union that preserves our rights, liberty, and security. Burning this representation of America may incite violence and riot.\""
+  },
+  {
+    "source": "www.thecanadianpressnews.ca",
+    "url": "https://www.thecanadianpressnews.ca/world/ap-photos-mexican-flags-at-la-protests-spark-debate-over-symbolism/article_5adf3114-3109-56ff-9ba8-bfb5298b8fda.html",
+    "clip_score": 0.1936,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: AP PHOTOS: Mexican flags at LA protests spark debate over symbolism | World News | thecanadianpressnews.ca\n[METADATA/INTRO]: This is a photo gallery curated by AP photo editors. ———...\n[BEST EVIDENCE CHUNK]: Kris Klein Hernández, an assistant professor of history at Connecticut College, said the flying of foreign flags in the U.S. has always brought awareness to the plight of marginalized groups. Their appearance in the latest protests might symbolize solidarity with their native land or social movements that support Americans of Mexican descent, he said. \n White House press secretary Karoline Leavitt told reporters that those flying Mexican flags at immigration protests were left-wing radicals who attacked law enforcement agents “removing violent, criminal illegal aliens from the city.” \n And even fierce Trump critic former Rep. Adam Kinzinger, a Republican, expressed his displeasure with the display of non-American flags at immigration protests that have spread to other states."
+  }
+]

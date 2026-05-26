@@ -1,74 +1,20 @@
-{
-  "sample_id": "true_92",
-  "image_url": "https://pbs.twimg.com/media/EAmAKHSWkAEh0K_?format=jpg&name=medium",
-  "visual_entities": [
-    {
-      "description": "Interior design",
-      "score": 0.7237
-    },
-    {
-      "description": "Living room",
-      "score": 0.4881
-    },
-    {
-      "description": "Art",
-      "score": 0.4698
-    },
-    {
-      "description": "Bookcase",
-      "score": 0.4631
-    },
-    {
-      "description": "Table",
-      "score": 0.4488
-    },
-    {
-      "description": "Livspace",
-      "score": 0.4032
-    },
-    {
-      "description": "Centrepiece",
-      "score": 0.3972
-    },
-    {
-      "description": "Shelf",
-      "score": 0.3357
-    },
-    {
-      "description": "Wreath",
-      "score": 0.3123
-    }
-  ],
-  "best_guess_labels": [
-    "decoration"
-  ],
-  "similar_image_urls": [
-    "https://pbs.twimg.com/media/EAmAKHSWkAEh0K_.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.accio.com/plp/decoration-stuff",
-      "page_title": "Need Decoration Stuff? Explore 46,000+ Home & Party Decor Items",
-      "title": "Need Decoration Stuff? Explore 46,000+ Home & Party Decor Items",
-      "description": "Looking for unique decoration stuff? Discover wall art, table centerpieces, and seasonal wreaths for any space. Shop verified suppliers with competitive prices. Click to browse now!",
-      "text": "Market Trends of Decoration Stuff\nThe global home decor market reached $714 billion in 2023, projected to grow at 5.2% CAGR through 2030. Key industry developments include rising demand for sustainable materials (bamboo, recycled metals) and smart decorative items with embedded lighting or IoT capabilities. Personalized/customizable decor now represents 28% of B2B orders, while multifunctional pieces (storage-integrated decor) show 17% annual growth.\nMajor drivers include urbanization (68% of global population in cities by 2030), rising disposable incomes, and social media-driven interior design trends. Significant challenges include volatile raw material costs (lumber prices fluctuated 35% in 2023) and complex international compliance frameworks. Regionally, Asia-Pacific dominates with 41% market share, followed by North America (28%) and Europe (23%). Technology advancements like AR visualization tools and AI-driven trend forecasting are reducing product returns by 22% and enabling hyper-personalized manufacturing.\nHow To Choose Decoration Stuff?\nTechnical Specifications and Standards\nPrioritize ISO 8124-1 safety compliance for decorative items, especially those with electrical components or child-accessible parts. Verify material composition certificates – ceramic decor should meet ASTM C242 standards, while metal items require RoHS compliance for lead content.\nIndustry Compliance Requirements\nMandatory certifications vary by region: CE marking for EU imports, CPSIA for US markets, and GB 6675 for China-bound shipments. Textile-based decor requires Oeko-Tex Standard 100 certification, with flammability ratings (CAL 117 for furniture) being non-negotiable for commercial spaces.\nPerformance Metrics and Benchmarks\nEvaluate fade resistance (AATCC 16 for colorfastness), structural integrity (minimum 50,000 flex cycles for hanging elements), and lightfastness ratings (Blue Wool Scale 7+ for sun-exposed areas). Commercial-grade decor should withstand 2x the stress of residential equivalents.\nCost-Efficiency Factors\nCalculate total cost per lifecycle hour – a $100 decor piece lasting 10 years outperforms a $40 item replaced biannually. Factor in shipping optimization (modular designs reduce volume costs by 18-35%) and bulk purchase discounts at 500+ units.\nQuality Assurance Considerations\nRequire third-party lab reports for material verification and stress testing. Implement AQL 2.5 inspection protocols with 0% tolerance for critical defects like sharp edges or toxic coatings. Supplier audits should cover factory conditions and QC documentation trails.\nIntegration Capabilities\nPrioritize decor with universal mounting systems (keyhole slots, standard bracket interfaces) and IoT-ready components. Verify API compatibility for smart home ecosystems – 78% of commercial buyers require Matter protocol support.\nAfter-Sales Support Evaluation\nDemand minimum 3-year warranties with replacement SLAs under 10 business days. Assess supplier responsiveness through mock support tickets – industry leaders resolve 95% of issues within 48 hours. Spare parts availability for mechanical components is essential.\nWhat are the best decoration stuff?\nSummary Analysis\nHigh-volume buyers should prioritize Yizhao's wooden decorations (50% order conversion) for seasonal offerings, despite the 100-piece MOQ. For premium segments, Zhejiang Ningbo's water features command premium pricing ($27.50+) but show exceptional 39% conversion rates. Fuzhou Skywin's lantern kits offer optimal balance with low MOQ (10 units), scalable pricing down to $2.80 at volume, and proven demand (1,379 recent orders). B2B buyers targeting quick-stock replenishment should consider Qingdao Woway's Nordic decor (MOQ 2 pieces) or Huizhou's 3D wall ornaments (perfect 5.0 reviews). Avoid suppliers like Chaozhou Jumen Hardware with single-unit pricing anomalies ($304/piece) and limited order history.\nFAQs\nWhat are the decorative items?\nDecorative items encompass functional or non-functional objects designed to enhance spatial aesthetics, including vases, sculptures, wall art, ornamental lighting, and seasonal accents. In commercial contexts, these extend to architectural elements like custom facades, branded environmental graphics, and experiential installations that shape customer perceptions.\nWhat is the 3-5-7 rule for decorating?\nThis spatial composition principle dictates using odd-number groupings for visual harmony: 3 foundational pieces (e.g., sofa, rug, main artwork), 5 secondary accents (lighting, plants, side tables), and 7 textural layers (throw pillows, books, objects). The rule optimizes retail displays and hospitality environments by creating rhythm without clutter.\nWhat are decorative things called?\nIndustry terminology varies by function: \"ornaments\" denote non-utilitarian objects like figurines; \"accents\" describe complementary pieces (vases, trays); \"hard decor\" refers to permanent installations (moldings, built-ins); \"soft decor\" includes textiles and temporary elements. Trade professionals use \"FF&E\" (Furniture, Fixtures & Equipment) for contractual specifications.\nWhat decor is popular now?\nCurrent commercial trends favor biophilic designs (moss walls, organic shapes) representing 42% of new hospitality projects, and adaptive pieces like modular partitions with acoustic properties. Material-wise, patinated metals and textured ceramics dominate, while color trends show 31% growth in earthy terracottas. Sustainability certifications now influence 67% of B2B purchasing decisions.",
-      "image_captions": [
-        "Desktop Art Decoration Living Room  Home Decorative Items Ceramics Nordic Creative Decor",
-        "Home Decor Pieces Interior Modern Nordic Living Room House Accessories Gold Luxury Other Decoration Home Table Decor for Home",
-        "Creative Chinese-Style Flowing Water Decorative Items Wealth-Generating Home Decor for Living Room and Office Desktops",
-        "High-End Stainless Steel Desktop Ornaments Small Handicrafts for Living Room Decor Eco-Friendly for Weddings",
-        "Handicraft Ornaments Tabletop Items Nordic Wedding Decorations Living Room Table Decorative Items Corporate Gifts"
-      ]
-    },
-    {
-      "url": "https://www.servicecore.com/decorative-home-se17-594162.html",
-      "page_title": "Shop decorative home Online Sale 60 Easy and Chic Home Decor ...",
-      "title": "Error - ServiceCore",
-      "description": "OH NO! THIS IS THE INTERNET'S VERSION OF A TIP OVER. We can't find the page you were looking for. Home Page",
-      "text": "SALES 1-844-336-0611 | SUPPORT 1-888-691-1333\nPortable Restroom Software\nSoftware To Manage Your Portable Toilet Business\nGrease Software\nSoftware To Manage Your Septic Business\nSeptic Software\nDumpster Software\nSoftware To Manage Your Dumpster Business\nAbout ServiceCore\nLearn More About ServiceCore\nPartnerships\nPartner With ServiceCore\nCareers\nSee Open Positions\nTestimonials\nSuccess Stories\nBlog\nArticles To Help Operators Grow\nCase Studies\nThese operators made the switch to ServiceCore\nToiletTalk\nBusiness Tips for Portable Toilet Operators\nRefer An Operator\nKnow Someone That Needs ServiceCore?\nFree Ebooks\nMade for Operators Like You\n2025 Portable Sanitation Industry Benchmark Report\nDownload this year’s benchmark report to see how your business compares to others in the portable sanitation industry\nThe Complete Routing Playbook for Portable Restroom Operators\nLearn How to Elevate Your Routing game to run a more efficient & productive business\n1-888-691-1333\nOH NO! THIS IS THE INTERNET’S VERSION OF A TIP OVER.\nWe can’t find the page you were looking for.",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 2,
-  "crawled_at": "2026-04-23T18:36:20.524250+00:00"
-}
+[
+  {
+    "source": "michaelnhenderson.com",
+    "url": "https://michaelnhenderson.com/louisianas-commemoration-of-the-battle-of-baton-rouge-and-tribute-to-bernardo-de-galvez/",
+    "clip_score": 0.2493,
+    "optimized_evidence": "[PUBLISHED DATE]: 2024-09-24\n[TITLE]: Louisiana&#8217;s Commemoration of the Battle of Baton Rouge and Tribute to Bernardo de Galvez. &#8211; Michael N. Henderson\n[METADATA/INTRO]: I was honored to be one of three featured guest speakers at this year’s Louisiana’s Commemoration of Bernardo de Galvez and the Battle of Baton Rouge held at the Hilton Baton Rouge Capitol Center on Sept 17, 2024. It was...\n[BEST EVIDENCE CHUNK]: Next Photo John R. Espinosa, Governor General, Los Granaderos y Damas de Galvez, President General Pamela Wright, Frances Henderson, New Orleans Chapter DAR, Louisiana State Society DAR Regent, Cheryl Gott, Michael N. Henderson, LCDR USN Ret. Past0President Button Gwinnett Chapter Georiga Society SAR. \n Photo below: (L-R). Jane Bronner, Atlanta Chapter DAR, President General Pamela Wright, Frances Henderson, New Orleans Chapter DAR, Frances Henderson, New Orleans Chapter DAR, Michael N. Henderson, LCDR USN Ret. Past0President Button Gwinnett Chapter Georiga Society SAR. Louisiana State Society DAR Regent, Cheryl Gott, \n Photo of the family who attended the event with me: Jane Bronner, Cynthia Henderson, Anita Henderson, Me Bottom Row: President General Pamela Rouse Wright, Frances Henderson, New Orleans Chapter DAR, Louisiana State Society DAR Regent, Cheryl Gott. This was a beautiful experience at the 2024 Louisiana Commemoration of Bernardo de Galvez and the Battle of Baton Rouge. Congratulations to all who made this event successful. Viva Galvez"
+  },
+  {
+    "source": "www.thetokyowomensclub.com",
+    "url": "https://www.thetokyowomensclub.com/monthly-meeting/monthly-meeting-2018-2019/april-2019/",
+    "clip_score": 0.2262,
+    "optimized_evidence": "[PUBLISHED DATE]: April 26th 2019\n[TITLE]: Monthly Meeting 2018/2019 April 2019 - thetokyowomensclub ページ！\n[METADATA/INTRO]: Date: April 26th 2019 (Fri) Time: 12:00-14:00...\n[BEST EVIDENCE CHUNK]: After the show, Mme. Olivia Batjobo (Burkina Faso) also joined us. \n We enjoyed talking with the ladies of AWAAJ, having African buffet lunch. \n A picture painted by Mme. Maria de Fatima Xavier was up for auction, and ethnic cloths, accessories, and bowls were available at a charity bazaar. Lastly, we danced, danced, and danced. It was an exciting afternoon. \n There were 78 attendees from TWC and 13 from AWAAJ."
+  },
+  {
+    "source": "www.flickr.com",
+    "url": "https://www.flickr.com/photos/statephotos/3950159820",
+    "clip_score": 0.2051,
+    "optimized_evidence": "[PUBLISHED DATE]: Sept. 23, 2009\n[TITLE]: U.S. President Barack Obama and First Lady Michelle Obama … | Flickr\n[METADATA/INTRO]: U.S. President Barack Obama and First Lady Michelle Obama With World Leaders at the Metropolitan Museum in New York President Barack Obama and First Lady Michelle Obama pose for a photo during a reception at the Metropolitan Museum in New...\n[BEST EVIDENCE CHUNK]: U.S. President Barack Obama and First Lady Michelle Obama With World Leaders at the Metropolitan Museum in New York \n President Barack Obama and First Lady Michelle Obama pose for a photo during a reception at the Metropolitan Museum in New York with T.H. Fredrick Fono, Deputy Prime Minister and Minister of Development and Indigenous Affairs of Solomon Islands, and his wife, Mrs. Helen A. Fono, Wednesday, Sept. 23, 2009. (Official White House Photo by Lawrence Jackson) \n This official White House photograph is being made available only for publication by news organizations and/or for personal use printing by the subject(s) of the photograph. The photograph may not be manipulated in any way and may not be used in commercial or political materials, advertisements, emails, products, or promotions that in any way suggests approval or endorsement of the President, the First Family, or the White House."
+  }
+]

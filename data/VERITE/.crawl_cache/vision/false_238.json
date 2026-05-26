@@ -1,69 +1,20 @@
-{
-  "sample_id": "false_238",
-  "image_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/AAE0/production/_92344734_gettyimages-621651016.jpg",
-  "visual_entities": [
-    {
-      "description": "Mike Pence",
-      "score": 8.352
-    },
-    {
-      "description": "United States",
-      "score": 0.6942
-    },
-    {
-      "description": "Presidential nominee",
-      "score": 0.626
-    },
-    {
-      "description": "Donald Trump presidential campaign, 2016",
-      "score": 0.5972
-    },
-    {
-      "description": "President-Elect",
-      "score": 0.4899
-    },
-    {
-      "description": "",
-      "score": 0.4628
-    },
-    {
-      "description": "2016",
-      "score": 0.4602
-    },
-    {
-      "description": "Candidate",
-      "score": 0.4079
-    },
-    {
-      "description": "Political campaign",
-      "score": 0.4
-    }
-  ],
-  "best_guess_labels": [
-    "trump rally 2016"
-  ],
-  "similar_image_urls": [
-    "http://c.files.bbci.co.uk/AAE0/production/_92344734_gettyimages-621651016.jpg",
-    "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/AAE0/production/_92344734_gettyimages-621651016.jpg",
-    "https://ichef.bbci.co.uk/ace/ws/660/cpsprodpb/AAE0/production/_92344734_gettyimages-621651016.jpg.webp",
-    "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/AAE0/production/_92344734_gettyimages-621651016.jpg.webp",
-    "https://ichef.bbci.co.uk/ace/ws/640/amz/worldservice/live/assets/images/2016/11/09/161109175639_trump_rally_whites_624x351_gettyimages_nocredit.jpg.webp",
-    "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/26C5/production/_92352990_715fecd4-727c-4d3c-9a17-91cc4d8187a2.jpg.webp",
-    "https://the53rdregiment.com/wp-content/uploads/2020/08/Trump-Coalition.jpg",
-    "https://s3.eu-central-1.amazonaws.com/abzasmedia/media/content_files/_92344734_gettyimages-621651016.jpg",
-    "http://a.files.bbci.co.uk/worldservice/live/assets/images/2016/11/09/161109175639_trump_rally_whites_624x351_gettyimages_nocredit.jpg",
-    "http://c.files.bbci.co.uk/26C5/production/_92352990_715fecd4-727c-4d3c-9a17-91cc4d8187a2.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.theguardian.com/us-news/video/2016/mar/14/donald-trump-protester-stage-ohio-rally-video",
-      "page_title": "Donald Trump rushed on stage by protester at Ohio rally – video",
-      "title": "Donald Trump rushed on stage by protester at Ohio rally – video",
-      "description": "A Donald Trump protester on Saturday jumped a barrier and attempted to rush the candidate on stage at a rally in Ohio",
-      "text": "Donald Trump rushed on stage by protester at Ohio rally – video\nThis article is more than 10 years old\nA Donald Trump protester on Saturday jumped a barrier and attempted to rush the candidate on stage at a rally in Dayton, Ohio. The man reached the edge of the stage before being tackled by secret service officers. Trump, who looked flustered, took a moment to regain his composure before thanking the crowd for warning him about the incident",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T18:46:38.717748+00:00"
-}
+[
+  {
+    "source": "www.chicagotribune.com",
+    "url": "https://www.chicagotribune.com/2016/12/17/on-victory-lap-in-alabama-trump-rallies-his-base-but-is-he-building-bridges/",
+    "clip_score": 0.2857,
+    "optimized_evidence": "[PUBLISHED DATE]: 2016-12-17\n[TITLE]: On victory lap in Alabama, Trump rallies his base, but is he building bridges? &#8211; Chicago Tribune\n[METADATA/INTRO]: He strode out on a catwalk at a football stadium here to Lynyrd Skynyrd’s “Sweet Home Alabama.” A 50-foot cedar tree, which aides installed behind his stage with a crane, was decorated in Christmas ornaments larger than a human head....\n[BEST EVIDENCE CHUNK]: All nine of the stops on Trump’s “thank you” tour have been in states he won – some of them unexpectedly. The crowds have been overwhelmingly white and, by all accounts, mostly people who voted for him. Folks have come wearing Trump hats and T-shirts. Women have been given pink “Women for Trump” signs to wave. And when speakers have asked for a show of hands of who had been to a Trump rally before, it has seemed as if every hand were in the air. \n Sen. Bernie Sanders, I-Vt., who ran unsuccessfully for president this year as a Democrat, said, “Mr. Trump has every right in the world to thank his supporters in those states in which he won but, as the president-elect, he also has the responsibility to assure all Americans that he is listening to their concerns.”"
+  },
+  {
+    "source": "www.ky3.com",
+    "url": "https://www.ky3.com/content/news/Trump-on-rally-blitz-as-he-tries-to-stave-off-Dem-gains-497516211.html",
+    "clip_score": 0.2679,
+    "optimized_evidence": "[PUBLISHED DATE]: 2018-10-14\n[TITLE]: Trump on rally blitz as he tries to stave off Dem gains\n[METADATA/INTRO]: Trump on rally blitz as he tries to stave off Dem gains President Donald Trump gazes out over his rally crowd and looses a stream of insults with a theatrical flourish and playful grin. He jabs at Cory Booker the...\n[BEST EVIDENCE CHUNK]: But after more than 350 rallies since he first began his presidential run, some things have changed. \n Trump's supporters remain as enthusiastic as ever, standing for hours in hot sun or driving rain and exploding into thundering applause when he takes the stage. They wave the same signs, wear the same hats, and chant the same \"Build that wall!\" and \"Lock her up!\" refrains that they did during the early days of Trump's campaign. \n But the once insurgent candidate, who told his supporters the system was rigged against them, is now president. And he's been delivering on many of his campaign promises, in spite of lackluster approval ratings."
+  },
+  {
+    "source": "www.bbc.com",
+    "url": "https://www.bbc.com/news/world-us-canada-38179002",
+    "clip_score": 0.2611,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: US election 2016: Trump settles scores in &#x27;thank-you&#x27; event - BBC News\n[METADATA/INTRO]: This was billed as the first stop on President-elect's Donald Trump's \"thank you\" tour of states he flipped from Democrat to Republican in the 2016 election. It ended up being more like an extended end-zone dance, an \"in your face\"...\n[BEST EVIDENCE CHUNK]: The music was the same - Elton John, Pavarotti arias and the Rolling Stones. \n The souvenir vendors still plied their \"Hillary for Prison\" T-shirts, Trump buttons and \"Make America Great Again\" hats, with a few new presidential knick-knacks thrown in. \n The enthusiastic, overwhelmingly white crowd was the same, chanting \"USA\", \"build the wall\" and \"drain the swamp\". \n Talk to them, and you hear the same unadulterated admiration for his unconventional ways. \n \"He's spontaneous,\" said Christopher Kidney, a high school student from Fort Thomas, Kentucky. \"He says what's on his mind, and that's what we need in a president.\" \n And then there's the same anger that fuelled Mr Trump's successful campaign."
+  }
+]

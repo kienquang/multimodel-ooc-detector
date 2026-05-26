@@ -1,92 +1,20 @@
-{
-  "sample_id": "true_235",
-  "image_url": "https://pbs.twimg.com/media/FaTsdmKWQAI9hxD?format=jpg&name=900x900",
-  "visual_entities": [
-    {
-      "description": "Student",
-      "score": 0.85584384
-    },
-    {
-      "description": "Student U",
-      "score": 0.7042
-    },
-    {
-      "description": "School",
-      "score": 0.7035
-    },
-    {
-      "description": "Education",
-      "score": 0.6717
-    },
-    {
-      "description": "College student",
-      "score": 0.6582
-    },
-    {
-      "description": "Classroom",
-      "score": 0.6036076
-    },
-    {
-      "description": "Higher Education School",
-      "score": 0.5894
-    },
-    {
-      "description": "Course",
-      "score": 0.5268
-    },
-    {
-      "description": "Twelfth Grade",
-      "score": 0.5055
-    },
-    {
-      "description": "Extracurricular activity",
-      "score": 0.4775
-    },
-    {
-      "description": "University of Oregon",
-      "score": 0.4368
-    },
-    {
-      "description": "Scholarship",
-      "score": 0.4253
-    },
-    {
-      "description": "Campus",
-      "score": 0.3796
-    },
-    {
-      "description": "Seminar",
-      "score": 0.3230503
-    }
-  ],
-  "best_guess_labels": [
-    "student"
-  ],
-  "similar_image_urls": [
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1508822917478630",
-    "https://pbs.twimg.com/media/HF-9kEeWMAAnNZ5.jpg?format=jpg&name=thumb"
-  ],
-  "evidence": [
-    {
-      "url": "https://studentudurham.org/category/high-school/",
-      "page_title": "High School - Student U Durham",
-      "title": "High School Archives - Student U Durham",
-      "description": "",
-      "text": "High School Program Updates During COVID-19 As of last week, COVID-19, otherwise known as, Coronavirus...\nHigh School Student U’s Durham Rotary Centennial Scholarship Application 2020 Student U’s Durham Rotary Centennial Scholarship is an award...",
-      "image_captions": []
-    },
-    {
-      "url": "https://study.com/academy/lesson/video/which-student-life-options-should-i-consider.html",
-      "page_title": "Video: Which Student Life Options Should I Consider? - Study.com",
-      "title": "Which Student Life Options Should I Consider? - Video | Study.com",
-      "description": "Discover the various student life options you should consider in our video lesson. Watch now to find out which options can enrich your academic journey, then take a quiz!",
-      "text": "An error occurred trying to load this video.\nTry refreshing the page, or contact customer support.\nYou must cCreate an account to continue watching\nRegister to view this lesson\nAre you a student or a teacher?\nCreate Your Account To Continue Watching\nAs a member, you'll also get unlimited access to over 88,000 lessons in math, English, science, history, and more. Plus, get practice tests, quizzes, and personalized coaching to help you succeed.\nGet unlimited access to over 88,000 lessons.\nTry it nowAlready registered? Log in here for access\nGo backResources created by teachers for teachers\nOver 30,000 video lessons\n& teaching resources—all\nin one place.\nVideo lessons\nQuizzes and worksheets\nClassroom integration\nLesson plans\nI would definitely recommend Study.com to my colleagues. It’s like a teacher waved a magic wand and did the work for me. I feel like it’s a lifeline.\nJennifer B.\nTeacher\nGo back\nJust checking in. Are you still watching?\nYes! Keep playing.\nYour next lesson will play in\n10 seconds\n- 0:03 Student Life\n- 1:18 Campus Life\n- 2:53 Student Activities\n- 4:20 Lesosn Summary",
-      "image_captions": [
-        "Get it on Google Play",
-        "Get it on the App Store"
-      ]
-    }
-  ],
-  "evidence_count": 2,
-  "crawled_at": "2026-04-23T17:58:22.391294+00:00"
-}
+[
+  {
+    "source": "stockton.edu",
+    "url": "https://stockton.edu/news/2022/irs-adrian-project-simulation-2022.html",
+    "clip_score": 0.2481,
+    "optimized_evidence": "[PUBLISHED DATE]: 2022\n[TITLE]: IRS - You're Under Arrest! - News | Stockton University\n[METADATA/INTRO]: IRS - You're Under Arrest! Atlantic City, N.J. – Sometimes even an accountant might need a gun....\n[BEST EVIDENCE CHUNK]: IRS - You're Under Arrest! \n Atlantic City, N.J. – Sometimes even an accountant might need a gun. \n A group of 18 Stockton University students and two visiting Ocean City High School students spent the day living the life of an IRS Special Agent during a special criminal investigation simulation hosted by the IRS Adrian Project at Stockton University’s Atlantic City campus. \n Once they were sworn in as Special Agents, the 20 students spent several hours questioning and surveilling suspects, analyzing tax returns and financial records, and learning how to operate handcuffs before obtaining a warrant and arresting their suspects, taking down an operation that was financing terrorists."
+  },
+  {
+    "source": "news.moravian.edu",
+    "url": "https://news.moravian.edu/2024/10/28/moravian-hosts-irs-citizen-academy/",
+    "clip_score": 0.2412,
+    "optimized_evidence": "[PUBLISHED DATE]: 2024\n[TITLE]: Moravian Hosts IRS Citizen Academy &#8211; Moravian University News\n[METADATA/INTRO]: Thursday, October 17, began like any other day at Moravian University, but it ended with an arrest of two alumni on campus for a tax crime. Moravian hosted the IRS Citizen Academy, a day-long event in which students participated in...\n[BEST EVIDENCE CHUNK]: Students also participated in a defensive tactics training session, in which they were introduced to IRS protective vests, gun holsters, handcuffs, and the purpose of a police shield, halligan, and battering ram for entering a building. \n Glantz provided insights on what students may have missed within the investigation, what they should focus on, and more—trying to teach them in a day what most agents go through in a year. \n Dylan Lazar ’25, a sociology major in the criminal justice track, says his experience in the IRS Citizen Academy gave him a new perspective on potential career paths. While he’s still interested in forensics, he’s now open to the idea of becoming a special agent or even an investigative analyst."
+  },
+  {
+    "source": "www.tamucc.edu",
+    "url": "https://www.tamucc.edu/news/2023/03/032823-islanders-become-special-agents-for-a-day-during-irs-citizen-academy.php",
+    "clip_score": 0.2411,
+    "optimized_evidence": "[PUBLISHED DATE]: 2023\n[TITLE]: Islanders Become ‘Special Agents for a Day’ During IRS Citizen Academy | March | 2023 | News | Texas A&amp;M University-Corpus Christi\n[METADATA/INTRO]: Islanders Become ‘Special Agents for a Day’ During IRS Citizen Academy CORPUS CHRISTI, Texas – Islander students got a firsthand look at life behind the badge during the Internal Revenue Service (IRS) Citizen Academy, a simulation experience providing both mentorship...\n[BEST EVIDENCE CHUNK]: Students began the day by taking an oath of office before being assigned their official case study. They then worked through the criminal investigation process alongside IRS-CI special agents and learned how to obtain a search warrant, analyze evidence, arrest a suspect, and present their case in a court of law. During the search warrant scenario, students wore badges and vests and carried handcuffs and fake guns to simulate the day-to-day experiences involved in real crimes. \n “To be able to step into the field for the day alongside the real professionals is not something everyone has a chance to do,” said Daniel Nye ’24, TAMU-CC finance major. “Reading a career choice you’re interested in is one thing, but today I got to learn firsthand and find out what life could be like on the inside.”"
+  }
+]

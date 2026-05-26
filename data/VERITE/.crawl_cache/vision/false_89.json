@@ -1,83 +1,20 @@
-{
-  "sample_id": "false_89",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Ethiopian_Female_Soldier_%281935%29.jpg",
-  "visual_entities": [
-    {
-      "description": "Second Italo-Ethiopian War",
-      "score": 1.49895
-    },
-    {
-      "description": "Ethiopian Empire",
-      "score": 1.0599
-    },
-    {
-      "description": "Haile Selassie",
-      "score": 0.91695
-    },
-    {
-      "description": "1935",
-      "score": 0.6351
-    },
-    {
-      "description": "Adwa",
-      "score": 0.6023985
-    },
-    {
-      "description": "",
-      "score": 0.5788
-    },
-    {
-      "description": "Soldier",
-      "score": 0.4769
-    },
-    {
-      "description": "Ethiopian Army",
-      "score": 0.4483
-    },
-    {
-      "description": "Warrior",
-      "score": 0.3399
-    },
-    {
-      "description": "Battle",
-      "score": 0.3188
-    },
-    {
-      "description": "March",
-      "score": 0.3161
-    }
-  ],
-  "best_guess_labels": [
-    "ethiopian soldiers 1935"
-  ],
-  "similar_image_urls": [
-    "https://upload.wikimedia.org/wikipedia/commons/f/f8/Ethiopian_Female_Soldier_%281935%29.jpg",
-    "https://cdn2.picryl.com/photo/1935/12/31/ethiopian-female-soldier-1935-f040e2-1024.jpg",
-    "https://cdn.sanity.io/images/u4eaiudq/production/550ee5e6cf5f29dc186f7be1bb68498348444789-423x599.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Ethiopian_Female_Soldier_%281935%29.jpg/250px-Ethiopian_Female_Soldier_%281935%29.jpg",
-    "https://cdn2.picryl.com/thumbnail/1935/12/31/ethiopian-female-soldier-1935-f040e2-200.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://commons.wikimedia.org/wiki/File:Ethiopian_Female_Soldier_(1935).jpg",
-      "page_title": "File:Ethiopian Female Soldier (1935).jpg - Wikimedia Commons",
-      "title": "File:Ethiopian Female Soldier (1935).jpg - Wikimedia Commons",
-      "description": "",
-      "text": "File:Ethiopian Female Soldier (1935).jpg\nAppearance\nSize of this preview: 423 × 599 pixels. Other resolutions: 169 × 240 pixels | 339 × 480 pixels | 542 × 768 pixels | 722 × 1,024 pixels | 2,484 × 3,520 pixels.\nOriginal file (2,484 × 3,520 pixels, file size: 1.64 MB, MIME type: image/jpeg)",
-      "image_captions": [
-        "File:Ethiopian Female Soldier (1935).jpg",
-        "Thumbnail for version as of 11:37, 5 September 2020"
-      ]
-    },
-    {
-      "url": "https://www.alamy.com/video/1935-ethiopian-soldiers-march-into-addis-ababa-609287629.html",
-      "page_title": "1935 - Ethiopian soldiers march into Addis Ababa. - Alamy",
-      "title": "1935 - Ethiopian soldiers march into Addis Ababa Stock Video Footage - Alamy",
-      "description": "Buy this stock video clip: 1935 - Ethiopian soldiers march into Addis Ababa. - 2XB7CGD now from Alamy's library of high-quality 4K and HD stock footage and videos.",
-      "text": "1935 - Ethiopian soldiers march into Addis Ababa.\nCaptions are provided by our contributors.\nRFID:Video ID:2XB7CGD\nVideo Details\nContributor:\nDVArchive-RetrofootageHD Resolution:\n1920 x 1080 / MOVClip length:\n00:00:41:000Frame rate:\n29.97 fpsLooping:\nNoAlpha channel:\nNoAlpha matte:\nNoReleases:\nModel - no | Property - noDo I need a release?More information:\nThis image could have imperfections as it’s either historical or reportage.\n1935 - Ethiopian soldiers march into Addis Ababa.\nPhotographer:\nDVArchive-RetrofootageDate taken:\n1930",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 2,
-  "crawled_at": "2026-04-23T17:14:58.604737+00:00"
-}
+[
+  {
+    "source": "commons.wikimedia.org",
+    "url": "https://commons.wikimedia.org/wiki/File:Ethiopian_Female_Soldier_(1935).jpg",
+    "clip_score": 0.242,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: File:Ethiopian Female Soldier (1935).jpg - Wikimedia Commons\n[METADATA/INTRO]: File:Ethiopian Female Soldier (1935).jpg Appearance...\n[BEST EVIDENCE CHUNK]: File:Ethiopian Female Soldier (1935).jpg \n Size of this preview: 423 × 599 pixels. Other resolutions: 169 × 240 pixels | 339 × 480 pixels | 542 × 768 pixels | 722 × 1,024 pixels | 2,484 × 3,520 pixels. \n Original file (2,484 × 3,520 pixels, file size: 1.64 MB, MIME type: image/jpeg)"
+  },
+  {
+    "source": "fineartamerica.com",
+    "url": "https://fineartamerica.com/featured/a-young-zulu-warrior-wearing-mary-evans-picture-library.html",
+    "clip_score": 0.2378,
+    "optimized_evidence": "[PUBLISHED DATE]: January 8th, 2018\n[TITLE]: A Young Zulu Warrior, Wearing Photograph by Mary Evans Picture Library - Fine Art America\n[METADATA/INTRO]: A Young Zulu Warrior, Wearing is a photograph by Mary Evans Picture Library which was uploaded on January 8th, 2018. A Young Zulu Warrior, Wearing...\n[BEST EVIDENCE CHUNK]: A Young Zulu Warrior, Wearing is a photograph by Mary Evans Picture Library which was uploaded on January 8th, 2018. \n A Young Zulu Warrior, Wearing \n A Young Zulu Warrior, Wearing \n Mary Evans Picture Library \n A young Zulu warrior, wearing colourful ornaments and carrying a spear. Date circa 1900"
+  },
+  {
+    "source": "www.nationalgeographic.com",
+    "url": "https://www.nationalgeographic.com/history/article/the-true-story-of-the-women-warriors-of-dahomey",
+    "clip_score": 0.2149,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: The true story of the women warriors of Dahomey | National Geographic\n[METADATA/INTRO]: The warriors of this West African kingdom were formidable—and female In the 17th century, Dahomey flourished under the protection of its all-woman military regiment that inspired Viola Davis's acclaimed film The Woman King....\n[BEST EVIDENCE CHUNK]: These female fighters were not concubines or servants obliged to defer to any man’s whims. And they didn’t just spring out of the ether; historians have long noted the prominence of women in some African societies. In the book Continent of Mothers, Continent of Hope: Understanding and Promoting Development in Africa Today, author Torild Skard writes about the Dahomey warriors: \n “(They) were renowned for their zeal and ferocity. The most fearsome were armed with rifles. There were also archers, hunters and spies. They exercised regularly to be physically and mentally fit for combat. They sang, ‘Men, men stay! May the men stay! May they raise corn and grow palm trees … We go to war.’ When not in combat, they guarded the royal palaces in Abomen and grew fruit and vegetables. They could also go out and take captives to sell as slaves.”"
+  }
+]

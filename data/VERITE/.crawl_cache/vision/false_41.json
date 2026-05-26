@@ -1,83 +1,20 @@
-{
-  "sample_id": "false_41",
-  "image_url": "https://i.pinimg.com/736x/1e/01/61/1e0161fa1aa08e113bde4bedd9419693.jpg",
-  "visual_entities": [
-    {
-      "description": "Fashion",
-      "score": 0.7351
-    },
-    {
-      "description": "Street style",
-      "score": 0.7287
-    },
-    {
-      "description": "Japanese street fashion",
-      "score": 0.6213
-    },
-    {
-      "description": "Hat",
-      "score": 0.6034
-    },
-    {
-      "description": "Clothing",
-      "score": 0.5954
-    },
-    {
-      "description": "",
-      "score": 0.5746
-    },
-    {
-      "description": "Streetwear",
-      "score": 0.5512
-    },
-    {
-      "description": "Shoe",
-      "score": 0.4732
-    },
-    {
-      "description": "Suit",
-      "score": 0.4534
-    },
-    {
-      "description": "Japanese clothing",
-      "score": 0.4066
-    },
-    {
-      "description": "Dress",
-      "score": 0.3895
-    },
-    {
-      "description": "Platform shoe",
-      "score": 0.3812
-    },
-    {
-      "description": "Model",
-      "score": 0.3655
-    }
-  ],
-  "best_guess_labels": [
-    "girl"
-  ],
-  "similar_image_urls": [
-    "https://i.pinimg.com/736x/b4/e6/f3/b4e6f3583e71cfe6ee054c40364488cc.jpg",
-    "https://s3.r29static.com/bin/entry/d44/720x1080,85/2148682/image.webp",
-    "https://i.pinimg.com/1200x/96/09/1b/96091bd5cb4785a03c7bb2ad64f5d37a.jpg",
-    "https://i.pinimg.com/236x/b4/e6/f3/b4e6f3583e71cfe6ee054c40364488cc.jpg",
-    "https://i.pinimg.com/236x/2d/a3/ae/2da3ae772c3d59b8e86bca089f937d3f.jpg",
-    "https://i.pinimg.com/236x/96/09/1b/96091bd5cb4785a03c7bb2ad64f5d37a.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.refinery29.com/en-gb/tokyo-fashion-week-street-style",
-      "page_title": "21 Tokyo Fashion Week Street Style Looks We Absolutely Love",
-      "title": "The Street Style At Tokyo Fashion Week Is Giving Us Major Fashion Inspiration",
-      "description": "All the best looks from the streets of Amazon Fashion Week Tokyo Autumn/Winter 19.",
-      "text": "ADVERTISEMENT\nThere's good reason why we look forward to Amazon Fashion Week in Tokyo each season and these street style looks are it. While attendees often play it safe with clean, minimalist dressing in the 'big four' (Paris, Milan, London and New York), Tokyo's streets are a riot of clashing colours, patterns and proportions.\nADVERTISEMENT\nADVERTISEMENT",
-      "image_captions": [
-        "This icon serves as a link to download the eSSENTIAL Accessibility assistive technology app for individuals with physical disabilities. It is featured as part of our commitment to diversity and inclusion."
-      ]
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T16:57:12.279929+00:00"
-}
+[
+  {
+    "source": "www.pinterest.com",
+    "url": "https://www.pinterest.com/sexybau/japanese-street-fashion/",
+    "clip_score": 0.228,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: 580 Japanese street fashion ideas in 2026 | japanese street fashion, fashion, tokyo fashion\n[METADATA/INTRO]: 20-year-old Japanese college student Arai - known for mixing kimono, traditional accessories, and modern elements - on the street in Omotesando Tokyo wearing a remake denim kimono with a corset, pleated mini skirt, and platform heels. Her Instagram @ hang_oroshi...\n[BEST EVIDENCE CHUNK]: 20-year-old Japanese college student Arai - known for mixing kimono, traditional accessories, and modern elements - on the street in Omotesando Tokyo wearing a remake denim kimono with a corset, pleated mini skirt, and platform heels. Her Instagram @ hang_oroshi"
+  },
+  {
+    "source": "kawaiivibe.com",
+    "url": "https://kawaiivibe.com/blogs/kawaii/japanese-street-fashion-all-you-need-to-know",
+    "clip_score": 0.228,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Japanese Street Fashion: All You Need To Know &#x7C; Kawaii Vibe\n[METADATA/INTRO]: We might have thought that we will only see true fashion when it is walking down the runway or designed by an A-class fashion designer but what most of us doesn’t know is that fashion exists anywhere and what walks...\n[BEST EVIDENCE CHUNK]: Now this is something familiar. Even though the trend has long died down from other parts of the world, bolder and brighter colored-outfits are still thriving in the streets of Japan. I still see to it as a memoir from 2000’s Harajuku fashion. \n It has been a few years when plaid suddenly strutting down the runway and suddenly giving birth to a whole new fashion revolving around them. I still see plaids as the classic of the classic patterns and I admit, they are very elegant once worn right. \n What do you think of the Japanese street fashion? Do you find one you fancy? Let us know!"
+  },
+  {
+    "source": "www.vogue.com",
+    "url": "https://www.vogue.com/article/tokyo-fashion-week-street-style-accounts-to-follow-now",
+    "clip_score": 0.2183,
+    "optimized_evidence": "[PUBLISHED DATE]: 2020-03-24\n[TITLE]: Missing Tokyo Fashion Week? 7 Instagram Accounts to Follow for Your Street Style Fix | Vogue\n[METADATA/INTRO]: Tokyo Fashion Week may have been officially canceled, but the fall 2020 collections live on through look books and shows live-streamed across the internet. After all, the runways were only ever one element of the event’s appeal. Each season, Tokyo’s...\n[BEST EVIDENCE CHUNK]: The official source for all things street style, Tokyo Fashion contributes to Vogue’s annual portfolio of Fashion Week looks, but its eye-catching content goes all year round. The beautifully photographed shots of chic people from all walks of life offer an overview of everything happening in the city as it relates to great clothes; prepare to spend an hour or two merely taking it all in. \n Born in Japan and raised in New York from the age of 16 onward, musician, editor, and stylist Nina Utashiro is a genuinely global creative, and her feed reflects that. Whether she’s sharing music under the name Thirteen13, or the latest spreads from her magazine Petrichor, each update is fascinating and outside the box."
+  }
+]

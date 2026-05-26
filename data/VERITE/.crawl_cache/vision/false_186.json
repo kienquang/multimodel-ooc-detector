@@ -1,87 +1,20 @@
-{
-  "sample_id": "false_186",
-  "image_url": "https://www.hawaii.edu/powerkills/SHOOTWOMENFULL2.JPG",
-  "visual_entities": [
-    {
-      "description": "World War II",
-      "score": 1.07925
-    },
-    {
-      "description": "Eastern Front",
-      "score": 0.97215
-    },
-    {
-      "description": "Einsatzgruppen",
-      "score": 0.7246
-    },
-    {
-      "description": "",
-      "score": 0.7133
-    },
-    {
-      "description": "The Holocaust in Ukraine",
-      "score": 0.5928
-    },
-    {
-      "description": "SS",
-      "score": 0.5836
-    },
-    {
-      "description": "Einsatzgruppe D",
-      "score": 0.519
-    },
-    {
-      "description": "History",
-      "score": 0.4316
-    },
-    {
-      "description": "World war",
-      "score": 0.3843
-    },
-    {
-      "description": "Nazi Party",
-      "score": 0.366
-    }
-  ],
-  "best_guess_labels": [
-    "death squad war"
-  ],
-  "similar_image_urls": [
-    "https://static-cdn.toi-media.com/www/uploads/2017/09/Jew_Killings_in_Ivangorod_1942-e1506683120321.jpg",
-    "https://static.timesofisrael.com/www/uploads/2017/09/Jew_Killings_in_Ivangorod_1942-e1506683120321.jpg",
-    "http://www.serendib.be/gievandenberghe/artikels/afbeeldingen/beeldfoto10.jpeg",
-    "https://historia.nu/wp-content/uploads/2024/02/Bloodlands-historia-nu-1200-x-800-px.jpg",
-    "https://historia.nu/wp-content/uploads/2024/02/Bloodlands-historia-nu-1200-x-800-px.jpg.webp",
-    "https://www.insuedthueringen.de/media.media.2be4f940-25e5-47b1-8a8d-138612211e3f.original1024.jpg",
-    "https://static-cdn.toi-media.com/fr/uploads/2017/10/Jew_Killings_in_Ivangorod_1942-e1506683120321.jpg",
-    "https://static.timesofisrael.com/fr/uploads/2017/10/Jew_Killings_in_Ivangorod_1942-e1506683120321.jpg",
-    "http://finkelstein.free.fr/shoah/einsatzgruppen-ivangorod-ukraine-1942.jpg",
-    "https://basta.media/IMG/jpg/shoah_par_balle1942.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.ushmm.org/information/exhibitions/online-exhibitions/ukraine",
-      "page_title": "The Holocaust in Ukraine",
-      "title": "The Holocaust in Ukraine",
-      "description": "",
-      "text": "Ukraine experienced a brief independence during World War I after the collapse of Imperial Russia and the Austro-Hungarian Empire. Soon, though, it was subsumed into Poland in the west and the Soviet Union in the east.\nThe years between the establishment of the Ukrainian Soviet Socialist Republic and the German invasion in June 1941 brought their own misery. A famine caused by forced Soviet collectivization of farms resulted in the death of millions of men, women, and children living in Ukraine, which was called “the bread basket of Europe.” Purges targeted intellectuals and Communist Party leaders, and after 1939, Soviet authorities targeted a wide range of “class enemies” in the western territories it annexed according to its agreement with Germany, known as the Molotov-Ribbentrop Pact.\nOn the eve of the invasion in 1941, the territory of Ukraine in its current internationally recognized borders was home to one of the largest Jewish populations in Europe. The fate of those Jews depended on many factors, including the local occupying authority and whether they were among the very few evacuated to the interior of the Soviet Union ahead of the invading forces. While scholars are still researching the scale of the Holocaust in Ukraine, they estimate at least one and a half million Jews were killed there. The Museum is in the process of gathering written records and oral testimony to fully tell the story of what happened in Ukraine during the Holocaust.\nWhat we do know is that following the brutal invasion of the Soviet Union by the German military, special forces called Einsatzgruppen arrived with orders to kill civilians perceived to be enemies of Nazi Germany. They divided the local population in the occupied territories of the Soviet Union, identifying the Jews and recruiting local collaborators. Most Jews in Ukraine were shot to death close to where they lived, not deported to distant camps. Their executioners were German but also Ukrainian, Russian, and other local collaborators.\nAfter the war, Soviet authorities tended to minimize the uniquely Jewish tragedy that occurred during the occupation, while in the West the inaccessibility of Soviet archives compelled scholars to write the history of the Holocaust in the East using German documents. Following Ukraine’s declaration of independence from the Soviet Union in 1991, scholars have begun piecing together a more complete history of the Holocaust in Ukraine.\nMuseum Resources on Ukraine\nHolocaust Encyclopedia Articles\nFind detailed articles related to the history of the Holocaust in Ukraine. Many articles are also available in Ukrainian and Russian.\nCollections\nFor over 25 years, the Museum has partnered with the Ukrainian State Archives to copy more than 10 million pages of its Holocaust-related records. Digital copies are available online for scholars, historians, family researchers and the public. The collection will continue to grow as additional records are added.\nRelated Publications\nThe Museum’s archival collection includes millions of pages of materials from Ukrainian archives and from archives of the former Soviet Union. The Museum's Jack, Joseph and Morton Mandel Center for Advanced Holocaust Studies has supported students and scholars to advance new research, scholarship, and teaching about the Holocaust in the countries of the former USSR.\nThis Section\nResources and tips to assist you before, during, and after your visit to the Museum",
-      "image_captions": [
-        "A group of Jewish women at the entrance to the Brody ghetto, Ukraine. -US Holocaust Memorial Museum",
-        "View of the ruins of the main synagogue in Brody, Ukraine. -US Holocaust Memorial Museum",
-        "Round-up of [Jewish] men in an unidentified camp in the eastern Ukraine.  -Panstwowe Muzeum Auschwitz-Birkenau w Oswiecimiu; Instytut Pamieci Narodowej",
-        "A large group of men seated with their hands on their heads while being forced to watch the execution of Moshe Kagan and Wolf Kieper. Zhitomir, Ukraine. -US Holocaust Memorial Museum",
-        "German police take aim at Jews from Ivanhorod who have just finished preparing their own grave. Ivanhorod, Ukraine, 1941–43. -US Holocaust Memorial Museum"
-      ]
-    },
-    {
-      "url": "https://www.gettyimages.com.au/photos/world-war-ii-germany",
-      "page_title": "90450 World War Ii Germany Images and Stock Photos",
-      "title": "Getty Images",
-      "description": "Getty Images Au. Find high resolution royalty-free images, editorial stock photos, vector art, video footage clips and stock music licensing at the richest image search photo library online.",
-      "text": "Michael Fitzsimmons\n627453756\nUser validation",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 2,
-  "crawled_at": "2026-04-23T17:45:11.059887+00:00"
-}
+[
+  {
+    "source": "commons.wikimedia.org",
+    "url": "https://commons.wikimedia.org/wiki/File:Einsatzgruppen_murder_Jews_in_Ivanhorod,_Ukraine,_1942.jpg",
+    "clip_score": 0.2537,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: File:Einsatzgruppen murder Jews in Ivanhorod, Ukraine, 1942.jpg - Wikimedia Commons\n[METADATA/INTRO]: File:Einsatzgruppen murder Jews in Ivanhorod, Ukraine, 1942.jpg Captions...\n[BEST EVIDENCE CHUNK]: This is the portion of the image usually shown in early publications. \n \"German soldier points his weapon at a woman with a child in her arms. She has turned away from the soldier and wrapped herself around the child. Her foot is lifted from the ground as though she might be moving away from the soldier or perhaps the shutter has caught the moment the bullet has hit her.\" \n \"On the left of the frame are the tips of what look like two other guns pointing in her direction\" \n \"It appears to be a wooden stake. To the right of it, I see some disturbed earth. Was the stake a marker? \"You will dig your own mass grave, up to this point.\" Is that what the Germans ordered their victims to do?\""
+  },
+  {
+    "source": "en.wikipedia.org",
+    "url": "https://en.wikipedia.org/wiki/Ivanhorod_Einsatzgruppen_photograph",
+    "clip_score": 0.2479,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Ivanhorod Einsatzgruppen photograph - Wikipedia\n[METADATA/INTRO]: Ivanhorod Einsatzgruppen photograph The Ivanhorod Einsatzgruppen photograph is a prominent depiction of the Holocaust in Ukraine, on the Eastern Front of World War II. Dated to 1942, it shows a policeman of the German Ordnungspolizei aiming his rifle at a...\n[BEST EVIDENCE CHUNK]: The Ivanhorod Einsatzgruppen photograph is a prominent depiction of the Holocaust in Ukraine, on the Eastern Front of World War II. Dated to 1942, it shows a policeman of the German Ordnungspolizei aiming his rifle at a woman who is trying to shield a child with her body, portraying one of numerous genocidal killings carried out against Jews by the Einsatzgruppen within German-occupied Europe. It was taken in Ivanhorod, a village in German-occupied Ukraine, before being mailed to Nazi Germany. However, the Polish resistance intercepted the photograph in Warsaw, and it was subsequently kept as Holocaust imagery by Polish photographer Jerzy Tomaszewski. In the 1960s, it was alleged that the photograph was a communist forgery, but that claim was eventually proven false. Since then, it has been frequently used in books, museums, and exhibitions focused on the Holocaust. British photographic historian Janina Struk describes it as \"a symbol of the barbarity of the Nazi regime and their industrial-scale murder of six million European Jews.\"[1]"
+  },
+  {
+    "source": "hsu.ilholocaustmuseum.org",
+    "url": "https://hsu.ilholocaustmuseum.org/narratives/mass-murder-the-holocaust-by-bullets/",
+    "clip_score": 0.2248,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: The Holocaust by Bullets &#8211; HSU Exhibition\n[METADATA/INTRO]: USHMM: Courtesy of the Library of Congress. The Einsatzgruppen...\n[BEST EVIDENCE CHUNK]: USHMM: Courtesy of the Library of Congress. \n Three thousand men of the Einsatzgruppen (mobile killing units) entered Soviet territory behind the German army. \n Their mission was to murder Jews, Soviet officials, political opponents, and Roma and Sinti as part of the “War on Judeo-Bolshevism”. \n The Einsatzgruppen, along with local collaborators and auxiliaries, took victims to the outskirts of cities or villages and shot them before the eyes of their neighbors. The Einsatzgruppen murdered at least 2 million people—the vast majority Jews. The first victims were typically men, but beginning in August 1941, Jewish women and children were no longer spared. The German army provided logistical support."
+  }
+]

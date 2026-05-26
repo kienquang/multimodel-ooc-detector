@@ -1,76 +1,20 @@
-{
-  "sample_id": "false_315",
-  "image_url": "https://obamawhitehouse.archives.gov/sites/default/files/imagecache/gallery_img_full/image/image_file/biden_broadband_factory.jpg?itok=MzMRJsJE",
-  "visual_entities": [
-    {
-      "description": "Future: Government Official",
-      "score": 0.86625
-    },
-    {
-      "description": "Perfect Government",
-      "score": 0.702
-    },
-    {
-      "description": "Future: St. Lucia",
-      "score": 0.68805003
-    },
-    {
-      "description": "Music video",
-      "score": 0.5209
-    },
-    {
-      "description": "NOFX",
-      "score": 0.4952
-    },
-    {
-      "description": "Government Official",
-      "score": 0.4433
-    },
-    {
-      "description": "Amazon Music",
-      "score": 0.436
-    },
-    {
-      "description": "official",
-      "score": 0.4193
-    },
-    {
-      "description": "",
-      "score": 0.4117
-    },
-    {
-      "description": "YouTube",
-      "score": 0.4117
-    },
-    {
-      "description": "Sony Music Entertainment",
-      "score": 0.3897
-    }
-  ],
-  "best_guess_labels": [
-    "official"
-  ],
-  "similar_image_urls": [
-    "https://obamawhitehouse.archives.gov/sites/default/files/imagecache/gallery_img_full/image/image_file/biden_broadband_factory.jpg?itok=TuBd1M6L"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.amazon.com/OFFicial-Music-Explicit/dp/B0F9PWXD1Q",
-      "page_title": "OFFicial Music [Explicit] by O.F.F. on Amazon Music",
-      "title": "Amazon.com",
-      "description": "",
-      "text": "Click the button below to continue shopping\nContinue shopping\nConditions of Use\nPrivacy Policy\n© 1996-2025, Amazon.com, Inc. or its affiliates",
-      "image_captions": []
-    },
-    {
-      "url": "https://obamawhitehouse.archives.gov/photos-and-video/photos/biden-georgia-broadband-factory",
-      "page_title": "Biden Georgia Broadband Factory - Obama White House Archives",
-      "title": "Biden Georgia Broadband Factory",
-      "description": "See the President's daily schedule, explore behind-the-scenes photos from inside the White House, and find out all the ways you can engage with the most interactive administration in our country's history.",
-      "text": "Vice President Joe Biden and Georgia Governor Sonny Perdue tour Impulse Manufacturing with President Ronald Baysden and Plant Manager John Robert Densmore, in Dawsonville, Georgia",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 2,
-  "crawled_at": "2026-04-23T18:59:57.093096+00:00"
-}
+[
+  {
+    "source": "obamawhitehouse.archives.gov",
+    "url": "https://obamawhitehouse.archives.gov/photos-and-video/photos/biden-georgia-broadband-factory",
+    "clip_score": 0.2859,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Biden Georgia Broadband Factory | The White House\n[METADATA/INTRO]: This is historical material âfrozen in timeâ. The website is no longer updated and links to external websites and some internal pages may not work. Vice President Joe Biden and Georgia Governor Sonny Perdue tour Impulse Manufacturing with President Ronald...\n[BEST EVIDENCE CHUNK]: This is historical material âfrozen in timeâ. The website is no longer updated and links to external websites and some internal pages may not work. \n Vice President Joe Biden and Georgia Governor Sonny Perdue tour Impulse Manufacturing with President Ronald Baysden and Plant Manager John Robert Densmore, in Dawsonville, Georgia"
+  },
+  {
+    "source": "www.independentmail.com",
+    "url": "https://www.independentmail.com/picture-gallery/news/2022/02/07/saregent-metal-fabricators-expansion-grand-opening-gov-mcmaster/6694474001/",
+    "clip_score": 0.274,
+    "optimized_evidence": "[PUBLISHED DATE]: 2022\n[TITLE]: Saregent Metal Fabricators expansion grand opening with Gov McMaster\n[METADATA/INTRO]: NEWSSargent Metal Fabricators expansion grand opening with Gov McMaster celebrates business growth in Anderson County Ken RuinardAnderson Independent MailFeb. 7, 2022, 5:11 p.m. ETSouth Carolina Gov Henry McMaster, left, accepts a metal fabricated art piece from President Tim Hayden after...\n[BEST EVIDENCE CHUNK]: NEWSSargent Metal Fabricators expansion grand opening with Gov McMaster celebrates business growth in Anderson County Ken RuinardAnderson Independent MailFeb. 7, 2022, 5:11 p.m. ETSouth Carolina Gov Henry McMaster, left, accepts a metal fabricated art piece from President Tim Hayden after speaking inside the expanded area of Sargent Metal Fabricators, during the grand opening of the 80,000 square foot expansion off State Highway 24 in Anderson County Monday, February 7, 2022. President Tim Hayden said they plan on adding around 50 employees over the next four years to the plant which serves original equipment manufacturing companies.Ken Ruinard / StaffSouth Carolina Gov Henry McMaster speaks inside the expanded area of Sargent Metal Fabricators during the grand opening of the 80,000 square foot expansion off State Highway 24 in Anderson County Monday, February 7, 2022. President Tim Hayden said they plan on adding around 50 employees over the next four years to the plant which serves original equipment manufacturing companies.Ken Ruinard / StaffSouth Carolina Gov Henry McMaster, middle, helps cut ribbon at Sargent Metal Fabricators grand opening of the 80,000 square foot expansion to the plant, off State Highway 24 in Anderson County Monday, February 7, 2022. President Tim Hayden said they plan on adding around 50 employees over the next four years to the plant which serves original equipment manufacturing companies.Ken Ruinard / StaffSargent Metal Fabrications President Tim Hayden tours South Carolina Gov Henry McMaster inside the expanded area of the plant during his visit to Sargent Metal Fabricators for the grand opening of the 80,000 square foot expansion off State Highway 24 in Anderson County Monday, February 7, 2022. President Tim Hayden said they plan on adding around 50 employees over the next four years to the plant which serves original equipment manufacturing companies.Ken Ruinard / StaffJackie Lewis, right, of Sargent Metal Fabrication in Anderson meets visiting South Carolina Gov Henry McMaster, left, at the grand opening of the 80,000 square foot expansion to the plant off State Highway 24 in Anderson County Monday, February 7, 2022.Ken Ruinard / StaffSouth Carolina Gov Henry McMaster, left, accepts a metal fabricated art piece from President Tim Hayden after speaking inside the expanded area of Sargent Metal Fabricators, during the grand opening of the 80,000 square foot expansion off State Highway 24 in Anderson County Monday, February 7, 2022. President Tim Hayden said they plan on adding around 50 employees over the next four years to the plant which serves original equipment manufacturing companies.Ken Ruinard / StaffSouth Carolina Gov Henry McMaster autographed a metal fabricated art piece from Sargent Metal Fabricators during the grand opening of the 80,000 square foot expansion off State Highway 24 in Anderson County Monday, February 7, 2022.Ken Ruinard / StaffDonnie Sargent looks at a metal fabrication art piece autographed by South Carolina Gov Henry McMaster during his visit to Sargent Metal Fabricators for the grand opening of the 80,000 square foot expansion in Anderson County Monday, February 7, 2022.Ken Ruinard / StaffSargent Metal Fabrications President Tim Hayden, left, tours South Carolina Gov Henry McMaster inside the expanded area of the plant during his visit to Sargent Metal Fabricators for the grand opening of the 80,000 square foot expansion off State Highway 24 in Anderson County Monday, February 7, 2022. President Tim Hayden said they plan on adding around 50 employees over the next four years to the plant which serves original equipment manufacturing companies.Ken Ruinard / StaffSargent Metal Fabrications President Tim Hayden, left, tours South Carolina Gov Henry McMaster inside the expanded area of the plant during his visit to Sargent Metal Fabricators for the grand opening of the 80,000 square foot expansion off State Highway 24 in Anderson County Monday, February 7, 2022. President Tim Hayden said they plan on adding around 50 employees over the next four years to the plant which serves original equipment manufacturing companies.Ken Ruinard / StaffSargent Metal Fabrications plant materials manager Robert Colcolough speaks during the grand opening of the 80,000 square foot expansion to the plant off State Highway 24 in Anderson County Monday, February 7, 2022. President Tim Hayden said they plan on adding around 50 employees over the next four years to the plant which serves original equipment manufacturing companies.Ken Ruinard / StaffNewSpring Church Lead Pastor Brad Cooper speaks before offering a prayer to those attending the grand opening of the 80,000 square foot expansion to the Sargent Metal Fabrications plant off State Highway 24 in Anderson County Monday, February 7, 2022.Ken Ruinard / StaffPresident Tim Hayden of Sargent Metal Fabricators speaks at the grand opening of the 80,000 square foot expansion to the plant off State Highway 24 in Anderson County Monday, February 7, 2022. President Tim Hayden said they plan on adding around 50 employees over the next four years to the plant which serves original equipment manufacturing companies.Ken Ruinard / StaffSouth Carolina Gov Henry McMaster sits with Anderson County officials before speaking inside the expanded area of Sargent Metal Fabricators during the grand opening of the 80,000 square foot expansion off State Highway 24 in Anderson County Monday, February 7, 2022.Ken Ruinard / StaffSouth Carolina Gov Henry McMaster speaks inside the expanded area of Sargent Metal Fabricators during the grand opening of the 80,000 square foot expansion off State Highway 24 in Anderson County Monday, February 7, 2022. President Tim Hayden said they plan on adding around 50 employees over the next four years to the plant which serves original equipment manufacturing companies.Ken Ruinard / StaffSouth Carolina Gov Henry McMaster speaks inside the expanded area of Sargent Metal Fabricators during the grand opening of the 80,000 square foot expansion off State Highway 24 in Anderson County Monday, February 7, 2022. President Tim Hayden said they plan on adding around 50 employees over the next four years to the plant which serves original equipment manufacturing companies.Ken Ruinard / StaffTri-County Technical College President Galen DeHay listens to South Carolina Gov Henry McMaster speak at the Sargent Metal Fabricators grand opening for their 80,000 square foot expansion to the plant, off State Highway 24 in Anderson County Monday, February 7, 2022.Ken Ruinard / StaffSouth Carolina Gov Henry McMaster, left, visits Sargent Metal Fabricators for the grand opening of the 80,000 square foot expansion to the plant off State Highway 24 in Anderson County Monday, February 7, 2022. President Tim Hayden, right, said they plan on adding around 50 employees over the next four years to the plant which serves original equipment manufacturing companies.Ken Ruinard / StaffRonnie Booth, left, shakes hands with Sargent Metal Fabricators President Tim Hayden as South Carolina Gov Henry McMaster visits for the grand opening of the 80,000 square foot expansion to the plant off State Highway 24 in Anderson County Monday, February 7, 2022. President Tim Hayden said they plan on adding around 50 employees over the next four years to the plant which serves original equipment manufacturing companies.Ken Ruinard / StaffSouth Carolina Gov Henry McMaster, left, and Tri-County Technical College President Galen DeHay, right, visit Sargent Metal Fabricators for the grand opening of the 80,000 square foot expansion to the plant off State Highway 24 in Anderson County Monday, February 7, 2022. President Tim Hayden said they plan on adding around 50 employees over the next four years to the plant which serves original equipment manufacturing companies.Ken Ruinard / StaffSargent Metal Fabricators Vice President of Operations Brad Tinsley, left, and President Tim Hayden show South Carolina Gov Henry McMaster a piece of metal during his visit to Sargent Metal Fabricators for the grand opening of the 80,000 square foot expansion to the plant off State Highway 24 in Anderson County Monday, February 7, 2022. President Tim Hayden said they plan on adding around 50 employees over the next four years to the plant which serves original equipment manufacturing companies.Ken Ruinard / StaffSargent Metal Fabricators Vice President of Operations Brad Tinsley, left, President Tim Hayden, and Materials Manager Robert Colcolough show South Carolina Gov Henry McMaster show machinery during his visit to Sargent Metal Fabricators, for the grand opening of the 80,000 square foot expansion to the plant off State Highway 24 in Anderson County Monday, February 7, 2022.Ken Ruinard / StaffSargent Metal Fabricators Vice President of Operations Brad Tinsley, left, and President Tim Hayden show South Carolina Gov Henry McMaster a metal creations during his visit to Sargent Metal Fabricators for the grand opening of the 80,000 square foot expansion to the plant off State Highway 24 in Anderson County Monday, February 7, 2022. President Tim Hayden said they plan on adding around 50 employees over the next four years to the plant which serves original equipment manufacturing companies.Ken Ruinard / StaffSargent Metal Fabrications President Tim Hayden tours South Carolina Gov Henry McMaster inside the expanded area of the plant during his visit to Sargent Metal Fabricators for the grand opening of the 80,000 square foot expansion off State Highway 24 in Anderson County Monday, February 7, 2022. President Tim Hayden said they plan on adding around 50 employees over the next four years to the plant which serves original equipment manufacturing companies.Ken Ruinard / StaffSargent Metal Fabrications President Tim Hayden, right, tours South Carolina Gov Henry McMaster inside the expanded area of the plant during his visit to Sargent Metal Fabricators for the grand opening of the 80,000 square foot expansion off State Highway 24 in Anderson County Monday, February 7, 2022. President Tim Hayden said they plan on adding around 50 employees over the next four years to the plant which serves original equipment manufacturing companies.Ken Ruinard / StaffFeatured Weekly Ad"
+  },
+  {
+    "source": "www.dailyfreeman.com",
+    "url": "https://www.dailyfreeman.com/2022/10/06/photos-president-joe-biden-in-poughkeepsie/",
+    "clip_score": 0.2591,
+    "optimized_evidence": "[PUBLISHED DATE]: 2022-10-06\n[TITLE]: Photos: President Joe Biden in Poughkeepsie &#8211; Daily Freeman\n[METADATA/INTRO]: President Joe Biden looks at the IBM System One quantum computer with IBM Chairman and CEO Arvind Krishna pointing at the computer surrounded by officials, including New York Gov. Kathy Hochul during a tour of an IBM facility in Poughkeepsie,...\n[BEST EVIDENCE CHUNK]: President Joe Biden looks at the IBM System One quantum computer with IBM Chairman and CEO Arvind Krishna pointing at the computer surrounded by officials, including New York Gov. Kathy Hochul during a tour of an IBM facility in Poughkeepsie, N.Y., on Thursday Oct. 6, 2022. (Patricia R. Doxsey/Daily Freeman) \n Gov. Kathy Hochul and U.S. Reps. Pat Ryan, far right, and Sean Patrick Maloney, to Ryan's left, stand together during a President Joe Biden tour of an IBM facility in Poughkeepsie, N.Y., on Thursday Oct. 6, 2022. (Patricia R. Doxsey/Daily Freeman) \n An old IBM sign at the Poughkeepsie plant on Thursday, Oct. 6, 2022 (Patricia R. Doxsey/Daily Freeman)"
+  }
+]

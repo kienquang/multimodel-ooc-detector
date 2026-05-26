@@ -1,73 +1,20 @@
-{
-  "sample_id": "true_58",
-  "image_url": "https://mediaproxy.snopes.com/width/1200/https://media.snopes.com/2020/06/not-an-fbi-agent.jpg",
-  "visual_entities": [
-    {
-      "description": "Law enforcement",
-      "score": 0.6648
-    },
-    {
-      "description": "Homestead Police Department",
-      "score": 0.6138
-    },
-    {
-      "description": "",
-      "score": 0.5065
-    },
-    {
-      "description": "Federal Bureau of Investigation",
-      "score": 0.5065
-    },
-    {
-      "description": "Traffic stop",
-      "score": 0.5014
-    },
-    {
-      "description": "FBI",
-      "score": 0.4973
-    },
-    {
-      "description": "Government Agency",
-      "score": 0.471
-    },
-    {
-      "description": "Patrolling",
-      "score": 0.4389
-    },
-    {
-      "description": "Ride-along",
-      "score": 0.425
-    },
-    {
-      "description": "Handcuffs",
-      "score": 0.4183
-    },
-    {
-      "description": "Officer",
-      "score": 0.3792
-    },
-    {
-      "description": "Sacramento Police Department",
-      "score": 0.375
-    }
-  ],
-  "best_guess_labels": [
-    "police officer"
-  ],
-  "similar_image_urls": [
-    "https://mediaproxy.snopes.com/width/1200/https://media.snopes.com/2020/06/not-an-fbi-agent.jpg",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122134544510821378"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.snopes.com/fact-check/fbi-agent-arrested-protests/",
-      "page_title": "Does This Video Show an FBI Agent Arrested During 2020 Protests?",
-      "title": "Does This Video Show an FBI Agent Arrested During 2020 Protests?",
-      "description": "This video was originally shared as an example of racial profiling.",
-      "text": "As protests erupted across the United States in May 2020 after the death of an unarmed black man named George Floyd while in the custody of Minneapolis police officers, the internet was flooded with videos and photographs showing the sometimes chaotic scene.\nWhile much of this media gave genuine glimpses of these protests, a number of miscaptioned pieces of footage also made their way into the mix. The following video, for instance, was viewed millions of times as it circulated along with the claim that it showed two officers in Minnesota attempting to arrest a black man only to find out that he was an FBI agent:\nThis video, however, does not show the attempted arrest of an FBI agent. On the contrary, this video reportedly shows a police \"encounter with [a] black male\" in Rochester, Minnesota, and is unrelated to the protests in 2020.\nThis video was originally posted to Instagram by @thisisnike1 on May 31:\nIts timing coincided with the Floyd protests, but the original post included a caption explaining that this incident had been filmed \"over a year\" ago and that it involved the Rochester Minnesota Police Department. The original caption made no mention of the person in this video being an FBI agent. A version posted to YouTube by this account identified the person simply as a \"black male\":\nSomethin’ been telling me to hold on to this video over a year now, ok. “Some days we make it home or some days we make it 6 feet deep.” Imagine getting killed at home, while jogging, playing, minding your own business or just damn breathing #BeingBlackInWhiteAmerica!! This incident happened a year ago. The Minnesota police department been corrupt. Can’t even smoke a damn cigarette in peace.\nSoon after this video was posted, it was re-captioned and shared along with the claim that it showed the attempted arrest of an FBI agent. It's unclear where this rumor originated. The above-displayed video makes no mention of this person being an FBI agent and when his wallet is pulled out by the police officer it does not show an FBI badge.\nThis rumor may have started with @thisisnike1, the account that originally posted the video. A screenshot supposedly showing a deleted tweet shows a message from @thisisnike1 reading \"[he is an] FBI agent.\" This appears to have been a joke, however, as this account has retweeted a number of people explaining that this person was not actually an FBI agent:\nIn sum, this video was originally shared with a caption stating that this incident took place over a year earlier (i.e., in 2019, not 2020) and that it featured an encounter between police and an unidentified black male. There's nothing in the video or the original caption indicating that this person was an FBI agent.\nWe reached out to @thisisnike1 and will update this article if more information becomes available.",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T17:03:09.512365+00:00"
-}
+[
+  {
+    "source": "www.nzherald.co.nz",
+    "url": "https://www.nzherald.co.nz/world/fact-check-viral-video-of-fbi-agent-getting-arrested-false/GCNEIQN4RE7R6DYVYGUNIGTQ7Q/",
+    "clip_score": 0.2208,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Fact check: Viral video of FBI agent getting arrested false - NZ Herald\n[METADATA/INTRO]: The caption on a viral video of a black man getting arrested then released after Minnesota police \"found out he's an FBI agent\" has been deemed false. Photo / Twitter The caption on a viral video of a black man...\n[BEST EVIDENCE CHUNK]: The moment when they realised they just attempted to arrest an FBI agent... 🙂 pic.twitter.com/fuGla4f0IA \n — IG 185k ACCOUNT FOR SALE (@iamwytunes) June 1, 2020 \n Footage shows two white police officers questioning a black man in a red t-shirt, believing that he is the man they are looking for. \n However, Rochester police have confirmed that the man is not an FBI agent and that the video dates back a year ago. \n A Rochester police spokesperson said the incident occurred on June 1, 2019 at a downtown bar and entertainment area. \n \"The officers believed they recognised a person known to have an arrest warrant for assault. The individual was roughly the same height, weight and age of the individual the officer believed to have a warrant. Officers approached the male and asked him his name. The individual was not co-operative in identifying himself to officers,\" they said."
+  },
+  {
+    "source": "nypost.com",
+    "url": "https://nypost.com/2026/02/11/us-news/veteran-nypd-cop-indicted-in-2-on-duty-clashes-including-caught-on-video-stand-off-with-man-who-called-out-his-wild-driving/",
+    "clip_score": 0.2069,
+    "optimized_evidence": "[PUBLISHED DATE]: 2026-02-11\n[TITLE]: Veteran NYPD cop indicted in 2 on-duty clashes – including caught-on-video stand-off with man who 'called out' his wild driving\n[METADATA/INTRO]: NYPD cop indicted in 2 on-duty clashes – including stand-off with man who ‘called out’ his wild driving See more of our coverage in your search results....\n[BEST EVIDENCE CHUNK]: McPhatter also pressed his chest up against Youssef’s – until the men were separated by a sergeant and other officers, according to the clip and the DA’s office. \n He then threatened to “knock out” the victim and told him to wait outside, prosecutors charged. \n “This man put his body physically on my body and was pushing me out of the building,” Youssef said in the video. “I did nothing wrong except demand that he identify himself.” \n The second incident came on Oct. 24 when McPhatter and his partner responded to a 60-year-old man allegedly trespassing at a building on 58th Street near First Avenue and told him to leave the area, prosecutors said."
+  },
+  {
+    "source": "abc7chicago.com",
+    "url": "https://abc7chicago.com/post/brooklyn-subway-shooting-frank-james-sunset-park-r/11827074/",
+    "clip_score": 0.1931,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Indictment expands charges against Brooklyn subway shooting suspect Frank James - ABC7 Chicago\n[METADATA/INTRO]: Authorities said James's bank card, cellphone and a key to a van he had rented were found at the shooting scene. NEW YORK -- A federal grand jury has indicted a man suspected of shooting up a New York City...\n[BEST EVIDENCE CHUNK]: A lawyer representing James at the time of his arrest cautioned not to rush to judgment and noted that James alerted police to his whereabouts. James was arrested in Manhattan's East Village after he called a tip line saying he was at a fast food restaurant in that section of the city. \n A motive for the attack is unclear. In numerous rants he posted on YouTube, James, who is Black, made bigoted remarks about people of various backgrounds and railed against New York Mayor Eric Adams and complained about mental health care he received in the city years ago."
+  }
+]

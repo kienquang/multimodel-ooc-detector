@@ -1,71 +1,20 @@
-{
-  "sample_id": "false_146",
-  "image_url": "https://1.bp.blogspot.com/-ooYsTNkJL78/Wxnt9AwbOSI/AAAAAAABchU/dNK4zH-_9-4DGdmMNFELDLXFKaQSic6_ACLcBGAs/s1600/Colorized%2BPhotos%2Bof%2BHollywood%2BActors%2BFrom%2BBetween%2Bthe%2B1920s%2Band%2B1950s%2B%2B%252817%2529.jpg",
-  "visual_entities": [
-    {
-      "description": "Errol Flynn",
-      "score": 14.998501
-    },
-    {
-      "description": "Actor",
-      "score": 0.7162
-    },
-    {
-      "description": "1930s",
-      "score": 0.69345
-    },
-    {
-      "description": "Flynn McAllistair",
-      "score": 0.642
-    },
-    {
-      "description": "Classical Hollywood cinema",
-      "score": 0.4905
-    },
-    {
-      "description": "Swashbuckler",
-      "score": 0.456
-    },
-    {
-      "description": "Published",
-      "score": 0.4234
-    },
-    {
-      "description": "1950s",
-      "score": 0.39960003
-    },
-    {
-      "description": "Hollywood",
-      "score": 0.39765
-    },
-    {
-      "description": "Fashion",
-      "score": 0.369
-    },
-    {
-      "description": "June 20",
-      "score": 0.3141
-    }
-  ],
-  "best_guess_labels": [
-    "errol flynn suited"
-  ],
-  "similar_image_urls": [
-    "https://i.pinimg.com/736x/09/47/50/094750019126a05502867f472ee4f97c.jpg",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10157986926923706",
-    "https://i.pinimg.com/170x/cb/97/23/cb972319933fac3d8df97b74c2595918.jpg",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122163669218196277"
-  ],
-  "evidence": [
-    {
-      "url": "https://national-dispatch.com/index.php/itemlist/tag/Errol%20Flynn",
-      "page_title": "Errol Flynn - National Dispatch",
-      "title": "National Dispatch - Errol Flynn",
-      "description": "National Dispatch is a comprehensive news organization dedicated to delivering factual, analytical, and balanced reporting on national developments, public policy, and civic life. It bridges the gap between citizens and institutions, providing clear insight into how decisions at the top shape realit...",
-      "text": "Displaying items by tag: Errol Flynn\nThursday, 29 January 2026 13:38\nJoel Thomas Ashley: The Stuntman Who Slid Into Stardom\nPublished in\nPersons\nTagged under",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T18:41:06.120033+00:00"
-}
+[
+  {
+    "source": "www.gentlemansgazette.com",
+    "url": "https://www.gentlemansgazette.com/gary-cooper-gentleman-style/",
+    "clip_score": 0.3032,
+    "optimized_evidence": "[PUBLISHED DATE]: 2015-02-06\n[TITLE]: Gary Cooper - Gentleman Of Style\n[METADATA/INTRO]: On May 7, 1901 at a small home in Helena, Montana, a prominent lawyer named Charles and his wife Alice gave birth to a son by the name of Frank James Cooper. Little did they know that their son Frank...\n[BEST EVIDENCE CHUNK]: Great looking suit that allows him to actually to move naturally. On the other hand, most modern skinny suits won’t allow you to do that because they are cut too tightly. \n Just like Fred Astaire, Cooper was a great supporter of the collar pin, especially the safety pin. The tie he is wearing here has a very thin interlining and shows the typical 1930’s bold geometric prints that are distinctly vintage. On the other hand, the small houndstooth flannel coat is extremely versatile and absolutely timeless. \n One of the rare color photographs of Gary Cooper. Here we see him wearing a mid grey suit with matching tie and contrasting pocket square, ad fine light blue striped shirt and a tie bar. Note how low the lapels sit and how notched they are compared to current trends."
+  },
+  {
+    "source": "alittlebitofrest.com",
+    "url": "https://alittlebitofrest.com/2016/10/30/how-to-dress-like-the-1930s-40s-in-todays-age/",
+    "clip_score": 0.2748,
+    "optimized_evidence": "[PUBLISHED DATE]: 2016-10-30\n[TITLE]: How To Dress Like the 1930s-40s in Today&#8217;s Age | a little bit of rest\n[METADATA/INTRO]: It may look like pretty vintage/1930’s in the picture above, but other than the tie, it’s all modern! I thought that it would be appropriate to finally write a post on how to dress in 1930-40s’s style in today’s time,...\n[BEST EVIDENCE CHUNK]: Some men prefer to get bespoke suits made from their tailors, based on old patterns. Note that their styling is straight from the golden era, down to the design of the tie and their puffed out pocket square! \n If the cut is too old for you, don’t fear. Most of my style icons and inspirations have a decidedly classic style that definitely exudes the Golden Era. They keep their wide lapels and stripe/geo print ties but with modern proportions. . It’s all modern bespoke, but the styling keeps the same vibes from the 1930s-1940s. It’s still pretty “edgy” when compared to the typical suiting fare of the world."
+  },
+  {
+    "source": "thedarkknot.com",
+    "url": "https://thedarkknot.com/blogs/suitupdressup/1940s-mens-style-what-did-mean-really-wear-1940s",
+    "clip_score": 0.2691,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: 1940s Men&#39;s Style | What Did Men Really Wear In the 1940s &ndash; The Dark Knot\n[METADATA/INTRO]: Triston Brewer In this detailed guide, we cover what made the 1940s such an influential decade in Men's Style, and how gentlemen truly dressed in this pivotal era!...\n[BEST EVIDENCE CHUNK]: Pinstripes and muted tones continued their dominance, but the introduction of mixing and styling became more popular across the decade. Once the war was over and restrictions ceased, men were able to adopt a more elegant suit aesthetic. \n Suits in the 1940’s were often characterized by mixing and matching of jackets and pants, along with the incorporation of sweaters. Talk about experimentation! Courtesy of www.vintagedancer.com \n Suits in the 1940s primarily consisted of the plain white dress shirts and utility shirts, both serving as essential pieces in the wardrobes of both working and servicemen alike. Both included ‘soft collars’ and are very similar to the style worn by men in the present day."
+  }
+]

@@ -1,92 +1,20 @@
-{
-  "sample_id": "false_177",
-  "image_url": "https://i.ytimg.com/vi/z7VkA5jT0FU/maxresdefault.jpg",
-  "visual_entities": [
-    {
-      "description": "Nylon",
-      "score": 0.7312
-    },
-    {
-      "description": "Kevlar",
-      "score": 0.7304
-    },
-    {
-      "description": "Ballistic nylon",
-      "score": 0.7243
-    },
-    {
-      "description": "Polymer",
-      "score": 0.5856
-    },
-    {
-      "description": "Textile",
-      "score": 0.5852
-    },
-    {
-      "description": "Rope",
-      "score": 0.5424
-    },
-    {
-      "description": "Polyester",
-      "score": 0.5273
-    },
-    {
-      "description": "Aramid",
-      "score": 0.5228
-    },
-    {
-      "description": "Bag",
-      "score": 0.45604658
-    },
-    {
-      "description": "Polyamide",
-      "score": 0.45
-    },
-    {
-      "description": "Quality Nylon Rope",
-      "score": 0.4386
-    },
-    {
-      "description": "Ballistics",
-      "score": 0.3947
-    },
-    {
-      "description": "Handbag",
-      "score": 0.374
-    },
-    {
-      "description": "Silk",
-      "score": 0.3688
-    }
-  ],
-  "best_guess_labels": [
-    "nylon and kevlar"
-  ],
-  "similar_image_urls": [
-    "https://i.ytimg.com/vi/z7VkA5jT0FU/maxresdefault.jpg",
-    "https://i.ytimg.com/vi/z7VkA5jT0FU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBot8dCM1nobXOQu3XRZFP6bYf5Lw",
-    "https://i.ytimg.com/vi/z7VkA5jT0FU/mqdefault.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.tenetsolutions.com/custitem_material/Kevlar%2C-Nylon?show=12&display=grid",
-      "page_title": "",
-      "title": null,
-      "description": "",
-      "text": "Javascript is disabled on your browser.\nTo view this site, you must enable JavaScript or upgrade to a JavaScript-capable browser.\n...",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.thebrighterside.news/tags/polymers/",
-      "page_title": "Polymers Archives - The Brighter Side of News",
-      "title": "Polymers Archives",
-      "description": "",
-      "text": "Polymers\nInnovationsScientists develop a shelf-stable ‘smart’ plastic that hardens only when you trigger it\nA new Ben-Gurion University polymer stays inactive for weeks, then cures on demand with light or gentle heat, Nature Chemistry reports.\nShy Cohen",
-      "image_captions": [
-        "Brighter Side of News"
-      ]
-    }
-  ],
-  "evidence_count": 2,
-  "crawled_at": "2026-04-23T17:42:19.385143+00:00"
-}
+[
+  {
+    "source": "armyworld.pl",
+    "url": "https://armyworld.pl/product-eng-24525-US-Army-Body-Armor-Fragmentation-Protective-Vest-Ground-Troops-Olive-Original-Used.html",
+    "clip_score": 0.2411,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: US Army Body Armor Fragmentation Protective Vest Ground Troops Olive Original Used used (good) | TACTICAL EQUIPMENT \\ Tactical Vests \\ Others | Military shop ArmyWorld.pl\n[METADATA/INTRO]: An original vest from the stock of the U.S. Army. The product is made of a robust, water-repellent ballistic nylon with a weight of 271 g/m2. The vest covers the torso and consists of a ballistic Kevlar insert. At the...\n[BEST EVIDENCE CHUNK]: Opinions about US Army Body Armor Fragmentation Protective Vest Ground Troops Olive Original Used \n - 5/5Opinion confirmed by purchaseThe vest is comfortable, as described. It does have small rips but nothing major. Unique product.2024-08-15 \n - 5/5Opinion confirmed by purchaseNice rare item in great condition2023-06-07"
+  },
+  {
+    "source": "hatchfive.wordpress.com",
+    "url": "https://hatchfive.wordpress.com/2022/07/20/mk-2-iniba-body-armour-cover/",
+    "clip_score": 0.2387,
+    "optimized_evidence": "[PUBLISHED DATE]: 2022-07-20\n[TITLE]: Mk 2 &#8216;INIBA&#8217; Body Armour Cover &#8211; Tales from the Supply Depot\n[METADATA/INTRO]: The Mk 2 Body armour, or Improved Northern Ireland Body Armour was developed in the 1980s for use in Northern Ireland as a protection against bomb fragments, hand gun rounds and to some extent sniper rounds aimed at the heart....\n[BEST EVIDENCE CHUNK]: The Fragmentation Vest is put on over the head and secured by Velcro at one side. It protects most of the upper torso – all around the sides (high under the arm), and over the shoulders: \n The complete MK-2 Body Armour comprises a Kevlar ballistic filler in an outer carrier. The multiple layer Kevlar ballistic filler is sealed in a cover, and removable from the outer carrier via a Velcro opening at the bottom of the vest: \n The outer carrier is olive green polycotton and has pockets front and back for ceramic plates. \n These pockets are accessed by two Velcro tabs that allow the ceramic plate to be inserted or removed. The front example also has a small pocket, accessible by a pair of vertical zips:"
+  },
+  {
+    "source": "ncstaroutlet.com",
+    "url": "https://ncstaroutlet.com/products/vism-mesh-tactical-vest-green",
+    "clip_score": 0.2302,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Mesh Tactical Vest - Green &ndash; NcSTARoutlet.com\n[METADATA/INTRO]: Mesh Tactical Vest - Green | Item #: | CMTV2951G |...\n[BEST EVIDENCE CHUNK]: Mesh Tactical Vest - Green \n | Item #: | CMTV2951G | \n | UPC #: | 848754001764 | \n - Light Weight Mesh Tactical Vest is perfect in hot weather! \n - 4 each AR magazine pouches with hook and loop flaps, 8 Shotshell elastic loops, and two Utility Pouches on the front panels. \n - Heavy Duty Front Zipper and 6 each Adjustable Side Straps for a custom fit to your torso. \n - 6 Belt Loops to secure your Belt (not Included) to the Mesh Vest. \n - Back Panel includes a Pouch for CO2 tank or Extra supplies/ Water, large dual zippered compartment, and a small pouch"
+  }
+]

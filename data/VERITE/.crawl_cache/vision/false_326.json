@@ -1,96 +1,20 @@
-{
-  "sample_id": "false_326",
-  "image_url": "https://transom.org/wp-content/uploads/2022/03/20110725_Fires_003-720x479.jpg",
-  "visual_entities": [
-    {
-      "description": "Sangin",
-      "score": 1.22694
-    },
-    {
-      "description": "Battle of Sangin",
-      "score": 1.0812
-    },
-    {
-      "description": "Forward Operating Base Jackson",
-      "score": 0.9246
-    },
-    {
-      "description": "Infantry",
-      "score": 0.7582228
-    },
-    {
-      "description": "The U.S. Marine Corps",
-      "score": 0.7381
-    },
-    {
-      "description": "",
-      "score": 0.7381
-    },
-    {
-      "description": "Marines",
-      "score": 0.7265
-    },
-    {
-      "description": "",
-      "score": 0.7023
-    },
-    {
-      "description": "3rd Battalion, 5th Marines",
-      "score": 0.6541
-    },
-    {
-      "description": "1st Marine Division",
-      "score": 0.645
-    },
-    {
-      "description": "Royal Marines",
-      "score": 0.6261
-    },
-    {
-      "description": "Soldier",
-      "score": 0.61469525
-    },
-    {
-      "description": "1st Battalion, 5th Marines",
-      "score": 0.6016
-    },
-    {
-      "description": "3rd Battalion, 7th Marines",
-      "score": 0.5993
-    }
-  ],
-  "best_guess_labels": [
-    "marines afghanistan sangin"
-  ],
-  "similar_image_urls": [
-    "https://media.wbur.org/wp/2021/11/7_Dutcher_Bohlinger_Foreit.jpg",
-    "https://transom.org/wp-content/uploads/2022/03/20110725_Fires_003-720x479.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.wbur.org/hereandnow/2021/11/26/third-squad-podcast-afghanistan",
-      "page_title": "In new podcast 'Third Squad,' marines reckon with their time ... - WBUR",
-      "title": "In new podcast 'Third Squad,' marines reckon with their time in Afghanistan a decade ago",
-      "description": "Twelve men deployed with Third Squad, but only 11 returned home alive.",
-      "text": "Support WBUR\nIn new podcast 'Third Squad,' marines reckon with their time in Afghanistan a decade ago\nAmerica's longest war ended in August when U.S. troops withdrew from Afghanistan. For the people who fought there, their experiences in that war remain with them.\n\"Third Squad\" is a new podcast that tells the story of 1st Battalion, 5th Marines, which deployed to Sangin in Afghanistan's Helmand province in 2011. It was the bloodiest stage of the war, the so-called \"surge.\" Twelve men deployed with Third Squad, but only 11 returned home alive.\nJournalist and veteran Elliott Woods hosts the podcast. He embedded with the Third Squad in July and August 2011. And a decade later, he tracks them down to talk about what happened there and how it still affects their lives today.\nThis segment aired on November 26, 2021.",
-      "image_captions": [
-        "Corporal Manuel Mendoza, who served as a fire team leader in Third Squad, takes a break during a patrol in Sangin. (Elliott Woods)",
-        "Lance Corporal John Bohlinger, right, lights a cigarette off of Corporal Manuel Mendoza's. (Elliott Woods)",
-        "Third Squad Marines take a smoke break at the entrance to Patrol Base Fires, their home in Sangin, Afghanistan. From left to right: Corporal Michael Dutcher, who was killed on September 15, 2011; Lance Corporal John Bohlinger, the squad's radio operator; and Hospitalman Matthew Foreit, the squad's Navy corpsman. (Elliott Woods)"
-      ]
-    },
-    {
-      "url": "https://www.dvidshub.net/video/461809/battle-sangin-memorial",
-      "page_title": "Video - Battle of Sangin Memorial - DVIDS",
-      "title": "Battle of Sangin Memorial",
-      "description": "U.S. Marines with 3rd Battalion, 5th Marine Regiment (3/5), 1st Marine Divison, are interviewed during the 5 year Battle of Sangin Reunion at Marine Corps Base, Camp Pendleton, Calif. on 29 April 2016. Marines, veterans, and family members of those that deployed with 3/5 to Sangin Valley returned to Camp Pendleton to honor those lost, those who have served, and those that continued to serve.",
-      "text": "U.S. Marines with 3rd Battalion, 5th Marine Regiment (3/5), 1st Marine Divison, are interviewed during the 5 year Battle of Sangin Reunion at Marine Corps Base, Camp Pendleton, Calif. on 29 April 2016. Marines, veterans, and family members of those that deployed with 3/5 to Sangin Valley returned to Camp Pendleton to honor those lost, those who have served, and those that continued to serve.\nThis work, Battle of Sangin Memorial, must comply with the restrictions shown on https://www.dvidshub.net/about/copyright.",
-      "image_captions": [
-        "Defense Visual Information Distribution Service Logo",
-        "US Deptartment of Defense Logo"
-      ]
-    }
-  ],
-  "evidence_count": 2,
-  "crawled_at": "2026-04-23T19:03:33.958951+00:00"
-}
+[
+  {
+    "source": "www.flickr.com",
+    "url": "https://www.flickr.com/photos/marine_corps/4401448870",
+    "clip_score": 0.2612,
+    "optimized_evidence": "[PUBLISHED DATE]: Feb. 21, 2010\n[TITLE]: Marines on patrol | U.S. Marines with Charlie Company, 1st B… | Flickr\n[METADATA/INTRO]: Marines United States Marine Corps Official Page...\n[BEST EVIDENCE CHUNK]: United States Marine Corps Official Page \n U.S. Marines with Charlie Company, 1st Battalion, 3rd Marine Regiment, rest during a patrol stop near Marjah, Afghanistan, Feb. 21, 2010. Patrol stops allow Marines to check the security of the area and rest. (U.S. Marine Corps photo by Cpl. Albert F. Hunt/Released) \n Uploaded on March 2, 2010 \n Taken on February 21, 2010 \n U.S. Marines with Charlie Company, 1st Battalion, 3rd Marine Regiment, rest during a patrol stop near Marjah, Afghanistan, Feb. 21, 2010. Patrol stops allow Marines to check the security of the area and rest. (U.S. Marine Corps photo by Cpl. Albert F. Hunt/Released)"
+  },
+  {
+    "source": "www.marinecorpstimes.com",
+    "url": "https://www.marinecorpstimes.com/news/your-marine-corps/2015/12/03/in-battle-with-is-marines-bolster-jordanian-military/",
+    "clip_score": 0.2442,
+    "optimized_evidence": "[PUBLISHED DATE]: 2015-12-03\n[TITLE]: In battle with IS, Marines bolster Jordanian military\n[METADATA/INTRO]: While military operations against the Islamic State group intensified this last summer, the U.S. Marine Corps quietly worked to bolster a key ally in the fight. During their six-month deployment to the region, troops from 3rd Battalion, 7th Marines worked...\n[BEST EVIDENCE CHUNK]: Jordanian Soldiers and U.S. Marines with India Company, Battalion Landing Team 3rd Battalion, 1st Marine Regiment, 15th Marine Expeditionary Unit, provide security during a bilateral training exercise on Aug. 25. The 15th MEU is deployed throughout Southwest Asia to maintain regional security in the U.S. 5th Fleet area of responsibility. \n Photo Credit: (Sgt. Jamean Berry/Marine Corps) \n \"The skills that go with [an expeditionary force] are primarily infantry skills, which we're good at: at the squad level, at the platoon level and at the company level,\" he said. \"So that's what we provided: basic infantry skills and maintaining a level of readiness that would support that tasking from their government.\""
+  },
+  {
+    "source": "www.flickr.com",
+    "url": "https://www.flickr.com/photos/world_armies/7325023282",
+    "clip_score": 0.2385,
+    "optimized_evidence": "[PUBLISHED DATE]: May 25, 2012\n[TITLE]: United States Marine Corps | U.S. Marines with Fox Company, … | Flickr\n[METADATA/INTRO]: United States Marine Corps U.S. Marines with Fox Company, 2D Battalion, 9th Marine Regiment, Regimental Combat Team 5 provide suppressive fire during a satellite patrol in Bari Desert, Afghanistan May 25, 2012. Fox Company took part in a ten-day partnered...\n[BEST EVIDENCE CHUNK]: United States Marine Corps \n U.S. Marines with Fox Company, 2D Battalion, 9th Marine Regiment, Regimental Combat Team 5 provide suppressive fire during a satellite patrol in Bari Desert, Afghanistan May 25, 2012. Fox Company took part in a ten-day partnered patrol with the Afghan National Army to disrupt enemy activity throughout their area of operations. \n Uploaded on June 3, 2012 \n Taken on May 25, 2012 \n United States Marine Corps \n U.S. Marines with Fox Company, 2D Battalion, 9th Marine Regiment, Regimental Combat Team 5 provide suppressive fire during a satellite patrol in Bari Desert, Afghanistan May 25, 2012. Fox Company took part in a ten-day partnered patrol with the Afghan National Army to disrupt enemy activity throughout their area of operations."
+  }
+]

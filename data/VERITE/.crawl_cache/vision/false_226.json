@@ -1,0 +1,20 @@
+[
+  {
+    "source": "pied-piper-blog.netlify.app",
+    "url": "https://pied-piper-blog.netlify.app/blog/what-happened-to-pied-piper",
+    "clip_score": 0.2204,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: What Happened To Piedpiper | Pied Piper (un)official blog\n[METADATA/INTRO]: What Happened To Piedpiper - Published on...\n[BEST EVIDENCE CHUNK]: What is Pied Piper in Silicon Valley? \n For those unfamiliar with the show, here is the background information. Pied Piper is the brainchild of Richard Hendricks, the protagonist of HBOâs show Silicon Valley. It was initially the name for Hendricksâ songwriter-oriented music app, a tool that helped artists to detect whether their work infringed fellow artistsâ copyright. \n Hendricks accidentally find out the compression algorithm used in Pied Piper has a better chance for monetization, as the high compression rate is highly demanded in the market. \n Evolution of Piedpiper.com (2014 till Now) \n Piedpiper.com had been keeping updating and growing alongside the plot of Silicon Valley, new blogs were added every now and then. Over the years, the website has revamped the interface and introduced new tech that was developed or envisioned in the TV series."
+  },
+  {
+    "source": "www.linkedin.com",
+    "url": "https://www.linkedin.com/pulse/advice-pied-piper-hire-bernice-lessons-user-from-hbos-jeff-seeman",
+    "clip_score": 0.2077,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Advice to Pied Piper--Hire Bernice: Lessons on User Enablement from HBO's Silicon Valley\n[METADATA/INTRO]: Advice to Pied Piper--Hire Bernice: Lessons on User Enablement from HBO's Silicon Valley (SPOILER ALERT: This article reveals plot details from the third season of HBO’s Silicon Valley.)...\n[BEST EVIDENCE CHUNK]: But it wasn’t until the penultimate episode of the third season that the show ventured into my particular area of expertise—technical training, a field I’ve been in for eighteen years. And, as expected, the show was savvy enough to depict some of the exact mistakes many tech companies make when launching training programs. In fact, the episode could well serve as a textbook for software companies on what not to do. \n In the episode in question, Richard is initially ecstatic when over 500,000 users download Pied Piper’s newly released compression-based platform, a feat that receives wide coverage in the tech media. But his enthusiasm quickly turns to disappointment when he discovers the company only has 19,000 daily active users. Apparently people are installing the product but not using it. A focus group uncovers why—people aren’t using the product because they don’t understand it. And for some reason, the company’s ridiculously nebulous marketing campaign (“Tables are made so a person can sit down and do something. Or nothing.”) has failed to close this knowledge gap."
+  },
+  {
+    "source": "www.yahoo.com",
+    "url": "https://www.yahoo.com/entertainment/silicon-valley-fact-check-pied-piper-just-got-025527008.html",
+    "clip_score": 0.1608,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: ‘Silicon Valley’ Fact Check: Pied Piper Just Got Pricey\n[METADATA/INTRO]: ‘Silicon Valley’ Fact Check: Pied Piper Just Got Pricey Warning: Don’t read this before you’ve seen the Season 5 “Silicon Valley” premiere....\n[BEST EVIDENCE CHUNK]: At one point in the episode, Richard mentions they have $13 million in financing for the latest iteration of Pied Piper, which looks like it’s still a data storage company. If rent was all Richard had to worry about, they’d be in pretty good shape. Unfortunately, it isn’t. \n Let’s say Pied Piper is paying its new employees an average salary for software engineers, which is $123,000, according to Quartz. That’s about $7 million a year. Without factoring in insurance, technical costs, and other small perks tech companies like to throw at their employees to keep their mind off the drudgery, like bottomless cereal, and Pied Piper would have less than two years before it needs fresh funding."
+  }
+]

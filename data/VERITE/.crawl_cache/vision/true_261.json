@@ -1,112 +1,20 @@
-{
-  "sample_id": "true_261",
-  "image_url": "https://pbs.twimg.com/media/FQnG6BzWYAArP5y?format=jpg&name=900x900",
-  "visual_entities": [
-    {
-      "description": "Flag of the United States",
-      "score": 0.9991
-    },
-    {
-      "description": "United States",
-      "score": 0.9822
-    },
-    {
-      "description": "Flag",
-      "score": 0.7365
-    },
-    {
-      "description": "State flag",
-      "score": 0.7111
-    },
-    {
-      "description": "Vexillology",
-      "score": 0.6595
-    },
-    {
-      "description": "U.S. state",
-      "score": 0.6549
-    },
-    {
-      "description": "",
-      "score": 0.6548
-    },
-    {
-      "description": "Flag Day",
-      "score": 0.5781
-    },
-    {
-      "description": "Continental Union Flag",
-      "score": 0.5765
-    },
-    {
-      "description": "Flag Day",
-      "score": 0.557
-    },
-    {
-      "description": "Pan-African flag",
-      "score": 0.4606
-    },
-    {
-      "description": "Country",
-      "score": 0.4132
-    },
-    {
-      "description": "Flags of the World",
-      "score": 0.4083
-    },
-    {
-      "description": "Union Jack",
-      "score": 0.399
-    },
-    {
-      "description": "Vexillological symbol",
-      "score": 0.3851
-    }
-  ],
-  "best_guess_labels": [
-    "flag"
-  ],
-  "similar_image_urls": [
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122184693158006335",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1287679870080056"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.dvidshub.net/video/941301/american-flag",
-      "page_title": "Video - American Flag - DVIDS",
-      "title": "American Flag",
-      "description": "Full screen animated waving flag of the United States of America (USA).",
-      "text": "Full screen animated waving flag of the United States of America (USA).\nVideo Analytics\nPUBLIC DOMAIN\nThis work, American Flag, by Rodney Turner, identified by DVIDS, must comply with the restrictions shown on https://www.dvidshub.net/about/copyright.\nMORE LIKE THIS\nCONTROLLED VOCABULARY KEYWORDS\nTAGS",
-      "image_captions": [
-        "Defense Visual Information Distribution Service Logo",
-        "US Deptartment of Defense Logo"
-      ]
-    },
-    {
-      "url": "https://www.frontlineflags.com/collections/american-flags/flags",
-      "page_title": "American Flag - United States Online Flag Store | frontlineflags.com",
-      "title": "American Flag - United States Online Flag Store",
-      "description": "Shop American flags at Front Line Flags! The widest collection of American flags at the most competitive prices!",
-      "text": "American Flag - United States Online Flag Store\nShop American flags at Front Line Flags! The widest collection of American flags at the most competitive prices!\nShop American flags at Front Line Flags! The widest collection of American flags at the most competitive prices!\n$14.97\n$24.97\nSave: (40%)\nPREMIUM QUALITY - Made of quality polyester and finished with a durable header for added strengt...\n$17.97\n$22.97\nSave: (22%)\nPROUDLY FLY YOUR USA FLAG - Show your patriotism with our heavy-duty, premium United States flag ...\n$42.97\n$49.97\nSave: (14%)\nPROUDLY FLY YOUR USA FLAG - Show your patriotism with our heavy-duty, premium United States fla...\n$19.97\n$24.97\nSave: (20%)\nPROUDLY FLY YOUR THIN BLUE LINE FLAG - Show your support for law enforcement and back the blue wi...\n$59.97\n$64.97\nSave: (8%)\nALL-IN-ONE AMERICAN FLAG WITH COMPLETE FLAG POLE KIT - Show your patriotism with this heavy-duty ...",
-      "image_captions": [
-        "American Flag, Made in USA",
-        "American Flag | Heavy Duty U.S. Flag | Durable 210D Oxford Nylon for High Winds | Quadruple Stitched Fly End | Embroidered Stars & Sewn Stripes | Brass Grommets | Patriotic Decor | ***Various Sizes***",
-        "Super Duty Endura Embroidered American Flag (Various Sizes)",
-        "THIN BLUE LINE USA FLAG, EMBROIDERED, HIGH QUALITY",
-        "American Flag Pole Kit | Heavy Duty Outdoor Flagpole | 3x5’ Flag | 210D Nylon United States Flag | 6’ Adjustable Spinning Flag Pole | House Mount Bracket | Commercial | High Winds"
-      ]
-    },
-    {
-      "url": "https://www.frontlineflags.com/collections/american-flags/mcf",
-      "page_title": "American Flag - United States Online Flag Store | frontlineflags.com",
-      "title": "American Flag - United States Online Flag Store",
-      "description": "Shop American flags at Front Line Flags! The widest collection of American flags at the most competitive prices!",
-      "text": "American Flag - United States Online Flag Store\nShop American flags at Front Line Flags! The widest collection of American flags at the most competitive prices!\nShop American flags at Front Line Flags! The widest collection of American flags at the most competitive prices!\n$19.97\n$24.97\nSave: (20%)\nPROUDLY FLY YOUR THIN BLUE LINE FLAG - Show your support for law enforcement and back the blue wi...",
-      "image_captions": [
-        "THIN BLUE LINE USA FLAG, EMBROIDERED, HIGH QUALITY"
-      ]
-    }
-  ],
-  "evidence_count": 3,
-  "crawled_at": "2026-04-23T18:06:58.073670+00:00"
-}
+[
+  {
+    "source": "www.alamy.com",
+    "url": "https://www.alamy.com/the-red-flag-with-communist-symbols-of-a-sickle-and-a-hammer-flying-by-buildingthe-red-flag-with-a-five-pointed-star-flutters-on-the-pole-image212356744.html",
+    "clip_score": 0.2121,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: The red flag with communist symbols of a sickle and a hammer flying by building.The Red flag with a five-pointed star flutters on the pole Stock Photo - Alamy\n[METADATA/INTRO]: The red flag with communist symbols of a sickle and a hammer flying by building.The Red flag with a five-pointed star flutters on the pole. Captions are provided by our contributors....\n[BEST EVIDENCE CHUNK]: The red flag with communist symbols of a sickle and a hammer flying by building.The Red flag with a five-pointed star flutters on the pole. \n Captions are provided by our contributors. \n 56.6 MB (1.6 MB Compressed download)Releases: \n Model - no | Property - noDo I need a release?Dimensions: \n 5326 x 3717 px | 45.1 x 31.5 cm | 17.8 x 12.4 inches | 300dpiLocation:"
+  },
+  {
+    "source": "www.ima-usa.com",
+    "url": "https://www.ima-usa.com/products/original-russian-late-cold-war-flag-of-the-soviet-union-dated-1990-72-x-33",
+    "clip_score": 0.1789,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Original Late Cold War Flag of the Chief of the Main Staff of the Soviet Navy dated 1990 - 89&quot; x 44&quot; &ndash; International Military Antiques\n[METADATA/INTRO]: - Original Item: Only One Available. This is a very nice late Cold War / Soviet Collapse era (1990 dated) Flag of the Soviet Union, correctly known as the \"State Flag of the Union of Soviet Socialist Republics\" (Russian: Госуда́рственный...\n[BEST EVIDENCE CHUNK]: Original Item: Only One Available. This is a very nice late Cold War / Soviet Collapse era (1990 dated) Flag of the Soviet Union, correctly known as the \"State Flag of the Union of Soviet Socialist Republics\" (Russian: Госуда́рственный флаг Сою́за Сове́тских Социалисти́ческих Респу́блик). More commonly known as the Soviet flag (Russian: Сове́тский фла), this was the official national flag of the Union of Soviet Socialist Republics (USSR / CCCP) from 1922 to 1991. The flag's design and symbolism are derived from several sources, but emerged during the Russian Revolution. The flag is also an international symbol of the communist movement as a whole. The nicknames for the flag were The Hammer and Sickle and The Red Banner."
+  },
+  {
+    "source": "atlanticflagpole.com",
+    "url": "https://atlanticflagpole.com/products/ussr-flag-1955-1991",
+    "clip_score": 0.1777,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: USSR Flag 3x5 Nylon (1955-1991) - Made in USA with Brass Grommets &ndash; Atlantic Flagpole\n[METADATA/INTRO]: USSR Flag 3x5 Nylon (1955-1991) - Made in USA with Brass Grommets No reviews...\n[BEST EVIDENCE CHUNK]: Own a piece of history. Engineered with military grade DURA FLIGHT™ technology and ColorGuard™ UV protection, this restricted production series is built to endure. \n Choosing a selection results in a full page refresh. \n Opens in a new window. \n Flying high, and Strong 💪.... \n I was excited to receive my phoenix flag pole a head of scheduled, and was very amazed how easy it was to operate....here's a video ,and picture of my Amazing,strong Phoenix flag pole.....thank you again and have a wonderful day. Benny C. \n Phoenix Telescoping Flagpole Premier Kit | Starter Bundle \n Poly extra US Flag \n Beautiful, quality, great craftsmanship. I couldn’t be more pleased. I wouldn’t go anywhere else for my flags!"
+  }
+]

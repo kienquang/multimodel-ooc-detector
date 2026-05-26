@@ -1,5 +1,5 @@
 import pandas as pd
-from src.pipeline import run_pipeline
+from src.pipeline_old import run_pipeline
 
 # 5 sample đại diện (VERITE + NewsCLIPpings style)
 # Bạn có thể thay image_url bằng link thật từ VERITE GitHub[](https://github.com/stevejpapad/image-text-verification)

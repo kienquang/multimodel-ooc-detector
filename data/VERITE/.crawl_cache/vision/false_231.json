@@ -1,65 +1,20 @@
-{
-  "sample_id": "false_231",
-  "image_url": "https://c.files.bbci.co.uk/A0E7/production/_88219114_66481400.jpg",
-  "visual_entities": [
-    {
-      "description": "Lai Ching-te",
-      "score": 5.9055
-    },
-    {
-      "description": "Legislator",
-      "score": 0.7064
-    },
-    {
-      "description": "Legislative session",
-      "score": 0.6594
-    },
-    {
-      "description": "Speaker",
-      "score": 0.6434
-    },
-    {
-      "description": "Politics",
-      "score": 0.5871
-    },
-    {
-      "description": "Legislature",
-      "score": 0.5177
-    },
-    {
-      "description": "Parliament of the United Kingdom",
-      "score": 0.5137
-    },
-    {
-      "description": "Minister",
-      "score": 0.4621
-    },
-    {
-      "description": "Deputy",
-      "score": 0.3897
-    }
-  ],
-  "best_guess_labels": [
-    "fights in parliament"
-  ],
-  "similar_image_urls": [
-    "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/A0E7/production/_88219114_66481400.jpg.webp",
-    "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/A0E7/production/_88219114_66481400.jpg",
-    "https://ichef.bbci.co.uk/news/1024/branded_news/C7F7/production/_88219115_66481400.jpg",
-    "https://ichef.bbci.co.uk/news/640/cpsprodpb/A0E7/production/_88219114_66481400.jpg",
-    "https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/C7F7/production/_88219115_66481400.jpg",
-    "https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/C7F7/production/_88219115_66481400.jpg.webp"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.theguardian.com/world/video/2014/nov/27/mps-brawl-parliament-world-video",
-      "page_title": "MPs brawl in parliaments around the world – video - The Guardian",
-      "title": "MPs brawl in parliaments around the world – video",
-      "description": "As Ukraine's MPs attend their inaugural session of parliament, we take a look at parliamentary brawling from around the world",
-      "text": "MPs brawl in parliaments around the world – video\nThis article is more than 11 years old\nUkraine's parliament is notorious for brawls and scuffles between MPs – but many other countries have a history of parliamentary fisticuffs. As Ukraine's MPs attend their inaugural session of parliament on Thursday, we take a look at parliamentary brawling from around the world, including India, Afghanistan, Japan, Italy, Turkey, South Korea … and Ukraine",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T17:57:34.651833+00:00"
-}
+[
+  {
+    "source": "www.odt.co.nz",
+    "url": "https://www.odt.co.nz/news/world/brawling-mps-halt-parliament",
+    "clip_score": 0.3212,
+    "optimized_evidence": "[PUBLISHED DATE]: 2012-05-26\n[TITLE]: Brawling MPs halt parliament | Otago Daily Times Online News\n[METADATA/INTRO]: The fight broke out between members of the pro-Western opposition who want to take Ukraine out of Russia's shadow and MPs from President Viktor Yanukovych's party, which bases its support in Ukraine's Russian-speaking east. One MP sustained what appeared to...\n[BEST EVIDENCE CHUNK]: The fight broke out between members of the pro-Western opposition who want to take Ukraine out of Russia's shadow and MPs from President Viktor Yanukovych's party, which bases its support in Ukraine's Russian-speaking east. \n One MP sustained what appeared to be a blow to the head and was taken to hospital. \n Scuffles have occurred in Ukraine's Parliament in the past, memorably in December 2010, when six MPs had to be taken to hospital after a brawl in which chairs were thrown along with punches."
+  },
+  {
+    "source": "www.rferl.org",
+    "url": "https://www.rferl.org/a/ukraine-parliament-fight/24934282.html",
+    "clip_score": 0.3189,
+    "optimized_evidence": "[PUBLISHED DATE]: April 27, 2010\n[TITLE]: The Ukrainian Parliament&#39;s Greatest Hits\n[METADATA/INTRO]: Egg hurling, punching, bloody faces, torn suits, and deputies carried out on stretchers -- over the past couple of years Ukraine’s parliament, the Verkhovna Rada, has seen it all. After yet more scuffles this week heralded the beginning of the...\n[BEST EVIDENCE CHUNK]: Here's video of the first day of the action: \n Here are some photos after the fistfights continued for a second day on December 13, after which the deputies backed Mykola Azarov for a second term as prime minister. \n 4. Chains And Iron Bars \n When a deputy is carried out of the Ukrainian parliament building on a stretcher it is clear that yet another bloody brawl has gotten out of hand. After deputies from former Prime Minister Yulia Tymoshenko's Fatherland party blocked the parliament podium in December 2010, lawmakers from President Viktor Yanukovych's Party of Regions decided to take it back by force. In the ensuing fight, six opposition deputies were injured and five had to spend the night in a hospital. Mykhailo Volynets, the deputy who left the building in a stretcher, accused Petro Tsurko, a deputy from the Party of Regions, of grabbing a chair and smashing it over his head. Tsurko denied hurting Volynets on purpose, saying he had been trying to throw the chair aside."
+  },
+  {
+    "source": "www.voanews.com",
+    "url": "https://www.voanews.com/a/ukraine-lawmakers-manhandles-pm-yatseniuk-in-rowdy-parliament-scene/3098767.html",
+    "clip_score": 0.3126,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Ukraine Lawmaker Manhandles PM in Rowdy Parliament Scenes\n[METADATA/INTRO]: Fighting broke out among members of Ukraine's ruling coalition in parliament on Friday after a member of President Petro Poroshenko's bloc physically picked up Prime Minister Arseny Yatseniuk and pulled him from the podium. Yatseniuk was defending his embattled government's...\n[BEST EVIDENCE CHUNK]: Fighting broke out among members of Ukraine's ruling coalition in parliament on Friday after a member of President Petro Poroshenko's bloc physically picked up Prime Minister Arseny Yatseniuk and pulled him from the podium. \n Yatseniuk was defending his embattled government's record when lawmaker Oleh Barna walked over to him, presenting him sarcastically with a bunch of red roses. Barna then grabbed him around the waist and groin, lifting him off his feet and dragging him from the rostrum. \n Members from Yatseniuk's People Front party waded in, pushing Barna and throwing punches. Lawmakers from Poroshenko's bloc joined the fray and an angry brawl ensued for several minutes before deputies returned to their seats."
+  }
+]

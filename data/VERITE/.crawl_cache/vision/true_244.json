@@ -1,0 +1,20 @@
+[
+  {
+    "source": "www.yahoo.com",
+    "url": "https://www.yahoo.com/news/articles/unbelted-driver-ejected-killed-295-120038877.html",
+    "clip_score": 0.1899,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Unbelted Driver Ejected and Killed on I-295 in Jacksonville After SUV Flies Off Road and Lands on Guardrail\n[METADATA/INTRO]: Unbelted Driver Ejected and Killed on I-295 in Jacksonville After SUV Flies Off Road and Lands on Guardrail - A Jacksonville man lost his life in a violent single-vehicle crash on I-295 southbound after being thrown from his SUV and...\n[BEST EVIDENCE CHUNK]: Crashes like this one, though tragic, carry lessons worth taking seriously. A few things stand out from this particular incident. \n First, the time of night matters. Crashes in the hours between midnight and 4 a.m. are disproportionately severe. There is less traffic, which might sound safer, but it also means higher speeds, reduced visibility, and a greater likelihood that a driver may be fatigued or impaired. If you are driving during those hours, extra caution is warranted. \n Second, seat belts save lives in ways that are not always visible until something goes wrong. There is no dramatic moment in everyday driving where you feel the seat belt doing its job. That invisibility can make it easy to skip. But the math on ejections is grim, and this crash is a real-world example of what those statistics look like in practice."
+  },
+  {
+    "source": "www.bbc.com",
+    "url": "https://www.bbc.com/news/articles/cj919r9glrmo",
+    "clip_score": 0.1655,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Kent: Woman airlifted to hospital following collision on M2\n[METADATA/INTRO]: Woman airlifted to hospital after M2 collision A woman was airlifted to hospital with serious injuries after a car hit a barrier on the M2 in Kent....\n[BEST EVIDENCE CHUNK]: Woman airlifted to hospital after M2 collision \n A woman was airlifted to hospital with serious injuries after a car hit a barrier on the M2 in Kent. \n Kent Police said they were called at 16:41 GMT on Sunday to a report that a car had hit a barrier on the eastbound carriageway between junction five, near Sittingbourne, and six, near Faversham. \n A man was also treated at the scene and taken to a local hospital to be checked. \n The eastbound carriageway was closed until about 20:45 when one lane reopened, the other remained closed for barrier repairs and removal of an oil spillage, police said."
+  },
+  {
+    "source": "www.nzherald.co.nz",
+    "url": "https://www.nzherald.co.nz/nz/crash-on-sh20a-causes-major-delays-to-auckland-airport-traffic/X3SDTSZI4NE3RPYBNGCEMW2JAA/",
+    "clip_score": 0.1618,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Crash on SH20A causes major delays to Auckland Airport traffic - NZ Herald\n[METADATA/INTRO]: The main motorway heading into Auckland Airport is at near gridlock this morning after a crash blocked one lane. The crash is blocking the right southbound lane just past the Kirkbride Rd off-ramp....\n[BEST EVIDENCE CHUNK]: The main motorway heading into Auckland Airport is at near gridlock this morning after a crash blocked one lane. \n The crash is blocking the right southbound lane just past the Kirkbride Rd off-ramp. \n “Road users are advised to take extra care and expect delays along this route,” the"
+  }
+]

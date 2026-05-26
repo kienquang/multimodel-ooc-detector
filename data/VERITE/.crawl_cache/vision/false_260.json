@@ -1,93 +1,20 @@
-{
-  "sample_id": "false_260",
-  "image_url": "https://i.ytimg.com/vi/1TiYNS6twPA/maxresdefault.jpg",
-  "visual_entities": [
-    {
-      "description": "Lake Natron",
-      "score": 1.08735
-    },
-    {
-      "description": "Helicopter",
-      "score": 1.0644
-    },
-    {
-      "description": "Aircraft",
-      "score": 0.88815004
-    },
-    {
-      "description": "Lake Washington",
-      "score": 0.8382
-    },
-    {
-      "description": "Airplane",
-      "score": 0.79845
-    },
-    {
-      "description": "Lake",
-      "score": 0.6706
-    },
-    {
-      "description": "Water",
-      "score": 0.56145
-    },
-    {
-      "description": "Gene Coulon Memorial Beach Park",
-      "score": 0.4644
-    },
-    {
-      "description": "Flamingos",
-      "score": 0.38489997
-    },
-    {
-      "description": "Military helicopter",
-      "score": 0.35452765
-    }
-  ],
-  "best_guess_labels": [
-    "lake natron incident"
-  ],
-  "similar_image_urls": [
-    "https://i.ytimg.com/vi/1TiYNS6twPA/maxresdefault.jpg",
-    "https://i.ytimg.com/vi/1TiYNS6twPA/mqdefault.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.dailymotion.com/video/x8matmx",
-      "page_title": "What If You Jumped Into Lake Natron? - video Dailymotion",
-      "title": "What If You Jumped Into Lake Natron?",
-      "description": "",
-      "text": "Skip to player\nSkip to main content\nWatch fullscreen\nWHAT IF\nWhat If You Jumped Into Lake Natron?",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.fox13seattle.com/news/man-drowns-in-lake-washington-officials-say",
-      "page_title": "Man drowns in Lake Washington, officials say - FOX 13 Seattle",
-      "title": "Man drowns in Lake Washington, officials say",
-      "description": "",
-      "text": "Man drowns in Lake Washington, officials say\nRENTON, Wash. -- Divers recovered a man's body Sunday afternoon from Lake Washington.\nMercer Island police said he and another man were at Gene Coulon Memorial Beach Park on Saturday. They said alcohol was possibly involved and the victim either fell into Lake Washington or walked in near the loading ramps.\nThe victim was not reported missing until nearly 24 hours later, according to Renton fire officials.\nThe victim's identity has not been released. Police are investigating.",
-      "image_captions": [
-        "On your phone. On your TV.",
-        "West Seattle homeless encampment swept despite mayor's promise",
-        "Off-roading for a cause, Thurston Co. Sheriff’s Jeep Patrol looking for volunteers",
-        "All aboard! Seattle's cruise season starts Friday",
-        "Seattle to see first 8 PM sunset Friday, warmer this weekend"
-      ]
-    },
-    {
-      "url": "https://www.witn.com/video/2026/04/20/chief-ironman-drowning-normally-no-swimming-lake/",
-      "page_title": "Chief on Ironman drowning: Normally no swimming in lake - WITN",
-      "title": "Chief on Ironman drowning: Normally no swimming in lake",
-      "description": "Firefighters said the swimmer sank about 10 feet. (KTRK)",
-      "text": "Updated: 6 minutes ago\n|A change in the Canada's citizenship laws has prompted a rush of Americans to explore their ancestry and file paperwork seeking dual citizenship. (AP video by Mark Vancleave)\nUpdated: 11 minutes ago\nUpdated: 50 minutes ago\nUpdated: 51 minutes ago\nUpdated: 59 minutes ago\n|Much of the contiguous United States is experiencing drought. (Source: CNN)",
-      "image_captions": [
-        "Firefighters said the swimmer sank about 10 feet. (KTRK)",
-        "A change in the Canada's citizenship laws has prompted a rush of Americans to explore their...",
-        "Corolla Wild Horse Fund says first four foals seen along Outer Banks this year",
-        "Crews move into new Morehead City fire station funded through $2 million grant",
-        "Three rescued at Corolla Beach after strong winds cause floats to drift offshore"
-      ]
-    }
-  ],
-  "evidence_count": 3,
-  "crawled_at": "2026-04-23T18:06:52.359474+00:00"
-}
+[
+  {
+    "source": "www.cbc.ca",
+    "url": "https://www.cbc.ca/news/world/hawaii-pearl-harbor-helicopter-crash-1.3456202",
+    "clip_score": 0.2655,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Hawaii helicopter crash captured on video | CBC News\n[METADATA/INTRO]: Hawaii helicopter crash captured on video Family of 4 from Canada survived crash, but teen remains in critical condition...\n[BEST EVIDENCE CHUNK]: He switched to video, recording the helicopter's dramatic drop into the water below. \n \"All of a sudden it essentially just fell out of the sky and crash-landed in the water,\" the Madison, Wis., man said. \n He stopped filming and jumped in the water to help. \n U.S. Navy spokeswoman Agnes Tauyan said the helicopter sank shortly after going down near the visitor centre Thursday. \n 'I took off my shirt and dove in' \n Another bystander who jumped in to help was tour guide Chris Gardner, who was with a group at the Pearl Harbor Visitor Centre when he heard the crash. \n \"I took off my shirt and dove in,\" he said, describing how he, a navy sailor, a federal police officer and another man took turns diving to the submerged helicopter and trying to free a passenger with a knife. \"He was strapped into his seat in the back of the aircraft.\""
+  },
+  {
+    "source": "www.cbsnews.com",
+    "url": "https://www.cbsnews.com/news/pearl-harbor-helicopter-crash-man-describes-trying-to-rescue-passenger/",
+    "clip_score": 0.2608,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Pearl Harbor helicopter crash: Man describes trying to rescue passenger - CBS News\n[METADATA/INTRO]: Man describes trying to rescue teen after helicopter crash in Hawaii PEARL HARBOR, Hawaii -- Tourist Shawn Winrich was taking photos of Pearl Harbor when he saw a helicopter \"essentially coming straight at us\" at a popular tourist destination that...\n[BEST EVIDENCE CHUNK]: U.S. Navy spokeswoman Agnes Tauyan identified the aircraft involved in Thursday's crash as a Bell 206. The names of the five people on board were not immediately released. \n The helicopter crashed about 20 feet offshore, right next to the visitor center's lawn, said Winrich's daughter, Justice Winrich. She watched as it \"plopped down\" into the water. \n \"I saw it like as it was coming in, and it looked pretty normal. It didn't look like it was shaking or anything,\" Winrich said. She thought it was strange that the helicopter was that close to people. \n As it got closer to the water, she saw some dark smoke coming out of the back of the helicopter, and it started shaking slightly."
+  },
+  {
+    "source": "aerossurance.com",
+    "url": "https://aerossurance.com/helicopters/lax-maintenance-honolulu-b206/",
+    "clip_score": 0.2557,
+    "optimized_evidence": "[PUBLISHED DATE]: 2018-02-23\n[TITLE]: NTSB Reveal Lax Maintenance Standards in Honolulu Tour Helicopter Accident - Aerossurance\n[METADATA/INTRO]: NTSB Reveal Lax Maintenance Standards in Honolulu Tour Helicopter Accident (Bell 206B3 N80918) On 18 February 2016 a Bell 206B3, N80918, operated by Genesis Helicopters, impacted the water of Pearl Harbour, Honolulu, HI during a scenic tour following a transmission...\n[BEST EVIDENCE CHUNK]: …the pilot turned the helicopter slightly left to land [i.e. ditch] in the water as close to shore as possible… He stated that when the helicopter was about 20 ft above the water, it felt like the rotor stalled, the helicopter lost lift, and it “fell out of the sky.” The helicopter descended rapidly into the water about 20 ft from the shoreline. \n A review of video captured by a witness revealed that the…helicopter’s forward airspeed appeared to decrease, the nose pitched up, and the helicopter began to rotate to the left in a slightly nose-up attitude then descended rapidly into the water. At the time of impact, the helicopter appeared to be in a slightly nose-high, left bank attitude."
+  }
+]

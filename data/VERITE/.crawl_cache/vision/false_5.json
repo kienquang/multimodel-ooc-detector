@@ -1,119 +1,20 @@
-{
-  "sample_id": "false_5",
-  "image_url": "https://sleep.brightspotcdn.com/dims4/default/642c0cf/2147483647/strip/true/crop/1200x800+0+0/resize/800x533!/quality/90/?url=http%3A%2F%2Fmattress-firm-brightspot.s3.amazonaws.com%2F5f%2F06%2F0257adc245c5b098698b6eedb0b9%2Fjacob-brownwyn-portaledge.png",
-  "visual_entities": [
-    {
-      "description": "Rock climbing",
-      "score": 0.7266
-    },
-    {
-      "description": "Big wall climbing",
-      "score": 0.704
-    },
-    {
-      "description": "Portaledge",
-      "score": 0.7036
-    },
-    {
-      "description": "Sleep",
-      "score": 0.6962
-    },
-    {
-      "description": "Climbing",
-      "score": 0.6645
-    },
-    {
-      "description": "Mountaineering",
-      "score": 0.6229
-    },
-    {
-      "description": "Mountain",
-      "score": 0.5755
-    },
-    {
-      "description": "Cliff",
-      "score": 0.5203
-    },
-    {
-      "description": "Hiking",
-      "score": 0.4862
-    },
-    {
-      "description": "Sleeping Bag",
-      "score": 0.48495
-    },
-    {
-      "description": "Sleep position",
-      "score": 0.4418
-    },
-    {
-      "description": "Tent",
-      "score": 0.4317
-    },
-    {
-      "description": "Camping",
-      "score": 0.4024
-    },
-    {
-      "description": "Nap",
-      "score": 0.3647
-    },
-    {
-      "description": "Rock",
-      "score": 0.3551
-    }
-  ],
-  "best_guess_labels": [
-    "rock climbing sleeping on cliff"
-  ],
-  "similar_image_urls": [
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=724042660293267",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10224303240648965",
-    "https://i.redd.it/mountain-climbers-getting-some-sleep-v0-9qmqeh1h80bd1.png?width=800&format=png&auto=webp&s=214bab0305bb92f482ceccf39db49e3686307ec9",
-    "https://img.ukclimbing.com/i/319211?fm=jpg&time=1571587566&dpr=1&w=828&sharp=7&s=9d6da6c4e244c798d17242e5cdbe51aa",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122151887192631985",
-    "https://sleep.brightspotcdn.com/dims4/default/642c0cf/2147483647/strip/true/crop/1200x800+0+0/resize/800x533!/quality/90/?url=http%3A%2F%2Fmattress-firm-brightspot.s3.amazonaws.com%2F5f%2F06%2F0257adc245c5b098698b6eedb0b9%2Fjacob-brownwyn-portaledge.png",
-    "https://preview.redd.it/rock-climbers-sleep-while-suspended-thousands-of-feet-above-v0-r1okwjn6sy0f1.jpg?width=679&format=pjpg&auto=webp&s=e439644d992e083057d38ab430ac8874d80db9f1",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1014338827565331",
-    "https://i.redd.it/rock-climbers-sleep-while-suspended-thousands-of-feet-above-v0-r1okwjn6sy0f1.jpg?width=679&format=pjpg&auto=webp&s=e439644d992e083057d38ab430ac8874d80db9f1",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1160976322736844"
-  ],
-  "evidence": [
-    {
-      "url": "https://astorianhotels.com/product/review/30328874021500",
-      "page_title": "Tents On Side Of Cliff Cheap Mountain Climbing Sleeping Bag ...",
-      "title": "Book Your Dream Stay Now!",
-      "description": "Experience luxury and comfort at the Astorian Grand Hotel in Naivasha, located next to Buffalo Mall. Enjoy a rejuvenating stay, vibrant club scene, and delicious quality food. Book now and discover the best of Naivasha!",
-      "text": "Ready to indulge in a luxurious getaway? Book your room today and experience the ultimate in comfort and relaxation.\nBook NowExperience the epitome of luxury at the Astorian Grand Hotel, where our spacious and tastefully designed rooms offer the perfect blend of comfort and style. With modern amenities such as free Wi-Fi, flat-screen TVs, and minibars, you'll feel right at home. Book your room today and discover why we're the top choice for travelers in Naivasha.\nSavor the flavors of Naivasha at our on-site restaurant, where you can enjoy a wide range of international and local cuisine. From hearty breakfasts to satisfying dinners, our restaurant offers something for every taste and preference. And with our convenient room service menu, you can enjoy your favorite dishes from the comfort of your own room.\nOur dedicated concierge team is always available to assist with any needs or requests you may have during your stay. From booking local tours and activities to recommending the best restaurants and bars in town, we'll do everything we can to make your stay with us as enjoyable and stress-free as possible.\nStay connected with our complimentary Wi-Fi service, available throughout the hotel. Whether you need to check email, catch up on work, or simply stay connected with loved ones back home, our fast and reliable Wi-Fi service has got you covered.\nWhether you're hosting a business meeting or celebrating a special occasion, our versatile meeting and event spaces are the perfect",
-      "image_captions": [
-        "Book weekend Getaway at Astorian Grand Hotel in Naivasha in 2026",
-        "Book Tastefully designed rooms at Astorian Grand Hotel in Naivasha in 2026",
-        "Astorian Grand Hotels Naivasha"
-      ]
-    },
-    {
-      "url": "https://safeai.webs.upv.es/?s=list-166438217",
-      "page_title": "rock climbing sleeping bag Sale How Rock Climbers Sleep on the ...",
-      "title": "Search Results for: list-166438217",
-      "description": null,
-      "text": "Search Results for: list-166438217 Sorry, but nothing matched your search terms. Please try again with some different keywords. Search for:",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.newtel.pe/shop/storeSearch/KeepCriteriaInput.aspx?&transition=top47246020152800",
-      "page_title": "HOT ! Capitan Rock Climbing Nap Tent Rock Climbers Sleep While ...",
-      "title": "Internet 100% fibra óptica, +50 Canales por streaming, Cámaras de Videovigilancia y grabaciones en la nube | Newtel",
-      "description": "| tuweb7.com",
-      "text": "¡Vive una experiencia completa en casa!\nNavega sin interrupciones, protege tu hogar y accede al mejor entretenimiento, con conexión 100% fibra óptica.\nInternet 100% fibra óptica\nCámaras de Videovigilancia\n+50 Canales por streaming\nGrabación en la nube\nDescubre Nuestros Planes\n-\ns/60\n100 Mbps\n-\ns/79\n500 Mbps\n-\ns/99\n1000 Mbps\nInternet 100% fibra óptica\n+50 canales por streaming\nCámaras de videovigilancia\nGrabación en la nube\n¡INSTALACIÓN GRATIS!\nCÁMBIATE HOY\nInstalación incluye Router, ONT y los precios incluyen IGV.\nLa instalación del servicio tiene un costo S/0.00 soles.\n*Aplican términos y condiciones\n¿Por qué elegirnos?\nNuestra conexión es estable, nuestra respuesta es rápida y nuestros planes incluyen todo lo que necesitas para navegar, trabajar y proteger tu hogar. Sin complicaciones.\nSabemos lo importante que es estar bien conectado. Por eso te ofrecemos velocidad real, atención personalizada y el respaldo de una empresa 100% local.\nLo que te ofrecemos\nPlanes de Internet 100% Fibra óptica, TV por streaming, cámaras de seguridad y grabación en la nube\nNavega, carga y descarga contenido con una velocidad simétrica\nNewtel brinda servicios públicos de telecomunicaciones a nivel nacional",
-      "image_captions": [
-        "EES - Emprendedores en serie",
-        "Internet 100%   +50 Canales por streaming",
-        "Internet 100% +50 Canales por streaming",
-        "Internet 100%  fibra óptica",
-        "Cámaras de Videovigilancia"
-      ]
-    }
-  ],
-  "evidence_count": 3,
-  "crawled_at": "2026-04-23T16:15:18.148978+00:00"
-}
+[
+  {
+    "source": "climbinghouse.com",
+    "url": "https://climbinghouse.com/how-rock-climbers-sleep-portaledges/",
+    "clip_score": 0.3097,
+    "optimized_evidence": "[PUBLISHED DATE]: 2022-04-23\n[TITLE]: How Rock Climbers Sleep: An Intro to Portaledges (2026)\n[METADATA/INTRO]: How Rock Climbers Sleep: An Intro to Portaledges (2026) Published on: 04/23/2022...\n[BEST EVIDENCE CHUNK]: How Rock Climbers Sleep: An Intro to Portaledges (2026) \n Have you ever wondered how rock climbers sleep when on a big wall climb? Like El Cap in Yosemite National Park, many big walls require multi-day excursions. Because of this, climbers have no choice but to spend the night cliffside, and they need specialized gear to stay safe while sleeping. \n Vertical camping is camping on the edge of a cliff using a piece of equipment called a portaledge. Imagine yourself on a fabric-covered platform surrounded by beautiful landscape and a clear night sky, 10,000+ feet up. What an adventure! \n Portaledges are a safe and standard practice for bivouacking while climbing multipitch, big wall routes. It’s natural for anyone to have feelings of unease when thinking of sleeping on an open-air cot hundreds of feet above the ground. So let’s take a closer look at what a portalege is and how it works."
+  },
+  {
+    "source": "theplaidzebra.com",
+    "url": "https://theplaidzebra.com/extreme-mountain-camping-and-tree-tents-are-the-solution-to-your-adventure-lust/",
+    "clip_score": 0.3084,
+    "optimized_evidence": "[PUBLISHED DATE]: 2015-06-27\n[TITLE]: Extreme mountain camping and tree tents are the solution to your adventure-lust\n[METADATA/INTRO]: BY: JESSICA BEUKER Most people get queasy looking over the edge of a balcony on a tall building. Fortunately, professional free climbers Tommy Caldwell and his wife Becca, are not most people. They are adventurers and extreme campers, facing cliffs...\n[BEST EVIDENCE CHUNK]: Most people get queasy looking over the edge of a balcony on a tall building. Fortunately, professional free climbers Tommy Caldwell and his wife Becca, are not most people. They are adventurers and extreme campers, facing cliffs and mountains, relying only on their hands, feet and equipment to get them to the top. When night falls and it’s time for them to rest, they attach their tents to the sides of the vertical cliffs, with 3,000 ft. below them and a blanket of stars above them. \n Extreme mountain climbing involves attaching a portaledge—a tent-like construction you lie on—to an attaching spot, usually a cliff. According to , portaledges were first developed in the 1950s when climbers began to do bigger expeditions and needed a safe place to spend the night and rest. The first options looked like hammocks, followed by BAT-tents, which are also hammocks, but come equipped with an optional roof. In the 1980s the portaledges that are used today were created. They have a strong base and are surrounded by a metal frame, which is attached to adjustable suspension straps that hang down the cliff."
+  },
+  {
+    "source": "climbinghouse.com",
+    "url": "https://climbinghouse.com/bivouac-tips-guide/",
+    "clip_score": 0.2919,
+    "optimized_evidence": "[PUBLISHED DATE]: 2023-07-26\n[TITLE]: Bivouac for Climbing: The Ultimate Guide (2026)\n[METADATA/INTRO]: Bivouac for Climbing: The Ultimate Guide (2026) Published on: 07/27/2023...\n[BEST EVIDENCE CHUNK]: It’s literally vertical camping: the portaledge hangs in the air, which can feel a bit scary. However, it’s quite safe as each climber wears their harness and is secured independently to an anchor on the wall. \n For more information, you can check out this dedicated article on the topic: How Rock Climbers Sleep: An Intro to Portaledges. \n Other Considerations and Tips \n As you’ve seen, it’s important to design every trip with either a planned bivy in mind or an emergency bivouac available. Here are a few more important items you should always take: \n - An emergency blanket takes up almost no room in your pack, yet it will help you survive if you are stranded on route throughout the night."
+  }
+]

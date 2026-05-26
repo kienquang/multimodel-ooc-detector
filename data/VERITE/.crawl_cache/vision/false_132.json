@@ -1,50 +1,20 @@
-{
-  "sample_id": "false_132",
-  "image_url": "https://i.ytimg.com/vi/UzKQdUWR-Tc/maxresdefault.jpg",
-  "visual_entities": [
-    {
-      "description": "Toronto Raptors",
-      "score": 1.4992499
-    },
-    {
-      "description": "2019 NBA Finals",
-      "score": 1.167705
-    },
-    {
-      "description": "NBA",
-      "score": 1.0654501
-    },
-    {
-      "description": "Championship",
-      "score": 0.4707
-    },
-    {
-      "description": "Victory parade",
-      "score": 0.4571
-    },
-    {
-      "description": "NBA championship ring",
-      "score": 0.4345
-    }
-  ],
-  "best_guess_labels": [
-    "raptors championship parade"
-  ],
-  "similar_image_urls": [
-    "https://i.ytimg.com/vi/UzKQdUWR-Tc/maxresdefault.jpg",
-    "https://i.ytimg.com/vi/UzKQdUWR-Tc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAZzcs7GqC0sSMKhnj6uQtdgM0Q2Q",
-    "https://i.ytimg.com/vi/UzKQdUWR-Tc/mqdefault.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.smoothmanpower.com/?g=86414821001370",
-      "page_title": "Nick Nurse Waves To Fans From Inside Truck",
-      "title": "Smooth Manpower Supply Services | Smooth Company Dubai-UAE",
-      "description": "Smooth Manpower Company UAE delivers expert manpower supply services in Dubai and across the UAE. Reliable staffing solutions for every industry.",
-      "text": "Payroll Bureau Services\nPayroll Management is often complex and involves tons of paperwork. When you outsource its management to us, you have a dedicated expert in finance, accounting and taxation at your disposal, at all times.\nSMOOTH MANPOWER SUPPLIES was established in 2005 and has maintained an excellent track record in the field of contracting and manpower services in several different sectors ranging from blue collar to white collar workers. We have a wide, diverse and dedicated workforce that hail from different parts of the world – India, Sri Lanka, Pakistan, Ghana and Nigeria\nWe operate a tailored extension of your HR with compliant and efficient solutions for ...\nOur unique approach and understanding of our clients’ business allows us to ...\nPayroll Management is often complex and involves tons of paperwork. When you outsource its management to us, you have a dedicated expert in finance, accounting and taxation at your disposal, at all times.\nNo quota limitations.\nMinistry of labour authorized company.\nDedicated delivery teams with local and global experience.\nProject-Managed transitions.\nQuicker delivery at lower costs.\nExclusive partnerships and access to global networks.\nSmooth Manpower Supply Services has been a valuable partner, providing exceptional support to our projects. We look forward to working with them on future projects should an opportunity arise. We wish Smooth and its team all the very best in their future endeavors.\nSmooth Manpower Supply Services has provided exceptional support to our joinery factory and key projects like Bab Al Shams, Bulgari, Dorchester DMCC, and Atlantis. Their dedication and professionalism are truly appreciated.\nSmooth Manpower Supply Services has been a reliable support to our projects at Dubai Hills and Palm Jumeirah. Their dedication and professionalism have been commendable, and we truly appreciate their efforts. We look forward to future collaborations\n404, Al Mazrouei Building Al A'sam Street, Al NahyanAbu DhabiUAE\nAl Majaz Jamal Abdul Nasser Street Ground Floor (G-1) Sharjah",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T17:30:00.788871+00:00"
-}
+[
+  {
+    "source": "www.kmbc.com",
+    "url": "https://www.kmbc.com/article/kansas-city-chiefs-chiefs-kingdom-champions-parade-aerial-view/42929429",
+    "clip_score": 0.3087,
+    "optimized_evidence": "[PUBLISHED DATE]: Feb 15, 2023\n[TITLE]: Here&#039;s an aerial view of Wednesday&#039;s Super Bowl rally\n[METADATA/INTRO]: Here's an aerial view of Wednesday's Chiefs Kingdom Champions Parade rally Here's an aerial view of Wednesday's Chiefs Kingdom Champions Parade rally...\n[BEST EVIDENCE CHUNK]: Here's an aerial view of Wednesday's Chiefs Kingdom Champions Parade rally \n Here's an aerial view of Wednesday's Chiefs Kingdom Champions Parade rally \n Get down *** little bit, tuck it in *** little tighter if you can do West premiere would be great. \n Updated: 8:06 PM CST Feb 15, 2023 \n Here's an aerial view of Wednesday's Chiefs Kingdom Champions Parade rally \n Updated: 8:06 PM CST Feb 15, 2023 \n It's unknown how many people officially attended Wednesday's parade and rally at Union Station honoring the Kansas City Chiefs. But we know it was a lot. News Chopper 9 provided Kansas City its only overhead view of the celebration. Take a look at the crowd around Union Station in the video player above. We're working to get an estimation of the crowd size."
+  },
+  {
+    "source": "www.vox.com",
+    "url": "https://www.vox.com/2017/1/21/14345972/boston-denver-chicago-march",
+    "clip_score": 0.2747,
+    "optimized_evidence": "[PUBLISHED DATE]: 2017-01-21\n[TITLE]: Aerial photos show large crowds at Women’s Marches across the country | Vox\n[METADATA/INTRO]: Women from across the country have converged on Washington, DC, on Saturday for a massive rally to protest Donald Trump’s election and promote women’s rights. At the same time, there have been rallies organized in major — and not so...\n[BEST EVIDENCE CHUNK]: Women from across the country have converged on Washington, DC, on Saturday for a massive rally to protest Donald Trump’s election and promote women’s rights. At the same time, there have been rallies organized in major — and not so major — cities across the country. \n Aerial photos show large crowds at Women’s Marches across the country \n Aerial photos and videos show massive crowds gathering all over the United States. Some of the biggest rallies so far have been in Los Angeles, Boston and Chicago. There have also been sizable crowds in cities from Ithaca, New York, to Park City, Utah, where the Sundance Film Festival is taking place. Here’s a roundup of some of the dramatic aerial photographs. I’ll update with more photos as the events continue."
+  },
+  {
+    "source": "www.thepitchkc.com",
+    "url": "https://www.thepitchkc.com/photos-more-snaps-from-the-chiefs-kingdom-parade-of-champions/",
+    "clip_score": 0.2448,
+    "optimized_evidence": "[PUBLISHED DATE]: 2023-02-16\n[TITLE]: Photos: More snaps from the Chiefs Kingdom parade of champions\n[METADATA/INTRO]: Photos: More snaps from the Chiefs Kingdom parade of champions Drone shot of the assembled crowd outside Union Station for the Super Bowl victory parade. // Photo by Jim Nimmo...\n[BEST EVIDENCE CHUNK]: Photos: More snaps from the Chiefs Kingdom parade of champions \n Drone shot of the assembled crowd outside Union Station for the Super Bowl victory parade. // Photo by Jim Nimmo \n Yesterday, the Kansas City Chiefs celebrated their second Super Bowl win in three years with the Parade of Champions downtown. \n Going from Grand Boulevard and 6th Street and ending at Union Station, an estimated 800,000 to 1 million people showed up to hear speeches from players, a musical performance by Tech N9ne, and even a bewildering appearance by Governor Mike Parson. \n Our photographer Jim Nimmo was there to capture everything:"
+  }
+]

@@ -1,83 +1,20 @@
-{
-  "sample_id": "false_306",
-  "image_url": "http://content.wzzm13.com/photo/2016/11/01/Ionia%20co%20truck%20vs%20car%202_1478027146154_6690407_ver1.0.jpg",
-  "visual_entities": [
-    {
-      "description": "2020 Chevrolet Suburban",
-      "score": 1.2732226
-    },
-    {
-      "description": "2015 Chevrolet Suburban",
-      "score": 1.2714076
-    },
-    {
-      "description": "2013 Chevrolet Suburban",
-      "score": 1.2637846
-    },
-    {
-      "description": "2001 Chevrolet Suburban",
-      "score": 1.1897326
-    },
-    {
-      "description": "2012 Chevrolet Suburban",
-      "score": 1.1766646
-    },
-    {
-      "description": "2014 Chevrolet Suburban",
-      "score": 1.1583331
-    },
-    {
-      "description": "2016 Chevrolet Suburban",
-      "score": 1.0955342
-    },
-    {
-      "description": "SUV",
-      "score": 1.0783501
-    },
-    {
-      "description": "Chevrolet",
-      "score": 1.06005
-    },
-    {
-      "description": "General Motors",
-      "score": 1.00755
-    },
-    {
-      "description": "Crash test",
-      "score": 0.7118
-    },
-    {
-      "description": "",
-      "score": 0.7067
-    },
-    {
-      "description": "Truck",
-      "score": 0.6745
-    },
-    {
-      "description": "",
-      "score": 0.6717
-    }
-  ],
-  "best_guess_labels": [
-    "chevrolet suburban crash"
-  ],
-  "similar_image_urls": [
-    "http://content.wzzm13.com/photo/2016/11/01/Ionia%20co%20truck%20vs%20car%202_1478027146154_6690407_ver1.0.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://sports.yahoo.com/driver-dies-rollover-crash-near-035900333.html",
-      "page_title": "Driver dies in rollover crash near Fairfield - Yahoo Sports",
-      "title": "Driver dies in rollover crash near Fairfield",
-      "description": "May 3—A driver died in a rollover crash Wednesday night near Fairfield. The crash happened shortly before 6 p.m. on state Route 27 about 1 mile south of the small town in southern Spokane County, acco...",
-      "text": "Driver dies in rollover crash near Fairfield\nMay 3—A driver died in a rollover crash Wednesday night near Fairfield.\nThe crash happened shortly before 6 p.m. on state Route 27 about 1 mile south of the small town in southern Spokane County, according to the Washington State Patrol.\nThe driver, whose name was not released Wednesday night, was the sole occupant of the vehicle and died at the scene, said WSP Trooper Ryan Senger, a spokesman for the department.\nThe highway was blocked more than an hour after the crash.\nNo other information was available Wednesday night.",
-      "image_captions": [
-        "Download app from App Store",
-        "Download app from Google Play"
-      ]
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T18:57:05.523902+00:00"
-}
+[
+  {
+    "source": "www.parkrapidsenterprise.com",
+    "url": "https://www.parkrapidsenterprise.com/news/local/food-truck-involved-in-state-hwy-34-crash",
+    "clip_score": 0.2945,
+    "optimized_evidence": "[PUBLISHED DATE]: 2023-06-23\n[TITLE]: Food truck involved in State Hwy. 34 crash - Park Rapids Enterprise | News, weather, sports from Park Rapids Minnesota\n[METADATA/INTRO]: Hubbard County Sheriff's Office, North Memorial Health Ambulance Service and other personnel responded Friday, June 23 to the scene of a two-vehicle crash in Todd Township, west of Park Rapids. Two Ford trucks, one of them hauling a food trailer,...\n[BEST EVIDENCE CHUNK]: Hubbard County Sheriff's Office, North Memorial Health Ambulance Service and other personnel responded Friday, June 23 to the scene of a two-vehicle crash in Todd Township, west of Park Rapids. \n Two Ford trucks, one of them hauling a food trailer, apparently collided at the intersection of State Hwy. 34 and 109th St. and ended up in a heap next to an adjacent driveway, with the Blue Line BBQ pickup flipped on its roof and the other truck on top. \n Witnesses at the scene said no one was seriously hurt, although a passenger in the Blue Line pickup was apparently treated for a minor knee injury."
+  },
+  {
+    "source": "www.whealelaw.com",
+    "url": "https://www.whealelaw.com/georgia-truck-accident-attorney",
+    "clip_score": 0.2892,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Georgia Truck Accident Attorney | Semi-Truck Injury Attorney Georgia\n[METADATA/INTRO]: WHEALE LAW Injury & Death Attorney...\n[BEST EVIDENCE CHUNK]: Hours of Service Records; \n Maintenance, Repair, and Inspection Records; \n Next, inspections of the vehicles involved, including the tractor and/or trailer, may need to be performed to inspect the cargo load, conspicuity tape, lights, brakes, and other areas of potential failure. \n Finally, investigating the commercial motor carrier their safety record at the time of the collision is important, which is available via the Federal Motor Carrier Safety Administration. \n Who can potentially be responsible for my truck accident injuries? \n There may be various responsible parties in a trucking accident, depending on the cause of the collision. Potentially responsible parties could include: \n Truck driver: Truck drivers are almost always a contributing – if not the main – cause for big rig collisions. For instance, a fatigued driver who has exceeded their hours of service, broken a rule of the road, or failed to properly inspect their truck and its load can lead to a truck accident;"
+  },
+  {
+    "source": "www.wvmlaw.com",
+    "url": "https://www.wvmlaw.com/blog/most-dangerous-roads-in-texas-for-truck-accidents/",
+    "clip_score": 0.2823,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Most Dangerous Roads in Texas for Truck Accidents | Blog | Webster Vicknair Macleod\n[METADATA/INTRO]: Contact Us Complete the form below for a free case evaluation....\n[BEST EVIDENCE CHUNK]: Per the I-10 Texas Safety Factsheet: \n If you or someone you love has been injured in a truck accident, here’s what you should do: \n Every catastrophic truck accident starts long before impact with a series of negligent decisions: missed safety inspections, skipped rest breaks, overloaded trailers, poor training, and reckless driving. These aren't just mistakes—they're violations of duty that can cost lives. \n At Webster Vicknair MacLeod, we’ve spent decades uncovering the root causes of 18-wheeler wrecks and holding every liable party—drivers, trucking companies, manufacturers, and insurers—accountable in court. We know what it takes to win with over 120 years of combined trial experience, a proven record of multi-million-dollar verdicts, and deep insight into federal and state trucking regulations."
+  }
+]

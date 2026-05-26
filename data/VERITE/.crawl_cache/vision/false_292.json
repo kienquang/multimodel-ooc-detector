@@ -1,90 +1,20 @@
-{
-  "sample_id": "false_292",
-  "image_url": "https://www.fandimefilmu.cz/files/images/Clanky/Celebrity/article_main_McKellen_Ezra_1.jpg",
-  "visual_entities": [
-    {
-      "description": "Fedora Linux",
-      "score": 0.9991
-    },
-    {
-      "description": "Neal Gompa",
-      "score": 0.87854993
-    },
-    {
-      "description": "Fedora Project",
-      "score": 0.7167
-    },
-    {
-      "description": "Linux",
-      "score": 0.7151
-    },
-    {
-      "description": "Linux distribution",
-      "score": 0.7145
-    },
-    {
-      "description": "Operating System",
-      "score": 0.675
-    },
-    {
-      "description": "",
-      "score": 0.655
-    },
-    {
-      "description": "Red Hat Software",
-      "score": 0.655
-    },
-    {
-      "description": "Linux kernel",
-      "score": 0.5771
-    },
-    {
-      "description": "KDE Plasma",
-      "score": 0.5739
-    },
-    {
-      "description": "Desktop environment",
-      "score": 0.5685
-    },
-    {
-      "description": "Kernel",
-      "score": 0.5575
-    },
-    {
-      "description": "KDE",
-      "score": 0.5491
-    },
-    {
-      "description": "GNOME",
-      "score": 0.5438
-    },
-    {
-      "description": "Fedora Linux release history",
-      "score": 0.5343
-    }
-  ],
-  "best_guess_labels": [
-    "fedora"
-  ],
-  "similar_image_urls": [
-    "https://www.fandimefilmu.cz/files/images/Clanky/Celebrity/article_main_McKellen_Ezra_1.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://technologycounter.com/products/fedora",
-      "page_title": "Fedora | Pricing, Features & Reviews - TechnologyCounter",
-      "title": "Fedora | Pricing, Features & Reviews",
-      "description": "Explore Fedora which is a Operating System. Learn more about its pricing, features, & user reviews.",
-      "text": "Be the first to leave a review for Fedora\nWrite a ReviewThe top 5 features of Fedora include:\nFedora serves a wide range of businesses including Freelancers, StartUps, SMEs, Agencies.\nFedora is compatible with multiple platforms, Yes, IOS , Android\nThe top three competitors of Fedora are Apple OSX El Capitan, Ubuntu and Cloudpital. To find the best fit for your business, compare and evaluate each platform's features, advantages, disadvantages, and other key aspects.\nCurrently, Fedora does not offer trial access. However, you can still explore its capabilities through available product demos, feature guides, and customer reviews.",
-      "image_captions": [
-        "TechnologyCounter Logo",
-        "Univention Corporate Server",
-        "Compare Fedora VS Ubuntu",
-        "Fedora VS Ubuntu Logo",
-        "Registration Policy icon"
-      ]
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T18:52:56.261323+00:00"
-}
+[
+  {
+    "source": "www.walesonline.co.uk",
+    "url": "https://www.walesonline.co.uk/lifestyle/tv/sir-ian-mckellens-60-year-23276879",
+    "clip_score": 0.1648,
+    "optimized_evidence": "[PUBLISHED DATE]: 2022-03-03\n[TITLE]: Sir Ian McKellen&#x27;s 60-year acting career, coming out as gay at 48 and &#x27;making up for lost time&#x27; | Wales Online\n[METADATA/INTRO]: Sir Ian McKellen's 60-year acting career, coming out as gay at 48 and 'making up for lost time' The 82-year-old is being interviewed by Amol Rajan on March 3 and he's on The Graham Norton Show on March 4...\n[BEST EVIDENCE CHUNK]: \"60 years on I’m rather repeating myself, this time in a much superior, funnier play. I hope, with a shaven head and false whiskers, I’m a more convincingly old fellow.\" \n He also made TV history in 1970 when the first gay kiss was broadcast on BBC Television. BBC Two aired a showing of Edward II by Christopher Marlowe on Thursday, August 6 1970 which saw Edward (played by Ian McKellen) and Gaveston (played by James Laurenson) kiss. \n But he is probably best-known for roles in some widely popular franchises; playing Gandalf in the Lord Of The Rings and The Hobbit trilogies and Magneto in the X-Men universe, which have seen him develop a huge loyal fan base."
+  },
+  {
+    "source": "www.irishmirror.ie",
+    "url": "https://www.irishmirror.ie/showbiz/celebrity-news/george-ezra-left-bag-nerves-4450714",
+    "clip_score": 0.1582,
+    "optimized_evidence": "[PUBLISHED DATE]: 2014-10-16\n[TITLE]: George Ezra left a bag of nerves performing next to Sir Ian McKellen in new video - Irish Mirror\n[METADATA/INTRO]: George Ezra left a bag of nerves performing next to Sir Ian McKellen in new video The 21-year-old was lucky enough to have the LOTR star in his new promo for his single Listen To The Man...\n[BEST EVIDENCE CHUNK]: “It was nerve-racking trying to act beside him. I’m not an actor, and he’s phenomenal.” \n George invited his new pal along to see him perform in Shepherd’s Bush, prompting East London-dwelling Sir Ian, 75, to respond: “Is there any chance you can play closer to Limehouse?”"
+  },
+  {
+    "source": "www.theguardian.com",
+    "url": "https://www.theguardian.com/culture/ian-mckellen",
+    "clip_score": 0.1506,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Ian McKellen | The Guardian\n[METADATA/INTRO]: Ian McKellen ‘emotional’ as he opens County Durham theatre space Fit for a king: Ian McKellen to play Lear at newly rebuilt Yard theatre in east London...\n[BEST EVIDENCE CHUNK]: The actor on plans for a new Pitch Perfect, pretending to lick Ian McKellen and Derek Jacobi’s ‘fun grandpa vibe’ \n Paul McCartney and Dua Lipa among artists urging Starmer to rethink AI copyright plans \n Hundreds of leading figures from UK creative industries urge prime minister not to ‘give our work away’ \n Ian McKellen and Patrick Stewart to reprise X-Men roles in new Avengers film \n A Touch of Love review – Margaret Drabble’s single-mother drama is a vivid 60s time capsule \n Lend me your ears: great Shakespearean actors given hi-tech talking portraits \n A radical new exhibition celebrates stars including Ian McKellen and Patrick Stewart by combining subtly moving artworks with their own voices. The results are uncanny"
+  }
+]

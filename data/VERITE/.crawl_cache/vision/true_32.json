@@ -1,78 +1,20 @@
-{
-  "sample_id": "true_32",
-  "image_url": "https://www.gannett-cdn.com/presto/2021/01/06/PDTF/cf44e501-fafa-4008-8b98-4d4c75ef0513-010621_trump_rally_lans3.jpg?width=660&height=441&fit=crop&format=pjpg&auto=webp",
-  "visual_entities": [
-    {
-      "description": "January 6",
-      "score": 0.7216
-    },
-    {
-      "description": "Epiphany",
-      "score": 0.719
-    },
-    {
-      "description": "January 6 United States Capitol attack",
-      "score": 0.69915
-    },
-    {
-      "description": "Christmas",
-      "score": 0.6822
-    },
-    {
-      "description": "January",
-      "score": 0.5002
-    },
-    {
-      "description": "Cross",
-      "score": 0.4387
-    },
-    {
-      "description": "Stations of the Cross",
-      "score": 0.4323
-    },
-    {
-      "description": "Coptic cross",
-      "score": 0.4097
-    },
-    {
-      "description": "Liturgical year",
-      "score": 0.3766
-    },
-    {
-      "description": "Nativity of Jesus",
-      "score": 0.3707
-    },
-    {
-      "description": "Holiday",
-      "score": 0.3216
-    }
-  ],
-  "best_guess_labels": [
-    "january 6th cross"
-  ],
-  "similar_image_urls": [
-    "https://www.usatoday.com/gcdn/presto/2021/01/06/PDTF/cf44e501-fafa-4008-8b98-4d4c75ef0513-010621_trump_rally_lans3.jpg",
-    "https://www.freep.com/gcdn/presto/2021/01/06/PDTF/cf44e501-fafa-4008-8b98-4d4c75ef0513-010621_trump_rally_lans3.jpg",
-    "https://www.usatoday.com/gcdn/presto/2021/01/06/PDTF/cf44e501-fafa-4008-8b98-4d4c75ef0513-010621_trump_rally_lans3.jpg?width=1733&height=1156&fit=crop&format=pjpg&auto=webp",
-    "https://www.freep.com/gcdn/presto/2021/01/06/PDTF/cf44e501-fafa-4008-8b98-4d4c75ef0513-010621_trump_rally_lans3.jpg?width=700&height=467&fit=crop&format=pjpg&auto=webp",
-    "https://www.freep.com/gcdn/presto/2021/01/06/PDTF/cf44e501-fafa-4008-8b98-4d4c75ef0513-010621_trump_rally_lans3.jpg?width=660&height=441&fit=crop&format=pjpg&auto=webp"
-  ],
-  "evidence": [
-    {
-      "url": "https://cmc-terrasanta.org/en/media/news/5518/january-6th-in-bethlehem",
-      "page_title": "January 6th in Bethlehem - Christian Media Center",
-      "title": "See also",
-      "description": "The solemnity of the Epiphany in Bethlehem is the opportunity to reflect on the unity of Christians and the meaning of Jesus’ manifestation to all people. At the same time, we celebrate Orthodox Christmas with solemn ceremonies and popular faith.",
-      "text": "January 6th in Bethlehem\nSee also\nPeople who chose humanity in the most difficult moments\nApril 21, 2026\n“Armenian Righteous Among the Nations who saved Jews during the Holocaust” is the title of an exhibition organized on April 14 by the Data Center for Religious Freedom, in the seminary hall of the Armenian Patriarchate in the Old City of Jerusalem.\nReturning to Life in Schools After the War\nApril 16, 2026\nFollowing a difficult period for students due to the war, which caused school closures and the interruption of educational activities, institutes have begun welcoming pupils back in an effort to return life to normalcy.\nHoly Fire from the Empty Tomb\nApril 16, 2026\nFollowing the truce between the United States and Iran, restrictions that isolated the Old City of Jerusalem during the war have eased. The city has begun to breathe again, and the Basilica of the Holy Sepulchre reopened its doors to the faithful for Holy Saturday on April 11 for Churches following the Eastern calendar.\nWar Has Not Stopped Antiquity Thieves\nApril 14, 2026\nWar, the sound of sirens, and missile interceptions have not deterred archaeological thieves, who continue to perform illegal excavations to steal antiquities, a crime punishable by law.\nEaster Message of His Beatitude Theophilos III, Orthodox Patriarch of Jerusalem\nApril 13, 2026\nH.B. Theophilos III, Patriarch of Jerusalem, reflects on the profound suffering currently gripping the Holy Land. Amidst the sounds of war and the physical absence of the faithful, he emphasizes that while sacred rites within the Church of the Holy Sepulchre are constrained by \"grievous circumstances,\" the Christian presence remains unbroken\nThe Charism of the Missionary Daughters of Calvary\nApril 08, 2026\n\"The Faces of the Holy Land,\" in a special feature for the centenary of the death of Saint Francis, presents this week a charism founded on placing the mysteries of Christ's redemption at the center of life. Like the women who went to the Holy Sepulchre early in the morning, the sisters of the Congregation of the Missionary Daughters of Calvary, drawn by Jesus, continue each day to pray and meditate on the seven words of Christ on the cross. Come with us to know them: they have been present in the Holy Land for 100 years.\nThe Resurrection of Christ: a new outlook on history\nMarch 27, 2026\nThe Easter Message of the Custos, Fr. Francesco Ielpo, for Easter 2026",
-      "image_captions": [
-        "Christian Media Center",
-        "People who chose humanity in the most difficult moments",
-        "Returning to Life in Schools After the War",
-        "Holy Fire from the Empty Tomb",
-        "War Has Not Stopped Antiquity Thieves"
-      ]
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T16:54:09.666504+00:00"
-}
+[
+  {
+    "source": "www.usatoday.com",
+    "url": "https://www.usatoday.com/story/news/factcheck/2021/01/07/fact-check-demonstrators-erected-cross-michigan-capitol/6581629002/",
+    "clip_score": 0.2426,
+    "optimized_evidence": "[PUBLISHED DATE]: 2021\n[TITLE]: Fact check: Demonstrators erected a cross at Michigan Capitol\n[METADATA/INTRO]: Fact check: Demonstrators erected a cross at Michigan Capitol, not US Capitol The claim: Demonstrators erected a cross in front of the Capitol...\n[BEST EVIDENCE CHUNK]: Other Facebook users shared the video, as well. \n The cross went up at a smaller protest at the Michigan Capitol \n It's not clear what \"capitol building\" the post was intended to refer to. However, demonstrators at the U.S. Capitol on Jan. 6 didn't erect a cross. \n A cross went up at a smaller pro-Trump protest at the Michigan Capitol. \n The Detroit Free Press captured multiple photos of the effort to raise the cross outside the statehouse in Lansing. \n \"Members of the Proud Boys and others help James Chapman of Belleville raise a large red cedar cross he brought as hundreds of Trump supporters gather outside of Michigan’s State Capitol building in Lansing on Wednesday, January 6, 2021 during a rally to pray for Trump,\" its caption read."
+  },
+  {
+    "source": "www.ideastream.org",
+    "url": "https://www.ideastream.org/news/government-politics/2021-01-17/ohio-statehouse-protest-at-times-loud-but-peaceful",
+    "clip_score": 0.2249,
+    "optimized_evidence": "[PUBLISHED DATE]: 2021-01-18\n[TITLE]: Ohio Statehouse Protest At Times Loud but Peaceful | Ideastream Public Media\n[METADATA/INTRO]: Nearly 100 people stood outside the Ohio Statehouse today, joining thousands of other Americans gathered at state capitols across the country. Here’s why one group of demonstrators decided to attend. Over 40 members of the Ohio Boogaloo Bois, a decentralized,...\n[BEST EVIDENCE CHUNK]: Nearly 100 people stood outside the Ohio Statehouse today, joining thousands of other Americans gathered at state capitols across the country. Here’s why one group of demonstrators decided to attend. \n Over 40 members of the Ohio Boogaloo Bois, a decentralized, armed libertarian organization, gathered at the Ohio State Capitol for what they called a rally for unity. Among the group was a man dressed in tactical gear, sunglasses and a luau necklace. The man, who opted not to give his name, says the goal of the day was to bring different political factions together. \n “We hope to get all these groups out here, and get them on the same page, and not fighting each other and unite as Americans,” he said. “All we are about, period, is uniting everybody in America and get everybody on the same page.”"
+  },
+  {
+    "source": "www.snopes.com",
+    "url": "https://www.snopes.com/fact-check/cross-erected-capitol-building/",
+    "clip_score": 0.2224,
+    "optimized_evidence": "[PUBLISHED DATE]: 2021-01-06\n[TITLE]: Was a Cross Erected in Front of Capitol Building at Jan. 6 Protests? | Snopes.com\n[METADATA/INTRO]: This video was taken on Jan. 6, 2020, during a protest against the 2020 election results. This video was taken in Michigan, not Washington, D.C....\n[BEST EVIDENCE CHUNK]: This video was taken on Jan. 6, 2020, during a protest against the 2020 election results. \n This video was taken in Michigan, not Washington, D.C. \n On Jan. 6, 2021, a mob rushed the U.S. Capitol as lawmakers started to count the electoral college votes in order to certify President-elect Joe Biden's victory. As rioters pushed their way past barricades and into the Capitol, social media was flooded with photographs and videos of the chaotic scene. \n In some cases, social media users encountered media that led to some confusion. Some viewed the following video of a cross being erected, for instance, as if it were taken in Washington, D.C. This video actually comes from a secondary protest in Michigan."
+  }
+]

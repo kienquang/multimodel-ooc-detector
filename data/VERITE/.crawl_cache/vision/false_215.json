@@ -1,73 +1,20 @@
-{
-  "sample_id": "false_215",
-  "image_url": "https://i.ytimg.com/vi/kMPSnvGzsSM/hqdefault.jpg",
-  "visual_entities": [
-    {
-      "description": "Blond",
-      "score": 1.0299089
-    },
-    {
-      "description": "Human hair color",
-      "score": 0.71
-    },
-    {
-      "description": "Hair",
-      "score": 0.6715
-    },
-    {
-      "description": "Color",
-      "score": 0.6496
-    },
-    {
-      "description": "eumelanin",
-      "score": 0.4783
-    },
-    {
-      "description": "Human skin color",
-      "score": 0.4343
-    },
-    {
-      "description": "Pigment",
-      "score": 0.4238
-    },
-    {
-      "description": "Dye",
-      "score": 0.3608
-    },
-    {
-      "description": "Hair bleaching",
-      "score": 0.349
-    },
-    {
-      "description": "Hue",
-      "score": 0.3243
-    }
-  ],
-  "best_guess_labels": [
-    "blond"
-  ],
-  "similar_image_urls": [
-    "https://i.ytimg.com/vi/kMPSnvGzsSM/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AHOBYAClgOKAgwIABABGH8gRSgmMA8=&rs=AOn4CLAs1Hpe1f3ikH1AutTX6qz0kCPCiA",
-    "https://i.ytimg.com/vi/kMPSnvGzsSM/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AHOBYAClgOKAgwIABABGH8gRSgmMA8=&rs=AOn4CLDuxoHgrL9DhLlVOGK_LEz8XUjq0w"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.artandpopularculture.com/Platinum_blonde",
-      "page_title": "Blond - The Art and Popular Culture Encyclopedia",
-      "title": "Checking Browser",
-      "description": "",
-      "text": "Checking Browser\nYour browser will redirect to your requested content shortly.",
-      "image_captions": []
-    },
-    {
-      "url": "https://wrdz.net/define/blond",
-      "page_title": "blond - wrdz Kids' Dictionary",
-      "title": "blond - wrdz Kids' Dictionary",
-      "description": "blond: Blond describes hair that's pale yellow or golden in color , like the color of wheat , honey , or sunlight . Someone with blond hair might have locks …",
-      "text": "blond\nHaving light yellow or golden-colored hair.\nBlond describes hair that's pale yellow or golden in color, like the color of wheat, honey, or sunlight. Someone with blond hair might have locks that range from very light, almost white-blond, to darker golden or sandy tones.\nThe word comes from French and is sometimes spelled blonde when referring to a woman or girl, though many people now use blond for everyone regardless of gender. You might describe someone as “a blond boy” or say “she has blond hair.”\nHair color can change naturally over time. Many children with blond hair find it darkens as they grow older, shifting toward brown. People also sometimes dye their hair blond, changing its color artificially.\nBeyond hair, the word appears in phrases like blond wood, describing light-colored woods such as maple or birch that have a pale, golden appearance. You'll also hear it in food descriptions: blond brownies are made without chocolate, giving them a lighter color than regular brownies.",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 2,
-  "crawled_at": "2026-04-23T17:53:16.449047+00:00"
-}
+[
+  {
+    "source": "www.theleafchronicle.com",
+    "url": "https://www.theleafchronicle.com/story/news/local/fort-campbell/2016/01/15/proposal-highlights-welcome-home-ceremony/78853736/",
+    "clip_score": 0.3127,
+    "optimized_evidence": "[PUBLISHED DATE]: 2016\n[TITLE]: Soldier proposes when girlfriend returns from Afghanistan\n[METADATA/INTRO]: Soldier proposes when girlfriend returns from Afghanistan FORT CAMPBELL, Ky. — Spc. Christian Claudio had a surprise for his girlfriend when she returned from Afghanistan on Friday....\n[BEST EVIDENCE CHUNK]: Soldier proposes when girlfriend returns from Afghanistan \n FORT CAMPBELL, Ky. — Spc. Christian Claudio had a surprise for his girlfriend when she returned from Afghanistan on Friday. \n When Claudio made his way from the bleachers to find Spc. Brittney Block in the crowd of more than 200 soldiers at the Welcome Home ceremony, he had a bouquet of flowers in his hands and a ring in his pocket. \n After a hug and a few kisses, he knelt on one knee and popped the question. \n The two met while they were in the Army and had been together for about 18 months, nine months of which Block was deployed with the 101st Combat Aviation Brigade in Afghanistan."
+  },
+  {
+    "source": "www.army.mil",
+    "url": "https://www.army.mil/article/172381/hugs_cheers_greet_returning_ada_soldiers",
+    "clip_score": 0.2868,
+    "optimized_evidence": "[PUBLISHED DATE]: 2016-07-28\n[TITLE]: Hugs, cheers greet returning ADA Soldiers &#124; Article &#124; The United States Army\n[METADATA/INTRO]: FORT SILL, Okla., July 28, 2016 -- It was a hot, sunny morning at Fort Sill when 290 Soldiers of 4th Battalion, 3rd Air Defense Artillery disembarked the buses that brought them to the Rinehart Fitness Center on July 24....\n[BEST EVIDENCE CHUNK]: Spc. Johnathan Hardey, a 14E air defense Patriot maintenance officer in B Battery, saw his 7-month old daughter Ava Marie, for the first time since his two-week leave after she was born Dec. 24. \"My wife ran up and started hugging me,\" he said of the greeting he received. \"I had no idea where she was at.\" \n Spouses and friends helped their Soldiers carry duffel bags and luggage from the staging area in the parking lot, where it had been arrayed in a military-style formation. Soon the area was nearly cleared when three Soldiers were about to leave. \n They had no relatives on hand to greet them, but they were just as happy to be back. Spc. Kenneth James, a human resources specialist, came back two weeks earlier and was on hand to greet his cousin, Spc. Mekhi Abramson, a networking operator. Both are from St. Thomas, Virgin Islands."
+  },
+  {
+    "source": "www.sltrib.com",
+    "url": "https://www.sltrib.com/news/2019/04/09/greeted-with-hugs-tears/",
+    "clip_score": 0.2802,
+    "optimized_evidence": "[PUBLISHED DATE]: 2019\n[TITLE]: Greeted with hugs and tears, nearly 100 Utah National Guard members return home after a Middle East deployment\n[METADATA/INTRO]: (Trent Nelson | The Salt Lake Tribune) Samantha Taylor embraces her husband, Specialist Alex Taylor, as almost 100 Soldiers from Utah Army National Guard’s Echo Battery, 1st Battalion, 145th Field Artillery, “Big Red” return after a 10-month Middle East deployment,...\n[BEST EVIDENCE CHUNK]: (Trent Nelson | The Salt Lake Tribune) \n Samantha Taylor embraces her husband, Specialist Alex Taylor, as almost 100 Soldiers from Utah Army National Guard’s Echo Battery, 1st Battalion, 145th Field Artillery, “Big Red” return after a 10-month Middle East deployment, on Tuesday April 9, 2019 at Wright Air Base in Salt Lake City. \n (Trent Nelson | The Salt Lake Tribune) \n Specialist Porter Black is welcomed home by his wife Taylor as almost 100 Soldiers from Utah Army National Guard’s Echo Battery, 1st Battalion, 145th Field Artillery, “Big Red” return after a 10-month Middle East deployment, on Tuesday April 9, 2019 at Wright Air Base in Salt Lake City."
+  }
+]

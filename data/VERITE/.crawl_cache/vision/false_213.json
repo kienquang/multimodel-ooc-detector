@@ -1,71 +1,20 @@
-{
-  "sample_id": "false_213",
-  "image_url": "https://static.timesofisrael.com/www/uploads/2022/02/ucth7lgo9b-rotated.jpeg",
-  "visual_entities": [
-    {
-      "description": "Smuggling",
-      "score": 0.737
-    },
-    {
-      "description": "Arms trafficking",
-      "score": 0.7236
-    },
-    {
-      "description": "Crime",
-      "score": 0.5877
-    },
-    {
-      "description": "Organized crime",
-      "score": 0.5035
-    },
-    {
-      "description": "smuggler",
-      "score": 0.4675
-    },
-    {
-      "description": "Law enforcement",
-      "score": 0.4385
-    },
-    {
-      "description": "Gun",
-      "score": 0.3978
-    },
-    {
-      "description": "Use of force",
-      "score": 0.3844
-    }
-  ],
-  "best_guess_labels": [
-    "gun smugglers"
-  ],
-  "similar_image_urls": [
-    "https://palsawa.com/uploads/images/2023/09/pfFZQ.jpg",
-    "https://cdn.i24news.tv/uploads/44/ab/24/15/da/24/a7/ac/f0/2f/44/d7/c3/c0/9a/4e/44ab2415da24a7acf02f44d7c3c09a4e.jpg?width=996",
-    "https://cdn.i24news.tv/uploads/44/ab/24/15/da/24/a7/ac/f0/2f/44/d7/c3/c0/9a/4e/44ab2415da24a7acf02f44d7c3c09a4e.jpg",
-    "https://hakolhayehudi.co.il/Uploads/2022/05/CJVdtPbEloDvMN.png",
-    "https://media.reshet.tv/image/upload/v1645787744/uploads/2022/902894322.jpg",
-    "https://media3.reshet.tv/image/upload/t_image_article_800/v1645787744/uploads/2022/902894322.webp",
-    "https://static-cdn.toi-media.com/www/uploads/2022/02/ucth7lgo9b-rotated.jpeg",
-    "https://assets.nn.najah.edu/CACHE/images/uploads/weblog/2023/09/19/pffzq/7f481192fb8eb485d1e4e3637b3a4903.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.i24news.tv/en/news/israel/defense/1645793770-israeli-forces-thwart-weapons-smuggling-attempt-at-jordan-border",
-      "page_title": "Israeli Forces Thwart Weapons Smuggling Attempt At Jordan Border",
-      "title": "i24NEWS",
-      "description": "",
-      "text": "You have to enable JavaScript to run this app.",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.dailymotion.com/video/x8gjs8h",
-      "page_title": "How firearms smuggling actually works, according to a weapons ...",
-      "title": "Dailymotion",
-      "description": "",
-      "text": "Skip to player\nSkip to main content\nWatch fullscreen\nFont",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 2,
-  "crawled_at": "2026-04-23T17:52:35.323398+00:00"
-}
+[
+  {
+    "source": "www.israelnationalnews.com",
+    "url": "https://www.israelnationalnews.com/news/226695",
+    "clip_score": 0.3225,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Spanish police seize thousands of terrorist weapons | Israel National News\n[METADATA/INTRO]: Spanish police on Tuesday released images of over 10,000 seized weapons, including anti-aircraft guns, they said were destined to be sold to organised crime groups and terrorist organisations. Police announced in January they had made a major weapons haul but...\n[BEST EVIDENCE CHUNK]: Spanish police on Tuesday released images of over 10,000 seized weapons, including anti-aircraft guns, they said were destined to be sold to organised crime groups and terrorist organisations. \n Police announced in January they had made a major weapons haul but only now released pictures and a final tally of the results of their operation against firearms trafficking. \n They said they had launched their investigation following a shooting at the Jewish Museum in Brussels in May 2014 that killed four people. \n The seized weapons included about 9,000 CETME rifles, 1,000 brand-name rifles, 400 howitzers, anti-aircraft guns, grenades, pistols and revolvers. \n The police pictures showed stacks of assault rifles and other guns side by side at a warehouse."
+  },
+  {
+    "source": "english.news.cn",
+    "url": "https://english.news.cn/asiapacific/20220616/7e95bb4c5ce541f7a625688b4c6331f0/c.html",
+    "clip_score": 0.3123,
+    "optimized_evidence": "[PUBLISHED DATE]: June 14, 2022\n[TITLE]: Security forces seize 48 assault rifles in E. Afghanistan-Xinhua\n[METADATA/INTRO]: Photo taken on June 14, 2022 shows assault rifles seized by Afghan security forces in Nangarhar province, Afghanistan. Afghan security forces have seized 48 assault rifles including AK-47 in the eastern Nangarhar province, the state-run Bakhtar news agency reported on...\n[BEST EVIDENCE CHUNK]: Photo taken on June 14, 2022 shows weapons seized by Afghan security forces in Nangarhar province, Afghanistan. Afghan security forces have seized 48 assault rifles including AK-47 in the eastern Nangarhar province, the state-run Bakhtar news agency reported on Thursday. In the operation, security personnel also discovered a large quantity of other weapons and ammunition including anti-personnel and anti-tank mines, the report said. (Photo by Hamidullah/Xinhua)"
+  },
+  {
+    "source": "www.kyivpost.com",
+    "url": "https://www.kyivpost.com/post/74935",
+    "clip_score": 0.3019,
+    "optimized_evidence": "[PUBLISHED DATE]: 2026-04-28\n[TITLE]: Ukraine Names Steven Seagal as Illegal Arms Recipient in Smuggling Probe\n[METADATA/INTRO]: Ukraine’s National Police has named US actor Steven Seagal as a recipient of trophy weapons from eastern Ukraine, alongside a list of Russian propagandists, in a statement announcing a major arms smuggling case on Tuesday, April 28. Seagal received Russian...\n[BEST EVIDENCE CHUNK]: In addition, over 35,000 rounds of ammunition of various calibers, more than 150 grenade launcher rounds, jet engines for them, warheads, smoke bombs, and other explosive elements were seized. \n The police added that the weapons were stored in “garages, residential buildings and vehicles,” as well as “equipped caches on the ground.” \n The police did not specify the origin of these weapons but said it is working with international law enforcement agencies to identify the extent of the network. \n Debates on gun control \n Authorities have uncovered illicit arms smuggling networks in the past, particularly concerning trophy weapons recovered from the front."
+  }
+]

@@ -1,57 +1,20 @@
-{
-  "sample_id": "false_101",
-  "image_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/633F/production/_117670452_hi066371363.jpg",
-  "visual_entities": [
-    {
-      "description": "Presidency of Joe Biden",
-      "score": 0.6902
-    },
-    {
-      "description": "Detention",
-      "score": 0.4967
-    },
-    {
-      "description": "Immigration detention",
-      "score": 0.447
-    },
-    {
-      "description": "CCA",
-      "score": 0.444
-    },
-    {
-      "description": "",
-      "score": 0.444
-    },
-    {
-      "description": "CoreCivic",
-      "score": 0.4171
-    }
-  ],
-  "best_guess_labels": [
-    "biden detention centers"
-  ],
-  "similar_image_urls": [
-    "http://c.files.bbci.co.uk/15763/production/_117670978_hi066371363.jpg",
-    "https://preview.redd.it/leaked-footage-from-inside-of-a-ice-detention-facility-near-v0-xpsm2hn87r0g1.jpeg?width=1536&format=pjpg&auto=webp&s=c20fa5dd73c47cacc558f1c5f0ed1168db1460d6",
-    "https://assets.eleconomista.net/__export/1616469072109/sites/prensagrafica/img/2021/03/22/_117670452_hi066371363.jpg_554688468.jpg",
-    "https://assets.laprensagrafica.com/__export/1616469072109/sites/prensagrafica/img/2021/03/22/_117670452_hi066371363.jpg_554688467.jpg",
-    "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/16127/production/_117670409_hi066371363.jpg",
-    "https://imagenes.eleconomista.com.mx/files/og_thumbnail/uploads/2025/01/13/6785436548426.jpeg",
-    "https://ichef.bbci.co.uk/news/1024/branded_somali/633F/production/_117670452_hi066371363.jpg",
-    "https://ichef.bbci.co.uk/news/1024/branded_afaanoromoo/16127/production/_117670409_hi066371363.jpg",
-    "https://ichef.bbci.co.uk/news/1024/branded_news/16127/production/_117670409_hi066371363.jpg",
-    "https://ichef.bbci.co.uk/news/1024/branded_portuguese/16127/production/_117670409_hi066371363.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.njspotlightnews.org/video/protesters-urge-biden-to-close-immigrant-detention-facility/",
-      "page_title": "Protesters urge Biden to close immigrant detention facility",
-      "title": "Protesters urge Biden to close immigrant detention facility | NJ Spotlight News",
-      "description": "It comes after a federal judge ruled to keep the state's final detention center open in Elizabeth, siding with the center’s private operator CoreCivic.",
-      "text": "Immigrant advocates took to the streets of Newark on Friday, calling for the Biden administration to close the privately run Elizabeth Detention Center. A federal judge ruled last month the center, which is used to house detainees for the Immigration and Customs Enforcement agency, could remain open despite a state law prohibiting the renewal of ICE contracts with private detention centers.\n“The place was marked by bad food, poor conditions, lack of medication,” said Juan Regalado, who was detained at the facility. “My body was marked for life while I was there due to the unsanitary conditions.”\nThe protesters accused President Biden of breaking a campaign promises by siding with the detention center’s owner CoreCivic in a lawsuit against New Jersey. “…we know that Biden says that he’s a friend of immigrants and for immigrant rights and justice. But here we’re seeing that in actuality, he’s not willing to come out for the side of justice,” said Mary Rizzo, a member of the North New Jersey Democratic Socialists of America.",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T17:18:12.383520+00:00"
-}
+[
+  {
+    "source": "www.theguardian.com",
+    "url": "https://www.theguardian.com/us-news/2021/mar/24/us-mexico-border-images-migrants-cbp-border-patrol",
+    "clip_score": 0.3461,
+    "optimized_evidence": "[PUBLISHED DATE]: 2021-03-24\n[TITLE]: Biden administration struggles to turn chaos into order on US border | US immigration | The Guardian\n[METADATA/INTRO]: Jam-packed plastic “pods” doubling as makeshift border enforcement facilities within large tents. Young migrants lying side by side on cheap floor mats. The dystopian glint of silver mylar blankets. Alarming images that emerged from US-Mexico border detention this week are...\n[BEST EVIDENCE CHUNK]: Jam-packed plastic “pods” doubling as makeshift border enforcement facilities within large tents. Young migrants lying side by side on cheap floor mats. The dystopian glint of silver mylar blankets. \n Alarming images that emerged from US-Mexico border detention this week are painting a nightmarish picture of the deepening humanitarian problem there, as the Biden administration frantically tries to process thousands of children and families. \n The struggle to transform chaos into order has erupted amid the ongoing pandemic and a system rendered dysfunctional by the former president Donald Trump. \n “It’s an incredible number of people that are coming in,” said Daniela Sosa, the community engagement and public relations manager at the Good Neighbor Settlement House, a non-profit that is helping to feed migrants in Brownsville, at the eastern end of the Texas-Mexico border."
+  },
+  {
+    "source": "www.krgv.com",
+    "url": "https://www.krgv.com/news/photos-of-migrant-detention-highlight-biden-s-border-secrecy/",
+    "clip_score": 0.2922,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Photos of migrant detention highlight Biden's border secrecy\n[METADATA/INTRO]: Photos of migrant detention highlight Biden's border secrecy EDITOR'S NOTE: THIS STORY HAS BEEN UPDATED THROUGHOUT...\n[BEST EVIDENCE CHUNK]: The newly published photos released by Cuellar's office show groups of children crowded together inside the partitions. Some appear to be watching television while others are lying on floor mats, some side by side. Children are shown wearing surgical masks but are close to each other. \n The Donna facility consists of large interconnected tents. Overhead photos taken by AP show enclosed outdoor areas where children can go. But lawyers who have interviewed children detained at Donna say some can go days without being allowed outside. \n The administration is rushing to open more space to get roughly 5,000 children out of Border Patrol detention and into Health and Human Services facilities that are better suited for youth. It has also tried to expedite the releases of children in HHS custody to parents and other sponsors in the U.S. But border agents continue to apprehend far more children daily than HHS is releasing, even though more than 40% of youths in the system have a parent or legal guardian who could take them."
+  },
+  {
+    "source": "www.kut.org",
+    "url": "https://www.kut.org/news/2021-03-23/cbp-defends-conditions-at-border-detention-centers-amid-upsurge-in-migrants",
+    "clip_score": 0.2905,
+    "optimized_evidence": "[PUBLISHED DATE]: 2021-03-23\n[TITLE]: CBP Defends Conditions At Border Detention Centers Amid Upsurge In Migrants | KUT Radio, Austin&#x27;s NPR Station\n[METADATA/INTRO]: U.S. Customs and Border Protection on Tuesday released photos and video of South Texas immigrant processing centers that have become a renewed focus of criticism for continued poor conditions despite President Biden's promises to fix Trump-era problems. The images appear...\n[BEST EVIDENCE CHUNK]: The images appear to show migrants undergoing processing and general living conditions, such as rows of migrants sleep on mattresses on the ground, covered in silver emergency blankets. Other images show unaccompanied minors and families in line for processing or to receive meals. \n In a brief statement accompanying their release, Customs and Border Protection said it \"continues to transfer unaccompanied minors to the U.S. Department of Health and Human Services (HHS) as quickly and efficiently as possible after they are apprehended on the Southwest Border.\" \n In apparent response to journalists being denied access to the facilities, CPB said that in order \"to protect the health and safety of our workforce and those in our care we continue to discourage external visitors in our facilities.\""
+  }
+]

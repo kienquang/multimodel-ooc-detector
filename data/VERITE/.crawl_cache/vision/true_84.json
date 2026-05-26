@@ -1,75 +1,20 @@
-{
-  "sample_id": "true_84",
-  "image_url": "https://storage.googleapis.com/afs-prod/media/afs:Medium:4512120002/512.jpeg",
-  "visual_entities": [
-    {
-      "description": "Le Marais",
-      "score": 0.79895943
-    },
-    {
-      "description": "",
-      "score": 0.6939
-    },
-    {
-      "description": "Saint-Germain-des-Prés",
-      "score": 0.5600183
-    },
-    {
-      "description": "Gare de Lyon",
-      "score": 0.5490376
-    },
-    {
-      "description": "Travel",
-      "score": 0.3836
-    },
-    {
-      "description": "Train",
-      "score": 0.38025004
-    },
-    {
-      "description": "Neighbourhood",
-      "score": 0.361
-    }
-  ],
-  "best_guess_labels": [
-    "slum area in paris"
-  ],
-  "similar_image_urls": [
-    "https://stat.ameba.jp/user_images/20230801/05/yoshino0716/54/74/j/o1280179815319509964.jpg",
-    "https://demotywatory.pl/uploads/201810/1540278549_pstt4o_fb_plus.jpg",
-    "https://demotywatory.pl/uploads/201806/1530293823_sfpgwp_fb_plus.jpg",
-    "https://afamilycdn.com/CwdCNlGdEBdaZpg6myisR0ixHNTowR/Image/2015/12/cau-chuyen-ve-nhung-khu-o-chuot-tai-phap_ed3a0878e6.jpg",
-    "https://cdn-ak.f.st-hatena.com/images/fotolife/d/darabro/20210312/20210312075945.jpg",
-    "https://pbs.twimg.com/media/Ew5n68TVIAUDC1x.jpg",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10156192877440255",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2296396900390114",
-    "https://img.joemonster.org/mg/albums/new/180621/smutne_ale_to_fotka_z_paryza.jpg",
-    "https://www.dogdrip.net/dvs/d/21/03/11/eec8409696217a1bb320934fe7c65cc9.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.dw.com/en/olympics-leave-mixed-legacy-in-paris-suburb-of-saint-denis/video-72899673",
-      "page_title": "Olympics leave mixed legacy in Paris suburb of Saint-Denis - DW.com",
-      "title": "Olympics leave mixed legacy in Paris suburb of Saint-Denis",
-      "description": "In the Paris suburb of Saint-Denis, stylish apartments are being built in underprivileged areas. Longtime residents of the district feel left behind.",
-      "text": "SocietyFranceOlympics leave mixed legacy in Paris suburb of Saint-DenisTo view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 videoSocietyFranceLisa Louis in Saint-Denis, France06/19/2025June 19, 2025In the Paris suburb of Saint-Denis, stylish apartments are being built in underprivileged areas. Longtime residents of the district feel left behind.https://p.dw.com/p/4vsXBAdvertisement",
-      "image_captions": [
-        "Participant displays sign reading \"I'm with her\" during a demonstration against sexualized violence against women at the town hall square in Hamburg, Germany 2026.",
-        "A cat walks in front of an empty bench in a square in Spain.",
-        "A person wearing glasses holds up a handful of a local currency. His hand is highlighted with a pink circle, and the title: \"better than €?\"",
-        "BdTD Kenia Corona-Krise erreicht Schnittblumen-Produktion",
-        "A sillouhette of a woman wearing hijab"
-      ]
-    },
-    {
-      "url": "https://www.alamy.com/view-over-a-slum-near-a-train-station-close-to-paris-france-in-november-1970-the-quarter-which-was-inhabited-mostly-by-immigrants-was-abandoned-photo-wilfried-glienke-usage-worldwide-image228366179.html",
-      "page_title": "View over a slum near a train station close to Paris, France ... - Alamy",
-      "title": "View over a slum near a train station close to Paris, France, in November 1970. The quarter, which was inhabited mostly by immigrants, was abandoned. Photo: Wilfried Glienke | usage worldwide Stock Photo - Alamy",
-      "description": "Download this stock image: View over a slum near a train station close to Paris, France, in November 1970. The quarter, which was inhabited mostly by immigrants, was abandoned. Photo: Wilfried Glienke | usage worldwide - R7EYAY from Alamy's library of millions of high resolution stock photos, illustrations and vectors.",
-      "text": "View over a slum near a train station close to Paris, France, in November 1970. The quarter, which was inhabited mostly by immigrants, was abandoned. Photo: Wilfried Glienke | usage worldwide\nCaptions are provided by our contributors.\nRMID:Image ID:R7EYAY\nImage details\nContributor:\ndpa picture allianceImage ID:\nR7EYAYFile size:\n91.3 MB (2.9 MB Compressed download)Releases:\nModel - no | Property - noDo I need a release?Dimensions:\n5618 x 5679 px | 47.6 x 48.1 cm | 18.7 x 18.9 inches | 300dpiDate taken:\n1 November 1970Photographer:\ndpaMore information:\nThis image could have imperfections as it’s either historical or reportage.",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 2,
-  "crawled_at": "2026-04-23T17:13:42.865462+00:00"
-}
+[
+  {
+    "source": "www.aljazeera.com",
+    "url": "https://www.aljazeera.com/news/2016/10/31/tent-cities-rise-in-paris-after-jungle-evacuation",
+    "clip_score": 0.2748,
+    "optimized_evidence": "[PUBLISHED DATE]: 2016\n[TITLE]: Tent cities rise in Paris after ‘Jungle’ evacuation | Human Rights News | Al Jazeera\n[METADATA/INTRO]: Tent cities rise in Paris after ‘Jungle’ evacuation With the closing of the Calais camp, the French capital is seeing more asylum seekers pitching tents on the streets....\n[BEST EVIDENCE CHUNK]: Tent cities rise in Paris after ‘Jungle’ evacuation \n With the closing of the Calais camp, the French capital is seeing more asylum seekers pitching tents on the streets. \n The number of migrants sleeping rough on the streets of Paris has risen by at least a third since the start of the week when the “Jungle” shanty town in Calais was evacuated. \n Along the bustling boulevards and a canal in a northeastern corner of Paris, hundreds of tents have been pitched by asylum seekers – mostly Africans who say they are from Sudan – with cardboard on the ground to try and insulate them from the cold."
+  },
+  {
+    "source": "www.dailymail.com",
+    "url": "https://www.dailymail.com/news/article-3429605/French-police-remove-350-Romani-gypsies-shanty-town-sprung-central-Paris-summer-continued-spread.html",
+    "clip_score": 0.2649,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Paris shanty town smashed to pieces after French police swoop in dawn raid | Daily Mail Online\n[METADATA/INTRO]: Paris shanty town is smashed to pieces after French police swoop in dawn raid to remove 400 Romani gypsies who had built settlement - Shanty town was set up in June 2015 along an abandoned railway line called La Petite...\n[BEST EVIDENCE CHUNK]: The makeshift camp was set up on an abandoned railway line called La Petite Ceinture in the 18th arrondissement of the French capital. \n French gendarmes this morning swooped to clear 135 shacks amid fears over poor hygiene and heating and a lack of fire safety measures. \n Later in the day, diggers moved in and began the task of demolishing the temporary wooden buildings, which had been built up either side of the disused line. \n Scroll down for video \n This is the moment a Paris shanty town was smashed to pieces after French police swooped in a dawn raid to remove 400 Romani gypsies who had built the settlement"
+  },
+  {
+    "source": "www.theguardian.com",
+    "url": "https://www.theguardian.com/world/2018/mar/17/paris-uk-migrants-attacks-abuse-study",
+    "clip_score": 0.2582,
+    "optimized_evidence": "[PUBLISHED DATE]: 2018-03-17\n[TITLE]: Migrants tell of abuse and violence on the streets of Paris | Migration | The Guardian\n[METADATA/INTRO]: Hundreds of refugees living rough in Paris, many of whom hoped to reach the UK, claim they have been subject to abuse from French citizens, including physical attacks and sexual violence, according to new research. From a sample of almost...\n[BEST EVIDENCE CHUNK]: When questioned in late January, a group of refugees said they had witnessed a refugee die days earlier after throwing himself into the Seine. \n The number of migrants living in Paris rose in October 2016 after authorities demolished the camp known as the Jungle in Calais. Thousands moved to makeshift camps on the streets in Paris with many reluctant to claim asylum in France because they want to settle in the UK. \n More than a third of respondents also said they had faced police violence, with 86% stating they had experienced tear gas. Respondents described how police would spray tear gas into their tents at night while they were sleeping, while others explained how officers had destroyed their tents. Among those interviewed were 58 children, many of whom remain on the street despite claiming to be, or having been accepted as, underage."
+  }
+]

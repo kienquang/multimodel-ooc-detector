@@ -232,7 +232,7 @@
 
 #     result = run_pipeline(IMAGE_URL, CAPTION, LOCAL_PATH)
 
-from src.pipeline import run_pipeline
+from src.pipeline_old import run_pipeline
 
 if __name__ == "__main__":
     IMAGE_URL = "https://i.ytimg.com/vi/ZtVMoko3mSI/maxresdefault.jpg"   # thay link thật

@@ -1,57 +1,20 @@
-{
-  "sample_id": "true_103",
-  "image_url": "https://bangaloremirror.indiatimes.com/thumb/msid-60831931,width-1200,height-900,resizemode-4/.jpg",
-  "visual_entities": [
-    {
-      "description": "",
-      "score": 0.4126
-    }
-  ],
-  "best_guess_labels": [
-    "child pregnant"
-  ],
-  "similar_image_urls": [
-    "https://bangaloremirror.indiatimes.com/thumb/msid-60831931,width-1200,height-900,resizemode-4/.jpg",
-    "https://cdn.nody.ir/files/2024/12/24/nody-%D9%86%D9%88%D8%B2%D8%A7%D8%AF-%D8%B9%D8%AC%DB%8C%D8%A8%DB%8C-%DA%A9%D9%87-%D8%A7%D8%B2-%D8%A7%DB%8C%D9%86-%D8%B2%D9%88%D8%AC-%D8%B3%DB%8C%D8%A7%D9%87-%D9%BE%D9%88%D8%B3%D8%AA-%D9%85%D8%AA%D9%88%D9%84%D8%AF-%D8%B4%D8%AF-%D8%B9%DA%A9%D8%B3-1735069267.jpg",
-    "https://pbs.twimg.com/media/DKp-3BNVYAAC1yY.jpg",
-    "https://static.toiimg.com/photo/imgsize-50395,msid-60831931/60831931.jpg",
-    "https://static.toiimg.com/thumb/imgsize-50395,msid-60831931,width-400,resizemode-4/60831931.jpg",
-    "https://cdn.parsine.com/thumbnail/OTc5MmIRVJ1B/0MYHJuRnShGONEX8CC679xaKHSQ-1IeRETLePdtjzXkLV_h6dt0WzZXgiPcqi-OW/OTc5MmIRVJ1B.jpg",
-    "https://cdn.parsine.com/servev2/OTc5MmIRVJ1B/EqNsaS-bm5o,/OTc5MmIRVJ1B.jpg",
-    "https://pbs.twimg.com/media/DKp-3BNVYAAC1yY.jpg?format=jpg&name=thumb",
-    "https://iasbh.tmgrup.com.tr/035ac6/1138/600/0/0/1138/600?u=https://isbh.tmgrup.com.tr/sbh/2018/01/07/islam-dusmanligi-gozlerini-kor-etti-1515342256472.jpg",
-    "https://iasbh.tmgrup.com.tr/718499/752/395/0/0/1138/597?u=https://isbh.tmgrup.com.tr/sbh/2018/01/07/islam-dusmanligi-gozlerini-kor-etti-1515342256472.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://bangaloremirror.indiatimes.com/bangalore/others/fake-news-buster-pregnant-9-year-old-rohingya-girl-at-a-un-clinic/articleshow/60831931.cms",
-      "page_title": "Fake news buster: Pregnant 9-year-old Rohingya girl at a UN clinic?",
-      "title": "Fake news buster: Pregnant 9-year-old Rohingya girl at a UN clinic?",
-      "description": "The recent rise in anti-Rohingya propaganda has seen many fake images being used to malign the refugees. Advocate Prashant P Umrao posted an image on Twitter claiming that it shows a 9-yr-old pregnant Rohingya girl at a UN clinic.",
-      "text": "Fake news buster: Pregnant 9-year-old Rohingya girl at a UN clinic?\nTHE FAKE NEWS\nThe recent rise in anti-Rohingya propaganda has seen many fake images being used to malign the refugees. Advocate Prashant PUmrao posted an image on Twitter claiming that it shows a 9-yr-old pregnant Rohingya girl at a UN clinic.\nSO, WHAT IS THE TRUTH?\nThis is a fake story. As AltNews pointed out, the girl is actually Sandy Brandãoda Cruz , 12, from Brazil who was suffering from problems of the liver and spleen.\nThe recent rise in anti-Rohingya propaganda has seen many fake images being used to malign the refugees. Advocate Prashant P\nSO, WHAT IS THE TRUTH?\nThis is a fake story. As AltNews pointed out, the girl is actually Sandy Brandão\nGALLERIES View more photos",
-      "image_captions": [
-        "Fake news buster: Pregnant 9-year-old Rohingya girl at a UN clinic?",
-        "Aero India 2021: 13th edition of air show begins today",
-        "PM lays foundation stone of new Parliament building",
-        "Sankey Tank is drying up",
-        "No drizzle, only sizzle in Bengaluru"
-      ]
-    },
-    {
-      "url": "https://www.sabah.com.tr/gundem/2018/01/08/islam-dusmanligi-gozlerini-kor-etti",
-      "page_title": "İslam düşmanlığı gözlerini kör etti - Son Dakika Haberler - Sabah",
-      "title": "İslam düşmanlığı gözlerini kör etti",
-      "description": "FETÖ ayarlı medya Sözcü ve Cumhuriyet'in başlattığı ardından ise CHP ile firari FETÖ'cülerin algı operasyonuna ortak olduğu Diyanet'e yönelik çirkin provokasyon bir ahlaksızlığa daha imza atıldı. Karaciğer hastası ve karnı hastalıktan dolayı şişmiş olan Brezilyalı küçük kızın fotoğrafını kullanan...",
-      "text": "İslam düşmanlığı gözlerini kör etti\nFETÖ ayarlı medya Sözcü ve Cumhuriyet'in başlattığı ardından ise CHP ile firari FETÖ'cülerin algı operasyonuna ortak olduğu Diyanet'e yönelik çirkin provokasyon bir ahlaksızlığa daha imza atıldı. Karaciğer hastası ve karnı hastalıktan dolayı şişmiş olan Brezilyalı küçük kızın fotoğrafını kullanan provokatörler bu olayı, ''Bolu'da 8 aylık hamile kız'' diye sosyal medyada servis ettiler.\nSosyal medyada belli kesimler tarafından Brezilya'da yaşayan hasta bir çocuğun 2016 yılında hastanede çekilmiş bir fotoğrafı kullanılarak alçak bir algı operasyonu yapılmak istendi ancak gerçek anında ortaya çıktı.\nBREZİLYALI KÜÇÜK KIZ ÜZERİNDEN ÇİRKİN SALDIRI\nKaraciğer hastası ve karnı hastalıktan dolayı şişmiş olan Brezilyalı küçük kızın fotoğrafını kullanan provokatörler bu olayı, ''Bolu'da 8 aylık hamile kız'' diye sosyal medyada servis ettiler.\nGeçirdiği hastalıktan dolayı karnı şişen küçük kızın fotoğrafını Diyanet'e ve İslam'a saldırmak için kullanan provokatörlerin bu iğrenç yalanı ile birlikte rezilliğin ve ahlaksızlığın ne seviyeye gelmiş olduğu bir kez daha gözler önüne serilmiş oldu.",
-      "image_captions": [
-        "Sabah - Son Dakika, Güncel, Yeni, En Son Haberler - Gazete Haberleri",
-        "Sabah googlenews haberleri",
-        "İslam düşmanlığı gözlerini kör etti",
-        "FETÖ’nün tetikçisi ’T24’ haber Müslümanları hedef aldı",
-        "Diyanet’e yönelik itibarsızlaştırma kampanyası! Müftülükten cevap geldi"
-      ]
-    }
-  ],
-  "evidence_count": 2,
-  "crawled_at": "2026-04-23T17:18:29.621071+00:00"
-}
+[
+  {
+    "source": "www.nbcnews.com",
+    "url": "https://www.nbcnews.com/storyline/immigration-reform/border-patrol-releases-immigrant-girl-cerebral-palsy-following-outcry-n817541",
+    "clip_score": 0.2252,
+    "optimized_evidence": "[PUBLISHED DATE]: 2017-11-04\n[TITLE]: Border Patrol Releases Immigrant Girl With Cerebral Palsy Following Outcry\n[METADATA/INTRO]: HOUSTON — U.S. authorities released a 10-year-old immigrant girl with cerebral palsy who had been detained by border agents after surgery because she is in the U.S. without legal permission. The American Civil Liberties Union and U.S. Rep. Joaquin Castro...\n[BEST EVIDENCE CHUNK]: \"Staking out the hospital room of a young, sick girl and keeping her away from her family is not a humane treatment for her,\" Castro said. \n But U.S. Customs and Border Protection said in a previous statement after she was detained that \"there is no discretion with regard to the law whether or not the agents should enforce the law.\" \n Gabriel Acosta, assistant chief patrol agent for the Border Patrol's Laredo sector, said Tuesday that his agents moved quickly to get her through the checkpoint and \"acted professionally and compassionately to get this child the medical attention she needed.\""
+  },
+  {
+    "source": "www.houstonpublicmedia.org",
+    "url": "https://www.houstonpublicmedia.org/articles/news/2017/11/03/248535/10-year-old-immigrant-with-cerebral-palsy-released/",
+    "clip_score": 0.2199,
+    "optimized_evidence": "[PUBLISHED DATE]: 2017-11-03\n[TITLE]: 10-Year-Old Immigrant With Cerebral Palsy Released &#8211; Houston Public Media\n[METADATA/INTRO]: U.S. authorities have released a 10-year-old immigrant girl with cerebral palsy who had been detained by border agents after surgery because she is in the U.S. without legal permission. The ACLU and U.S. Rep. Joaquin Castro said in statements Friday...\n[BEST EVIDENCE CHUNK]: U.S. authorities have released a 10-year-old immigrant girl with cerebral palsy who had been detained by border agents after surgery because she is in the U.S. without legal permission. \n The ACLU and U.S. Rep. Joaquin Castro said in statements Friday that Rosa Maria Hernandez was allowed to return to her family. \n Rosa Maria was brought to the U.S. by her parents when she was a toddler in 2007. The ACLU sued the government on Rosa Maria’s behalf on Oct. 31, days after she and an adult cousin were followed by Border Patrol to a children’s hospital. She was taken from the hospital after surgery to a San Antonio facility, where she was in the custody of the U.S. Department of Health and Human Services."
+  },
+  {
+    "source": "www.kgns.tv",
+    "url": "https://www.kgns.tv/content/news/Undocumented-10-year-old-girl-faces-deportation-after-surgery-453648833.html",
+    "clip_score": 0.205,
+    "optimized_evidence": "[PUBLISHED DATE]: 2017-10-27\n[TITLE]: Undocumented 10-year-old girl faces deportation after surgery\n[METADATA/INTRO]: Undocumented 10-year-old girl faces deportation after surgery Many Laredoans are reacting to the plight of a 10-year-old girl who is facing deportation after the ambulance she was in stopped on the way to Corpus Christi....\n[BEST EVIDENCE CHUNK]: Undocumented 10-year-old girl faces deportation after surgery \n Many Laredoans are reacting to the plight of a 10-year-old girl who is facing deportation after the ambulance she was in stopped on the way to Corpus Christi. \n Ten-year-old, Rosa Maria Hernandez was headed to the Driscoll Children’s Hospital to undergo gallbladder surgery. \n The girl’s mother lives in Laredo and says she was heartbroken over the fact that her daughter had to undergo surgery alone. \n Board Patrol agents followed the girl’s ambulance to the hospital and took custody of the girl after she was medically cleared from the hospital. \n According to reports, the girl is at a facility in San Antonio for immigrant children and she is being medically monitored."
+  }
+]

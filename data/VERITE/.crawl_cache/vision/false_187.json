@@ -1,83 +1,20 @@
-{
-  "sample_id": "false_187",
-  "image_url": "https://townsquare.media/site/385/files/2020/09/mcspca11.jpg?w=980&q=75",
-  "visual_entities": [
-    {
-      "description": "Barbecue",
-      "score": 1.07085
-    },
-    {
-      "description": "Grill",
-      "score": 0.7468
-    },
-    {
-      "description": "Grilling",
-      "score": 0.6812
-    },
-    {
-      "description": "Cooking",
-      "score": 0.5449
-    },
-    {
-      "description": "outdoor",
-      "score": 0.5449
-    },
-    {
-      "description": "Kitchen",
-      "score": 0.5366
-    },
-    {
-      "description": "Oven",
-      "score": 0.5316
-    },
-    {
-      "description": "Kamado Joe Joe Karbon Steel Griddle",
-      "score": 0.4949
-    },
-    {
-      "description": "Disposable grill",
-      "score": 0.4769
-    },
-    {
-      "description": "Griddle",
-      "score": 0.4482
-    },
-    {
-      "description": "Baking",
-      "score": 0.4223
-    },
-    {
-      "description": "Weber Griddle Keep Warm Rack 6784",
-      "score": 0.4015
-    },
-    {
-      "description": "homemade",
-      "score": 0.3618
-    },
-    {
-      "description": "Smoker",
-      "score": 0.3603
-    }
-  ],
-  "best_guess_labels": [
-    "outdoor grill rack & topper"
-  ],
-  "similar_image_urls": [
-    "https://townsquare.media/site/385/files/2020/09/mcspca1.jpg",
-    "https://townsquare.media/site/385/files/2020/09/mcspca11.jpg?w=780&q=75"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.barbecueequipmentnice.com/collections/outdoor-grill-racks-toppers/",
-      "page_title": "Outdoor Grill Racks & Toppers Archives",
-      "title": "Outdoor Grill Racks & Toppers Archives - Top Rated BBQ Grills & Best Deals | Premium Grilling Equipment, BBQ Accessories & Outdoor Grills Online Store",
-      "description": "",
-      "text": "FREE SHIPPING ON ORDERS OVER $50\nSkip to navigation\nSkip to content\nShop\nGas Ranges\nBBQ Tools & Accessories\nBBQ Seasonings & Rubs\nOutdoor Grill Accessories\nLogin / Register\nimage/svg+xml\n0\nFilter\nShowing all 3 results\nDefault sorting\nSort by popularity\nSort by latest\nSort by price: low to high\nSort by price: high to low\n-70%\nWeber Griddle Keep Warm Rack\n$\n31.99\nOriginal price was: $31.99.\n$\n9.60\nCurrent price is: $9.60.\nimage/svg+xml\nAdd to cart\n-70%\nWeber Crafted Dual Sided Sear Grate\n$\n99.99\nOriginal price was: $99.99.\n$\n30.00\nCurrent price is: $30.00.\nimage/svg+xml\nAdd to cart\n-75%\nKamado Joe Classic Joe Karbon Steel Griddle\n$\n199.99\nOriginal price was: $199.99.\n$\n50.00\nCurrent price is: $50.00.\nimage/svg+xml\nAdd to cart\nSearch for:>\nSearch\nShop\nGas Ranges\nBBQ Tools & Accessories\nBBQ Seasonings & Rubs\nOutdoor Grill Accessories\nLogin / Register\nType to search\nSearch for:>\nSearch\nShopping cart\n0\nimage/svg+xml\nNo products in the cart.\nContinue Shopping",
-      "image_captions": [
-        "Top Rated BBQ Grills & Best Deals | Premium Grilling Equipment, BBQ Accessories & Outdoor Grills Online Store"
-      ]
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T17:45:40.773701+00:00"
-}
+[
+  {
+    "source": "www.11alive.com",
+    "url": "https://www.11alive.com/article/news/investigations/the-reveal/breeder-monica-wong-sick-puppy-investigation/85-0214c31c-1816-41cb-8093-4ef8eea73b18",
+    "clip_score": 0.2463,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Sick puppies linked to Ga. woman ordered to stop breeding | 11alive.com\n[METADATA/INTRO]: Georgia dog breeder tries to turn old ice cream store into kennel, issued violations for humane care Complaints expose animal welfare system that often lacks resources and will to hold dog breeders and dealers accountable....\n[BEST EVIDENCE CHUNK]: “There was absolutely no ventilation. The dogs that she had in the pens in the front were panting so heavily. There were puppy pads in there that were completely soiled and chewed up. I would call it anxiety chew,” described Linda, who visited the store twice while purchasing a French Bulldog puppy. \n When animal control went to check it out, Wong didn’t even know how many dogs were there. She told inspectors 45. They counted 81. \n “Every proud and legitimate breeder knows how many animals they have, how they’re bred,\" Wilkins said, explaining why it should be a red flag."
+  },
+  {
+    "source": "www.thedodo.com",
+    "url": "https://www.thedodo.com/daily-dodo/dog-walker-witnesses-a-crate-being-thrown-from-van-with-an-entire-family-inside",
+    "clip_score": 0.2429,
+    "optimized_evidence": "[PUBLISHED DATE]: 2025-12-03\n[TITLE]: Dog Walker Witnesses A Crate Being Thrown From Van With An Entire Family Inside - The Dodo\n[METADATA/INTRO]: Dog Walker Witnesses A Crate Being Thrown From Van With An Entire Family Inside They were so scared 💔...\n[BEST EVIDENCE CHUNK]: Dog Walker Witnesses A Crate Being Thrown From Van With An Entire Family Inside \n They were so scared 💔 \n A woman in Cheshire, England, was out walking her dog one morning when she saw a van come skidding to a halt. She wondered what was going on, then watched as someone inside the van tossed out a dog crate and drove away. Shocked, she rushed toward the crate and found a little family huddled up inside. \n There were five black cats inside the crate, including two kittens, and all of them were terrified. The crate had landed in some bushes in an alleyway, and the woman immediately retrieved it and took the cats home. She then contacted the RSPCA, who couldn’t believe what the poor cats had gone through."
+  },
+  {
+    "source": "www.kiro7.com",
+    "url": "https://www.kiro7.com/news/local/68-dogs-seized-key-peninsula-home-after-puppy-tests-positive-parvovirus/33FIPPD3NRHXVLHUR73ARBINRU/",
+    "clip_score": 0.2395,
+    "optimized_evidence": "[PUBLISHED DATE]: 2024-08-14\n[TITLE]: Pierce County deputies seize 68 dogs, 3 dogs died after several tested positive for Parvovirus – KIRO 7 News Seattle\n[METADATA/INTRO]: KEY PENINSULA, Wash. — Pierce County deputies seized nearly 70 dogs inside a Lakebay home where three of the dogs died from a contagious, deadly dog virus. The sheriff’s office announced on Tuesday that 68 dogs were recovered from a...\n[BEST EVIDENCE CHUNK]: All of the dogs were the same breed, King Charles Spaniels. \n The Pierce County Sheriff's Office announced today that 68 dogs were seized from a dog breeder's home in the Peninsula... \n Posted by Louie Tran on Tuesday, August 13, 2024 \n Investigators said the conditions were so bad that 48 dogs had to be shaved since many of them were covered in dirt and their own waste. \n Cappetto said, “It’s not humane. You wouldn’t do this to a family member of your own.” \n “When you go into a double-wide trailer like that and there’s just cages and cages of dogs and crates, and cages that are too small for them to even get up and move around. And you have pregnant dogs wandering around, not getting the care they need. Sick dogs in corners transferring the Parvo disease to other dogs,” Cappetto said."
+  }
+]

@@ -1,105 +1,20 @@
-{
-  "sample_id": "false_81",
-  "image_url": "https://media.istockphoto.com/id/1180838799/video/projection-on-a-womans-face.jpg?s=640x640&k=20&c=hSJHIqLm-UM9mHE8zqWaC2sH8wJam6HNKtkP5dMm9j8=",
-  "visual_entities": [
-    {
-      "description": "",
-      "score": 0.7176
-    },
-    {
-      "description": "Getty Images",
-      "score": 0.7176
-    },
-    {
-      "description": "Stock footage",
-      "score": 0.7008
-    },
-    {
-      "description": "Footage",
-      "score": 0.6777
-    },
-    {
-      "description": "Painting",
-      "score": 0.639
-    },
-    {
-      "description": "Body painting",
-      "score": 0.6373
-    },
-    {
-      "description": "Art",
-      "score": 0.6357
-    },
-    {
-      "description": "Image",
-      "score": 0.5889
-    },
-    {
-      "description": "",
-      "score": 0.5665
-    },
-    {
-      "description": "Stock photography",
-      "score": 0.5404
-    },
-    {
-      "description": "Getty Images",
-      "score": 0.5215
-    }
-  ],
-  "best_guess_labels": [
-    "girl"
-  ],
-  "similar_image_urls": [
-    "https://media.istockphoto.com/id/1180838799/video/projection-on-a-womans-face.jpg?s=640x640&k=20&c=hSJHIqLm-UM9mHE8zqWaC2sH8wJam6HNKtkP5dMm9j8=",
-    "https://media.istockphoto.com/id/1180838799/de/video/projektion-auf-das-gesicht-einer-frau.jpg?s=640x640&k=20&c=95mUjfQorKX9pJmzvG7eD5aGb03LVPsxHdRv4ER949Y=",
-    "https://media.gettyimages.com/id/1180838799/fr/vid%C3%A9o/projection-sur-le-visage-dune-femme.jpg?s=640x640&k=20&c=GXQQnLcuWaO-qC4XTjXPFNZeND7bA7M_6Plr7EgAscs=",
-    "https://andireiss.wordpress.com/wp-content/uploads/2022/07/projection-mapping-face.jpg",
-    "https://andireiss.wordpress.com/wp-content/uploads/2022/07/projection-mapping-face.jpg?w=640",
-    "https://media.istockphoto.com/id/1180838799/video/projection-on-a-womans-face.jpg?s=480x480&k=20&c=rOj1rREZH0Tn-GbGqT8m7kIicd5EHgtxTv5I_zG3lUM="
-  ],
-  "evidence": [
-    {
-      "url": "https://www.gettyimages.in/videos/female-body-painting",
-      "page_title": "16284 Female Body Painting Stock Videos and Footage",
-      "title": "Getty Images",
-      "description": "Getty Images India. Find high resolution royalty-free images, editorial stock photos, vector art, video footage clips and stock music licensing at the richest image search photo library online.",
-      "text": "ViewStock\n886771796\nUser validation",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.gettyimages.ie/videos/female-body-painting",
-      "page_title": "16286 Female Body Painting Stock Videos and Footage",
-      "title": "Getty Images",
-      "description": "Getty Images. Find high resolution royalty-free images, editorial stock photos, vector art, video footage clips and stock music licensing at the richest image search photo library online.",
-      "text": "ViewStock\n886771796\nUser validation",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.gettyimages.com/videos/body-paint-woman",
-      "page_title": "14376 Body Paint Woman Stock Videos and Footage - Getty Images",
-      "title": "Getty Images",
-      "description": "Getty Images. Find high resolution royalty-free images, editorial stock photos, vector art, video footage clips and stock music licensing at the richest image search photo library online.",
-      "text": "d3sign\n818362142\nUser validation",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.gettyimages.in/videos/body-painting",
-      "page_title": "20966 Body Painting Stock Videos and Footage - Getty Images",
-      "title": "Getty Images",
-      "description": "Getty Images India. Find high resolution royalty-free images, editorial stock photos, vector art, video footage clips and stock music licensing at the richest image search photo library online.",
-      "text": "ViewStock\n886771796\nUser validation",
-      "image_captions": []
-    },
-    {
-      "url": "https://www.gettyimages.com/videos/female-body-painting",
-      "page_title": "16286 Female Body Painting Stock Videos and Footage",
-      "title": "Getty Images",
-      "description": "Getty Images. Find high resolution royalty-free images, editorial stock photos, vector art, video footage clips and stock music licensing at the richest image search photo library online.",
-      "text": "d3sign\n818362142\nUser validation",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 5,
-  "crawled_at": "2026-04-23T17:12:58.292114+00:00"
-}
+[
+  {
+    "source": "www.alamy.com",
+    "url": "https://www.alamy.com/the-soul-becomes-dyed-with-the-color-of-its-thoughts-studio-shot-of-a-young-woman-posing-with-multi-coloured-paint-on-her-face-image467291989.html",
+    "clip_score": 0.2928,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: The soul becomes dyed with the color of its thoughts. Studio shot of a young woman posing with multi-coloured paint on her face Stock Photo - Alamy\n[METADATA/INTRO]: The soul becomes dyed with the color of its thoughts. Studio shot of a young woman posing with multi-coloured paint on her face. Captions are provided by our contributors....\n[BEST EVIDENCE CHUNK]: The soul becomes dyed with the color of its thoughts. Studio shot of a young woman posing with multi-coloured paint on her face. \n Captions are provided by our contributors. \n 128.1 MB (6.2 MB Compressed download)Releases: \n Model - yes | Property - noDo I need a release?Dimensions: \n 5464 x 8192 px | 46.3 x 69.4 cm | 18.2 x 27.3 inches | 300dpiDate taken: \n 21 September 2021More information: \n Studio shot of a young woman posing with multi-coloured paint on her face."
+  },
+  {
+    "source": "stockcake.com",
+    "url": "https://stockcake.com/i/vibrant-face-art_1370369_202472",
+    "clip_score": 0.2799,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Free Vibrant Face Art Image - Art, Neon, Face | Download at StockCake\n[METADATA/INTRO]: The photograph captures a striking representation of a woman adorned in vivid neon face paint. The intricate patterns and bright colors create a mesmerizing effect, highlighting her closed eyes and serene expression. This artwork symbolizes perhaps a cultural ritual or...\n[BEST EVIDENCE CHUNK]: The photograph captures a striking representation of a woman adorned in vivid neon face paint. The intricate patterns and bright colors create a mesmerizing effect, highlighting her closed eyes and serene expression. This artwork symbolizes perhaps a cultural ritual or a modern artistic expression, emphasizing themes of identity and transformation through the medium of body art. The subdued lighting accentuates the glow of the paint, enhancing the overall mystical and otherworldly atmosphere of the composition."
+  },
+  {
+    "source": "www.colourbox.com",
+    "url": "https://www.colourbox.com/image/face-neon-and-fantasy-paint-for-creative-art-and-glitter-with-unique-surreal-glow-person-science-fiction-and-color-with-dream-rave-and-abstract-uv-illusion-for-mystical-fluorescent-trance-image-63514632",
+    "clip_score": 0.2646,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Face, neon and fantasy paint for creative, art and glitter w | Colourbox\n[METADATA/INTRO]: Face, neon and fantasy paint for creative, art and ......\n[BEST EVIDENCE CHUNK]: Face, neon and fantasy paint for creative, art and \n glitter with unique surreal glow. Person, science fiction and color with dream, rave and abstract uv illusion for mystical fluorescent trance. \n Stock images, vectors, and videos at Colourbox are royalty-free. Once purchased, you can use them globally according to your needs (subject to our Terms and Conditions), without any additional fees. \n Resolution: 8378 × 4912 px \n 1 download = use for 1 photo, vector, or video. Choose freely from all our files."
+  }
+]

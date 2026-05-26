@@ -1,84 +1,20 @@
-{
-  "sample_id": "false_2",
-  "image_url": "https://images.squarespace-cdn.com/content/5b539de375f9ee8786c67f2d/1581822920950-8IZZLU6YEUBNM9HBYS0F/DSC_5197.jpg?format=1500w&content-type=image%2Fjpeg",
-  "visual_entities": [
-    {
-      "description": "Boston Fashion Week",
-      "score": 1.04925
-    },
-    {
-      "description": "Milan Fashion Week",
-      "score": 0.85515
-    },
-    {
-      "description": "Fashion show",
-      "score": 0.8161344
-    },
-    {
-      "description": "Fashion",
-      "score": 0.7353
-    },
-    {
-      "description": "Fashion week",
-      "score": 0.7131
-    },
-    {
-      "description": "New York Fashion Week",
-      "score": 0.70965004
-    },
-    {
-      "description": "Haute couture",
-      "score": 0.64176196
-    },
-    {
-      "description": "Hu Sheguang",
-      "score": 0.61785
-    },
-    {
-      "description": "Fashion Design",
-      "score": 0.5795
-    },
-    {
-      "description": "Gucci",
-      "score": 0.5617
-    },
-    {
-      "description": "",
-      "score": 0.5617
-    },
-    {
-      "description": "Fashion designer",
-      "score": 0.5192
-    },
-    {
-      "description": "Runway",
-      "score": 0.472
-    },
-    {
-      "description": "Dolce & Gabbana",
-      "score": 0.449
-    },
-    {
-      "description": "",
-      "score": 0.449
-    }
-  ],
-  "best_guess_labels": [
-    "fashion show"
-  ],
-  "similar_image_urls": [
-    "https://static.wixstatic.com/media/a7ed9c_4b15c474b90a4a49ab9fff0d90f43e23~mv2.jpg/v1/fill/w_320,h_483,q_90,enc_avif,quality_auto/a7ed9c_4b15c474b90a4a49ab9fff0d90f43e23~mv2.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.chinafashioncollective.com/sheguanghu-2020fw",
-      "page_title": "Sheguang Hu 2020FW | CFC - China Fashion Collective",
-      "title": "Sheguang Hu 2020FW | CFC",
-      "description": null,
-      "text": "top of page\nWelcome\nRunway Videos\nPrevious Shows\nAll Time Behind The Scene\nCOOFANDY NYFW SS25\nEKOUAER NYFW SS25\nSeven Crash 2020FW\nSheguang Hu 2020FW\nBlancore 2020SS\nSienna Li 2020SS\nConsinee 2019\nConsinee 2018\nSienna Li 2019FW\nAmelie Wang 2019FW\nSeven Crash 2019FW\nSienna Li 2019SS\nVancy Law 2018SS\nMeiyue Cai 2018SS\nAbout\nMore\nUse tab to navigate through the menu items.\nSheguang Hu 2020FW\nOut of gallery\nbottom of page",
-      "image_captions": []
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T16:12:11.528556+00:00"
-}
+[
+  {
+    "source": "fashionunited.com",
+    "url": "https://fashionunited.com/news/fashion/back-to-basics-the-quiet-sophistication-of-the-aw26-season/2026040671524",
+    "clip_score": 0.2581,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Back to basics: The &#x27;quiet&#x27; sophistication of the AW26 season\n[METADATA/INTRO]: Back to basics: The 'quiet' sophistication of the AW26 season The autumn/winter 2026 season has concluded, leaving an unexpectedly quiet echo. After several cycles marked by sensational debuts from new creative directors and a near-constant rotation at the helm of...\n[BEST EVIDENCE CHUNK]: Fur remains a controversial topic, but it has not disappeared entirely from the runways. Instead, it is being reinterpreted, often in the form of faux fur or abstracted versions. Alessandro Michele at Valentino opted for dramatic, floor-length silhouettes, while Demna Gvasalia at Gucci referenced classic, almost cinematically inspired models. Fur, or its visual equivalents, thus remains a defining element of the season. \n Gothic is an aesthetic that never completely disappears, but continually reinvents itself. For autumn/winter 2026, it appeared less sombre and more soft and romantic. Transparent fabrics, lace and flowing silhouettes dominated. Erdem interpreted gothic with an almost monastic, long black dress, while Dreaming Eli achieved a fragile, almost theatrical effect with corsets and delicate lace. Ann Demeulemeester remained true to her signature style, presenting a more restrained, poetic version with ruffles and structured layering."
+  },
+  {
+    "source": "www.g47studio.com",
+    "url": "https://www.g47studio.com/en/marni-moves-away-from-outside-influence-examine-its-originality-fashion-news.php",
+    "clip_score": 0.2552,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Behind the Viral Makeup of Margiela | G47 Studio Spain\n[METADATA/INTRO]: Marni Moves Away from Outside Influence to Examine its Originality The return \"to an almost animal state\", at a time when inspiration and creation are dominated by the concept of influence and the influencer. Marni Fall/Winter 2024 returned to Milano...\n[BEST EVIDENCE CHUNK]: Fur was followed by animal print, only bolder and more synthetic, appearing on tunic-style dresses and outerwear, and then silver and off-white jacquard capes and dresses, shimmering in a more traditional Marni style. Silhouettes were cropped, dragged, cut and elongated in all directions, transforming the garments into unusual shapes and subverting the models' body shapes. Then came an oversized jacket that ended above the leg, covered in furry spikes, and a selection of handbags made entirely of fur. \n Marni's FW24 collection was a return \"to an almost animalistic state\", in an age where inspiration and creation are dominated by the concept of influence and the influencer, discarding everything we have come to know (all inspiration, all external sources). It's a bold move and one that would terrify many designers. But what's more terrifying, abandoning the world for a paper mache cave or never really knowing if your work is original?"
+  },
+  {
+    "source": "www.vogue.com",
+    "url": "https://www.vogue.com/article/designers-turned-the-runway-into-performance-art",
+    "clip_score": 0.254,
+    "optimized_evidence": "[PUBLISHED DATE]: 2026-04-07\n[TITLE]: 15 Times Designers Turned the Runway Into Performance Art | Vogue\n[METADATA/INTRO]: Can fashion be art? Many legendary designers would argue yes, and, as a result, the runway has often become performance art’s ultimate stage. Though not every runway is imbued with intense metaphorical meaning, a show has the power to create...\n[BEST EVIDENCE CHUNK]: Viktor & Rolf, fall 1999 couture \n While dressing models live on stage is now a familiar way of bringing performance art to the runway, it once radically broke down the barriers between the audience and the designer—especially in the realm of couture. Just five years into their career, Dutch designers Rolf Snoeren and Viktor Horsting employed only a single model, Maggie Rizer. She stood like a doll on a rotating platform while increasingly complex dresses were fitted upon her. \n Alexander McQueen, spring 1999 ready-to-wear \n Whenever prompted to conjure an example of “fashion as performance art,” there’s usually one answer that immediately comes to mind: Shalom Harlow’s unforgettable performance for Alexander McQueen spring 1999. After models walked the runway while dodging two mechanical contraptions, Harlow stood on a rotating platform in nothing but a belted white dress, where the robotic arms then splattered her in paint. For both model and designer, the shocking act was a performance of a lifetime."
+  }
+]

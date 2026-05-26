@@ -1,131 +1,20 @@
-{
-  "sample_id": "false_22",
-  "image_url": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2020/05/1280/720/EZYOHHiXYAANeCA.jpg?ve=1&tl=1",
-  "visual_entities": [
-    {
-      "description": "United States",
-      "score": 0.84255
-    },
-    {
-      "description": "fun.",
-      "score": 0.6443
-    },
-    {
-      "description": "Nate Ruess",
-      "score": 0.62985003
-    },
-    {
-      "description": "",
-      "score": 0.5617
-    },
-    {
-      "description": "US President",
-      "score": 0.4673
-    },
-    {
-      "description": "Kneeling",
-      "score": 0.4325
-    },
-    {
-      "description": "Vice President",
-      "score": 0.4315
-    },
-    {
-      "description": "US Vice President",
-      "score": 0.4147
-    },
-    {
-      "description": "Demonstration",
-      "score": 0.3828
-    }
-  ],
-  "best_guess_labels": [
-    "fun"
-  ],
-  "similar_image_urls": [
-    "https://images.foxtv.com/static.fox4news.com/www.fox4news.com/content/uploads/2020/05/1280/720/EZYOHHiXYAANeCA.jpg?ve=1&tl=1",
-    "https://mmbiz.qpic.cn/sz_mmbiz_png/5AtoeEq8pJZ4f4MiaXXcSQuRWcP91HtUy5oXncjb2HO35AHFtMEMMwEVcfP22E8GvfvCnD3Wic98n6iaNyKhfQZnA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1",
-    "https://pic1.zhimg.com/50/v2-51ef124cfc8bdac299a40ae49d69b480_720w.jpg?source=2c26e567",
-    "http://i0.hexun.com/2020-06-04/201486959.jpg",
-    "https://photo.znews.vn/w1210/Uploaded/sgtnrb/2020_06_01/quy_goi_.jpg",
-    "https://cdn.minval.az/2020/06/bayden.jpg",
-    "https://i.guancha.cn/bbs/2020/06/13/20200613193259516?imageMogr2/cut/640x464x0x22/format/jpg/thumbnail/300x300",
-    "https://cdn.minval.az/2020/06/bayden-1024x683.jpg",
-    "https://pbs.twimg.com/media/EZbXpElX0AIdc-L.jpg?format=jpg&name=thumb",
-    "https://news.nateimg.co.kr/orgImg/ns/2020/06/01/NISI20200601_0000536968_web.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://www.fox29.com/news/joe-biden-shares-picture-of-himself-kneeling-with-demonstrator-at-george-floyd-protest",
-      "page_title": "Joe Biden shares picture of himself kneeling with demonstrator at ...",
-      "title": "Joe Biden shares picture of himself kneeling with demonstrator at George Floyd protest",
-      "description": "Presumptive Democratic presidential nominee Joe Biden has weighed in on the ongoing police brutality protests across the U.S. with a photograph on social media that shows the former vice president kneeling with a protester at a demonstration in Wilmington, Delaware.",
-      "text": "Joe Biden shares picture of himself kneeling with demonstrator at George Floyd protest\nWILMINGTON, Del. - Presumptive Democratic presidential nominee Joe Biden has weighed in on the ongoing police brutality protests across the U.S. with a photograph on social media that shows the former vice president kneeling with a protester at a demonstration in Wilmington, Delaware.\n“We are a nation in pain right now, but we must not allow this pain to destroy us,\" Biden wrote on Twitter.\nBiden has condemned the violence that has erupted in some protests across the country, but has continued to express his support of the common cause shared by those showing up en masse to peacefully condemn racial injustice.\n“The act of protesting should never be allowed to overshadow the reason we protest,” Biden said in a statement Saturday night.\nStaffers of Biden’s campaign have posted on Twitter photocopies of contributions they have made to the Minnesota Freedom Fund, a nonprofit organization which pays bail for citizens who can’t afford it, according to FOX News. Other high-profile celebrities, including Steve Carell and Seth Rogen, have also donated to the organization.\nOn Saturday, Chrissy Teigen announced on Twitter that she would donate $100,000 to various bailout funds for protesters across the country.\nAccording to Forbes, the Minnesota Freedom Fund raised nearly $20 million in four days amid the protests condemning the death of George Floyd.\nFloyd died on May 25 in Minneapolis after a white police officer pressed a knee onto his neck. It was the latest in a series of deaths of black men and women at the hands of police in America that set off protests across the nation.\nThe Associated Press contributed to this report. This story was reported from Los Angeles.",
-      "image_captions": [
-        "Protests over the death of George Floyd continue to rock the country",
-        "Pennsylvania SPCA shares video of person accused of ditching litters of puppies in Old City",
-        "2 Sharon Hill officers accused of leaking law enforcement info to drug dealer",
-        "NJ reports first measles case in 2026; warns of public exposure",
-        "Fugitive accused of plotting mass shooting at New Orleans festival arrested in Florida"
-      ]
-    },
-    {
-      "url": "https://www.fox2detroit.com/news/joe-biden-shares-picture-of-himself-kneeling-with-demonstrator-at-george-floyd-protest",
-      "page_title": "Joe Biden shares picture of himself kneeling with ... - FOX 2 Detroit",
-      "title": "Joe Biden shares picture of himself kneeling with demonstrator at George Floyd protest",
-      "description": "Presumptive Democratic presidential nominee Joe Biden has weighed in on the ongoing police brutality protests across the U.S. with a photograph on social media that shows the former vice president kneeling with a protester at a demonstration in Wilmington, Delaware.",
-      "text": "Joe Biden shares picture of himself kneeling with demonstrator at George Floyd protest\nWILMINGTON, Del. - Presumptive Democratic presidential nominee Joe Biden has weighed in on the ongoing police brutality protests across the U.S. with a photograph on social media that shows the former vice president kneeling with a protester at a demonstration in Wilmington, Delaware.\n“We are a nation in pain right now, but we must not allow this pain to destroy us,\" Biden wrote on Twitter.\nBiden has condemned the violence that has erupted in some protests across the country, but has continued to express his support of the common cause shared by those showing up en masse to peacefully condemn racial injustice.\n“The act of protesting should never be allowed to overshadow the reason we protest,” Biden said in a statement Saturday night.\nStaffers of Biden’s campaign have posted on Twitter photocopies of contributions they have made to the Minnesota Freedom Fund, a nonprofit organization which pays bail for citizens who can’t afford it, according to FOX News. Other high-profile celebrities, including Steve Carell and Seth Rogen, have also donated to the organization.\nOn Saturday, Chrissy Teigen announced on Twitter that she would donate $100,000 to various bailout funds for protesters across the country.\nAccording to Forbes, the Minnesota Freedom Fund raised nearly $20 million in four days amid the protests condemning the death of George Floyd.\nFloyd died on May 25 in Minneapolis after a white police officer pressed a knee onto his neck. It was the latest in a series of deaths of black men and women at the hands of police in America that set off protests across the nation.\nThe Associated Press contributed to this report. This story was reported from Los Angeles.",
-      "image_captions": [
-        "Protests over the death of George Floyd continue to rock the country",
-        "IKEA opening another Michigan store",
-        "15-year-old crashes stolen car into other driver and house",
-        "Mom accuses Warren daycare of restraining 5-year-old",
-        "Thrilla Gives Fight Night for charity is set for April 29th"
-      ]
-    },
-    {
-      "url": "https://www.fox5ny.com/news/joe-biden-shares-picture-of-himself-kneeling-with-demonstrator-at-george-floyd-protest",
-      "page_title": "Joe Biden shares picture of himself kneeling with ... - FOX 5 New York",
-      "title": "Joe Biden shares picture of himself kneeling with demonstrator at George Floyd protest",
-      "description": "Presumptive Democratic presidential nominee Joe Biden has weighed in on the ongoing police brutality protests across the U.S. with a photograph on social media that shows the former vice president kneeling with a protester at a demonstration in Wilmington, Delaware.",
-      "text": "Joe Biden shares picture of himself kneeling with demonstrator at George Floyd protest\nWILMINGTON, Del. - Presumptive Democratic presidential nominee Joe Biden has weighed in on the ongoing police brutality protests across the U.S. with a photograph on social media that shows the former vice president kneeling with a protester at a demonstration in Wilmington, Delaware.\n“We are a nation in pain right now, but we must not allow this pain to destroy us,\" Biden wrote on Twitter.\nBiden has condemned the violence that has erupted in some protests across the country, but has continued to express his support of the common cause shared by those showing up en masse to peacefully condemn racial injustice.\n“The act of protesting should never be allowed to overshadow the reason we protest,” Biden said in a statement Saturday night.\nStaffers of Biden’s campaign have posted on Twitter photocopies of contributions they have made to the Minnesota Freedom Fund, a nonprofit organization which pays bail for citizens who can’t afford it, according to FOX News. Other high-profile celebrities, including Steve Carell and Seth Rogen, have also donated to the organization.\nOn Saturday, Chrissy Teigen announced on Twitter that she would donate $100,000 to various bailout funds for protesters across the country.\nAccording to Forbes, the Minnesota Freedom Fund raised nearly $20 million in four days amid the protests condemning the death of George Floyd.\nFloyd died on May 25 in Minneapolis after a white police officer pressed a knee onto his neck. It was the latest in a series of deaths of black men and women at the hands of police in America that set off protests across the nation.\nThe Associated Press contributed to this report. This story was reported from Los Angeles.",
-      "image_captions": [
-        "Protests over the death of George Floyd continue to rock the country",
-        "Arrest made, person of interest also in custody in Queens street takeover case",
-        "NYPD officers used WhatsApp during violent arrest, had no radios",
-        "What still isn’t known after Rex Heuermann’s guilty plea in Gilgo Beach case",
-        "Father, son arrested after explosive chemicals found at Long Island home"
-      ]
-    },
-    {
-      "url": "https://www.fox7austin.com/news/joe-biden-shares-picture-of-himself-kneeling-with-demonstrator-at-george-floyd-protest",
-      "page_title": "Joe Biden shares picture of himself kneeling with ... - FOX 7 Austin",
-      "title": "Joe Biden shares picture of himself kneeling with demonstrator at George Floyd protest",
-      "description": "Presumptive Democratic presidential nominee Joe Biden has weighed in on the ongoing police brutality protests across the U.S. with a photograph on social media that shows the former vice president kneeling with a protester at a demonstration in Wilmington, Delaware.",
-      "text": "Joe Biden shares picture of himself kneeling with demonstrator at George Floyd protest\nWILMINGTON, Del. - Presumptive Democratic presidential nominee Joe Biden has weighed in on the ongoing police brutality protests across the U.S. with a photograph on social media that shows the former vice president kneeling with a protester at a demonstration in Wilmington, Delaware.\n“We are a nation in pain right now, but we must not allow this pain to destroy us,\" Biden wrote on Twitter.\nBiden has condemned the violence that has erupted in some protests across the country, but has continued to express his support of the common cause shared by those showing up en masse to peacefully condemn racial injustice.\n“The act of protesting should never be allowed to overshadow the reason we protest,” Biden said in a statement Saturday night.\nStaffers of Biden’s campaign have posted on Twitter photocopies of contributions they have made to the Minnesota Freedom Fund, a nonprofit organization which pays bail for citizens who can’t afford it, according to FOX News. Other high-profile celebrities, including Steve Carell and Seth Rogen, have also donated to the organization.\nOn Saturday, Chrissy Teigen announced on Twitter that she would donate $100,000 to various bailout funds for protesters across the country.\nAccording to Forbes, the Minnesota Freedom Fund raised nearly $20 million in four days amid the protests condemning the death of George Floyd.\nFloyd died on May 25 in Minneapolis after a white police officer pressed a knee onto his neck. It was the latest in a series of deaths of black men and women at the hands of police in America that set off protests across the nation.\nThe Associated Press contributed to this report. This story was reported from Los Angeles.",
-      "image_captions": [
-        "Protests over the death of George Floyd continue to rock the country",
-        "Southeast Austin homicide being investigated as city's 21st",
-        "Two-year fugitive found hiding in air vent, taken into custody",
-        "Capital One $425M settlement approved: Here's who qualifies for payments",
-        "Costco adds recall of portable generator for possible fuel leak"
-      ]
-    },
-    {
-      "url": "https://www.fox4news.com/news/joe-biden-shares-picture-of-himself-kneeling-with-demonstrator-at-george-floyd-protest",
-      "page_title": "Joe Biden shares picture of himself kneeling with demonstrator at ...",
-      "title": "Joe Biden shares picture of himself kneeling with demonstrator at George Floyd protest",
-      "description": "Presumptive Democratic presidential nominee Joe Biden has weighed in on the ongoing police brutality protests across the U.S. with a photograph on social media that shows the former vice president kneeling with a protester at a demonstration in Wilmington, Delaware.",
-      "text": "Joe Biden shares picture of himself kneeling with demonstrator at George Floyd protest\nWILMINGTON, Del. - Presumptive Democratic presidential nominee Joe Biden has weighed in on the ongoing police brutality protests across the U.S. with a photograph on social media that shows the former vice president kneeling with a protester at a demonstration in Wilmington, Delaware.\n“We are a nation in pain right now, but we must not allow this pain to destroy us,\" Biden wrote on Twitter.\nBiden has condemned the violence that has erupted in some protests across the country, but has continued to express his support of the common cause shared by those showing up en masse to peacefully condemn racial injustice.\n“The act of protesting should never be allowed to overshadow the reason we protest,” Biden said in a statement Saturday night.\nStaffers of Biden’s campaign have posted on Twitter photocopies of contributions they have made to the Minnesota Freedom Fund, a nonprofit organization which pays bail for citizens who can’t afford it, according to FOX News. Other high-profile celebrities, including Steve Carell and Seth Rogen, have also donated to the organization.\nOn Saturday, Chrissy Teigen announced on Twitter that she would donate $100,000 to various bailout funds for protesters across the country.\nAccording to Forbes, the Minnesota Freedom Fund raised nearly $20 million in four days amid the protests condemning the death of George Floyd.\nFloyd died on May 25 in Minneapolis after a white police officer pressed a knee onto his neck. It was the latest in a series of deaths of black men and women at the hands of police in America that set off protests across the nation.\nThe Associated Press contributed to this report. This story was reported from Los Angeles.",
-      "image_captions": [
-        "FOX 4 News Dallas-Fort Worth",
-        "Protests over the death of George Floyd continue to rock the country",
-        "Tanner Horner Trial Day 8: Audio of Athena Strand's killing played for jury",
-        "Police seize massive narcotics cache at unlicensed Dallas 'sexual encounter center'",
-        "Richardson murder-suicide leaves 3 dead, including 6-year-old"
-      ]
-    }
-  ],
-  "evidence_count": 5,
-  "crawled_at": "2026-04-23T16:51:12.265511+00:00"
-}
+[
+  {
+    "source": "outandaboutnow.com",
+    "url": "https://outandaboutnow.com/the-joe-we-know/",
+    "clip_score": 0.2151,
+    "optimized_evidence": "[PUBLISHED DATE]: 2020-12-29\n[TITLE]: The Joe We Know - Out &amp; About Magazine\n[METADATA/INTRO]: Many Delawareans have stories of President-elect Joe Biden. Here are a few you likely haven’t heard. On January 20 in Washington, D.C., in a ceremony that will be broadcast around the world, Joe Biden will be sworn in as the...\n[BEST EVIDENCE CHUNK]: “On Sundays, Market Street belonged to the Black community,” Smith says. “Joe would drive down Market Street with his family and, if he saw somebody he knew, he’d stop and introduce them to his family. Then he’d ask if they were okay, were they having problems, and stuff like that. \n “He always tried to look out for the Black community after he left that swimming pool.” \n Smith would end up working on Biden’s campaign for U.S. Senator in 1972, building on the relationships the politician had begun as a lifeguard. \n “I would take him to the Black houses in the projects,” Smith says. “I told him, ‘If you sit down and see a cockroach on the armrest or something, don’t move, just knock the roach off. If they give you a jar to drink out of with Kool Aid, then drink that juice. If a spring pop up out of the chair you’re sitting in, and it hurts, just move over. Just don’t jump out of the chair. Just be normal, and Black folks will like you.’"
+  },
+  {
+    "source": "www.businessinsider.com",
+    "url": "https://www.businessinsider.com/joe-biden-visits-a-black-lives-matter-protest-site-in-delaware-2020-5",
+    "clip_score": 0.2041,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: Joe Biden Visits a Black Lives Matter Protest Site in Delaware - Business Insider\n[METADATA/INTRO]: - Former Vice President Joe Biden on Sunday made an unannounced visit to a site in Wilmington, Delaware where protests against police brutality and racism took place the night before. - Leaving his home for the second time in a...\n[BEST EVIDENCE CHUNK]: - Visit Business Insider's homepage for more stories. \n Former Vice President Joe Biden on Sunday made an unannounced visit to a site in Wilmington, Delaware where protests against police brutality and racism took place the night before. \n Leaving his home for the second time in a week, the presumptive Democratic presidential nominee recognized the death of George Floyd, a black man who was killed in Minneapolis police custody last week. His campaign posted a photo of Biden kneeling on the ground facing a black man also kneeling with his young son. \n Biden has attempted to strike a unifying tone in his public statements as demonstrations continued in at least 75 US cities over the weekend."
+  },
+  {
+    "source": "www.theguardian.com",
+    "url": "https://www.theguardian.com/us-news/2020/jun/04/joe-biden-george-floyd-protests",
+    "clip_score": 0.1855,
+    "optimized_evidence": "[PUBLISHED DATE]: 2020-06-04\n[TITLE]: Can Joe Biden convince protesters he'd be a 'transformational' president? | Joe Biden | The Guardian\n[METADATA/INTRO]: Hours before peaceful protests against police brutality were forcibly dispersed so Donald Trump could pose with a Bible in front of St John’s, Joe Biden also went to church. Head bowed, Biden prayed with community leaders at Bethel African Methodist...\n[BEST EVIDENCE CHUNK]: Hours before peaceful protests against police brutality were forcibly dispersed so Donald Trump could pose with a Bible in front of St John’s, Joe Biden also went to church. \n Head bowed, Biden prayed with community leaders at Bethel African Methodist Episcopal church in his home town of Wilmington, Delaware. For days the nation had been convulsed over the killing of George Floyd, a 46-year-old black man pinned under the knee of a white Minneapolis police officer for a fatal eight minutes and 46 seconds. \n Biden then listened silently to members of the city’s black community express collective anger and anguish. Their message was clear: he must do more."
+  }
+]

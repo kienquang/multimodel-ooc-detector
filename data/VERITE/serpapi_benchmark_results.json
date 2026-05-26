@@ -1,0 +1,35 @@
+[
+    {
+        "image_id": "image_1",
+        "image_url": "https://images.squarespace-cdn.com/content/5b539de375f9ee8786c67f2d/1581822920950-8IZZLU6YEUBNM9HBYS0F/DSC_5197.jpg?format=1500w&content-type=image%2Fjpeg",
+        "latency_sec": 4.1,
+        "main_entity": "N/A",
+        "top_5_sources": [
+            {
+                "title": "Sheguang Hu 2020FW | CFC",
+                "link": "https://www.chinafashioncollective.com/sheguanghu-2020fw",
+                "source": "China Fashion Collective"
+            },
+            {
+                "title": "SILK ROAD·PENTIUM-SHEGUANG HU",
+                "link": "https://www.sheguang-hu.com/en/enmrhu/51.html",
+                "source": "www.sheguang-hu.com"
+            },
+            {
+                "title": "How OTB Gets Fashion Right | BoF",
+                "link": "https://www.businessoffashion.com/briefings/luxury/how-otb-gets-fashion-right/",
+                "source": "The Business of Fashion"
+            },
+            {
+                "title": "Met Gala Dress Code Makes a Statement of Its Own: 'Fashion ...",
+                "link": "https://www.nytimes.com/2026/02/23/style/met-gala-dress-code-fashion-is-art.html",
+                "source": "The New York Times"
+            },
+            {
+                "title": "Bottega Veneta highlights and details from the Spring 2026 ...",
+                "link": "https://www.instagram.com/p/DPISkNdCCi1/",
+                "source": "Instagram"
+            }
+        ]
+    }
+]

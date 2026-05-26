@@ -1,131 +1,20 @@
-{
-  "sample_id": "true_228",
-  "image_url": "https://pbs.twimg.com/media/EnNYxEBXEAAOXM8?format=jpg&name=large",
-  "visual_entities": [
-    {
-      "description": "Health care",
-      "score": 0.7152
-    },
-    {
-      "description": "Health professional",
-      "score": 0.7147
-    },
-    {
-      "description": "Nurse",
-      "score": 0.7028
-    },
-    {
-      "description": "Nursing",
-      "score": 0.6696
-    },
-    {
-      "description": "Hospital",
-      "score": 0.6075
-    },
-    {
-      "description": "Patient",
-      "score": 0.5358
-    },
-    {
-      "description": "Health",
-      "score": 0.5177
-    },
-    {
-      "description": "Physician",
-      "score": 0.4944
-    },
-    {
-      "description": "Stace Anaesthetists",
-      "score": 0.4375
-    },
-    {
-      "description": "Health education",
-      "score": 0.3689
-    },
-    {
-      "description": "Anesthesiologist",
-      "score": 0.3561
-    },
-    {
-      "description": "Travel nursing",
-      "score": 0.334
-    },
-    {
-      "description": "Professional",
-      "score": 0.318
-    }
-  ],
-  "best_guess_labels": [
-    "nurse drowning"
-  ],
-  "similar_image_urls": [
-    "https://pbs.twimg.com/media/EnRK6D2XcAAk6lf.jpg",
-    "https://pbs.twimg.com/media/EnW_uJXXMAM2tSv.jpg",
-    "https://media.licdn.com/dms/image/v2/C4E22AQHp2xmo3aBGcw/feedshare-shrink_800/feedshare-shrink_800/0/1605861038093?e=2147483647&v=beta&t=q1SpRMR1U32YCiGzSivzj-ETxhx52YT-q-MGVOtAUCg",
-    "https://media.licdn.com/dms/image/v2/D5622AQEkgbfbxstV9w/feedshare-shrink_800/feedshare-shrink_800/0/1705711307861?e=2147483647&v=beta&t=O9iI5XRxCo8F_bQq0GojBEEEcwZj6b233KIq09oewTg",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=4603813512962193",
-    "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10226853438422379",
-    "https://pbs.twimg.com/media/EnXW5GUXIAU__hK.jpg",
-    "https://pbs.twimg.com/media/F_ZU8JFXYAAlW41.jpg",
-    "https://media.licdn.com/dms/image/v2/C4D22AQHY6vYaTc8wHA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1607673166851?e=2147483647&v=beta&t=bDm1u-Bj2qGEH8UJmCfv56lu2CAIOhTLaiGeWnsOK_c",
-    "https://pbs.twimg.com/media/EpL_9V0XIAEbU8k.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://news.yahoo.com/local-nurse-drowning-debt-following-001040701.html",
-      "page_title": "Local nurse drowning in debt following stroke",
-      "title": "Local nurse drowning in debt following stroke",
-      "description": "As a nurse, Rhonda Radcliffe has spend the last three decades of her life caring for other patients, but when she suffered a stroke earlier this month she became the one in need of care.",
-      "text": "Local nurse drowning in debt following stroke\nUpdated\nAs a nurse, Rhonda Radcliffe has spend the last three decades of her life caring for other patients, but when she suffered a stroke earlier this month she became the one in need of care.\nAs a nurse, Rhonda Radcliffe has spend the last three decades of her life caring for other patients, but when she suffered a stroke earlier this month she became the one in need of care.",
-      "image_captions": [
-        "WTVF - Nashville Scripps",
-        "Download app from App Store",
-        "Download app from Google Play"
-      ]
-    },
-    {
-      "url": "https://www.wymt.com/2024/06/26/traveling-nurse-drowns-while-visiting-glacier-national-park-after-falling-into-creek/",
-      "page_title": "Traveling nurse drowns while visiting Glacier National Park after ...",
-      "title": "Traveling nurse drowns while visiting Glacier National Park after falling into creek",
-      "description": "Authorities say a 26-year-old woman drowned after falling into a creek at a national park in Montana over the weekend.",
-      "text": "Traveling nurse drowns while visiting Glacier National Park after falling into creek\nWEST GLACIER, Mont. (Gray News) - Authorities say a 26-year-old woman drowned after falling into a creek at a national park in Montana over the weekend.\nAccording to the National Park Service, the woman slipped on slick rocks and fell into Virginia Creek between St. Mary Falls and Virginia Falls at Glacier National Park on Sunday.\nThe woman, later identified as Gillian Tones, was quickly swept up by cold, fast-moving water and went over a series of smaller waterfalls before being pinned underwater by a log for several minutes.\nAuthorities said other park visitors helped pull her out of the water but despite resuscitation efforts from rescuers and first responders, Tones was pronounced dead at about 7 p.m.\nFamily members told WTAE that Tones was a free spirit and worked as a traveling nurse, earning an award for her work.\n“She was a truly bright light in the lives of everyone who had the privilege of knowing her. Her presence radiated warmth and positivity. She had an uncanny ability to lift the spirits of those around her,” loved ones shared through a GoFundMe. “Her compassion and empathy knew no bounds. She was always willing to lend a helping hand and listening ear.”\nPark officials thanked first responders and the other park visitors for their help that day.\nOfficials also extended their “deepest condolences” to the Tones family.\nCopyright 2024 Gray Media Group, Inc. All rights reserved.",
-      "image_captions": [
-        "Gillian Tones, 26, drowned after falling into a creek at Glacier National Park in Montana.(GoFundMe | Glacier National Park Service via MGN)",
-        "Gillian Tones, 26, drowned after falling into a creek at Glacier National Park in Montana.",
-        "Kayla Reffett’s daughter, Ella Reffett, last heard her mother’s voice March 29 when she came...",
-        "Man charged with animal cruelty after dog shooting report",
-        "Deputies with the Laurel County Sheriff’s Office are investigating the death of a London man..."
-      ]
-    },
-    {
-      "url": "https://www.wibw.com/2024/06/26/traveling-nurse-drowns-while-visiting-glacier-national-park-after-falling-into-creek/",
-      "page_title": "Traveling nurse drowns while visiting Glacier National Park after ...",
-      "title": "Traveling nurse drowns while visiting Glacier National Park after falling into creek",
-      "description": "Authorities say a 26-year-old woman drowned after falling into a creek at a national park in Montana over the weekend.",
-      "text": "Traveling nurse drowns while visiting Glacier National Park after falling into creek\nWEST GLACIER, Mont. (Gray News) - Authorities say a 26-year-old woman drowned after falling into a creek at a national park in Montana over the weekend.\nAccording to the National Park Service, the woman slipped on slick rocks and fell into Virginia Creek between St. Mary Falls and Virginia Falls at Glacier National Park on Sunday.\nThe woman, later identified as Gillian Tones, was quickly swept up by cold, fast-moving water and went over a series of smaller waterfalls before being pinned underwater by a log for several minutes.\nAuthorities said other park visitors helped pull her out of the water but despite resuscitation efforts from rescuers and first responders, Tones was pronounced dead at about 7 p.m.\nFamily members told WTAE that Tones was a free spirit and worked as a traveling nurse, earning an award for her work.\n“She was a truly bright light in the lives of everyone who had the privilege of knowing her. Her presence radiated warmth and positivity. She had an uncanny ability to lift the spirits of those around her,” loved ones shared through a GoFundMe. “Her compassion and empathy knew no bounds. She was always willing to lend a helping hand and listening ear.”\nPark officials thanked first responders and the other park visitors for their help that day.\nOfficials also extended their “deepest condolences” to the Tones family.\nCopyright 2024 Gray Media Group, Inc. All rights reserved.",
-      "image_captions": [
-        "Gillian Tones, 26, drowned after falling into a creek at Glacier National Park in Montana.(GoFundMe | Glacier National Park Service via MGN)",
-        "Gillian Tones, 26, drowned after falling into a creek at Glacier National Park in Montana.",
-        "Topeka police responded to an incident mid-morning Wednesday in the 600 block of N.E. Grattan...",
-        "\"Storage Wars\" cast member Darrell Sheets attends the A+E Networks 2013 Upfront on Wednesday,...",
-        "A new home for the Kansas City Royals is expected to be announced Wednesday morning."
-      ]
-    },
-    {
-      "url": "https://www.kalb.com/2024/06/26/traveling-nurse-drowns-while-visiting-glacier-national-park-after-falling-into-creek/",
-      "page_title": "Traveling nurse drowns while visiting Glacier National Park after ...",
-      "title": "Traveling nurse drowns while visiting Glacier National Park after falling into creek",
-      "description": "Authorities say a 26-year-old woman drowned after falling into a creek at a national park in Montana over the weekend.",
-      "text": "Traveling nurse drowns while visiting Glacier National Park after falling into creek\nWEST GLACIER, Mont. (Gray News) - Authorities say a 26-year-old woman drowned after falling into a creek at a national park in Montana over the weekend.\nAccording to the National Park Service, the woman slipped on slick rocks and fell into Virginia Creek between St. Mary Falls and Virginia Falls at Glacier National Park on Sunday.\nThe woman, later identified as Gillian Tones, was quickly swept up by cold, fast-moving water and went over a series of smaller waterfalls before being pinned underwater by a log for several minutes.\nAuthorities said other park visitors helped pull her out of the water but despite resuscitation efforts from rescuers and first responders, Tones was pronounced dead at about 7 p.m.\nFamily members told WTAE that Tones was a free spirit and worked as a traveling nurse, earning an award for her work.\n“She was a truly bright light in the lives of everyone who had the privilege of knowing her. Her presence radiated warmth and positivity. She had an uncanny ability to lift the spirits of those around her,” loved ones shared through a GoFundMe. “Her compassion and empathy knew no bounds. She was always willing to lend a helping hand and listening ear.”\nPark officials thanked first responders and the other park visitors for their help that day.\nOfficials also extended their “deepest condolences” to the Tones family.\nCopyright 2024 Gray Media Group, Inc. All rights reserved.",
-      "image_captions": [
-        "Gillian Tones, 26, drowned after falling into a creek at Glacier National Park in Montana.(GoFundMe | Glacier National Park Service via MGN)",
-        "Gillian Tones, 26, drowned after falling into a creek at Glacier National Park in Montana.",
-        "incident in the Hills - Family: “It’s a cover up.”",
-        "Central Louisiana woman’s stage 3 cancer misdiagnosed for years",
-        "\"Storage Wars\" cast member Darrell Sheets attends the A+E Networks 2013 Upfront on Wednesday,..."
-      ]
-    }
-  ],
-  "evidence_count": 4,
-  "crawled_at": "2026-04-23T17:56:15.702205+00:00"
-}
+[
+  {
+    "source": "sites.utexas.edu",
+    "url": "https://sites.utexas.edu/ransomcentermagazine/2018/11/14/powerful-currents-john-wilsons-down-by-the-riverside-prints/",
+    "clip_score": 0.1339,
+    "optimized_evidence": "[PUBLISHED DATE]: 2018\n[TITLE]: Powerful currents: John Wilson’s Down by the Riverside prints\n[METADATA/INTRO]: November 14, 2018, Filed Under: Art, Exhibitions + EventsPowerful currents: John Wilson’s Down by the Riverside prints The dark male figure, head bent to the driving rain indicated by the dense lines that cover the page, lifts a slight woman...\n[BEST EVIDENCE CHUNK]: November 14, 2018, Filed Under: Art, Exhibitions + EventsPowerful currents: John Wilson’s Down by the Riverside prints The dark male figure, head bent to the driving rain indicated by the dense lines that cover the page, lifts a slight woman into a simple rowboat. The boat’s bow is pointed through the floodwaters toward higher ground, its port side steadied by a second stooped male. In the low shadow of the simple, slat-shingled roof, an elderly woman grips a small boy close to her side, her face angled with lines of worry and fear. John Woodrow Wilson (American, 1922–2015), The Richard Wright Suite, 2001. Color etchings with aquatint. Museum purchase, 2001.5.4. Licensed by VAGA, New York, NY. Reproduction, including downloading of John Wilson’s works is prohibited by copyright laws and international conventions without the express written permission of Artists Rights Society (ARS), New York. In the next image, the huddled figures have managed to shift the small craft against the current and toward the beacon of a lighted window of a large house. John Woodrow Wilson (American, 1922–2015), The Richard Wright Suite, 2001. Color etchings with aquatint. Museum purchase, 2001.5.5. Licensed by VAGA, New York, NY. Reproduction, including downloading of John Wilson’s works is prohibited by copyright laws and international conventions without the express written permission of Artists Rights Society (ARS), New York. Despite the promise inherent in that scene—a small square of light piercing an otherwise dark and muddled picture plane—the next print in the series finds the central male figure stooped over the body of a lifeless woman, the line of her left arm draped sharply over the edge of an examination table, while a white male figure looks on with a bland expression revealing acknowledgement more than pity. This print, the only one in the series to be executed solely in black and white, appears stark and drained. John Woodrow Wilson (American, 1922–2015), The Richard Wright Suite, 2001. Color etchings with aquatint. Museum purchase, 2001.5.6. Licensed by VAGA, New York, NY. Reproduction, including downloading of John Wilson’s works is prohibited by copyright laws and international conventions without the express written permission of Artists Rights Society (ARS), New York. The fourth print takes a turn: the lines slicing through the previous prints in indication of darkness and rain are here gone, those lines replaced with the raised arms of attackers in crowded visual confusion around the central figure, and by the sharply angled limbs of the leafless trees at the river’s edge. The jarringly white sky of the final two prints, in contrast to the thick, muddied appearance of the previous images, registers as exposure rather than hope. John Woodrow Wilson (American, 1922–2015), The Richard Wright Suite, 2001. Color etchings with aquatint. Museum purchase, 2001.5.7. Licensed by VAGA, New York, NY. Reproduction, including downloading of John Wilson’s works is prohibited by copyright laws and international conventions without the express written permission of Artists Rights Society (ARS), New York. In the final print, a lifeless black male body, twisted unnaturally, lies at the edge of the receding river. It fills the lower half of the image, confronting the viewer with its unnerving combination of agitated angle and stillness. John Woodrow Wilson (American, 1922–2015), The Richard Wright Suite, 2001. Color etchings with aquatint. Museum purchase, 2001.5.8. Licensed by VAGA, New York, NY. Reproduction, including downloading of John Wilson’s works is prohibited by copyright laws and international conventions without the express written permission of Artists Rights Society (ARS), New York. Even without knowing the story these prints illustrate, we sense from the images alone that this male figure has died largely because he was black. The prints are part of John Wilson’s 2001 series The Richard Wright Suite, created in conjunction with the Limited Editions Club publication of Down by the Riverside from the same year. That story was originally part of Richard Wright’s 1938 collection of novellas, Uncle Tom’s Children. The backdrop and driving force of Down by the Riverside is a devastating flood. Against the rising waters and the threat of the levee breaking are a southern black family’s desperate attempts to escape to safety. Protagonist Brother Mann has been offered a stolen boat; balancing the risk of being a black man found with a stolen white man’s boat against the risk of his wife’s premature and life threatening labor, he decides to use the boat to transport his son, mother-in-law, and wife Lulu to the hospital. Mann rows his family through the confusion of a once-familiar landscape that the floodwaters have rendered unrecognizable, and heads toward the lit window of a large house. Mann calls out to the inhabitants of the house, where, to his terror, he finds not help but the stolen boat’s white owner. Realizing the affront, the boat’s owner fires his pistol in the direction of Mann and his family. In an act of desperate self-defense, Mann kills the man and frantically rows against the current toward the hospital. The family arrives at the hospital too late: Lulu and her unborn child have died. A distraught Mann is now conscripted into assisting with flood rescue efforts. In this new role—knowing too well that the action will likely result in his exposure—he saves the family of the man he had earlier killed. Upon reaching higher ground the rescued family immediately reports the earlier killing. The story closes with the body of Mann, who has been shot to death as a murderer, laying by the side of the river. In the context of the pre-Civil War spiritual song from which it is derived, the phrase “down by the riverside” evokes the casting off of aggression and conflict. The phrase also, as Wilson’s final image poignantly demonstrates, conjures the final, literal image of Mann’s body, lifeless at the water’s edge. The bitter paradox of that juxtaposition—the active decision to turn away from aggression jutting up against the image of Mann’s violent death—is further exacerbated by the on-the-surface benign, even idyllic, sounding phrase. Lithographer and painter John Wilson—whose career included significant work on the themes of oppression and the execrable conditions suffered by black Americans—selected the story for publication in partnership with Limited Editions Club owner and publisher Sid Shiff. Wilson, who recalled first reading Wright’s Uncle Tom’s Children in 1945, also wrote the afterword for the 2001 publication. In it Wilson describes the effect of having seen press images of lynchings in the early and mid-twentieth century; he writes, “I understood that simply being black was the most important reality affecting my entire life.” Wilson elected to use a form of etching known as aquatint to create these prints, stating in his afterword that the technique is an ideal one for interpreting the “dark brooding, murky atmosphere” of Wright’s story. The aquatint method—in which grains of rosin are heated and the resultant acid “bites” create a rough surface on the plate—produces a print with a painted, rather than etched, appearance. Such a technique speaks both to the forces of nature that drive Mann’s desperate flight and to the violence that confronts him at the story’s close. These images of a desperate family escaping rising floodwaters are today impossible to view without considering the recent catastrophic hurricanes and tropical storms that have resulted in scores of displaced lives and the ways in which the longreaching aftermath of such storms tend to be particularly disastrous for underprivileged populations. In a Ransom Center copy of Uncle Tom’s Children, Wright penned an inscription to the book’s former owner, filmmaker and poet Willard Maas, in 1938. “To Willard Maas,” the author writes, “in hope that we may stand shoulder to shoulder in that fight that represents the last, best hope of this earth.” In an essay published only two years later, Wright would reconsider the book’s power, asserting that it was an inadvertently sentimental and “naïve” attempt to address ongoing injustice on the basis of race—one that, he feared, fostered the release of cathartic tears rather than served as an inescapable call to action. The tragic plight of the Mann family is undeniably poignant. But Wilson’s prints, currently on view at the Ransom Center as part of Stories to Tell, help demonstrate the haunting timeliness of their depiction of displacement, separation and loss, tragedy, and desperate hope."
+  },
+  {
+    "source": "www.artforum.com",
+    "url": "https://www.artforum.com/features/irene-v-small-on-leonilsons-ninguem-1992-249376/",
+    "clip_score": 0.1261,
+    "optimized_evidence": "[PUBLISHED DATE]: 2021-03-01\n[TITLE]: Close-Up: Negative Capability\n[METADATA/INTRO]: By providing your information, you agree to our Terms of Use and our Privacy Policy. We use vendors that may also process your information to help provide our services. NINGUÉM. NOBODY. NO ONE. Ninguém, as in: There’s nobody at the...\n[BEST EVIDENCE CHUNK]: Originally, the artist suspended Ninguém from two metal rods against a wall, the pillow’s padded interior sagging gently toward the middle with all the vulnerability and opacity of a body. Stretched upward and affixed by means of incisions in the pillowcase’s upper corners, the display allowed gravity itself to map the pictorial vectors of crucifixion. Leonilson’s childhood was suffused with Catholicism, and even as his work veers far from faith it is replete with Christian iconography: stigmata, scars, bleeding hearts, crosses, crowns, swooning and supine bodies, miraculous touches that bridge worlds apart. The prostrate life-size figure in his 1986 painting O que ele está fazendo (What He Is Doing) is physically punctured at head, heart, and groin. There is an unmistakable echo of the claustrophobic compression of Hans Holbein’s The Body of the Dead Christ in the Tomb (1521–22) and of the pockmarked skin of Christ in Matthias Grünewald’s Isenheim altarpiece (1512–16), which had inspired Holbein in turn. In Ninguém, the off-center lunette of ornamental flowers and ribbons adumbrates a shape similar to that of the prone body in O que ele está fazendo, only here in radical abstraction. Internal to the very process of handling and installing the work—appending it to a wall, removing it to rest, protecting it by securing its recumbent form—is the entirety of Christ’s crucifixion, deposition, and entombment. Notably, Ninguém offers nothing in the way of resurrection; it remains in the register of condemnation and sorrow."
+  },
+  {
+    "source": "www.rcseng.ac.uk",
+    "url": "https://www.rcseng.ac.uk/library-and-publications/library/blog/the-many-forms-of-sea-sickness/",
+    "clip_score": 0.1192,
+    "optimized_evidence": "[PUBLISHED DATE]: Unknown Date\n[TITLE]: The many forms of sea sickness &mdash; Royal College of Surgeons\n[METADATA/INTRO]: The many forms of sea sickness 27 Sep 2024...\n[BEST EVIDENCE CHUNK]: The many forms of sea sickness \n The term the “age of sail” broadly defines a period from the mid-16th to the mid-19th centuries where ships were pre-eminent in trade and battle. For the sailors on board these ships, however, life was not so illustrious. Sailors faced arduous living and working conditions, a lack of nutrition, a lack of hygiene, and a lack of sanitation. As can be imagined, disease was rife. \n Scurvy notoriously threatened the health of sailors in this period. This disease is caused by a lack of vitamin C (ascorbic acid), which is found largely in fresh fruit and vegetables. Often at sea for long periods and without the refrigeration systems we have available today, sailors did not have access to such important foods. As such, it is not difficult to see how scurvy became rampant. Initial symptoms of scurvy include weakness, fatigue and sore limbs, but the disease can progress to causing symptoms such as bleeding under the skin, loosened teeth, the slow healing of wounds, and ultimately death."
+  }
+]

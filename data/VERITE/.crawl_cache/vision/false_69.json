@@ -1,82 +1,20 @@
-{
-  "sample_id": "false_69",
-  "image_url": "https://georgewbush-whitehouse.archives.gov/news/releases/2006/07/images/20060714-5_g0i8015-515h.jpg",
-  "visual_entities": [
-    {
-      "description": "George W. Bush",
-      "score": 10.7235
-    },
-    {
-      "description": "Laura Bush",
-      "score": 8.0445
-    },
-    {
-      "description": "Pulkovo Airport",
-      "score": 1.282116
-    },
-    {
-      "description": "Airplane",
-      "score": 0.77685
-    },
-    {
-      "description": "Airport",
-      "score": 0.72263086
-    },
-    {
-      "description": "Aircraft",
-      "score": 0.72045004
-    },
-    {
-      "description": "",
-      "score": 0.7064
-    },
-    {
-      "description": "Boeing 747-8",
-      "score": 0.6219543
-    },
-    {
-      "description": "",
-      "score": 0.4787
-    },
-    {
-      "description": "Boeing Co",
-      "score": 0.4787
-    },
-    {
-      "description": "Airbus",
-      "score": 0.4086968
-    },
-    {
-      "description": "",
-      "score": 0.3409
-    },
-    {
-      "description": "Narrow-body aircraft",
-      "score": 0.3314925
-    }
-  ],
-  "best_guess_labels": [
-    "boeing 747-8"
-  ],
-  "similar_image_urls": [
-    "https://georgewbush-whitehouse.archives.gov/news/releases/2006/07/images/20060714-5_g0i8015-515h.jpg"
-  ],
-  "evidence": [
-    {
-      "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2006/07/images/20060714-5_g0i8015-515h.html",
-      "page_title": "President George W. Bush and Laura Bush arrive Friday, July 14 ...",
-      "title": "President George W. Bush and Laura Bush arrive Friday, July 14, 2006, to St. Peterburgs Pulkovo Airport, waving to well-wishers waiting to greet them.President Bush will attend the G8 Summit over the weekend. White House photo by Eric Draper",
-      "description": "",
-      "text": "This is historical material, \"frozen in time.\" The web site is no longer updated and links to external web sites and some internal pages will not work.\nSkip Main Navigation\nPRESIDENT\n|\nVICE PRESIDENT\n|\nFIRST LADY\n|\nMRS. CHENEY\n|\nNEWS\nYour Government\n|\nHistory & Tours\n|\nKids\n|\nE-mail\n|\nEn Español\nPodcasts\nRSS Feeds\nAfghanistan\nAfrica\nBudget Management\nDefense\nEconomy\nEducation\nEnergy\nEnvironment\nGlobal Diplomacy\nHealth Care\nHomeland Security\nImmigration\nInternational Trade\nIraq\nJudicial Nominations\nMiddle East\nNational Security\nVeterans\nmore issues\nNews\nCurrent News\nPress Briefings\nProclamations\nExecutive Orders\nRadio\nSetting the Record Straight\nmore news\nNews by Date\nJanuary 2009\nDecember 2008\nNovember 2008\nOctober 2008\nSeptember 2008\nAugust 2008\nJuly 2008\nJune 2008\nMay 2008\nApril 2008\nMarch 2008\nFebruary 2008\nJanuary 2008\nDecember 2007\nNovember 2007\nOctober 2007\nSeptember 2007\nAugust 2007\nJuly 2007\nJune 2007\nMay 2007\nApril 2007\nMarch 2007\nFebruary 2007\nJanuary 2007\nDecember 2006\nNovember 2006\nOctober 2006\nSeptember 2006\nAugust 2006\nJuly 2006\nJune 2006\nMay 2006\nApril 2006\nMarch 2006\nFebruary 2006\nJanuary 2006\nDecember 2005\nNovember 2005\nOctober 2005\nSeptember 2005\nAugust 2005\nJuly 2005\nJune 2005\nMay 2005\nApril 2005\nMarch 2005\nFebruary 2005\nJanuary 2005\nDecember 2004\nNovember 2004\nOctober 2004\nSeptember 2004\nAugust 2004\nJuly 2004\nJune 2004\nMay 2004\nApril 2004\nMarch 2004\nFebruary 2004\nJanuary 2004\nDecember 2003\nNovember 2003\nOctober 2003\nSeptember 2003\nAugust 2003\nJuly 2003\nJune 2003\nMay 2003\nApril 2003\nMarch 2003\nFebruary 2003\nJanuary 2003\nDecember 2002\nNovember 2002\nOctober 2002\nSeptember 2002\nAugust 2002\nJuly 2002\nJune 2002\nMay 2002\nApril 2002\nMarch 2002\nFebruary 2002\nJanuary 2002\nDecember 2001\nNovember 2001\nOctober 2001\nSeptember 2001\nAugust 2001\nJuly 2001\nJune 2001\nMay 2001\nApril 2001\nMarch 2001\nFebruary 2001\nJanuary 2001\nAppointments\nNominations\nFederal Facts\nFederal Statistics\nWest Wing\nHistory\nHome\n>\nNews & Policies\n>\nJuly 2006\nPresident George W. Bush and Laura Bush arrive Friday, July 14, 2006, to St. Peterburgs Pulkovo Airport, waving to well-wishers waiting to greet them.President Bush will attend the G8 Summit over the weekend. White House photo by Eric Draper\nPresident\n|\nVice President\n|\nMrs. Bush\n|\nMrs. Cheney\n|\nPhoto Essays",
-      "image_captions": [
-        "President George W. Bush and Laura Bush arrive Friday, July 14, 2006, to St. Peterburg’s Pulkovo Airport, waving to well-wishers waiting to greet them.President Bush will attend the G8 Summit over the weekend. White House photo by Eric Draper",
-        "President George W. Bush and Mrs. Laura Bush wave from Air Force One upon arriving at Pulkovo International Airport for the upcoming G8 Summit in St. Petersburg, Russia, Friday, July 14, 2006. White House photo by Paul Morse",
-        "President George W. Bush calls world leaders concerning the situation in the Middle East from his Air Force One office en route to the G8 Summit in St. Petersburg, Russia, Friday, July 14, 2006. White House photo by Eric Draper",
-        "During a tour of the Pediatric HIV/AIDS Clinic Center of Russia, Mrs. Laura Bush and Dr. Evgeny Voronin listen to Gayla, a patient, perform in the Music Room Friday, July 14, 2006, in St. Petersburg, Russia. Music instructor Valentina Leontieva looks on. White House photo by Shealah Craighead",
-        "President George W. Bush and Laura Bush walk to the Monument to the Heroic Defenders of Leningrad Friday, July 14, 2006, in St. Petersburg, Russia, site of the G8 Summit. White House photo by Paul Morse"
-      ]
-    }
-  ],
-  "evidence_count": 1,
-  "crawled_at": "2026-04-23T17:08:59.019999+00:00"
-}
+[
+  {
+    "source": "www.forbes.com",
+    "url": "https://www.forbes.com/sites/douggollan/2021/03/10/donald-trumps-private-jet-downgrade-was-bigger-than-you-think/",
+    "clip_score": 0.2732,
+    "optimized_evidence": "[PUBLISHED DATE]: 2021\n[TITLE]: Donald Trump’s Private Jet Downgrade Was Bigger Than You Think\n[METADATA/INTRO]: From presidential Boeing 747s and 757s flying as Air Force One and his own notable VIP airliner, Donald Trump was recently spotted boarding a mere run-of-the-mill everyman type private jet. The former commander-in-chief’s ride would still be out of reach...\n[BEST EVIDENCE CHUNK]: From presidential Boeing 747s and 757s flying as Air Force One and his own notable VIP airliner, Donald Trump was recently spotted boarding a mere run-of-the-mill everyman type private jet. The former commander-in-chief’s ride would still be out of reach for most of us, yet, it’s the type of aircraft where you need to bend your neck if you stand-up. You might even feel your hair brushing up against the cabin ceiling. \n An image yesterday in the Daily Mail shows Trump steadying himself as he prepares to climb onto a private jet departing New York City. Unlike the past four years, there were only a few steps to navigate."
+  },
+  {
+    "source": "en.wikipedia.org",
+    "url": "https://en.wikipedia.org/wiki/List_of_presidential_trips_made_by_Barack_Obama_(2009)",
+    "clip_score": 0.2672,
+    "optimized_evidence": "[PUBLISHED DATE]: January 20, 2009\n[TITLE]: List of presidential trips made by Barack Obama (2009) - Wikipedia\n[METADATA/INTRO]: List of presidential trips made by Barack Obama (2009) Appearance...\n[BEST EVIDENCE CHUNK]: [edit]- No trips made. \n [edit]| Country/ U.S. state | \n Areas visited | Dates | Details | Image | \n | Virginia | Williamsburg | February 5 | First presidential trip using Air Force One.[1] | | \n | Indiana | Elkhart | February 9 | President Obama was promoting the American Recovery and Reinvestment Act of 2009.[2] | | \n | Florida | Fort Myers | February 10 | President Obama was promoting the American Recovery and Reinvestment Act of 2009.[3] | | \n | Virginia | Springfield | February 11 | President Obama promoted the economic stimulus plan at a construction site with then-DNC Chairman and former Virginia governor Tim Kaine.[4] | |"
+  },
+  {
+    "source": "www.usatoday.com",
+    "url": "https://www.usatoday.com/picture-gallery/news/nation/2025/05/12/air-force-one-president-airplane-photos/83579294007/",
+    "clip_score": 0.264,
+    "optimized_evidence": "[PUBLISHED DATE]: 2025\n[TITLE]: Air Force One: See the President's flying office\n[METADATA/INTRO]: NATIONAir Force OneAdd TopicAir Force One: Photos of the President’s iconic aircraft David BaratzMay 12, 2025, 11:06 a.m. ETAir Force One is reflected on the rain-soaked tarmac following the return of U.S. President Donald Trump, at Joint Base Andrews in...\n[BEST EVIDENCE CHUNK]: NATIONAir Force OneAdd TopicAir Force One: Photos of the President’s iconic aircraft David BaratzMay 12, 2025, 11:06 a.m. ETAir Force One is reflected on the rain-soaked tarmac following the return of U.S. President Donald Trump, at Joint Base Andrews in Maryland, U.S., August 21, 2019.Kevin Lamarque, REUTERSA crew member stands in the door of Air Force One waiting for the passenger stairs, upon the arrival of U.S. President Barack Obama at Joint Base Andrews in Washington January 8, 2015.Kevin Lamarque, REUTERSAir Force One is seen landing for U.S. President Donald Trump's visit to the NASCAR Cup Series Daytona 500 at Daytona International Speedway on February 16, 2025 in Daytona Beach, Florida.Chris Graythen, Getty ImagesPeople take photos as Air Force One arrives with President Joe Biden aboard at Palm Beach International Airport for a campaign reception in Jupiter and later in Miami on January 30, 2024 in West Palm Beach, Florida.Greg Lovett, The Palm Beach Post Via USA TODAY NetworkThe shadow of Air Force flies over marshland while on approach to New York's John F. Kennedy International Airport Sept 24, 2012.Brendan Smialowski, AFP/Getty ImagesAir Force One at Phoenix Sky Harbor International Airport March 13, 2015.Nick Oza, The RepublicAir Force One is seen as it arrives for U.S. President Donald Trump's visit to the NASCAR Cup Series Daytona 500 at Daytona International Speedway on February 16, 2025 in Daytona Beach, Florida.Chris Graythen, Getty ImagesPresident Joe Biden boards Air Force One before departing Manchester-Boston Regional Airport in Manchester, New Hampshire on November 16, 2021.Mandel Ngan, AFP Via Getty ImagesA model of the proposed paint scheme of the next generation of Air Force One is on display during a meeting between U.S. President Donald Trump and President Sergio Mattarella of Italy in the Oval Office of the White House October 16, 2019 in Washington, DC.Alex Wong, Getty ImagesA U.S. flag adorns the vertical stabilizer of Air Force One, carrying U.S. President Donald Trump and First Lady Melania Trump, upon its arrival at Hamburg Airport for the Hamburg G20 economic summit on July 6, 2017 in Hamburg, Germany.Sean Gallup, Getty ImagesAir Force One carrying the President Donald Trump and First Lady, Melania Trump touches down at Glasgow Prestwick Airport on July 13, 2018 in Glasgow, Scotland.Jeff J Mitchell, Getty ImagesFeatured Weekly Ad"
+  }
+]
